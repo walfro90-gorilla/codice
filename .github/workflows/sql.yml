@@ -1,0 +1,38 @@
+# Migrations CI: applies each migration in order against a Supabase Postgres.
+name: sql
+
+on:
+  push:
+    paths:
+      - "contracts/sql/**"
+      - ".github/workflows/sql.yml"
+  pull_request:
+    paths:
+      - "contracts/sql/**"
+      - ".github/workflows/sql.yml"
+
+jobs:
+  migrations:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: supabase/postgres:15.8.1.060
+        ports:
+          - 5432:5432
+        env:
+          POSTGRES_PASSWORD: postgres
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply migrations in order
+        env:
+          PGPASSWORD: postgres
+        run: |
+          for f in contracts/sql/migrations/*.sql; do
+            echo "== $f"
+            psql -h localhost -U postgres -d postgres -v ON_ERROR_STOP=1 -f "$f"
+          done
