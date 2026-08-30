@@ -39,6 +39,7 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
                 "territory_name": r[11], "population": r[12],
                 "pos_geo": {"lon": r[9], "lat": r[10]} if r[9] is not None else None,
                 "legal_basis": [],
+                "occupants": [],
             }
 
         # Legal basis with the provenance of the document it cites (R1).
@@ -53,6 +54,24 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
                 nodes[nid]["legal_basis"].append({
                     "document": doc, "article": art, "url": url,
                     "hash": h, "captured_at": cap.isoformat() if cap else None,
+                })
+
+        # Occupants (Fase 2): who holds each seat, with the party they were
+        # elected under and their institutional contact. Aggregated per node so
+        # the UI can show a summary without shipping 627 rows to every client.
+        cur.execute(
+            """SELECT t.node_id, p.full_name, t.role, t.party, t.contact_email,
+                      t.start_date, t.end_date
+               FROM tenure t JOIN person p ON p.id = t.person_id
+               ORDER BY t.node_id, p.full_name"""
+        )
+        for nid, name, role, party, email, start, end in cur.fetchall():
+            if nid in nodes:
+                nodes[nid].setdefault("occupants", []).append({
+                    "name": name, "role": role, "party": party,
+                    "contact_email": email,
+                    "start_date": start.isoformat(),
+                    "end_date": end.isoformat() if end else None,
                 })
 
         cur.execute("SELECT from_node, to_node, type, legal_basis FROM edge WHERE valid_to IS NULL")
@@ -97,5 +116,6 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
     return {
         "nodes": len(nodes), "edges": len(edges), "sources": len(sources),
         "legal_basis_rows": sum(len(n["legal_basis"]) for n in nodes.values()),
+        "occupants": sum(len(n["occupants"]) for n in nodes.values()),
         "with_geo": sum(1 for n in nodes.values() if n["pos_geo"]),
     }

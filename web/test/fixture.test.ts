@@ -93,3 +93,54 @@ test("no verdict vocabulary in published summaries (R2)", () => {
     assert.ok(!/\bcorrupci[óo]n\b/.test(text.replace(/anticorrupci[óo]n/g, "")), `${n.id}: forbidden vocabulary`);
   }
 });
+
+// --- Fase 2: occupants ---
+
+test("occupants only carry institutional contact", () => {
+  for (const n of raw.nodes) {
+    for (const o of n.occupants ?? []) {
+      if (o.contact_email) {
+        assert.match(
+          o.contact_email,
+          /@(diputados|senado)\.gob\.mx$/,
+          `${n.id}/${o.name}: non-institutional contact leaked`,
+        );
+      }
+    }
+  }
+});
+
+test("every occupant has a name and a bounded term (R9)", () => {
+  for (const n of raw.nodes) {
+    for (const o of n.occupants ?? []) {
+      assert.ok(o.name && o.name.length > 3, `${n.id}: unnamed occupant`);
+      assert.match(o.start_date, /^\d{4}-\d{2}-\d{2}$/, `${o.name}: bad start`);
+      if (o.end_date) assert.ok(o.end_date > o.start_date, `${o.name}: term ends before it starts`);
+    }
+  }
+});
+
+test("chamber sizes match the Constitution (Arts. 52 y 56)", () => {
+  const byId = new Map(raw.nodes.map((n) => [n.id, n]));
+  assert.equal(byId.get("camara-diputados")?.occupants.length, 500, "Art. 52: 300 MR + 200 RP");
+  const senate = byId.get("senado")?.occupants.length ?? 0;
+  // Art. 56 sets 128; the source currently reports one vacancy, so allow <= 128
+  assert.ok(senate > 120 && senate <= 128, `senate has ${senate}, expected <= 128`);
+});
+
+test("party keys are canonical across chambers", () => {
+  const parties = new Set(
+    raw.nodes.flatMap((n) => (n.occupants ?? []).map((o) => o.party)).filter(Boolean),
+  );
+  // VERDE (Chamber) and PVEM (Senate) are the same party; only one key may survive
+  assert.ok(!parties.has("VERDE"), "found un-normalized party key VERDE");
+  for (const p of parties) assert.match(p!, /^[A-Z]{2,8}$/, `odd party key: ${p}`);
+});
+
+test("no personal data beyond what the project needs", () => {
+  // The official profiles expose birth dates and home-district addresses; the
+  // published dataset must not carry them.
+  const blob = JSON.stringify(raw.nodes.flatMap((n) => n.occupants ?? []));
+  assert.ok(!/\b\d{2}-(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\b/i.test(blob), "birth date leaked");
+  assert.ok(!/curp|rfc\b/i.test(blob), "identity document leaked");
+});

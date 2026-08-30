@@ -75,6 +75,38 @@ function Detalle({ data }: { data: Dataset }) {
         </div>
       ))}
 
+      {node.occupants.length > 0 && (
+        <>
+          <div style={{ fontWeight: 600, marginTop: 12 }}>
+            Quién lo ocupa ({node.occupants.length})
+          </div>
+          <div style={{ maxHeight: 260, overflowY: "auto", marginTop: 4 }}>
+            {node.occupants.map((o, i) => (
+              <div key={i} style={{ fontSize: 12, padding: "4px 0", borderBottom: "1px solid #1f2937" }}>
+                <div style={{ color: "#e5e7eb" }}>
+                  {o.name}
+                  {o.party && (
+                    <span style={{ color: "#9ca3af" }}> · {o.party}</span>
+                  )}
+                </div>
+                <div style={{ color: "#6b7280", fontSize: 11 }}>
+                  {o.role} · {o.start_date}
+                  {o.end_date ? ` a ${o.end_date}` : " en funciones"}
+                </div>
+                {o.contact_email && (
+                  <a href={`mailto:${o.contact_email}`} style={{ color: "#93c5fd", fontSize: 11 }}>
+                    {o.contact_email}
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+          <div style={{ fontSize: 11, color: "#6b7280", marginTop: 4 }}>
+            Solo contacto institucional. Partido: el de su elección.
+          </div>
+        </>
+      )}
+
       {rel.length > 0 && (
         <>
           <div style={{ fontWeight: 600, marginTop: 12 }}>Relaciones</div>

@@ -59,3 +59,12 @@ públicamente:
 
 Si conoces una fuente oficial que cubra alguno de estos huecos, repórtala como Issue:
 es la contribución más valiosa que este proyecto puede recibir.
+
+## Fuentes de personas (Fase 2)
+
+| Clave | Fuente | Qué da | Requests | Nota |
+|---|---|---|---|---|
+| `sitl_diputados` | Cámara de Diputados — SITL (`sitl.diputados.gob.mx`) | 500 diputaciones: nombre, grupo parlamentario, entidad, distrito, principio de elección, correo institucional, suplente | 1 listado + 1 ficha por diputación | El host omite el certificado intermedio; ver `ingestion/codice_ingestion/certs/` |
+| `senado_directorio` | Senado de la República (`senado.gob.mx`) | 127 senadurías: nombre, grupo parlamentario, entidad, principio de elección, correo institucional | 2 páginas | La fuente reporta 63 de mayoría relativa (no 64): hay una vacante |
+
+Ambos scrapers respetan un intervalo mínimo de 1.5 s entre peticiones y se identifican con un User-Agent propio. Solo se extrae **contacto institucional**: las fichas oficiales incluyen fecha de nacimiento y otros datos personales que deliberadamente no se guardan.

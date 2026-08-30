@@ -1,0 +1,22 @@
+[
+ {
+  "source_key": "senado_directorio",
+  "url": "https://www.senado.gob.mx/66/senadores/por_grupo_parlamentario",
+  "captured_at": "2026-08-30T13:51:39Z",
+  "sha256": "a48afa5897e92716a3e860156b48003d7642a1d372363bc6537f61ef3f0c9ddf",
+  "bytes": 420758,
+  "content_type": "text/html",
+  "r2_key": "senado_directorio/2026-08-30/senado_grupos.html",
+  "local_path": "snapshots/senado_grupos.html"
+ },
+ {
+  "source_key": "senado_directorio",
+  "url": "https://www.senado.gob.mx/66/senadores/por_principio_de_eleccion",
+  "captured_at": "2026-08-30T13:51:41Z",
+  "sha256": "9465ca720d51d081e64180cfe41d77811c248f4ccfd9d59a88d8c3aeac935ad7",
+  "bytes": 415127,
+  "content_type": "text/html",
+  "r2_key": "senado_directorio/2026-08-30/senado_principio.html",
+  "local_path": "snapshots/senado_principio.html"
+ }
+]

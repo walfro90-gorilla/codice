@@ -1,0 +1,1272 @@
+[
+ {
+  "senado_id": 1725,
+  "full_name": "Adán Augusto López Hernández",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "adan.lopez@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1567,
+  "full_name": "Agustín Dorantes Lámbarri",
+  "party": "PAN",
+  "entity": "Querétaro",
+  "contact_email": "agustin.dorantes@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1696,
+  "full_name": "Alberto Anaya Gutiérrez",
+  "party": "PT",
+  "entity": "Lista Nacional",
+  "contact_email": "alberto.anaya@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1702,
+  "full_name": "Alejandra Barrales Magdaleno",
+  "party": "MC",
+  "entity": "Lista Nacional",
+  "contact_email": "alejandra.barrales@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1676,
+  "full_name": "Alejandra Berenice Arias Trevilla",
+  "party": "MORENA",
+  "entity": "Tabasco",
+  "contact_email": "alejandra.arias@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1722,
+  "full_name": "Alejandro Esquer Verdugo",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "o.alejandro.esquer@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1650,
+  "full_name": "Alejandro García Monroy",
+  "party": "MORENA",
+  "entity": "Nayarit",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1530,
+  "full_name": "Alejandro González Yáñez",
+  "party": "PT",
+  "entity": "Durango",
+  "contact_email": "alejandro.gonzalezy@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1720,
+  "full_name": "Alejandro Moreno Cárdenas",
+  "party": "PRI",
+  "entity": "Lista Nacional",
+  "contact_email": "alejandro.moreno@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1719,
+  "full_name": "Alejandro Murat Hinojosa",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "alejandro.murat@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1711,
+  "full_name": "Alfonso Cepeda Salas",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "alfonso.cepeda@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1569,
+  "full_name": "Alma Anahí González Hernández",
+  "party": "MORENA",
+  "entity": "Quintana Roo",
+  "contact_email": "anahi.gonzalez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1729,
+  "full_name": "Amalia Dolores García Medina",
+  "party": "MC",
+  "entity": "Lista Nacional",
+  "contact_email": "amalia.garcia@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1670,
+  "full_name": "Ana Francis Chiquete Elizalde",
+  "party": "MORENA",
+  "entity": "Sinaloa",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1528,
+  "full_name": "Ana Karen Hernández Aceves",
+  "party": "PT",
+  "entity": "Colima",
+  "contact_email": "ana.hernandeza@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1589,
+  "full_name": "Anabell Ávalos Zempoalteca",
+  "party": "PRI",
+  "entity": "Tlaxcala",
+  "contact_email": "anabell.avalos@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1649,
+  "full_name": "Angélica Montes Rentería",
+  "party": "PVEM",
+  "entity": "Nayarit",
+  "contact_email": "o.angelica.montes@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1560,
+  "full_name": "Antonino Morales Toledo",
+  "party": "MORENA",
+  "entity": "Oaxaca",
+  "contact_email": "antonino.morales@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1513,
+  "full_name": "Aníbal Ostoa Ortega",
+  "party": "MORENA",
+  "entity": "Campeche",
+  "contact_email": "anibal.ostoa@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1550,
+  "full_name": "Araceli Saucedo Reyes",
+  "party": "MORENA",
+  "entity": "Michoacán de Ocampo",
+  "contact_email": "araceli.saucedo@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1568,
+  "full_name": "Beatriz Silvia Robles Gutiérrez",
+  "party": "MORENA",
+  "entity": "Querétaro",
+  "contact_email": "beatriz.robles@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1652,
+  "full_name": "Carlos Humberto Suárez Flores",
+  "party": "PVEM",
+  "entity": "Nuevo León",
+  "contact_email": "carlos.suarezf@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1545,
+  "full_name": "Carlos Lomelí Bolaños",
+  "party": "MORENA",
+  "entity": "Jalisco",
+  "contact_email": "carlos.lomeli@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1544,
+  "full_name": "Carolina Viggiano Austria",
+  "party": "PRI",
+  "entity": "Hidalgo",
+  "contact_email": "alma.viggiano@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1525,
+  "full_name": "Cecilia Guadalupe Guadiana Mandujano",
+  "party": "MORENA",
+  "entity": "Coahuila de Zaragoza",
+  "contact_email": "cecilia.guadiana@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1598,
+  "full_name": "Claudia Edith Anaya Mota",
+  "party": "PRI",
+  "entity": "Zacatecas",
+  "contact_email": "claudia.anaya@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1590,
+  "full_name": "Claudia Tello Espinosa",
+  "party": "MORENA",
+  "entity": "Veracruz de Ignacio de la Llave",
+  "contact_email": "claudia.tello@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1704,
+  "full_name": "Clemente Castañeda Hoeflich",
+  "party": "MC",
+  "entity": "Lista Nacional",
+  "contact_email": "clemente.castaneda@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1602,
+  "full_name": "Cleotilde Molina López",
+  "party": "MORENA",
+  "entity": "Baja California",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1712,
+  "full_name": "Cristina Ruíz Sandoval",
+  "party": "PRI",
+  "entity": "Lista Nacional",
+  "contact_email": "cristina.ruiz@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1543,
+  "full_name": "Cuauhtémoc Ochoa Fernández",
+  "party": "MORENA",
+  "entity": "Hidalgo",
+  "contact_email": "cuauhtemoc.ochoa@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1523,
+  "full_name": "Cynthia Iliana López Castro",
+  "party": "MORENA",
+  "entity": "Ciudad de México",
+  "contact_email": "cynthialopezcastro@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1723,
+  "full_name": "Edith López Hernández",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "edith.lopez@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1750,
+  "full_name": "Emmanuel Reyes Carmona",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "emmanuel.reyes@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1576,
+  "full_name": "Enrique Inzunza Cázarez",
+  "party": "MORENA",
+  "entity": "Sinaloa",
+  "contact_email": "enrique.inzunza@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1535,
+  "full_name": "Enrique Vargas Del Villar",
+  "party": "PAN",
+  "entity": "Estado de México",
+  "contact_email": "enrique.vargas@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1675,
+  "full_name": "Erik Iván Jaimes Archundia",
+  "party": "SG",
+  "entity": "Sonora",
+  "contact_email": null,
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1683,
+  "full_name": "Eréndira Olimpia Cova Brindis",
+  "party": "MORENA",
+  "entity": "Tlaxcala",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1665,
+  "full_name": "Francisco Alejandro Carrillo Flores",
+  "party": "MORENA",
+  "entity": "Quintana Roo",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1635,
+  "full_name": "Francisco Arturo Pérez Pérez",
+  "party": "MORENA",
+  "entity": "Guerrero",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1616,
+  "full_name": "Francisco Chíguil Figueroa",
+  "party": "MORENA",
+  "entity": "Ciudad de México",
+  "contact_email": "francisco.chiguil@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1514,
+  "full_name": "Francisco Daniel Barreda Pavón",
+  "party": "MC",
+  "entity": "Campeche",
+  "contact_email": "francisco.barreda@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1547,
+  "full_name": "Francisco Javier Ramírez Acuña",
+  "party": "PAN",
+  "entity": "Jalisco",
+  "contact_email": "francisco.ramireza@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1536,
+  "full_name": "Francisco Ricardo Sheffield Padilla",
+  "party": "MORENA",
+  "entity": "Guanajuato",
+  "contact_email": "ricardo.sheffield@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1621,
+  "full_name": "Gabriel Elizondo Pérez",
+  "party": "PRI",
+  "entity": "Coahuila de Zaragoza",
+  "contact_email": "gabriel.elizondo@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1700,
+  "full_name": "Geovanna Bañuelos De La Torre",
+  "party": "PT",
+  "entity": "Lista Nacional",
+  "contact_email": "geovanna.banuelos@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1727,
+  "full_name": "Gerardo Fernández Noroña",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "gerardo.norona@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1573,
+  "full_name": "Gilberto Hernández Villafuerte",
+  "party": "PVEM",
+  "entity": "San Luis Potosí",
+  "contact_email": "gilberto.hernandez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1532,
+  "full_name": "Gina Gerardina Campuzano González",
+  "party": "PAN",
+  "entity": "Durango",
+  "contact_email": "gina.campuzano@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1579,
+  "full_name": "Heriberto Marcelo Aguilar Castillo",
+  "party": "MORENA",
+  "entity": "Sonora",
+  "contact_email": "heriberto.aguilar@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1533,
+  "full_name": "Higinio Martínez Miranda",
+  "party": "MORENA",
+  "entity": "Estado de México",
+  "contact_email": "higinio.martinez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1510,
+  "full_name": "Homero Davis Castro",
+  "party": "MORENA",
+  "entity": "Baja California Sur",
+  "contact_email": "o.homero.davis@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1563,
+  "full_name": "Ignacio Mier Velazco",
+  "party": "MORENA",
+  "entity": "Puebla",
+  "contact_email": "ignacio.mier@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1586,
+  "full_name": "Imelda Sanmiguel Sánchez",
+  "party": "PAN",
+  "entity": "Tamaulipas",
+  "contact_email": "imelda.sanmiguel@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1643,
+  "full_name": "Itzel Yunuen Iturbe Hernández",
+  "party": "MORENA",
+  "entity": "Michoacán de Ocampo",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1556,
+  "full_name": "Ivideliza Reyes Hernández",
+  "party": "PAN",
+  "entity": "Nayarit",
+  "contact_email": "ivideliza.reyes@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1714,
+  "full_name": "Javier Corral Jurado",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "javier.corralj@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1601,
+  "full_name": "Jennifer Kristel Parra Salas",
+  "party": "MORENA",
+  "entity": "Aguascalientes",
+  "contact_email": "jennifer.parra@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1509,
+  "full_name": "Jesús Lucía Trasviña Waldenrath",
+  "party": "MORENA",
+  "entity": "Baja California Sur",
+  "contact_email": "lucia.trasvina@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1594,
+  "full_name": "Jorge Carlos Ramírez Marín",
+  "party": "PVEM",
+  "entity": "Yucatán",
+  "contact_email": "jcarlos.ramirez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1587,
+  "full_name": "José Antonio Cruz Álvarez Lima",
+  "party": "MORENA",
+  "entity": "Tlaxcala",
+  "contact_email": "alvarez.lima@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1516,
+  "full_name": "José Manuel Cruz Castellanos",
+  "party": "MORENA",
+  "entity": "Chiapas",
+  "contact_email": "jose.cruzc@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1604,
+  "full_name": "José Máximo García López",
+  "party": "PAN",
+  "entity": "Baja California",
+  "contact_email": null,
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1585,
+  "full_name": "José Ramón Gómez Leal",
+  "party": "MORENA",
+  "entity": "Tamaulipas",
+  "contact_email": "jose.gomezle@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1583,
+  "full_name": "José Sabino Herrera Dagdug",
+  "party": "MORENA",
+  "entity": "Tabasco",
+  "contact_email": "jose.herrerad@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1503,
+  "full_name": "Juan Antonio Martín del Campo Martín del Campo",
+  "party": "PAN",
+  "entity": "Aguascalientes",
+  "contact_email": "martindelcampo@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1519,
+  "full_name": "Juan Carlos Loera de la Rosa",
+  "party": "MORENA",
+  "entity": "Chihuahua",
+  "contact_email": "o.juan.loera@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1603,
+  "full_name": "Juan Meléndrez Espinoza",
+  "party": "MORENA",
+  "entity": "Baja California",
+  "contact_email": "juan.melendrez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1552,
+  "full_name": "Juanita Guerra Mena",
+  "party": "PVEM",
+  "entity": "Morelos",
+  "contact_email": "juanita.guerra@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1617,
+  "full_name": "Karen Castrejón Trujillo",
+  "party": "PVEM",
+  "entity": "Ciudad de México",
+  "contact_email": "karen.castrejon@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1713,
+  "full_name": "Karina Isabel Ruiz Ruiz",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "karina.ruiz@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1708,
+  "full_name": "Karla Guadalupe Toledo Zamora",
+  "party": "PRI",
+  "entity": "Lista Nacional",
+  "contact_email": "karla.toledo@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1724,
+  "full_name": "Laura Esquivel Torres",
+  "party": "PAN",
+  "entity": "Lista Nacional",
+  "contact_email": "laura.esquivel@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1562,
+  "full_name": "Laura Estrada Mauro",
+  "party": "MORENA",
+  "entity": "Oaxaca",
+  "contact_email": "laura.estradam@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1731,
+  "full_name": "Laura Itzel Castillo Juárez",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "o.laura.castillo@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1531,
+  "full_name": "Lilia Margarita Valdez Martínez",
+  "party": "MORENA",
+  "entity": "Durango",
+  "contact_email": "lilia.valdez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1709,
+  "full_name": "Lilly Téllez",
+  "party": "PAN",
+  "entity": "Lista Nacional",
+  "contact_email": "lilly.tellez@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1564,
+  "full_name": "Lizeth Sánchez García",
+  "party": "PT",
+  "entity": "Puebla",
+  "contact_email": "liz.sanchez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1673,
+  "full_name": "Lizeth Teresita Vásquez Ochoa",
+  "party": "MORENA",
+  "entity": "Sonora",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1710,
+  "full_name": "Luis Alfonso Silva Romo",
+  "party": "PVEM",
+  "entity": "Lista Nacional",
+  "contact_email": "luis.silva@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1517,
+  "full_name": "Luis Armando Melgar Bravo",
+  "party": "PVEM",
+  "entity": "Chiapas",
+  "contact_email": "luis.melgar@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1559,
+  "full_name": "Luis Donaldo Colosio Riojas",
+  "party": "MC",
+  "entity": "Nuevo León",
+  "contact_email": "luis.colosio@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1524,
+  "full_name": "Luis Fernando Salazar Fernández",
+  "party": "MORENA",
+  "entity": "Coahuila de Zaragoza",
+  "contact_email": "luis.salazar@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1644,
+  "full_name": "Luis Reyes Zavala",
+  "party": "MORENA",
+  "entity": "Michoacán de Ocampo",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1561,
+  "full_name": "Luisa Cortés García",
+  "party": "MORENA",
+  "entity": "Oaxaca",
+  "contact_email": "luisa.cortes@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1717,
+  "full_name": "Maki Esther Ortiz Domínguez",
+  "party": "PVEM",
+  "entity": "Lista Nacional",
+  "contact_email": "maki.ortiz@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1541,
+  "full_name": "Manuel Añorve Baños",
+  "party": "PRI",
+  "entity": "Guerrero",
+  "contact_email": "manuel.anorve@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1591,
+  "full_name": "Manuel Huerta Ladrón de Guevara",
+  "party": "MORENA",
+  "entity": "Veracruz de Ignacio de la Llave",
+  "contact_email": "manuel.huerta@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1707,
+  "full_name": "Manuel Velasco Coello",
+  "party": "PVEM",
+  "entity": "Lista Nacional",
+  "contact_email": "manuel.velasco@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1534,
+  "full_name": "Mariela Gutiérrez Escalante",
+  "party": "MORENA",
+  "entity": "Estado de México",
+  "contact_email": "o.mariela.gutierrez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1520,
+  "full_name": "Mario Humberto Vázquez Robles",
+  "party": "PAN",
+  "entity": "Chihuahua",
+  "contact_email": "mario.vazquezr@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1716,
+  "full_name": "Marko Cortés Mendoza",
+  "party": "PAN",
+  "entity": "Lista Nacional",
+  "contact_email": "o.marko.cortes@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1721,
+  "full_name": "Martha Lucía Micher Camarena",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "malu.micher@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1743,
+  "full_name": "María Guadalupe Chavira De La Rosa",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": null,
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1566,
+  "full_name": "María Guadalupe Murguía Gutiérrez",
+  "party": "PAN",
+  "entity": "Querétaro",
+  "contact_email": "maria.murguia@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1512,
+  "full_name": "María Martina Kantún Can",
+  "party": "MORENA",
+  "entity": "Campeche",
+  "contact_email": "maria.kantun@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1504,
+  "full_name": "María de Jesús Díaz Marmolejo",
+  "party": "PAN",
+  "entity": "Aguascalientes",
+  "contact_email": "maria.diazm@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1546,
+  "full_name": "María del Rocío Corona Nakamura",
+  "party": "PVEM",
+  "entity": "Jalisco",
+  "contact_email": "rocio.corona@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1706,
+  "full_name": "Mauricio Vila Dosal",
+  "party": "PAN",
+  "entity": "Lista Nacional",
+  "contact_email": "mauricio.vila@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1571,
+  "full_name": "Mayuli Latifa Martínez Simón",
+  "party": "PAN",
+  "entity": "Quintana Roo",
+  "contact_email": "oficina.mayuli.martinez@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1529,
+  "full_name": "Mely Romero Celis",
+  "party": "PRI",
+  "entity": "Colima",
+  "contact_email": "mely.romero@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1730,
+  "full_name": "Michel González Márquez",
+  "party": "PAN",
+  "entity": "Lista Nacional",
+  "contact_email": "michel.gonzalez@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1538,
+  "full_name": "Miguel Márquez Márquez",
+  "party": "PAN",
+  "entity": "Guanajuato",
+  "contact_email": "miguel.marquez@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1592,
+  "full_name": "Miguel Ángel Yunes Márquez",
+  "party": "MORENA",
+  "entity": "Veracruz de Ignacio de la Llave",
+  "contact_email": "miguel.yunes@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1613,
+  "full_name": "Nora Elena Yu Hernández",
+  "party": "MORENA",
+  "entity": "Chihuahua",
+  "contact_email": "nora.yu@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1565,
+  "full_name": "Néstor Camarillo Medina",
+  "party": "MC",
+  "entity": "Puebla",
+  "contact_email": "nestor.camarillo@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1584,
+  "full_name": "Olga Patricia Sosa Ruíz",
+  "party": "MORENA",
+  "entity": "Tamaulipas",
+  "contact_email": "olga.sosa@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1698,
+  "full_name": "Pablo Guillermo Angulo Briceño",
+  "party": "PRI",
+  "entity": "Lista Nacional",
+  "contact_email": "pablo.angulo@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1577,
+  "full_name": "Paloma Sánchez Ramos",
+  "party": "PRI",
+  "entity": "Sinaloa",
+  "contact_email": "paloma.sanchez@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1634,
+  "full_name": "Patricia Guadalupe Ramírez Bazán",
+  "party": "MORENA",
+  "entity": "Guerrero",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1694,
+  "full_name": "Ricardo Anaya Cortés",
+  "party": "PAN",
+  "entity": "Lista Nacional",
+  "contact_email": "ricardo.anaya@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1595,
+  "full_name": "Rolando Rodrigo Zapata Bello",
+  "party": "PRI",
+  "entity": "Yucatán",
+  "contact_email": "rolando.zapata@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1653,
+  "full_name": "Rosa Fierro Campos",
+  "party": "MORENA",
+  "entity": "Nuevo León",
+  "contact_email": null,
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1572,
+  "full_name": "Ruth González Silva",
+  "party": "PVEM",
+  "entity": "San Luis Potosí",
+  "contact_email": "ruth.gonzalez@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1515,
+  "full_name": "Sasil De León Villard",
+  "party": "MORENA",
+  "entity": "Chiapas",
+  "contact_email": "sasil.deleon@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1597,
+  "full_name": "Saúl Monreal Ávila",
+  "party": "MORENA",
+  "entity": "Zacatecas",
+  "contact_email": "saul.monreal@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1542,
+  "full_name": "Simey Olvera Bautista",
+  "party": "MORENA",
+  "entity": "Hidalgo",
+  "contact_email": "simey.olvera@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1728,
+  "full_name": "Susana Harp Iturribarría",
+  "party": "MORENA",
+  "entity": "Lista Nacional",
+  "contact_email": "susanaharp@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1511,
+  "full_name": "Susana Zatarain García",
+  "party": "PAN",
+  "entity": "Baja California Sur",
+  "contact_email": "susana.zatarain@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1593,
+  "full_name": "Verónica Noemí Camino Farjat",
+  "party": "MORENA",
+  "entity": "Yucatán",
+  "contact_email": "veronica.camino@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1574,
+  "full_name": "Verónica Rodríguez Hernández",
+  "party": "PAN",
+  "entity": "San Luis Potosí",
+  "contact_email": "veronica.rodriguez@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1527,
+  "full_name": "Virgilio Mendoza Amezcua",
+  "party": "PVEM",
+  "entity": "Colima",
+  "contact_email": "virgilio.mendoza@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1537,
+  "full_name": "Virginia Magaña Fonseca",
+  "party": "PVEM",
+  "entity": "Guanajuato",
+  "contact_email": "virginia.magana@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1551,
+  "full_name": "Víctor Mercado Salgado",
+  "party": "MORENA",
+  "entity": "Morelos",
+  "contact_email": "victor.mercado@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1715,
+  "full_name": "Yeidckol Polevnsky Gurwitz",
+  "party": "PT",
+  "entity": "Lista Nacional",
+  "contact_email": "yeidckol.polevnsky@senado.gob.mx",
+  "election_principle": "Representación Proporcional",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1553,
+  "full_name": "Ángel García Yáñez",
+  "party": "PRI",
+  "entity": "Morelos",
+  "contact_email": "angel.garcia@senado.gob.mx",
+  "election_principle": "Primera Minoría",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ },
+ {
+  "senado_id": 1582,
+  "full_name": "Óscar Cantón Zetina",
+  "party": "MORENA",
+  "entity": "Tabasco",
+  "contact_email": "oscar.canton@senado.gob.mx",
+  "election_principle": "Mayoría Relativa",
+  "term_start": "2024-09-01",
+  "term_end": "2030-08-31"
+ }
+]

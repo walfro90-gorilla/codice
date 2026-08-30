@@ -16,6 +16,15 @@ export type LegalBasis = {
   captured_at: string | null;
 };
 
+export type Occupant = {
+  name: string;
+  role: string;
+  party: string | null;
+  contact_email: string | null;
+  start_date: string;
+  end_date: string | null;
+};
+
 export type RawNode = {
   id: string;
   name: string;
@@ -30,6 +39,7 @@ export type RawNode = {
   population: number | null;
   pos_geo: { lon: number; lat: number } | null;
   legal_basis: LegalBasis[];
+  occupants: Occupant[];
   depth: number;
 };
 

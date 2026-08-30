@@ -2,6 +2,7 @@
 
   python -m codice_normalization validate ../data
   python -m codice_normalization load ../data ../ingestion
+  python -m codice_normalization people ../ingestion
   python -m codice_normalization export ../web/public/data/grafo.json
 """
 
@@ -10,7 +11,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from . import curated, db, export_graph
+from . import curated, db, export_graph, people
 
 
 def main() -> None:
@@ -40,6 +41,17 @@ def main() -> None:
                     print(f"ERROR {err}")
                 sys.exit(1)
             print(db.load_curated(conn, g, data_dir))
+        return
+
+    if cmd == "people":
+        ingestion_dir = Path(sys.argv[2])
+        with db.connect() as conn:
+            snaps = [ingestion_dir / "parsed" / f for f in
+                     ("diputados_snapshots.json", "senadores_snapshots.json")]
+            print(f"snapshots: {people.load_snapshots(conn, snaps)} new")
+            stats = people.load_legislators(conn, ingestion_dir / "parsed")
+            print(stats)
+            print(f"provenance rows: {people.link_tenure_provenance(conn)}")
         return
 
     if cmd == "export":
