@@ -2,6 +2,7 @@
 name: contracts
 
 on:
+  workflow_dispatch: # lets a maintainer re-run the lane on demand
   push:
     paths:
       - "contracts/**"

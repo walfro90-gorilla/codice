@@ -2,6 +2,7 @@
 name: web
 
 on:
+  workflow_dispatch: # lets a maintainer re-run the lane on demand
   push:
     paths:
       - "web/**"
@@ -16,13 +17,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: web
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - run: npm ci
-      - run: npm run build
+
+      # web depends on @codice/contracts via file:../contracts/typescript, and
+      # that package ships types from dist/ — so the contract must be compiled
+      # before the app can typecheck against it.
+      - name: Build the shared contracts package
+        working-directory: contracts/typescript
+        run: |
+          npm ci
+          npm run build
+
+      - name: Install and build web
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: Dataset invariants
+        working-directory: web
+        run: npm test
