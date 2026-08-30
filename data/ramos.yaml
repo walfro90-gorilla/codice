@@ -1,0 +1,68 @@
+# Correspondencia entre ramo presupuestario y nodo de la estructura.
+#
+# El ramo es la clasificación administrativa con la que el PEF organiza el gasto;
+# el nodo es la pieza del Estado que curamos en la Fase 1. Que un ramo
+# "corresponda" a un nodo es una AFIRMACIÓN NUESTRA, no un dato de la fuente:
+# por eso vive aquí, es explícita y se puede discutir.
+#
+# node: null es una respuesta válida y frecuente (R6). Hay ramos que no son un
+# órgano —son transferencias, deuda o previsiones— y forzarlos a un nodo diría
+# algo falso sobre quién ejerce ese dinero.
+#
+# Fuente de los nombres y claves: PEF publicado por Transparencia Presupuestaria
+# (columna ID_RAMO / DESC_RAMO).
+
+ramos:
+  - { id: 1,  node: legislativo-federal, note: "Ramo del Poder Legislativo: ambas cámaras y la ASF" }
+  - { id: 2,  node: ejecutivo-federal, note: "Oficina de la Presidencia de la República" }
+  - { id: 3,  node: poder-judicial-federal, note: "Ramo del Poder Judicial de la Federación" }
+  - { id: 4,  node: secretaria-gobernacion }
+  - { id: 5,  node: secretaria-relaciones-exteriores }
+  - { id: 6,  node: secretaria-hacienda }
+  - { id: 7,  node: secretaria-defensa-nacional }
+  - { id: 8,  node: secretaria-agricultura-desarrollo-rural }
+  - { id: 9,  node: secretaria-infraestructura-comunicaciones-transportes }
+  - { id: 10, node: secretaria-economia }
+  - { id: 11, node: secretaria-educacion-publica }
+  - { id: 12, node: secretaria-salud }
+  - { id: 13, node: secretaria-marina }
+  - { id: 14, node: secretaria-trabajo-prevision-social }
+  - { id: 15, node: secretaria-desarrollo-agrario-territorial-urbano }
+  - { id: 16, node: secretaria-medio-ambiente }
+  - { id: 18, node: secretaria-energia }
+  - { id: 19, node: null, note: "Aportaciones a Seguridad Social: transferencias a los institutos, no el gasto de un órgano" }
+  - { id: 20, node: secretaria-bienestar }
+  - { id: 21, node: secretaria-turismo }
+  - { id: 22, node: ine, note: "Ramo autónomo del Instituto Nacional Electoral" }
+  - { id: 23, node: null, note: "Provisiones Salariales y Económicas: previsiones sin órgano ejecutor definido" }
+  - { id: 24, node: null, note: "Deuda Pública: costo financiero, no gasto de un órgano" }
+  - { id: 25, node: null, note: "Previsiones para educación básica: se transfieren a las entidades federativas" }
+  - { id: 27, node: secretaria-anticorrupcion-buen-gobierno }
+  - { id: 28, node: null, note: "Participaciones a entidades y municipios: dinero que por ley les corresponde, no gasto federal (CPEUM Art. 73 fracc. XXIX y Ley de Coordinación Fiscal)" }
+  - { id: 30, node: null, note: "Adeudos de ejercicios fiscales anteriores" }
+  - { id: 31, node: null, note: "Tribunales Agrarios: aún no curados como nodo en la Fase 1" }
+  - { id: 32, node: tfja }
+  - { id: 33, node: null, note: "Aportaciones Federales (Ramo 33): fondos etiquetados que ejercen entidades y municipios" }
+  - { id: 34, node: null, note: "Programas de apoyo a ahorradores y deudores de la banca" }
+  - { id: 35, node: cndh }
+  - { id: 36, node: secretaria-seguridad-proteccion-ciudadana }
+  - { id: 37, node: consejeria-juridica }
+  - { id: 38, node: secretaria-ciencia-humanidades-tecnologia-innovacion }
+  - { id: 40, node: inegi }
+  # Ramos de órganos extintos: siguen apareciendo en los años en que existieron.
+  # Vincularlos a su nodo es lo que permite ver la extinción en la serie (R9).
+  - { id: 41, node: cofece, note: "Extinto por la reforma de simplificación orgánica (DOF 20-12-2024)" }
+  - { id: 43, node: ift, note: "Extinto por la reforma de simplificación orgánica (DOF 20-12-2024)" }
+  - { id: 44, node: inai, note: "Extinto el 20 de marzo de 2025; funciones a Transparencia para el Pueblo" }
+  - { id: 45, node: comision-reguladora-energia, note: "Extinta el 19 de marzo de 2025; funciones a SENER y a la Comisión Nacional de Energía" }
+  - { id: 46, node: comision-nacional-hidrocarburos, note: "Extinta el 19 de marzo de 2025; funciones a SENER y a la Comisión Nacional de Energía" }
+  - { id: 47, node: null, note: "Entidades no sectorizadas: agrupa varias, no corresponde a un solo nodo" }
+  - { id: 48, node: secretaria-cultura }
+  - { id: 49, node: fgr }
+  - { id: 50, node: imss }
+  - { id: 51, node: issste }
+  - { id: 52, node: pemex }
+  - { id: 53, node: cfe }
+  - { id: 54, node: secretaria-mujeres }
+  - { id: 55, node: agencia-transformacion-digital-telecomunicaciones }
+  - { id: 56, node: imss-bienestar, note: "Servicios de Salud del IMSS para el Bienestar" }

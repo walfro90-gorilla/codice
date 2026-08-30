@@ -3,6 +3,7 @@
   python -m codice_normalization validate ../data
   python -m codice_normalization load ../data ../ingestion
   python -m codice_normalization people ../ingestion
+  python -m codice_normalization budget ../data ../ingestion
   python -m codice_normalization export ../web/public/data/grafo.json
 """
 
@@ -11,7 +12,9 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from . import curated, db, export_graph, people
+import json
+
+from . import budget, curated, db, export_graph, people
 
 
 def main() -> None:
@@ -52,6 +55,16 @@ def main() -> None:
             stats = people.load_legislators(conn, ingestion_dir / "parsed")
             print(stats)
             print(f"provenance rows: {people.link_tenure_provenance(conn)}")
+        return
+
+    if cmd == "budget":
+        data_dir, ingestion_dir = Path(sys.argv[2]), Path(sys.argv[3])
+        parsed = json.loads((ingestion_dir / "parsed" / "pef.json").read_text())
+        snaps = json.loads((ingestion_dir / "parsed" / "pef_snapshots.json").read_text())
+        with db.connect() as conn:
+            print(f"snapshots: {budget.load_snapshots(conn, ingestion_dir / 'parsed' / 'pef_snapshots.json')} new")
+            print(budget.load_ramos(conn, data_dir, parsed))
+            print(budget.load_allocations(conn, parsed, snaps))
         return
 
     if cmd == "export":

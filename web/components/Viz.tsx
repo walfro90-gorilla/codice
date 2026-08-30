@@ -10,7 +10,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import { Canvas } from "@react-three/fiber";
 import Scene from "./Scene";
-import { CAMERA_ZOOM, EDGE_COLORS, LEVEL_COLORS, MAP_CENTER, MAP_ZOOM, loadDataset } from "../lib/data";
+import { CAMERA_ZOOM, EDGE_COLORS, LEVEL_COLORS, MAP_CENTER, MAP_ZOOM, formatMXN, loadDataset } from "../lib/data";
 import type { Dataset } from "../lib/data";
 import { useVizStore } from "../lib/store";
 import type { VizMode } from "../lib/store";
@@ -39,6 +39,11 @@ function Detalle({ data }: { data: Dataset }) {
   if (!node) return null;
 
   const rel = data.edges.filter((e) => e.from === node.id || e.to === node.id);
+  // Per-capita spending applies to territorial nodes, and only with its caveats.
+  const latestYear = Math.max(...data.perCapita.map((p) => p.fiscal_year), 0);
+  const perCapita = node.territory_key
+    ? data.perCapita.find((p) => p.territory_key === node.territory_key && p.fiscal_year === latestYear)
+    : undefined;
   const name = (id: string) => data.nodes[data.index.get(id)!]?.name ?? id;
 
   return (
@@ -74,6 +79,58 @@ function Detalle({ data }: { data: Dataset }) {
           )}
         </div>
       ))}
+
+      {node.budget.length > 0 && (
+        <>
+          <div style={{ fontWeight: 600, marginTop: 12 }}>Presupuesto aprobado</div>
+          {node.budget.map((b, i) => {
+            const prev = node.budget[i - 1];
+            const delta = prev ? ((b.amount_mxn - prev.amount_mxn) / prev.amount_mxn) * 100 : null;
+            return (
+              <div key={b.fiscal_year} style={{ fontSize: 12, marginTop: 4 }}>
+                <span style={{ color: "#9ca3af" }}>{b.fiscal_year}</span>{" "}
+                <strong style={{ color: "#e5e7eb" }}>{formatMXN(b.amount_mxn)}</strong>
+                {delta !== null && (
+                  <span style={{ color: "#9ca3af" }}>
+                    {" "}({delta >= 0 ? "+" : ""}{delta.toFixed(1)}% nominal)
+                  </span>
+                )}
+                <div style={{ color: "#6b7280", fontFamily: "monospace", fontSize: 10 }}>
+                  sha256 {b.hash.slice(0, 24)}… · capturado {b.captured_at.slice(0, 10)}
+                </div>
+              </div>
+            );
+          })}
+          {(data.caveats["presupuesto_por_nodo"] ?? []).map((c, i) => (
+            <div key={i} style={{ fontSize: 11, color: "#9ca3af", marginTop: 6, borderLeft: "2px solid #78350f", paddingLeft: 8 }}>
+              {c}
+            </div>
+          ))}
+        </>
+      )}
+
+      {perCapita && (
+        <>
+          <div style={{ fontWeight: 600, marginTop: 12 }}>Gasto federal por habitante</div>
+          <div style={{ fontSize: 12, marginTop: 4 }}>
+            <strong style={{ color: "#e5e7eb" }}>
+              {perCapita.mxn_per_inhabitant?.toLocaleString("es-MX", { maximumFractionDigits: 0 })} pesos
+            </strong>{" "}
+            <span style={{ color: "#9ca3af" }}>
+              por habitante en {perCapita.fiscal_year}
+            </span>
+            <div style={{ color: "#6b7280", fontSize: 11 }}>
+              {formatMXN(perCapita.amount_mxn)} entre{" "}
+              {perCapita.population.toLocaleString("es-MX")} habitantes (Censo {perCapita.census_year}, INEGI)
+            </div>
+          </div>
+          {(data.caveats["gasto_por_habitante"] ?? []).map((c, i) => (
+            <div key={i} style={{ fontSize: 11, color: "#9ca3af", marginTop: 6, borderLeft: "2px solid #78350f", paddingLeft: 8 }}>
+              {c}
+            </div>
+          ))}
+        </>
+      )}
 
       {node.occupants.length > 0 && (
         <>

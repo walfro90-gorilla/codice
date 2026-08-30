@@ -1,0 +1,42 @@
+[
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/NPTP/PTP_Datos_Abiertos/data/PEF/PEF.json",
+  "captured_at": "2026-08-30T14:38:10Z",
+  "sha256": "0b104107ef7b0bda9cbe082d8299c5c049b7020a720ceb97f2efd608adababc6",
+  "bytes": 3295,
+  "content_type": "application/json",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/pef_manifest.json",
+  "local_path": "snapshots/pef_manifest.json"
+ },
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv",
+  "captured_at": "2026-08-30T14:38:28Z",
+  "sha256": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+  "bytes": 86114260,
+  "content_type": "text/csv",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/PEF_2024.csv",
+  "local_path": "snapshots/PEF_2024.csv"
+ },
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv",
+  "captured_at": "2026-08-30T14:38:51Z",
+  "sha256": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+  "bytes": 87457725,
+  "content_type": "text/csv",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/PEF_2025.csv",
+  "local_path": "snapshots/PEF_2025.csv"
+ },
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+  "captured_at": "2026-08-30T14:39:16Z",
+  "sha256": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+  "bytes": 76940800,
+  "content_type": "text/csv",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/PEF_2026.csv",
+  "local_path": "snapshots/PEF_2026.csv"
+ }
+]

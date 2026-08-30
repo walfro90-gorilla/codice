@@ -13,6 +13,11 @@ const raw = JSON.parse(readFileSync(new URL("../public/data/grafo.json", import.
   nodes: RawNode[];
   edges: EdgeRow[];
   sources: { url: string; hash: string; captured_at: string }[];
+  spending_per_capita: {
+    fiscal_year: number; territory_key: string; population: number;
+    census_year: number; amount_mxn: number; mxn_per_inhabitant: number | null;
+  }[];
+  caveats: Record<string, string[]>;
 };
 const nodes = layout(raw.nodes);
 
@@ -169,4 +174,67 @@ test("each entity has at most 3 senators (Art. 56: 2 MR + 1 primera minoría)", 
   }
   assert.equal(perEntity.size, 32, "all 32 entities must be represented");
   for (const [k, c] of perEntity) assert.ok(c <= 3, `entity ${k} has ${c} senators, max is 3`);
+});
+
+
+// --- Fase 3: money ---
+
+test("no published metric exists without its methodological caveats", () => {
+  // The rule that makes a figure citable: never the number alone.
+  if (raw.spending_per_capita.length > 0) {
+    assert.ok((raw.caveats["gasto_por_habitante"] ?? []).length >= 2,
+      "per-capita spending published without caveats");
+  }
+  if (raw.nodes.some((n) => (n.budget ?? []).length > 0)) {
+    assert.ok((raw.caveats["presupuesto_por_nodo"] ?? []).length >= 1,
+      "node budgets published without caveats");
+  }
+});
+
+test("the CDMX domicile bias is disclosed, not hidden", () => {
+  // Half of entity-assigned spending lands on CDMX because that is where the
+  // executing units are domiciled. If we ever stop saying so, this fails.
+  const text = (raw.caveats["gasto_por_habitante"] ?? []).join(" ").toLowerCase();
+  assert.ok(/domicil/.test(text), "the domicile caveat is missing");
+});
+
+test("per-capita figures carry year, population and census (never the number alone)", () => {
+  for (const p of raw.spending_per_capita) {
+    assert.ok(p.fiscal_year >= 2000, "missing fiscal year");
+    assert.ok(p.population > 0, `${p.territory_key}: missing reference population`);
+    assert.equal(p.census_year, 2020, "census year must travel with the population");
+    assert.match(p.territory_key, /^\d{2}$/, "territory must be an INEGI key (R7)");
+    if (p.mxn_per_inhabitant !== null) {
+      const recomputed = p.amount_mxn / p.population;
+      assert.ok(Math.abs(recomputed - p.mxn_per_inhabitant) < 1,
+        `${p.territory_key}: per-capita figure does not match its own inputs`);
+    }
+  }
+});
+
+test("every budget figure carries provenance (R1)", () => {
+  for (const n of raw.nodes) {
+    for (const b of n.budget ?? []) {
+      assert.match(b.hash, /^[0-9a-f]{64}$/, `${n.id}: budget without snapshot hash`);
+      assert.match(b.url, /^https:\/\//, `${n.id}: budget without source url`);
+      assert.ok(b.amount_mxn > 0, `${n.id}: non-positive budget`);
+    }
+  }
+});
+
+test("extinct organs stop appearing in later budget years (R9)", () => {
+  // COFECE, IFT and INAI were extinguished; the series must show it rather than
+  // carrying a stale figure forward.
+  for (const id of ["cofece", "ift", "inai"]) {
+    const node = raw.nodes.find((n) => n.id === id);
+    if (!node || !node.budget?.length) continue;
+    const years = node.budget.map((b) => b.fiscal_year);
+    assert.ok(!years.includes(2026), `${id}: still has a 2026 budget after extinction`);
+  }
+});
+
+test("no verdict vocabulary in the caveats (R2)", () => {
+  const all = Object.values(raw.caveats).flat().join(" ").toLowerCase();
+  assert.ok(!/\bcorrupci[óo]n\b/.test(all.replace(/anticorrupci[óo]n/g, "")));
+  assert.ok(!/\b(malgast|derroch|despilfarr)/.test(all), "judgement language in a caveat");
 });

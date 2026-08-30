@@ -27,6 +27,25 @@ export type Occupant = {
   territory_key: string | null;
 };
 
+export type BudgetYear = {
+  fiscal_year: number;
+  amount_mxn: number;
+  hash: string;
+  captured_at: string;
+  url: string;
+};
+
+export type PerCapita = {
+  fiscal_year: number;
+  territory_key: string;
+  territory_name: string;
+  census_year: number;
+  population: number;
+  amount_mxn: number;
+  mxn_per_inhabitant: number | null;
+  excluded_unassigned_mxn: number | null;
+};
+
 export type RawNode = {
   id: string;
   name: string;
@@ -42,6 +61,7 @@ export type RawNode = {
   pos_geo: { lon: number; lat: number } | null;
   legal_basis: LegalBasis[];
   occupants: Occupant[];
+  budget: BudgetYear[];
   depth: number;
 };
 
@@ -60,6 +80,9 @@ export type Dataset = {
   nodes: VizNode[];
   edges: EdgeRow[];
   sources: SourceRow[];
+  perCapita: PerCapita[];
+  /** Methodological warnings, keyed by metric. Never render a figure without them. */
+  caveats: Record<string, string[]>;
   index: Map<string, number>;
 };
 
@@ -130,12 +153,23 @@ export function layout(nodes: RawNode[]): VizNode[] {
 export async function loadDataset(): Promise<Dataset> {
   const res = await fetch("/data/grafo.json");
   if (!res.ok) throw new Error(`grafo.json: HTTP ${res.status}`);
-  const raw = (await res.json()) as { nodes: RawNode[]; edges: EdgeRow[]; sources: SourceRow[] };
+  const raw = (await res.json()) as {
+    nodes: RawNode[];
+    edges: EdgeRow[];
+    sources: SourceRow[];
+    spending_per_capita: PerCapita[];
+    caveats: Record<string, string[]>;
+  };
   const nodes = layout(raw.nodes);
   const index = new Map(nodes.map((n, i) => [n.id, i]));
   // Drop edges whose endpoints are missing rather than rendering a wrong line.
   const edges = raw.edges.filter((e) => index.has(e.from) && index.has(e.to));
-  return { nodes, edges, sources: raw.sources, index };
+  return {
+    nodes, edges, index,
+    sources: raw.sources,
+    perCapita: raw.spending_per_capita ?? [],
+    caveats: raw.caveats ?? {},
+  };
 }
 
 // --- Geographic projection: web mercator scaled to match the graph extent ---
@@ -179,6 +213,14 @@ export const LEVEL_COLORS: Record<GovLevelT, string> = {
 };
 
 export const EDGE_COLORS = { autoridad: "#f97316", legitimidad: "#22d3ee" } as const;
+
+/** Pesos in the compact form a reader can actually hold in their head. */
+export function formatMXN(amount: number): string {
+  if (amount >= 1e12) return `${(amount / 1e12).toFixed(2)} billones de pesos`;
+  if (amount >= 1e9) return `${(amount / 1e9).toFixed(1)} mil millones de pesos`;
+  if (amount >= 1e6) return `${(amount / 1e6).toFixed(1)} millones de pesos`;
+  return `${amount.toLocaleString("es-MX", { maximumFractionDigits: 0 })} pesos`;
+}
 
 export function nodeRadius(n: VizNode): number {
   if (n.level === "ciudadano") return 2.6;

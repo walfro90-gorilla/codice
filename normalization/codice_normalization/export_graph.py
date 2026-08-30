@@ -40,6 +40,7 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
                 "pos_geo": {"lon": r[9], "lat": r[10]} if r[9] is not None else None,
                 "legal_basis": [],
                 "occupants": [],
+                "budget": [],
             }
 
         # Legal basis with the provenance of the document it cites (R1).
@@ -76,6 +77,27 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
                     "territory_key": tkey,
                 })
 
+        # Money (Fase 3): approved budget per node and year, plus the source
+        # that backs it. Attached to the node so a citation carries provenance.
+        cur.execute(
+            """SELECT r.node_id, b.fiscal_year, sum(b.amount_mxn), s.content_hash, s.captured_at, s.url
+               FROM budget_allocation b
+               JOIN ramo r ON r.id = b.ramo_id
+               JOIN snapshot s ON s.id = b.snapshot_id
+               WHERE r.node_id IS NOT NULL
+               GROUP BY r.node_id, b.fiscal_year, s.content_hash, s.captured_at, s.url
+               ORDER BY r.node_id, b.fiscal_year"""
+        )
+        for nid, year, amount, chash, cap, url in cur.fetchall():
+            if nid in nodes:
+                nodes[nid].setdefault("budget", []).append({
+                    "fiscal_year": year,
+                    "amount_mxn": float(amount),
+                    "hash": chash,
+                    "captured_at": cap.isoformat(),
+                    "url": url,
+                })
+
         cur.execute("SELECT from_node, to_node, type, legal_basis FROM edge WHERE valid_to IS NULL")
         edges = [{"from": r[0], "to": r[1], "type": r[2], "legal_basis": r[3]} for r in cur.fetchall()]
 
@@ -106,8 +128,30 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
     for nid, n in nodes.items():
         n["depth"] = depth.get(nid, 0)
 
+    # Per-capita spending and the caveats that must never be separated from it.
+    with conn.cursor() as cur:
+        cur.execute(
+            """SELECT fiscal_year, territory_key, territory_name, census_year, population,
+                      amount_mxn, mxn_per_inhabitant, excluded_unassigned_mxn
+               FROM v_spending_per_capita ORDER BY fiscal_year, territory_key"""
+        )
+        per_capita = [
+            {"fiscal_year": r[0], "territory_key": r[1], "territory_name": r[2],
+             "census_year": r[3], "population": r[4], "amount_mxn": float(r[5]),
+             "mxn_per_inhabitant": float(r[6]) if r[6] is not None else None,
+             "excluded_unassigned_mxn": float(r[7]) if r[7] is not None else None}
+            for r in cur.fetchall()
+        ]
+        cur.execute("SELECT metric, seq, caveat FROM metric_caveat ORDER BY metric, seq")
+        caveats: dict[str, list[str]] = {}
+        for metric, _, text in cur.fetchall():
+            caveats.setdefault(metric, []).append(text)
+
     out = {
         "generated_from": "Códice — datos curados con fundamento legal citado",
+        "spending_per_capita": per_capita,
+        # A figure without its methodological warning is not publishable here.
+        "caveats": caveats,
         "license": "ODbL 1.0",
         "nodes": sorted(nodes.values(), key=lambda n: (n["depth"], n["id"])),
         "edges": edges,

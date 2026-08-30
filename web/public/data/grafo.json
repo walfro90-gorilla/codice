@@ -1,5 +1,978 @@
 {
  "generated_from": "Códice — datos curados con fundamento legal citado",
+ "spending_per_capita": [
+  {
+   "fiscal_year": 2024,
+   "territory_key": "01",
+   "territory_name": "Aguascalientes",
+   "census_year": 2020,
+   "population": 1425607,
+   "amount_mxn": 61269196381.0,
+   "mxn_per_inhabitant": 42977.62,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "02",
+   "territory_name": "Baja California",
+   "census_year": 2020,
+   "population": 3769020,
+   "amount_mxn": 158750427091.0,
+   "mxn_per_inhabitant": 42119.82,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "03",
+   "territory_name": "Baja California Sur",
+   "census_year": 2020,
+   "population": 798447,
+   "amount_mxn": 53509632472.0,
+   "mxn_per_inhabitant": 67017.14,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "04",
+   "territory_name": "Campeche",
+   "census_year": 2020,
+   "population": 928363,
+   "amount_mxn": 115781662902.0,
+   "mxn_per_inhabitant": 124715.94,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "05",
+   "territory_name": "Coahuila de Zaragoza",
+   "census_year": 2020,
+   "population": 3146771,
+   "amount_mxn": 129691926735.0,
+   "mxn_per_inhabitant": 41214.29,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "06",
+   "territory_name": "Colima",
+   "census_year": 2020,
+   "population": 731391,
+   "amount_mxn": 41988392717.0,
+   "mxn_per_inhabitant": 57408.95,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "07",
+   "territory_name": "Chiapas",
+   "census_year": 2020,
+   "population": 5543828,
+   "amount_mxn": 162091608685.0,
+   "mxn_per_inhabitant": 29238.21,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "08",
+   "territory_name": "Chihuahua",
+   "census_year": 2020,
+   "population": 3741869,
+   "amount_mxn": 148583690100.0,
+   "mxn_per_inhabitant": 39708.42,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "09",
+   "territory_name": "Ciudad de México",
+   "census_year": 2020,
+   "population": 9209944,
+   "amount_mxn": 4360847242837.0,
+   "mxn_per_inhabitant": 473493.35,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "10",
+   "territory_name": "Durango",
+   "census_year": 2020,
+   "population": 1832650,
+   "amount_mxn": 83703852978.0,
+   "mxn_per_inhabitant": 45673.67,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "11",
+   "territory_name": "Guanajuato",
+   "census_year": 2020,
+   "population": 6166934,
+   "amount_mxn": 184734645581.0,
+   "mxn_per_inhabitant": 29955.67,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "12",
+   "territory_name": "Guerrero",
+   "census_year": 2020,
+   "population": 3540685,
+   "amount_mxn": 147936083079.0,
+   "mxn_per_inhabitant": 41781.77,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "13",
+   "territory_name": "Hidalgo",
+   "census_year": 2020,
+   "population": 3082841,
+   "amount_mxn": 118692746012.0,
+   "mxn_per_inhabitant": 38501.09,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "14",
+   "territory_name": "Jalisco",
+   "census_year": 2020,
+   "population": 8348151,
+   "amount_mxn": 273636767654.0,
+   "mxn_per_inhabitant": 32778.13,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "15",
+   "territory_name": "México",
+   "census_year": 2020,
+   "population": 16992418,
+   "amount_mxn": 481732609523.0,
+   "mxn_per_inhabitant": 28349.86,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "16",
+   "territory_name": "Michoacán de Ocampo",
+   "census_year": 2020,
+   "population": 4748846,
+   "amount_mxn": 137605804946.0,
+   "mxn_per_inhabitant": 28976.68,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "17",
+   "territory_name": "Morelos",
+   "census_year": 2020,
+   "population": 1971520,
+   "amount_mxn": 73562474146.0,
+   "mxn_per_inhabitant": 37312.57,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "18",
+   "territory_name": "Nayarit",
+   "census_year": 2020,
+   "population": 1235456,
+   "amount_mxn": 62331799028.0,
+   "mxn_per_inhabitant": 50452.46,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "19",
+   "territory_name": "Nuevo León",
+   "census_year": 2020,
+   "population": 5784442,
+   "amount_mxn": 252256471420.0,
+   "mxn_per_inhabitant": 43609.47,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "20",
+   "territory_name": "Oaxaca",
+   "census_year": 2020,
+   "population": 4132148,
+   "amount_mxn": 169423105696.0,
+   "mxn_per_inhabitant": 41001.22,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "21",
+   "territory_name": "Puebla",
+   "census_year": 2020,
+   "population": 6583278,
+   "amount_mxn": 175819624250.0,
+   "mxn_per_inhabitant": 26707.0,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "22",
+   "territory_name": "Querétaro",
+   "census_year": 2020,
+   "population": 2368467,
+   "amount_mxn": 87568396217.0,
+   "mxn_per_inhabitant": 36972.61,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "23",
+   "territory_name": "Quintana Roo",
+   "census_year": 2020,
+   "population": 1857985,
+   "amount_mxn": 62806029576.0,
+   "mxn_per_inhabitant": 33803.3,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "24",
+   "territory_name": "San Luis Potosí",
+   "census_year": 2020,
+   "population": 2822255,
+   "amount_mxn": 111136294408.0,
+   "mxn_per_inhabitant": 39378.54,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "25",
+   "territory_name": "Sinaloa",
+   "census_year": 2020,
+   "population": 3026943,
+   "amount_mxn": 134526641700.0,
+   "mxn_per_inhabitant": 44443.07,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "26",
+   "territory_name": "Sonora",
+   "census_year": 2020,
+   "population": 2944840,
+   "amount_mxn": 140569817572.0,
+   "mxn_per_inhabitant": 47734.28,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "27",
+   "territory_name": "Tabasco",
+   "census_year": 2020,
+   "population": 2402598,
+   "amount_mxn": 272662733317.0,
+   "mxn_per_inhabitant": 113486.62,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "28",
+   "territory_name": "Tamaulipas",
+   "census_year": 2020,
+   "population": 3527735,
+   "amount_mxn": 188917617016.0,
+   "mxn_per_inhabitant": 53552.1,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "29",
+   "territory_name": "Tlaxcala",
+   "census_year": 2020,
+   "population": 1342977,
+   "amount_mxn": 44423291662.0,
+   "mxn_per_inhabitant": 33078.22,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "30",
+   "territory_name": "Veracruz de Ignacio de la Llave",
+   "census_year": 2020,
+   "population": 8062579,
+   "amount_mxn": 332773878064.0,
+   "mxn_per_inhabitant": 41273.88,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "31",
+   "territory_name": "Yucatán",
+   "census_year": 2020,
+   "population": 2320898,
+   "amount_mxn": 228854434396.0,
+   "mxn_per_inhabitant": 98605.99,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2024,
+   "territory_key": "32",
+   "territory_name": "Zacatecas",
+   "census_year": 2020,
+   "population": 1622138,
+   "amount_mxn": 60070618287.0,
+   "mxn_per_inhabitant": 37031.76,
+   "excluded_unassigned_mxn": 1348429531321.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "01",
+   "territory_name": "Aguascalientes",
+   "census_year": 2020,
+   "population": 1425607,
+   "amount_mxn": 62356052480.0,
+   "mxn_per_inhabitant": 43740.0,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "02",
+   "territory_name": "Baja California",
+   "census_year": 2020,
+   "population": 3769020,
+   "amount_mxn": 171030824997.0,
+   "mxn_per_inhabitant": 45378.06,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "03",
+   "territory_name": "Baja California Sur",
+   "census_year": 2020,
+   "population": 798447,
+   "amount_mxn": 52799010326.0,
+   "mxn_per_inhabitant": 66127.13,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "04",
+   "territory_name": "Campeche",
+   "census_year": 2020,
+   "population": 928363,
+   "amount_mxn": 103474434915.0,
+   "mxn_per_inhabitant": 111459.03,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "05",
+   "territory_name": "Coahuila de Zaragoza",
+   "census_year": 2020,
+   "population": 3146771,
+   "amount_mxn": 142643809853.0,
+   "mxn_per_inhabitant": 45330.22,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "06",
+   "territory_name": "Colima",
+   "census_year": 2020,
+   "population": 731391,
+   "amount_mxn": 45538947269.0,
+   "mxn_per_inhabitant": 62263.48,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "07",
+   "territory_name": "Chiapas",
+   "census_year": 2020,
+   "population": 5543828,
+   "amount_mxn": 167217997984.0,
+   "mxn_per_inhabitant": 30162.91,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "08",
+   "territory_name": "Chihuahua",
+   "census_year": 2020,
+   "population": 3741869,
+   "amount_mxn": 160709626725.0,
+   "mxn_per_inhabitant": 42949.03,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "09",
+   "territory_name": "Ciudad de México",
+   "census_year": 2020,
+   "population": 9209944,
+   "amount_mxn": 4478669536258.0,
+   "mxn_per_inhabitant": 486286.29,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "10",
+   "territory_name": "Durango",
+   "census_year": 2020,
+   "population": 1832650,
+   "amount_mxn": 80817807173.0,
+   "mxn_per_inhabitant": 44098.88,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "11",
+   "territory_name": "Guanajuato",
+   "census_year": 2020,
+   "population": 6166934,
+   "amount_mxn": 203619972921.0,
+   "mxn_per_inhabitant": 33018.02,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "12",
+   "territory_name": "Guerrero",
+   "census_year": 2020,
+   "population": 3540685,
+   "amount_mxn": 134487025892.0,
+   "mxn_per_inhabitant": 37983.34,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "13",
+   "territory_name": "Hidalgo",
+   "census_year": 2020,
+   "population": 3082841,
+   "amount_mxn": 116650647085.0,
+   "mxn_per_inhabitant": 37838.68,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "14",
+   "territory_name": "Jalisco",
+   "census_year": 2020,
+   "population": 8348151,
+   "amount_mxn": 298597408033.0,
+   "mxn_per_inhabitant": 35768.09,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "15",
+   "territory_name": "México",
+   "census_year": 2020,
+   "population": 16992418,
+   "amount_mxn": 480872197865.0,
+   "mxn_per_inhabitant": 28299.22,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "16",
+   "territory_name": "Michoacán de Ocampo",
+   "census_year": 2020,
+   "population": 4748846,
+   "amount_mxn": 142649443851.0,
+   "mxn_per_inhabitant": 30038.76,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "17",
+   "territory_name": "Morelos",
+   "census_year": 2020,
+   "population": 1971520,
+   "amount_mxn": 79823975503.0,
+   "mxn_per_inhabitant": 40488.54,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "18",
+   "territory_name": "Nayarit",
+   "census_year": 2020,
+   "population": 1235456,
+   "amount_mxn": 49643384070.0,
+   "mxn_per_inhabitant": 40182.24,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "19",
+   "territory_name": "Nuevo León",
+   "census_year": 2020,
+   "population": 5784442,
+   "amount_mxn": 290055095246.0,
+   "mxn_per_inhabitant": 50144.01,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "20",
+   "territory_name": "Oaxaca",
+   "census_year": 2020,
+   "population": 4132148,
+   "amount_mxn": 170794891006.0,
+   "mxn_per_inhabitant": 41333.2,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "21",
+   "territory_name": "Puebla",
+   "census_year": 2020,
+   "population": 6583278,
+   "amount_mxn": 185917200637.0,
+   "mxn_per_inhabitant": 28240.82,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "22",
+   "territory_name": "Querétaro",
+   "census_year": 2020,
+   "population": 2368467,
+   "amount_mxn": 96163753515.0,
+   "mxn_per_inhabitant": 40601.69,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "23",
+   "territory_name": "Quintana Roo",
+   "census_year": 2020,
+   "population": 1857985,
+   "amount_mxn": 61154756500.0,
+   "mxn_per_inhabitant": 32914.56,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "24",
+   "territory_name": "San Luis Potosí",
+   "census_year": 2020,
+   "population": 2822255,
+   "amount_mxn": 116893240193.0,
+   "mxn_per_inhabitant": 41418.38,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "25",
+   "territory_name": "Sinaloa",
+   "census_year": 2020,
+   "population": 3026943,
+   "amount_mxn": 134561226558.0,
+   "mxn_per_inhabitant": 44454.5,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "26",
+   "territory_name": "Sonora",
+   "census_year": 2020,
+   "population": 2944840,
+   "amount_mxn": 142905741928.0,
+   "mxn_per_inhabitant": 48527.51,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "27",
+   "territory_name": "Tabasco",
+   "census_year": 2020,
+   "population": 2402598,
+   "amount_mxn": 255613311477.0,
+   "mxn_per_inhabitant": 106390.38,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "28",
+   "territory_name": "Tamaulipas",
+   "census_year": 2020,
+   "population": 3527735,
+   "amount_mxn": 194313353827.0,
+   "mxn_per_inhabitant": 55081.62,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "29",
+   "territory_name": "Tlaxcala",
+   "census_year": 2020,
+   "population": 1342977,
+   "amount_mxn": 44818412118.0,
+   "mxn_per_inhabitant": 33372.43,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "30",
+   "territory_name": "Veracruz de Ignacio de la Llave",
+   "census_year": 2020,
+   "population": 8062579,
+   "amount_mxn": 356445677122.0,
+   "mxn_per_inhabitant": 44209.88,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "31",
+   "territory_name": "Yucatán",
+   "census_year": 2020,
+   "population": 2320898,
+   "amount_mxn": 146502478620.0,
+   "mxn_per_inhabitant": 63123.19,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2025,
+   "territory_key": "32",
+   "territory_name": "Zacatecas",
+   "census_year": 2020,
+   "population": 1622138,
+   "amount_mxn": 57142954156.0,
+   "mxn_per_inhabitant": 35226.94,
+   "excluded_unassigned_mxn": 1570200922478.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "01",
+   "territory_name": "Aguascalientes",
+   "census_year": 2020,
+   "population": 1425607,
+   "amount_mxn": 68253350170.0,
+   "mxn_per_inhabitant": 47876.69,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "02",
+   "territory_name": "Baja California",
+   "census_year": 2020,
+   "population": 3769020,
+   "amount_mxn": 182780695708.0,
+   "mxn_per_inhabitant": 48495.55,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "03",
+   "territory_name": "Baja California Sur",
+   "census_year": 2020,
+   "population": 798447,
+   "amount_mxn": 57559360600.0,
+   "mxn_per_inhabitant": 72089.14,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "04",
+   "territory_name": "Campeche",
+   "census_year": 2020,
+   "population": 928363,
+   "amount_mxn": 105064098178.0,
+   "mxn_per_inhabitant": 113171.35,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "05",
+   "territory_name": "Coahuila de Zaragoza",
+   "census_year": 2020,
+   "population": 3146771,
+   "amount_mxn": 154364834105.0,
+   "mxn_per_inhabitant": 49054.99,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "06",
+   "territory_name": "Colima",
+   "census_year": 2020,
+   "population": 731391,
+   "amount_mxn": 44535419855.0,
+   "mxn_per_inhabitant": 60891.4,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "07",
+   "territory_name": "Chiapas",
+   "census_year": 2020,
+   "population": 5543828,
+   "amount_mxn": 185893657733.0,
+   "mxn_per_inhabitant": 33531.64,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "08",
+   "territory_name": "Chihuahua",
+   "census_year": 2020,
+   "population": 3741869,
+   "amount_mxn": 171174703226.0,
+   "mxn_per_inhabitant": 45745.78,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "09",
+   "territory_name": "Ciudad de México",
+   "census_year": 2020,
+   "population": 9209944,
+   "amount_mxn": 4896921295112.0,
+   "mxn_per_inhabitant": 531699.36,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "10",
+   "territory_name": "Durango",
+   "census_year": 2020,
+   "population": 1832650,
+   "amount_mxn": 91432492975.0,
+   "mxn_per_inhabitant": 49890.86,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "11",
+   "territory_name": "Guanajuato",
+   "census_year": 2020,
+   "population": 6166934,
+   "amount_mxn": 219773827811.0,
+   "mxn_per_inhabitant": 35637.45,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "12",
+   "territory_name": "Guerrero",
+   "census_year": 2020,
+   "population": 3540685,
+   "amount_mxn": 144774865326.0,
+   "mxn_per_inhabitant": 40888.94,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "13",
+   "territory_name": "Hidalgo",
+   "census_year": 2020,
+   "population": 3082841,
+   "amount_mxn": 127182395943.0,
+   "mxn_per_inhabitant": 41254.93,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "14",
+   "territory_name": "Jalisco",
+   "census_year": 2020,
+   "population": 8348151,
+   "amount_mxn": 328171719534.0,
+   "mxn_per_inhabitant": 39310.71,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "15",
+   "territory_name": "México",
+   "census_year": 2020,
+   "population": 16992418,
+   "amount_mxn": 526409578813.0,
+   "mxn_per_inhabitant": 30979.09,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "16",
+   "territory_name": "Michoacán de Ocampo",
+   "census_year": 2020,
+   "population": 4748846,
+   "amount_mxn": 153753437719.0,
+   "mxn_per_inhabitant": 32377.01,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "17",
+   "territory_name": "Morelos",
+   "census_year": 2020,
+   "population": 1971520,
+   "amount_mxn": 85898168319.0,
+   "mxn_per_inhabitant": 43569.51,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "18",
+   "territory_name": "Nayarit",
+   "census_year": 2020,
+   "population": 1235456,
+   "amount_mxn": 53560089737.0,
+   "mxn_per_inhabitant": 43352.49,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "19",
+   "territory_name": "Nuevo León",
+   "census_year": 2020,
+   "population": 5784442,
+   "amount_mxn": 315980228594.0,
+   "mxn_per_inhabitant": 54625.88,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "20",
+   "territory_name": "Oaxaca",
+   "census_year": 2020,
+   "population": 4132148,
+   "amount_mxn": 175852754940.0,
+   "mxn_per_inhabitant": 42557.23,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "21",
+   "territory_name": "Puebla",
+   "census_year": 2020,
+   "population": 6583278,
+   "amount_mxn": 198851716060.0,
+   "mxn_per_inhabitant": 30205.58,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "22",
+   "territory_name": "Querétaro",
+   "census_year": 2020,
+   "population": 2368467,
+   "amount_mxn": 110542548156.0,
+   "mxn_per_inhabitant": 46672.61,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "23",
+   "territory_name": "Quintana Roo",
+   "census_year": 2020,
+   "population": 1857985,
+   "amount_mxn": 69270029538.0,
+   "mxn_per_inhabitant": 37282.34,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "24",
+   "territory_name": "San Luis Potosí",
+   "census_year": 2020,
+   "population": 2822255,
+   "amount_mxn": 131355787333.0,
+   "mxn_per_inhabitant": 46542.85,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "25",
+   "territory_name": "Sinaloa",
+   "census_year": 2020,
+   "population": 3026943,
+   "amount_mxn": 141177097701.0,
+   "mxn_per_inhabitant": 46640.16,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "26",
+   "territory_name": "Sonora",
+   "census_year": 2020,
+   "population": 2944840,
+   "amount_mxn": 149498867207.0,
+   "mxn_per_inhabitant": 50766.38,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "27",
+   "territory_name": "Tabasco",
+   "census_year": 2020,
+   "population": 2402598,
+   "amount_mxn": 246499144494.0,
+   "mxn_per_inhabitant": 102596.92,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "28",
+   "territory_name": "Tamaulipas",
+   "census_year": 2020,
+   "population": 3527735,
+   "amount_mxn": 205021792432.0,
+   "mxn_per_inhabitant": 58117.12,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "29",
+   "territory_name": "Tlaxcala",
+   "census_year": 2020,
+   "population": 1342977,
+   "amount_mxn": 48470304440.0,
+   "mxn_per_inhabitant": 36091.69,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "30",
+   "territory_name": "Veracruz de Ignacio de la Llave",
+   "census_year": 2020,
+   "population": 8062579,
+   "amount_mxn": 407053488399.0,
+   "mxn_per_inhabitant": 50486.76,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "31",
+   "territory_name": "Yucatán",
+   "census_year": 2020,
+   "population": 2320898,
+   "amount_mxn": 137678164250.0,
+   "mxn_per_inhabitant": 59321.07,
+   "excluded_unassigned_mxn": 1747307256473.0
+  },
+  {
+   "fiscal_year": 2026,
+   "territory_key": "32",
+   "territory_name": "Zacatecas",
+   "census_year": 2020,
+   "population": 1622138,
+   "amount_mxn": 64733625365.0,
+   "mxn_per_inhabitant": 39906.36,
+   "excluded_unassigned_mxn": 1747307256473.0
+  }
+ ],
+ "caveats": {
+  "gasto_por_habitante": [
+   "El PEF asigna el gasto a la entidad donde está domiciliada la unidad responsable, no donde se ejerce. Cerca de la mitad del gasto con entidad asignada se registra en la Ciudad de México por el domicilio de las oficinas centrales.",
+   "La población de referencia es la del Censo 2020 del INEGI; el gasto es del ejercicio fiscal indicado. Comparar años distintos sin ajustar por inflación compara pesos nominales, no poder de compra.",
+   "No incluye el gasto sin entidad asignada (erogaciones en el extranjero y gasto no distribuible geográficamente), que se publica por separado."
+  ],
+  "presupuesto_por_nodo": [
+   "La correspondencia entre ramo presupuestario y órgano es una atribución de Códice, no de la fuente. Varios ramos —deuda, participaciones, aportaciones— no corresponden a ningún órgano y quedan sin vincular.",
+   "Es presupuesto aprobado, no gasto ejercido. La Cuenta Pública reporta lo efectivamente gastado y puede diferir."
+  ]
+ },
  "license": "ODbL 1.0",
  "nodes": [
   {
@@ -28,6 +1001,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -56,6 +1030,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -84,6 +1059,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -112,6 +1088,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -140,6 +1117,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -168,6 +1146,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -196,6 +1175,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -224,6 +1204,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -252,6 +1233,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -280,6 +1262,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -308,6 +1291,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -336,6 +1320,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -364,6 +1349,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -392,6 +1378,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -420,6 +1407,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -448,6 +1436,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -476,6 +1465,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -504,6 +1494,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -532,6 +1523,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -560,6 +1552,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -588,6 +1581,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -616,6 +1610,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -644,6 +1639,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -672,6 +1668,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -700,6 +1697,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -728,6 +1726,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -756,6 +1755,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -784,6 +1784,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -812,6 +1813,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -840,6 +1842,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -868,6 +1871,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -896,6 +1900,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -921,6 +1926,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -946,6 +1952,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -971,6 +1978,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 1722143661.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 1722372356.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 1819769907.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -996,6 +2026,22 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 687866026.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 199866026.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -1021,6 +2067,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1049,6 +2096,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1077,6 +2125,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1105,6 +2154,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1133,6 +2183,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1161,6 +2212,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1189,6 +2241,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1217,6 +2270,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1245,6 +2299,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1273,6 +2328,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1301,6 +2357,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1329,6 +2386,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1357,6 +2415,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1385,6 +2444,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1413,6 +2473,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1441,6 +2502,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1469,6 +2531,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1497,6 +2560,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1525,6 +2589,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1553,6 +2618,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1581,6 +2647,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1609,6 +2676,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1637,6 +2705,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1665,6 +2734,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1693,6 +2763,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1721,6 +2792,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1749,6 +2821,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1777,6 +2850,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1805,6 +2879,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1833,6 +2908,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1861,6 +2937,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1889,6 +2966,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1917,6 +2995,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1945,6 +3024,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -1973,6 +3053,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2001,6 +3082,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2029,6 +3111,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2057,6 +3140,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2085,6 +3169,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2113,6 +3198,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2141,6 +3227,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2169,6 +3256,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2197,6 +3285,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2225,6 +3314,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2253,6 +3343,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2281,6 +3372,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2309,6 +3401,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2337,6 +3430,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2365,6 +3459,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2393,6 +3488,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2421,6 +3517,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2449,6 +3546,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2477,6 +3575,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2505,6 +3604,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2533,6 +3633,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2561,6 +3662,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2589,6 +3691,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2617,6 +3720,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2645,6 +3749,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2673,6 +3778,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2701,6 +3807,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2729,6 +3836,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2757,6 +3865,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2785,6 +3894,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2813,6 +3923,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -2845,6 +3956,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 924086366.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 823526670.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 800455608.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -2870,6 +4004,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 19333372129.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 20125980181.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 20240442089.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -2895,6 +4052,22 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 1680000000.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 500000000.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -2927,6 +4100,22 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 1097353466.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 499990582.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -2952,6 +4141,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 32767037027.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 27000056755.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 21837221581.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -2977,6 +4189,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 14245298738.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 12245298773.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 11807500000.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -3002,6 +4237,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 16760629404.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 17529076502.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 17529076499.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -3027,6 +4285,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3055,6 +4314,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3083,6 +4343,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3111,6 +4372,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3139,6 +4401,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3167,6 +4430,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3195,6 +4459,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3223,6 +4488,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3251,6 +4517,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3279,6 +4546,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3307,6 +4575,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3335,6 +4604,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3363,6 +4633,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3391,6 +4662,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3419,6 +4691,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3447,6 +4720,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3475,6 +4749,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3503,6 +4778,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3531,6 +4807,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3559,6 +4836,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3587,6 +4865,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3615,6 +4894,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3643,6 +4923,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3671,6 +4952,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3699,6 +4981,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3727,6 +5010,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3755,6 +5039,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3783,6 +5068,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3811,6 +5097,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3839,6 +5126,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3867,6 +5155,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3895,6 +5184,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3923,6 +5213,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 0
   },
   {
@@ -3948,6 +5239,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 78327278245.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 70983606302.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 70005628646.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -3973,6 +5287,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 3304534515.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 3304534515.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 3400000000.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 0
   },
   {
@@ -4005,6 +5342,22 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 3010196463.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 3852669660.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -8538,6 +9891,7 @@
      "territory_key": "30"
     }
    ],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8570,6 +9924,22 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 247551341.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 173285941.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -8595,6 +9965,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8627,6 +9998,22 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 285506948.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 199854863.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -8652,6 +10039,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8677,6 +10065,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8709,6 +10098,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 164491682.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 149620646.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 153145398.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -8734,6 +10146,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8766,6 +10179,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8798,6 +10212,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 1345950717395.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 1469410379894.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 1590308696623.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -8823,6 +10260,15 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 172492400589.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -8848,6 +10294,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8880,6 +10327,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 475829006741.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 525615400000.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 539020762386.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -8912,6 +10382,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8944,6 +10415,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -8976,6 +10448,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 74109572158.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 74515190541.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 75836497826.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9008,6 +10503,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 1636585246.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 1699025258.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 1743051816.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9040,6 +10558,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 543933015639.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 579883866555.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 674510024515.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9072,6 +10613,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 33170745272.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 33295924363.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 37360832784.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9104,6 +10668,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 16754896906.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 15081496999.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 15082889146.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9136,6 +10723,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 259433804766.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 158287750650.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 170753142093.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9168,6 +10778,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 12880269834.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 38048025025.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 36290113966.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9200,6 +10833,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 3960433717.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 3533463352.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 3535460234.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9232,6 +10888,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 439017942697.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 465871888417.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 523858227933.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9264,6 +10943,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 167736232946.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 138307358236.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 267439114491.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9296,6 +10998,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -9328,6 +11031,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 10868792885.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 9177865621.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 9959699324.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9360,6 +11086,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 28320840825.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 26732706241.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 26792115351.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9392,6 +11141,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 85688296039.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 147511456246.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 153539261639.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9424,6 +11196,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 71888212535.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 65888744605.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 65926797533.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9456,6 +11251,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 70245482469.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 44370522371.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 45564073902.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9488,6 +11306,22 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 2093520195.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 2140988180.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9520,6 +11354,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 9994473186.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 9294170709.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 9294170690.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9552,6 +11409,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 96989997562.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 66693191547.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 66825756831.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9584,6 +11464,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 105838757408.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 70422173705.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 60110883499.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9616,6 +11519,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 28603160722.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 27830216279.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 28760904563.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -9648,6 +11574,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 1973687679.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 1774898238.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 1793473210.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 1
   },
   {
@@ -10817,6 +12766,7 @@
      "territory_key": null
     }
    ],
+   "budget": [],
    "depth": 1
   },
   {
@@ -10849,6 +12799,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -10888,6 +12839,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -10920,6 +12872,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -10952,6 +12905,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -10984,6 +12938,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 1
   },
   {
@@ -11009,6 +12964,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11041,6 +12997,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11073,6 +13030,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 528532673275.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 583951128859.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 602567503089.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 2
   },
   {
@@ -11098,6 +13078,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11123,6 +13104,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11148,6 +13130,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11180,6 +13163,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11212,6 +13196,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11237,6 +13222,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11262,6 +13248,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11287,6 +13274,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11319,6 +13307,29 @@
     }
    ],
    "occupants": [],
+   "budget": [
+    {
+     "fiscal_year": 2024,
+     "amount_mxn": 624805550885.0,
+     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+     "captured_at": "2026-08-30T14:38:28+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+    },
+    {
+     "fiscal_year": 2025,
+     "amount_mxn": 612145866355.0,
+     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+     "captured_at": "2026-08-30T14:38:51+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+    },
+    {
+     "fiscal_year": 2026,
+     "amount_mxn": 708200878943.0,
+     "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+     "captured_at": "2026-08-30T14:39:16+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+    }
+   ],
    "depth": 2
   },
   {
@@ -11351,6 +13362,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   },
   {
@@ -11383,6 +13395,7 @@
     }
    ],
    "occupants": [],
+   "budget": [],
    "depth": 2
   }
  ],
@@ -12752,6 +14765,12 @@
    "source": "Cámara de Diputados — SITL"
   },
   {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv",
+   "captured_at": "2026-08-30T14:38:51+00:00",
+   "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
+   "source": "SHCP — Transparencia Presupuestaria"
+  },
+  {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=265",
    "captured_at": "2026-08-30T13:41:18+00:00",
    "hash": "61a7367f035bd35084b2e3049764682f1d3c70aee93bc548154a54f9d50e32e5",
@@ -13880,6 +15899,12 @@
    "source": "Cámara de Diputados — SITL"
   },
   {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv",
+   "captured_at": "2026-08-30T14:38:28+00:00",
+   "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
+   "source": "SHCP — Transparencia Presupuestaria"
+  },
+  {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=543",
    "captured_at": "2026-08-30T13:37:27+00:00",
    "hash": "c0ac0b0910492c8478c57d24d3d5facfc4d3c0a9dea36b3918a87dd0832d2824",
@@ -14960,6 +16985,12 @@
    "source": "Cámara de Diputados — SITL"
   },
   {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/NPTP/PTP_Datos_Abiertos/data/PEF/PEF.json",
+   "captured_at": "2026-08-30T14:38:10+00:00",
+   "hash": "0b104107ef7b0bda9cbe082d8299c5c049b7020a720ceb97f2efd608adababc6",
+   "source": "SHCP — Transparencia Presupuestaria"
+  },
+  {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=226",
    "captured_at": "2026-08-30T13:39:43+00:00",
    "hash": "39cec7c61969e62040f0e0a3e988cfb8dd8d7698faf186ee5d3fe550773db4c7",
@@ -15408,6 +17439,12 @@
    "captured_at": "2026-08-30T13:38:30+00:00",
    "hash": "fdba935f1279f68d7aae0476d946cab9d2cdaa87b48acabbd3ac1a585635fea4",
    "source": "Cámara de Diputados — SITL"
+  },
+  {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+   "captured_at": "2026-08-30T14:39:16+00:00",
+   "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
+   "source": "SHCP — Transparencia Presupuestaria"
   },
   {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=45",
