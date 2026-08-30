@@ -1,0 +1,19 @@
+{
+  "name": "@codice/contracts",
+  "version": "0.1.0",
+  "description": "Códice shared data contracts (frozen; changes require an ADR)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,26 @@
+# deps
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# builds
+.next/
+dist/
+build/
+*.tsbuildinfo
+
+# env / secrets — nunca en el repo
+.env
+.env.*
+!.env.example
+
+# tooling
+.pytest_cache/
+.ruff_cache/
+.dagster/
+
+# OS / editor
+.DS_Store
+*.swp

@@ -1,0 +1,403 @@
+openapi: 3.1.0
+info:
+  title: Códice API
+  version: 0.1.0
+  description: |
+    Read-only API for Códice — cómo funciona México.
+    Frozen contract: shape changes require a new ADR (see /docs/adr).
+
+    Conventions:
+    - Every response object carries `sources[]` with `{url, captured_at, hash}` (R1).
+    - Temporal queries: `?en=YYYY-MM-DD` returns the state as of that date; default is today (R9).
+    - Territory IDs are INEGI keys, never names (R7).
+    - No verdicts anywhere: signals are always "por verificar" (R2).
+  license:
+    name: ODbL 1.0 (data) / Apache 2.0 (code)
+    url: https://opendatacommons.org/licenses/odbl/1-0/
+
+servers:
+  - url: https://api.codice.mx/v1
+    description: Production (public data, no authentication by design)
+
+# Public open-data API: explicitly no auth (rate limiting happens at the edge).
+security: []
+
+paths:
+  /nodos:
+    get:
+      operationId: listNodes
+      summary: List nodes with filters
+      parameters:
+        - { name: nivel, in: query, schema: { $ref: '#/components/schemas/GovLevel' } }
+        - { name: tipo, in: query, schema: { type: string } }
+        - { name: territorio, in: query, schema: { type: string }, description: INEGI key }
+        - { name: en, in: query, schema: { type: string, format: date }, description: As-of date }
+        - { name: limit, in: query, schema: { type: integer, default: 100, maximum: 500 } }
+        - { name: offset, in: query, schema: { type: integer, default: 0 } }
+      responses:
+        '200':
+          description: Paged node list
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [items, total]
+                properties:
+                  items: { type: array, items: { $ref: '#/components/schemas/Node' } }
+                  total: { type: integer }
+
+  /nodos/{id}:
+    get:
+      operationId: getNode
+      summary: One node with legal basis and sources (permalink target)
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+        - { name: en, in: query, schema: { type: string, format: date } }
+      responses:
+        '200':
+          description: Node detail
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Node' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /nodos/{id}/relaciones:
+    get:
+      operationId: getNodeEdges
+      summary: Authority (down) and legitimacy (up) edges of a node
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+        - { name: en, in: query, schema: { type: string, format: date } }
+      responses:
+        '200':
+          description: Edges grouped by direction
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [autoridad_sobre, autoridad_de, legitimidad_de]
+                properties:
+                  autoridad_sobre: { type: array, items: { $ref: '#/components/schemas/Edge' } }
+                  autoridad_de: { type: array, items: { $ref: '#/components/schemas/Edge' } }
+                  legitimidad_de: { type: array, items: { $ref: '#/components/schemas/Edge' } }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /nodos/{id}/ocupantes:
+    get:
+      operationId: getNodeTenures
+      summary: Who holds (or held) this node
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+        - { name: en, in: query, schema: { type: string, format: date } }
+      responses:
+        '200':
+          description: Tenures
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Tenure' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /nodos/{id}/datos:
+    get:
+      operationId: downloadNodeData
+      summary: Citable data download for a node (R10)
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+      responses:
+        '200':
+          description: Node plus edges, tenures and sources, as a single JSON document
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/NodeBundle' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /grafo:
+    get:
+      operationId: getGraph
+      summary: Derived graph for the dual-mode visualization
+      description: |
+        Each node carries TWO positions: `pos_graph` (computed by hierarchy level)
+        and `pos_geo` (lon/lat centroid, null when the node has no territory).
+        The frontend interpolates between them on mode switch. Zero data duplication.
+      parameters:
+        - { name: nivel, in: query, schema: { $ref: '#/components/schemas/GovLevel' } }
+        - { name: profundidad, in: query, schema: { type: integer, default: 3 }, description: Max depth from roots }
+        - { name: en, in: query, schema: { type: string, format: date } }
+      responses:
+        '200':
+          description: Graph slice
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [nodes, edges, sources]
+                properties:
+                  nodes: { type: array, items: { $ref: '#/components/schemas/GraphNode' } }
+                  edges: { type: array, items: { $ref: '#/components/schemas/GraphEdge' } }
+                  sources: { type: array, items: { $ref: '#/components/schemas/SourceRef' } }
+
+  /territorios/{clave}:
+    get:
+      operationId: getTerritory
+      summary: Territory by INEGI key
+      parameters:
+        - { name: clave, in: path, required: true, schema: { type: string } }
+      responses:
+        '200':
+          description: Territory with versioned population
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Territory' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /personas/{id}:
+    get:
+      operationId: getPerson
+      summary: Person with their tenures
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string, format: uuid } }
+      responses:
+        '200':
+          description: Person detail
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Person' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /senales:
+    get:
+      operationId: listSignals
+      summary: Signals (never conclusions — R2)
+      parameters:
+        - { name: tipo, in: query, schema: { type: string } }
+        - { name: estado, in: query, schema: { $ref: '#/components/schemas/SignalStatus' } }
+        - { name: limit, in: query, schema: { type: integer, default: 100, maximum: 500 } }
+        - { name: offset, in: query, schema: { type: integer, default: 0 } }
+      responses:
+        '200':
+          description: Paged signal list
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [items, total]
+                properties:
+                  items: { type: array, items: { $ref: '#/components/schemas/Signal' } }
+                  total: { type: integer }
+
+  /senales/{id}:
+    get:
+      operationId: getSignal
+      summary: One signal with entities and evidence
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string, format: uuid } }
+      responses:
+        '200':
+          description: Signal detail
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Signal' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /fuentes:
+    get:
+      operationId: listSources
+      summary: Catalog of official data sources
+      responses:
+        '200':
+          description: Source catalog
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/SourceCatalogEntry' }
+
+components:
+  responses:
+    NotFound:
+      description: Resource does not exist (or did not exist at the requested date)
+      content:
+        application/json:
+          schema:
+            type: object
+            required: [detail]
+            properties:
+              detail: { type: string }
+
+  schemas:
+    GovLevel:
+      type: string
+      enum: [federal, estatal, municipal, ciudadano]
+
+    SignalStatus:
+      type: string
+      enum: [por_verificar, verificada, descartada]
+
+    SourceRef:
+      type: object
+      description: Provenance of a datum (R1). Present on every response object.
+      required: [url, captured_at, hash]
+      properties:
+        url: { type: string, format: uri }
+        captured_at: { type: string, format: date-time }
+        hash: { type: string, description: sha256 of the raw snapshot }
+
+    LegalBasis:
+      type: object
+      required: [document, article, url]
+      properties:
+        document: { type: string }
+        article: { type: string }
+        url: { type: string, format: uri }
+
+    Node:
+      type: object
+      required: [id, node_type, name, level, legal_basis, valid_from, valid_to, permalink, sources]
+      properties:
+        id: { type: string, description: Permanent citable slug (R10) }
+        node_type: { type: string }
+        name: { type: string }
+        level: { $ref: '#/components/schemas/GovLevel' }
+        territory_key: { type: [string, 'null'], description: INEGI key }
+        summary: { type: [string, 'null'] }
+        legal_basis: { type: array, items: { $ref: '#/components/schemas/LegalBasis' } }
+        valid_from: { type: string, format: date }
+        valid_to: { type: [string, 'null'], format: date }
+        permalink: { type: string, format: uri }
+        sources: { type: array, items: { $ref: '#/components/schemas/SourceRef' } }
+
+    Edge:
+      type: object
+      required: [from_node, to_node, type, valid_from, valid_to]
+      properties:
+        from_node: { type: string }
+        to_node: { type: string }
+        type: { type: string, enum: [autoridad, legitimidad] }
+        legal_basis: { type: [string, 'null'] }
+        valid_from: { type: string, format: date }
+        valid_to: { type: [string, 'null'], format: date }
+
+    GraphNode:
+      type: object
+      required: [id, name, level, depth, pos_graph, pos_geo]
+      properties:
+        id: { type: string }
+        name: { type: string }
+        level: { $ref: '#/components/schemas/GovLevel' }
+        depth: { type: integer }
+        pos_graph:
+          type: object
+          description: Layout position computed by hierarchy level
+          required: [x, y]
+          properties:
+            x: { type: number }
+            y: { type: number }
+        pos_geo:
+          type: [object, 'null']
+          description: Real geographic position (WGS84); null if no territory
+          required: [lon, lat]
+          properties:
+            lon: { type: number }
+            lat: { type: number }
+
+    GraphEdge:
+      type: object
+      required: [from, to, type]
+      properties:
+        from: { type: string }
+        to: { type: string }
+        type: { type: string, enum: [autoridad, legitimidad] }
+
+    NodeBundle:
+      type: object
+      description: Everything citable about a node, for download (R10)
+      required: [node, edges, tenures, generated_at, license]
+      properties:
+        node: { $ref: '#/components/schemas/Node' }
+        edges: { type: array, items: { $ref: '#/components/schemas/Edge' } }
+        tenures: { type: array, items: { $ref: '#/components/schemas/Tenure' } }
+        generated_at: { type: string, format: date-time }
+        license: { type: string, description: 'ODbL 1.0' }
+
+    Territory:
+      type: object
+      required: [inegi_key, level, name, population, sources]
+      properties:
+        inegi_key: { type: string }
+        level: { type: string, enum: [estado, municipio, localidad] }
+        name: { type: string }
+        parent_key: { type: [string, 'null'] }
+        centroid:
+          type: [object, 'null']
+          required: [lon, lat]
+          properties:
+            lon: { type: number }
+            lat: { type: number }
+        population:
+          type: array
+          description: One entry per census year (versioned, R9)
+          items:
+            type: object
+            required: [census_year, population]
+            properties:
+              census_year: { type: integer }
+              population: { type: integer }
+        sources: { type: array, items: { $ref: '#/components/schemas/SourceRef' } }
+
+    Person:
+      type: object
+      required: [id, full_name, tenures, sources]
+      properties:
+        id: { type: string, format: uuid }
+        full_name: { type: string }
+        tenures: { type: array, items: { $ref: '#/components/schemas/Tenure' } }
+        sources: { type: array, items: { $ref: '#/components/schemas/SourceRef' } }
+
+    Tenure:
+      type: object
+      required: [person_id, person_name, node_id, role, start_date, end_date, sources]
+      properties:
+        person_id: { type: string, format: uuid }
+        person_name: { type: string }
+        node_id: { type: string }
+        role: { type: string }
+        party: { type: [string, 'null'] }
+        start_date: { type: string, format: date }
+        end_date: { type: [string, 'null'], format: date }
+        contact_email: { type: [string, 'null'], description: Institutional only }
+        contact_phone: { type: [string, 'null'], description: Institutional only }
+        sources: { type: array, items: { $ref: '#/components/schemas/SourceRef' } }
+
+    Signal:
+      type: object
+      description: A signal to verify. Never a conclusion, never the word "corrupción" (R2).
+      required: [id, signal_type, score, legal_basis, status, entities, evidence, created_at]
+      properties:
+        id: { type: string, format: uuid }
+        signal_type: { type: string }
+        score: { type: number, minimum: 0, maximum: 1 }
+        legal_basis: { type: string }
+        status: { $ref: '#/components/schemas/SignalStatus' }
+        entities:
+          type: array
+          items:
+            type: object
+            required: [kind, entity_id, name]
+            properties:
+              kind: { type: string, enum: [person, company] }
+              entity_id: { type: string, format: uuid }
+              name: { type: string }
+        evidence: { type: array, items: { $ref: '#/components/schemas/SourceRef' } }
+        created_at: { type: string, format: date-time }
+
+    SourceCatalogEntry:
+      type: object
+      required: [key, name, base_url, format]
+      properties:
+        key: { type: string }
+        name: { type: string }
+        base_url: { type: string, format: uri }
+        format: { type: string }
+        notes: { type: [string, 'null'] }
