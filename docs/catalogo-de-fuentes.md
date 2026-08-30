@@ -68,3 +68,15 @@ es la contribución más valiosa que este proyecto puede recibir.
 | `senado_directorio` | Senado de la República (`senado.gob.mx`) | 127 senadurías: nombre, grupo parlamentario, entidad, principio de elección, correo institucional | 2 páginas | La fuente reporta 63 de mayoría relativa (no 64): hay una vacante |
 
 Ambos scrapers respetan un intervalo mínimo de 1.5 s entre peticiones y se identifican con un User-Agent propio. Solo se extrae **contacto institucional**: las fichas oficiales incluyen fecha de nacimiento y otros datos personales que deliberadamente no se guardan.
+
+### Fuentes evaluadas y su estado (reconocimiento de 2026-08-30)
+
+| Fuente | Estado | Detalle |
+|---|---|---|
+| `sitl.diputados.gob.mx` | ✅ En uso | Cadena TLS incompleta (intermedio DigiCert versionado en el repo) |
+| `senado.gob.mx` | ✅ En uso | Requiere cookie de sesión; `urllib` recibe 403, `curl` funciona |
+| `sil.gobernacion.gob.mx` | ⚠️ Accesible, sin el dato | Cadena TLS incompleta (intermedio GoDaddy versionado). Publica el voto de los congresos locales en reformas, no su integración |
+| **PNT / SIPOT** (consulta pública) | ❌ Bloqueada | 403 a clientes automatizados. Era la vía para 32 congresos locales y municipios |
+| `datos.gob.mx` (API CKAN) | ❌ Bloqueada | 403 |
+| `gob.mx` (directorio de gobierno) | ❌ Sin datos | Aplicación de JavaScript; el HTML no trae el directorio |
+| **DOF** vía `sidof.segob.gob.mx` | 🔍 Por explorar | Tiene sección de datos abiertos con endpoints JSON. Es la fuente canónica de los nombramientos del Ejecutivo |

@@ -23,6 +23,8 @@ export type Occupant = {
   contact_email: string | null;
   start_date: string;
   end_date: string | null;
+  /** INEGI key of the entity represented; null = national constituency (ADR-019) */
+  territory_key: string | null;
 };
 
 export type RawNode = {

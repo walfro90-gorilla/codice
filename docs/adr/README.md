@@ -38,3 +38,4 @@ Cada ADR contiene, en este orden:
 | ADR-016 | El LLM propone, el humano decide. Siempre con score y auditoría. |
 | ADR-017 | Modelo temporal transversal: todo registro es versionado. |
 | ADR-018 | Snapshots con hash como activo central (contexto post-extinción del INAI). |
+| ADR-019 | Clave INEGI en las ocupaciones; territorio nulo significa circunscripción nacional, no dato faltante. |

@@ -54,7 +54,9 @@ def parse_roster(raw: bytes) -> list[dict]:
             "sitl_id": int(sitl_id),
             "name_listed": _text(name),  # "Apellido Apellido Nombre" order
             "entity": _text(entity),
-            "district": int(m.group(1)) if m else None,
+            # The roster shows a bare number whose meaning depends on the
+            # election principle; the profile page labels it, so that wins.
+            "listed_number": int(m.group(1)) if m else None,
         })
     return out
 
@@ -78,10 +80,24 @@ def parse_profile(raw: bytes) -> dict:
     if m:
         email = m.group(0).lower()
 
+    text = _text_blocks(doc)
+
     principle = None
-    m = re.search(r"Principio de elecci[óo]n:\s*([^\n]{3,40})", _text_blocks(doc))
+    m = re.search(r"Principio de elecci[óo]n:\s*([^\n]{3,40})", text)
     if m:
         principle = m.group(1).strip()
+
+    # The profile labels the number itself: majority seats have a "Distrito",
+    # proportional ones a "Circunscripción" (1-5, the plurinominal regions).
+    # They are different things and must not be conflated — a proportional
+    # deputy is not elected by an entity (CPEUM Art. 53).
+    district = constituency = None
+    m = re.search(r"Distrito:\s*(\d+)", text)
+    if m:
+        district = int(m.group(1))
+    m = re.search(r"Circunscripci[óo]n:\s*(\d+)", text)
+    if m:
+        constituency = int(m.group(1))
 
     substitute = None
     m = re.search(r"Suplente:\s*([^\n]{4,120})", _text_blocks(doc))
@@ -93,6 +109,8 @@ def parse_profile(raw: bytes) -> dict:
         "party": party,
         "contact_email": email,
         "election_principle": principle,
+        "district": district,
+        "constituency": constituency,
         "substitute": substitute,
     }
 

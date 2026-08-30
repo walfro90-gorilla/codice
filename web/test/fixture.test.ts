@@ -144,3 +144,29 @@ test("no personal data beyond what the project needs", () => {
   assert.ok(!/\b\d{2}-(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\b/i.test(blob), "birth date leaked");
   assert.ok(!/curp|rfc\b/i.test(blob), "identity document leaked");
 });
+
+test("occupant territory keys are INEGI keys or a meaningful null (R7, ADR-019)", () => {
+  const entities = new Set(
+    raw.nodes.filter((n) => n.territory_key?.length === 2).map((n) => n.territory_key),
+  );
+  let national = 0;
+  for (const n of raw.nodes) {
+    for (const o of n.occupants ?? []) {
+      if (o.territory_key === null) { national++; continue; }
+      assert.match(o.territory_key, /^\d{2}$/, `${o.name}: not an INEGI entity key`);
+      assert.ok(entities.has(o.territory_key), `${o.name}: unknown entity ${o.territory_key}`);
+    }
+  }
+  // Proportional representation seats: 200 deputies + 32 senators (Arts. 52, 56)
+  assert.ok(national >= 200, `expected national-constituency seats, got ${national}`);
+});
+
+test("each entity has at most 3 senators (Art. 56: 2 MR + 1 primera minoría)", () => {
+  const senate = raw.nodes.find((n) => n.id === "senado");
+  const perEntity = new Map<string, number>();
+  for (const o of senate?.occupants ?? []) {
+    if (o.territory_key) perEntity.set(o.territory_key, (perEntity.get(o.territory_key) ?? 0) + 1);
+  }
+  assert.equal(perEntity.size, 32, "all 32 entities must be represented");
+  for (const [k, c] of perEntity) assert.ok(c <= 3, `entity ${k} has ${c} senators, max is 3`);
+});

@@ -61,17 +61,19 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
         # the UI can show a summary without shipping 627 rows to every client.
         cur.execute(
             """SELECT t.node_id, p.full_name, t.role, t.party, t.contact_email,
-                      t.start_date, t.end_date
+                      t.start_date, t.end_date, t.territory_key
                FROM tenure t JOIN person p ON p.id = t.person_id
                ORDER BY t.node_id, p.full_name"""
         )
-        for nid, name, role, party, email, start, end in cur.fetchall():
+        for nid, name, role, party, email, start, end, tkey in cur.fetchall():
             if nid in nodes:
                 nodes[nid].setdefault("occupants", []).append({
                     "name": name, "role": role, "party": party,
                     "contact_email": email,
                     "start_date": start.isoformat(),
                     "end_date": end.isoformat() if end else None,
+                    # null = elected in the national constituency, not missing (ADR-019)
+                    "territory_key": tkey,
                 })
 
         cur.execute("SELECT from_node, to_node, type, legal_basis FROM edge WHERE valid_to IS NULL")

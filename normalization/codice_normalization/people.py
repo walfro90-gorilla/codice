@@ -66,6 +66,46 @@ def canonical_party(raw: str | None) -> str | None:
     return PARTY_ALIASES.get(raw.strip().upper(), raw.strip().upper())
 
 
+# Sources name the entity in prose and with short names ("Coahuila"), while the
+# INEGI catalogue uses the official one ("Coahuila de Zaragoza"). Resolution is
+# deterministic: exact normalized match, then prefix against the official name.
+NATIONAL_CONSTITUENCY = "lista nacional"
+
+
+def _norm_place(name: str) -> str:
+    s = unicodedata.normalize("NFD", name.lower())
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z ]", " ", s)).strip()
+
+
+def resolve_territory(name: str | None, catalogue: dict[str, str]) -> str | None:
+    """Entity name -> INEGI key (R7). None means the national constituency.
+
+    `catalogue` maps normalized official names to keys. A None result for a
+    proportional-representation seat is MEANINGFUL, not missing data: those
+    seats are elected nationwide and represent no entity (ADR-019).
+    """
+    if not name:
+        return None
+    n = _norm_place(name)
+    if not n or n == NATIONAL_CONSTITUENCY:
+        return None
+    if n in catalogue:
+        return catalogue[n]
+    # "Estado de México" -> "México"; "Coahuila" -> "Coahuila de Zaragoza"
+    n2 = re.sub(r"^estado de ", "", n)
+    if n2 in catalogue:
+        return catalogue[n2]
+    hits = [k for official, k in catalogue.items() if official.startswith(n2 + " ") or official == n2]
+    return hits[0] if len(hits) == 1 else None
+
+
+def territory_catalogue(conn: psycopg.Connection) -> dict[str, str]:
+    with conn.cursor() as cur:
+        cur.execute("SELECT inegi_key, name FROM territory WHERE level = 'estado'")
+        return {_norm_place(name): key for key, name in cur.fetchall()}
+
+
 def _institutional(email: str | None) -> str | None:
     if email and email.lower().endswith(INSTITUTIONAL_DOMAINS):
         return email.lower()
@@ -120,8 +160,10 @@ def _upsert_person(cur, full_name: str) -> str:
 
 
 def load_legislators(conn: psycopg.Connection, parsed_dir: Path) -> dict:
-    stats = {"deputies": 0, "senators": 0, "people": 0, "name_collisions": []}
+    stats = {"deputies": 0, "senators": 0, "people": 0, "name_collisions": [],
+             "unresolved_entities": [], "national_constituency": 0}
     seen_norm: dict[str, str] = {}
+    places = territory_catalogue(conn)
 
     with conn.cursor() as cur:
         # Curated structure must exist first — a tenure without its seat is meaningless.
@@ -143,16 +185,27 @@ def load_legislators(conn: psycopg.Connection, parsed_dir: Path) -> dict:
                     stats["name_collisions"].append(name)
                 pid = _upsert_person(cur, name)
                 seen_norm[norm] = pid
+                # A majority seat represents an entity's district; a proportional
+                # seat is elected in one of the five plurinominal constituencies
+                # and represents no entity (CPEUM Art. 53, ADR-019).
                 role = f"diputación federal · {d.get('election_principle') or 'sin dato'}"
-                if d.get("entity"):
-                    role += f" · {d['entity']}"
-                    if d.get("district"):
-                        role += f" distrito {d['district']}"
+                if d.get("district") and d.get("entity"):
+                    role += f" · {d['entity']} distrito {d['district']}"
+                elif d.get("constituency"):
+                    role += f" · circunscripción {d['constituency']}"
+                # Only majority seats carry a territory: a proportional deputy is
+                # elected nationwide-by-region, not by an entity (ADR-019).
+                tkey = resolve_territory(d.get("entity"), places) if d.get("district") else None
+                if d.get("district") and d.get("entity") and not tkey:
+                    stats["unresolved_entities"].append(d["entity"])
+                if not tkey:
+                    stats["national_constituency"] += 1
                 cur.execute(
-                    """INSERT INTO tenure (person_id, node_id, role, party, start_date, end_date, contact_email)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s)""",
+                    """INSERT INTO tenure (person_id, node_id, role, party, start_date, end_date,
+                                           contact_email, territory_key)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s)""",
                     (pid, DEPUTY_NODE, role, canonical_party(d.get("party")), d["term_start"], d["term_end"],
-                     _institutional(d.get("contact_email"))),
+                     _institutional(d.get("contact_email")), tkey),
                 )
                 stats["deputies"] += 1
 
@@ -168,11 +221,18 @@ def load_legislators(conn: psycopg.Connection, parsed_dir: Path) -> dict:
                 role = f"senaduría · {s.get('election_principle') or 'sin dato'}"
                 if s.get("entity"):
                     role += f" · {s['entity']}"
+                tkey = resolve_territory(s.get("entity"), places)
+                if s.get("entity") and not tkey:
+                    if _norm_place(s["entity"]) == NATIONAL_CONSTITUENCY:
+                        stats["national_constituency"] += 1
+                    else:
+                        stats["unresolved_entities"].append(s["entity"])
                 cur.execute(
-                    """INSERT INTO tenure (person_id, node_id, role, party, start_date, end_date, contact_email)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s)""",
+                    """INSERT INTO tenure (person_id, node_id, role, party, start_date, end_date,
+                                           contact_email, territory_key)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s)""",
                     (pid, SENATE_NODE, role, canonical_party(s.get("party")), s["term_start"], s["term_end"],
-                     _institutional(s.get("contact_email"))),
+                     _institutional(s.get("contact_email")), tkey),
                 )
                 stats["senators"] += 1
 
