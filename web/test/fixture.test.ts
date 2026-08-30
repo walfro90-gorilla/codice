@@ -286,3 +286,58 @@ test("approved figures agree between the PEF and the Cuenta Pública", () => {
     }
   }
 });
+
+// --- Guided tour ---
+
+test("every tour step points at a node that exists", async () => {
+  const { TOUR } = await import("../lib/tour.ts");
+  const ids = new Set(raw.nodes.map((n) => n.id));
+  for (const s of TOUR) {
+    if (s.select) {
+      assert.ok(ids.has(s.select), `tour step "${s.title}" selects missing node ${s.select}`);
+    }
+  }
+});
+
+test("the tour shows what it claims to show", async () => {
+  const { TOUR } = await import("../lib/tour.ts");
+  const byId = new Map(raw.nodes.map((n) => [n.id, n]));
+  const step = (t: string) => TOUR.find((s) => s.title.includes(t));
+
+  // The people step must land on a node that actually has occupants
+  const people = step("Quién ocupa");
+  assert.ok((byId.get(people!.select!)?.occupants ?? []).length > 100, "people step has no occupants to show");
+
+  // The money step must land on a node with a spent figure, or it teaches nothing
+  const money = step("dinero");
+  const budget = byId.get(money!.select!)?.budget ?? [];
+  assert.ok(budget.some((b) => b.stages?.ejercido !== undefined), "money step has no spent figure");
+
+  // The extinct step must land on an actually extinct organ, and reveal them
+  const extinct = step("presente");
+  assert.ok(byId.get(extinct!.select!)?.valid_to, "extinct step points at a live organ");
+  assert.equal(extinct!.showExtinct, true, "extinct step must reveal extinct organs");
+
+  // The territory step must switch to map mode and pick a node with geography
+  const territory = step("territorio");
+  assert.equal(territory!.mode, "mapa");
+  assert.ok(byId.get(territory!.select!)?.pos_geo, "territory step picks a node with no location");
+});
+
+test("the tour never issues a verdict (R2, R5)", async () => {
+  const { TOUR } = await import("../lib/tour.ts");
+  const text = TOUR.map((s) => `${s.title} ${s.body}`).join(" ").toLowerCase();
+  assert.ok(!/\bcorrupci[óo]n\b/.test(text.replace(/anticorrupci[óo]n/g, "")));
+  assert.ok(!/\b(malgast|derroch|despilfarr|ineficien)/.test(text), "judgement language in the tour");
+  assert.ok(!/porcentaje de cumplimiento|semáforo/.test(text), "forbidden metric promised by the tour");
+  // And it should actively teach that we do not judge
+  assert.ok(/no califica a nadie|no emite veredictos|tus propias conclusiones/.test(text),
+    "the tour should say the system does not judge");
+});
+
+test("the tour ends leaving the app in a clean state", async () => {
+  const { TOUR } = await import("../lib/tour.ts");
+  const last = TOUR[TOUR.length - 1];
+  assert.equal(last.select, null, "the tour should deselect when it finishes");
+  assert.equal(last.showExtinct, false, "the tour should restore the default extinct filter");
+});

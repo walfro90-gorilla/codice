@@ -13,6 +13,7 @@ import Scene from "./Scene";
 import { CAMERA_ZOOM, EDGE_COLORS, LEVEL_COLORS, MAP_CENTER, MAP_ZOOM, formatMXN, loadDataset } from "../lib/data";
 import type { Dataset } from "../lib/data";
 import { useVizStore } from "../lib/store";
+import { HelpPanel, TourOverlay } from "./Tour";
 import type { VizMode } from "../lib/store";
 
 const panel: React.CSSProperties = {
@@ -205,12 +206,24 @@ export default function Viz() {
   const setMode = useVizStore((s) => s.setMode);
   const showExtinct = useVizStore((s) => s.showExtinct);
   const toggleExtinct = useVizStore((s) => s.toggleExtinct);
+  const toggleHelp = useVizStore((s) => s.toggleHelp);
+  const startTour = useVizStore((s) => s.startTour);
   const mapDiv = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<Dataset | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     loadDataset().then(setData).catch((e) => setError(String(e)));
+  }, []);
+
+  // Esc closes the detail panel, as the instructions promise. The tour handles
+  // its own Esc first and only reaches here once it has closed.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") useVizStore.getState().select(null);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, []);
 
   useEffect(() => {
@@ -271,9 +284,28 @@ export default function Viz() {
             {data ? `${data.nodes.length} nodos · ${data.edges.length} relaciones · fundamento legal citado` : error ? `Error: ${error}` : "Cargando…"}
           </div>
         </div>
-        <div style={{ display: "flex", gap: 8 }}>
+        <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
           {modeButton("grafo", "Grafo")}
           {modeButton("mapa", "Mapa")}
+          <button
+            onClick={toggleHelp}
+            title="Cómo usar este mapa"
+            aria-label="Cómo usar este mapa"
+            style={{
+              marginLeft: 4, width: 30, height: 30, borderRadius: "50%",
+              border: "1px solid #374151", background: "transparent",
+              color: "#e5e7eb", fontWeight: 700, cursor: "pointer",
+            }}
+          >
+            ?
+          </button>
+          <button onClick={startTour} style={{
+            padding: "6px 12px", borderRadius: 6, border: "1px solid #374151",
+            background: "transparent", color: "#93c5fd", fontSize: 12,
+            fontWeight: 600, cursor: "pointer",
+          }}>
+            Recorrido
+          </button>
         </div>
       </div>
 
@@ -291,13 +323,20 @@ export default function Viz() {
           Mostrar órganos extintos ({extinctCount})
         </label>
         <div style={{ color: "#9ca3af", fontSize: 12, marginTop: 8 }}>
-          Clic en un nodo para ver su fundamento legal y procedencia. Scroll para zoom.
+          Clic en un nodo para ver su fundamento legal y procedencia. Rueda para zoom, arrastra para desplazarte.
           <br />
-          En modo mapa, los nodos sin territorio conservan su posición jerárquica.
+          <button
+            onClick={startTour}
+            style={{ background: "none", border: "none", padding: 0, color: "#93c5fd", cursor: "pointer", fontSize: 12, textDecoration: "underline" }}
+          >
+            Ver el recorrido guiado
+          </button>
         </div>
       </div>
 
       {data && <Detalle data={data} />}
+      {data && <TourOverlay />}
+      <HelpPanel />
     </div>
   );
 }

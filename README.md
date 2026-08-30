@@ -17,6 +17,12 @@ Dos caras:
 
 **No somos un medio. No emitimos veredictos. Somos infraestructura de datos citable.**
 
+## Cómo leerlo
+
+La visualización abre con un **recorrido guiado** de nueve pasos que maneja la interfaz mientras explica: selecciona órganos, cambia al mapa y revela los extintos, para que se vea el mecanismo en vez de describirlo. Enseña de dónde sale cada afirmación, por qué toda cifra de dinero viaja con su advertencia y por qué el presente es solo una fecha.
+
+El botón **?** abre las instrucciones en cualquier momento: controles, qué significan los colores, cómo leer una ficha y qué **no** se va a encontrar (ni calificaciones, ni porcentajes de cumplimiento, ni semáforos).
+
 ## Principios
 
 - **Procedencia siempre.** Todo dato publicado apunta a un documento crudo con URL, fecha de captura y hash.
