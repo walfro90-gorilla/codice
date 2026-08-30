@@ -83,17 +83,31 @@ function Detalle({ data }: { data: Dataset }) {
       {node.budget.length > 0 && (
         <>
           <div style={{ fontWeight: 600, marginTop: 12 }}>Presupuesto aprobado</div>
-          {node.budget.map((b, i) => {
-            const prev = node.budget[i - 1];
-            const delta = prev ? ((b.amount_mxn - prev.amount_mxn) / prev.amount_mxn) * 100 : null;
+          {node.budget.map((b) => {
+            const ejercido = b.stages?.ejercido;
+            const aprobado = b.stages?.aprobado ?? b.amount_mxn;
+            const diff = ejercido !== undefined ? ejercido - aprobado : null;
             return (
-              <div key={b.fiscal_year} style={{ fontSize: 12, marginTop: 4 }}>
+              <div key={b.fiscal_year} style={{ fontSize: 12, marginTop: 6 }}>
                 <span style={{ color: "#9ca3af" }}>{b.fiscal_year}</span>{" "}
-                <strong style={{ color: "#e5e7eb" }}>{formatMXN(b.amount_mxn)}</strong>
-                {delta !== null && (
-                  <span style={{ color: "#9ca3af" }}>
-                    {" "}({delta >= 0 ? "+" : ""}{delta.toFixed(1)}% nominal)
-                  </span>
+                <strong style={{ color: "#e5e7eb" }}>{formatMXN(aprobado)}</strong>
+                <span style={{ color: "#6b7280" }}> aprobado</span>
+                {ejercido !== undefined && (
+                  <div style={{ color: "#d1d5db" }}>
+                    <strong>{formatMXN(ejercido)}</strong>
+                    <span style={{ color: "#6b7280" }}> ejercido</span>
+                    {diff !== null && (
+                      <span style={{ color: "#9ca3af" }}>
+                        {" "}· diferencia {diff >= 0 ? "+" : "−"}
+                        {formatMXN(Math.abs(diff))}
+                      </span>
+                    )}
+                  </div>
+                )}
+                {ejercido === undefined && b.fiscal_year >= 2026 && (
+                  <div style={{ color: "#6b7280", fontSize: 11 }}>
+                    Ejercicio en curso: la Cuenta Pública se publica al cierre.
+                  </div>
                 )}
                 <div style={{ color: "#6b7280", fontFamily: "monospace", fontSize: 10 }}>
                   sha256 {b.hash.slice(0, 24)}… · capturado {b.captured_at.slice(0, 10)}
@@ -101,7 +115,10 @@ function Detalle({ data }: { data: Dataset }) {
               </div>
             );
           })}
-          {(data.caveats["presupuesto_por_nodo"] ?? []).map((c, i) => (
+          {[...(data.caveats["presupuesto_por_nodo"] ?? []),
+            ...(node.budget.some((b) => b.stages?.ejercido !== undefined)
+              ? data.caveats["ejecucion_presupuestal"] ?? []
+              : [])].map((c, i) => (
             <div key={i} style={{ fontSize: 11, color: "#9ca3af", marginTop: 6, borderLeft: "2px solid #78350f", paddingLeft: 8 }}>
               {c}
             </div>

@@ -29,7 +29,10 @@ export type Occupant = {
 
 export type BudgetYear = {
   fiscal_year: number;
+  /** The approved figure, kept for convenience; `stages` carries the full cycle. */
   amount_mxn: number;
+  /** aprobado / modificado / devengado / pagado / ejercido, as the year publishes them. */
+  stages: Partial<Record<"aprobado" | "modificado" | "devengado" | "pagado" | "ejercido", number>>;
   hash: string;
   captured_at: string;
   url: string;

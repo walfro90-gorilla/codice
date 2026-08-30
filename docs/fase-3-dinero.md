@@ -63,10 +63,41 @@ cd ingestion && python3 -c "from pathlib import Path; from codice_ingestion.pef 
 cd ../normalization && .venv/bin/python -m codice_normalization budget ../data ../ingestion
 ```
 
+## Cuenta Pública: lo aprobado frente a lo ejercido
+
+La Cuenta Pública cierra el ciclo que el PEF abre. Ambas fuentes cargan en la misma tabla, distinguidas por etapa:
+
+| Año | Aprobado | Modificado | Devengado | Pagado | Ejercido |
+|---|---|---|---|---|---|
+| 2024 | 10.41 | 10.56 | 10.56 | 10.51 | 10.55 |
+| 2025 | 10.80 | 11.18 | 11.28 | 11.09 | 11.27 |
+
+*Billones de pesos.* 2022 y 2023 están cargados pero la fuente no publica columna de ejercido para esos años; se registran las cuatro etapas que sí publica y ninguna más (R6). El ejercicio en curso no tiene cifra ejercida: la Cuenta Pública se publica al cierre.
+
+**Dos figuras, ninguna conclusión.** El sistema muestra aprobado y ejercido lado a lado y la diferencia entre ambos, que es un hecho. No calcula porcentajes de cumplimiento ni califica la ejecución de nadie (R5, R2): el presupuesto puede modificarse legalmente durante el año, y gastar de más o de menos no es por sí mismo irregularidad ni ahorro. Eso viaja como advertencia junto a la cifra.
+
+### Validación cruzada entre fuentes
+
+El PEF y la Cuenta Pública publican, en archivos distintos, la misma cifra aprobada de un año cerrado. Los dos parsers coinciden **al peso**:
+
+| Año | PEF | Cuenta Pública |
+|---|---|---|
+| 2024 | 10,406,689,047,769 | 10,406,689,047,769 |
+| 2025 | 10,795,085,118,581 | 10,795,085,118,581 |
+
+Dos archivos independientes leídos por dos rutas distintas dando el mismo número es la mejor evidencia disponible de que ninguno de los dos se está leyendo mal.
+
+### Los nombres de columna cambian cada año
+
+La Cuenta Pública no publica el mismo esquema dos años seguidos: 2024 escribe `MONTO_EJERCIDO`, 2025 escribe `" Ejercido_Bruto "` con espacios alrededor y renombra el ramo a `R`, y 2022–2023 no traen columna de ejercido. El archivo de 2022 además viene exportado desde Excel y **padeado hasta el límite de la hoja**: 828,067 filas completamente vacías después de las 220,508 con datos.
+
+El parser resuelve cada encabezado contra una lista de variantes conocidas, salta las filas vacías **contándolas** y falla ruidosamente si no encuentra columna de monto. Nada de esto se descubrió leyendo documentación: se descubrió porque el snapshot crudo permite reprocesar sin volver a la fuente (R8).
+
 ## Huecos conocidos (R6)
 
-- **Contrataciones Abiertas (OCDS)** y **Obra Pública Abierta**: identificadas y accesibles, aún no ingeridas. Son las que habilitan el cruce estrella del proyecto (obra → contrato → empresa → observación de la ASF).
-- **Cuenta Pública**: esto es presupuesto **aprobado**, no gasto **ejercido**. La Cuenta Pública está publicada en la misma fuente y falta ingerirla; hasta entonces ninguna afirmación sobre gasto real es posible.
+- **Contrataciones**: ninguna fuente federal admite hoy acceso automatizado. Ver [hueco-contrataciones.md](hueco-contrataciones.md) para qué se probó, qué respondió cada una y cuáles son las vías institucionales. El cruce estrella del proyecto queda bloqueado en su primer eslabón.
+- **Obra Pública Abierta**: identificada, no ingerida.
+- **Ejercido de 2022 y 2023**: la fuente no publica esa columna para esos años. Se cargan las cuatro etapas que sí publica.
 - **Presupuestos estatales y municipales**: no incluidos. El Ramo 33 y las participaciones muestran cuánto se transfiere, no en qué lo gastan las entidades.
 - **Sin deflactar**: las comparaciones entre años son en pesos nominales. Convertirlas a pesos constantes exige el INPC del INEGI, aún no ingerido; mientras tanto la advertencia lo dice explícitamente.
 - **Años 2020–2023**: publicados en la fuente y no descargados todavía; el ingestor los soporta pasando la lista de años.

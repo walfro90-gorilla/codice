@@ -2,14 +2,654 @@
  "generated_from": "Códice — datos curados con fundamento legal citado",
  "spending_per_capita": [
   {
+   "fiscal_year": 2022,
+   "territory_key": "01",
+   "territory_name": "Aguascalientes",
+   "census_year": 2020,
+   "population": 1425607,
+   "amount_mxn": 197481385712.3,
+   "mxn_per_inhabitant": 138524.42,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "02",
+   "territory_name": "Baja California",
+   "census_year": 2020,
+   "population": 3769020,
+   "amount_mxn": 556137280195.3,
+   "mxn_per_inhabitant": 147554.88,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "03",
+   "territory_name": "Baja California Sur",
+   "census_year": 2020,
+   "population": 798447,
+   "amount_mxn": 196075703218.2,
+   "mxn_per_inhabitant": 245571.34,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "04",
+   "territory_name": "Campeche",
+   "census_year": 2020,
+   "population": 928363,
+   "amount_mxn": 1011240301307.1,
+   "mxn_per_inhabitant": 1089272.52,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "05",
+   "territory_name": "Coahuila de Zaragoza",
+   "census_year": 2020,
+   "population": 3146771,
+   "amount_mxn": 476996111854.3,
+   "mxn_per_inhabitant": 151582.72,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "06",
+   "territory_name": "Colima",
+   "census_year": 2020,
+   "population": 731391,
+   "amount_mxn": 177335734853.6,
+   "mxn_per_inhabitant": 242463.65,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "07",
+   "territory_name": "Chiapas",
+   "census_year": 2020,
+   "population": 5543828,
+   "amount_mxn": 641228197519.4,
+   "mxn_per_inhabitant": 115665.24,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "08",
+   "territory_name": "Chihuahua",
+   "census_year": 2020,
+   "population": 3741869,
+   "amount_mxn": 570430879880.7,
+   "mxn_per_inhabitant": 152445.44,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "09",
+   "territory_name": "Ciudad de México",
+   "census_year": 2020,
+   "population": 9209944,
+   "amount_mxn": 13518229922910.1,
+   "mxn_per_inhabitant": 1467786.33,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "10",
+   "territory_name": "Durango",
+   "census_year": 2020,
+   "population": 1832650,
+   "amount_mxn": 290394195142.3,
+   "mxn_per_inhabitant": 158455.89,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "11",
+   "territory_name": "Guanajuato",
+   "census_year": 2020,
+   "population": 6166934,
+   "amount_mxn": 673692781501.3,
+   "mxn_per_inhabitant": 109242.74,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "12",
+   "territory_name": "Guerrero",
+   "census_year": 2020,
+   "population": 3540685,
+   "amount_mxn": 493870113050.5,
+   "mxn_per_inhabitant": 139484.34,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "13",
+   "territory_name": "Hidalgo",
+   "census_year": 2020,
+   "population": 3082841,
+   "amount_mxn": 468198981191.4,
+   "mxn_per_inhabitant": 151872.57,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "14",
+   "territory_name": "Jalisco",
+   "census_year": 2020,
+   "population": 8348151,
+   "amount_mxn": 944113458024.6,
+   "mxn_per_inhabitant": 113092.52,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "15",
+   "territory_name": "México",
+   "census_year": 2020,
+   "population": 16992418,
+   "amount_mxn": 1609893006066.6,
+   "mxn_per_inhabitant": 94741.84,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "16",
+   "territory_name": "Michoacán de Ocampo",
+   "census_year": 2020,
+   "population": 4748846,
+   "amount_mxn": 497766860156.7,
+   "mxn_per_inhabitant": 104818.49,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "17",
+   "territory_name": "Morelos",
+   "census_year": 2020,
+   "population": 1971520,
+   "amount_mxn": 273182013168.9,
+   "mxn_per_inhabitant": 138564.16,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "18",
+   "territory_name": "Nayarit",
+   "census_year": 2020,
+   "population": 1235456,
+   "amount_mxn": 199866718295.7,
+   "mxn_per_inhabitant": 161775.67,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "19",
+   "territory_name": "Nuevo León",
+   "census_year": 2020,
+   "population": 5784442,
+   "amount_mxn": 867154815789.3,
+   "mxn_per_inhabitant": 149911.58,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "20",
+   "territory_name": "Oaxaca",
+   "census_year": 2020,
+   "population": 4132148,
+   "amount_mxn": 586341640918.8,
+   "mxn_per_inhabitant": 141897.54,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "21",
+   "territory_name": "Puebla",
+   "census_year": 2020,
+   "population": 6583278,
+   "amount_mxn": 635839156097.0,
+   "mxn_per_inhabitant": 96583.97,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "22",
+   "territory_name": "Querétaro",
+   "census_year": 2020,
+   "population": 2368467,
+   "amount_mxn": 291305289322.4,
+   "mxn_per_inhabitant": 122993.18,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "23",
+   "territory_name": "Quintana Roo",
+   "census_year": 2020,
+   "population": 1857985,
+   "amount_mxn": 435774922182.6,
+   "mxn_per_inhabitant": 234541.68,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "24",
+   "territory_name": "San Luis Potosí",
+   "census_year": 2020,
+   "population": 2822255,
+   "amount_mxn": 404434976795.0,
+   "mxn_per_inhabitant": 143302.07,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "25",
+   "territory_name": "Sinaloa",
+   "census_year": 2020,
+   "population": 3026943,
+   "amount_mxn": 482707702398.7,
+   "mxn_per_inhabitant": 159470.36,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "26",
+   "territory_name": "Sonora",
+   "census_year": 2020,
+   "population": 2944840,
+   "amount_mxn": 496779988758.2,
+   "mxn_per_inhabitant": 168695.07,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "27",
+   "territory_name": "Tabasco",
+   "census_year": 2020,
+   "population": 2402598,
+   "amount_mxn": 1127118182594.0,
+   "mxn_per_inhabitant": 469124.75,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "28",
+   "territory_name": "Tamaulipas",
+   "census_year": 2020,
+   "population": 3527735,
+   "amount_mxn": 696488578523.3,
+   "mxn_per_inhabitant": 197432.23,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "29",
+   "territory_name": "Tlaxcala",
+   "census_year": 2020,
+   "population": 1342977,
+   "amount_mxn": 145770904289.5,
+   "mxn_per_inhabitant": 108543.11,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "30",
+   "territory_name": "Veracruz de Ignacio de la Llave",
+   "census_year": 2020,
+   "population": 8062579,
+   "amount_mxn": 1270769884910.7,
+   "mxn_per_inhabitant": 157613.33,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "31",
+   "territory_name": "Yucatán",
+   "census_year": 2020,
+   "population": 2320898,
+   "amount_mxn": 462228252693.5,
+   "mxn_per_inhabitant": 199159.23,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2022,
+   "territory_key": "32",
+   "territory_name": "Zacatecas",
+   "census_year": 2020,
+   "population": 1622138,
+   "amount_mxn": 203719952906.7,
+   "mxn_per_inhabitant": 125587.31,
+   "excluded_unassigned_mxn": 3167921043610.1
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "01",
+   "territory_name": "Aguascalientes",
+   "census_year": 2020,
+   "population": 1425607,
+   "amount_mxn": 216801190165.73,
+   "mxn_per_inhabitant": 152076.41,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "02",
+   "territory_name": "Baja California",
+   "census_year": 2020,
+   "population": 3769020,
+   "amount_mxn": 601098704489.08,
+   "mxn_per_inhabitant": 159484.08,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "03",
+   "territory_name": "Baja California Sur",
+   "census_year": 2020,
+   "population": 798447,
+   "amount_mxn": 223459052866.62,
+   "mxn_per_inhabitant": 279867.11,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "04",
+   "territory_name": "Campeche",
+   "census_year": 2020,
+   "population": 928363,
+   "amount_mxn": 779984772807.35,
+   "mxn_per_inhabitant": 840172.19,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "05",
+   "territory_name": "Coahuila de Zaragoza",
+   "census_year": 2020,
+   "population": 3146771,
+   "amount_mxn": 534384442018.73,
+   "mxn_per_inhabitant": 169819.93,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "06",
+   "territory_name": "Colima",
+   "census_year": 2020,
+   "population": 731391,
+   "amount_mxn": 172831435679.12,
+   "mxn_per_inhabitant": 236305.12,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "07",
+   "territory_name": "Chiapas",
+   "census_year": 2020,
+   "population": 5543828,
+   "amount_mxn": 758467298871.81,
+   "mxn_per_inhabitant": 136812.92,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "08",
+   "territory_name": "Chihuahua",
+   "census_year": 2020,
+   "population": 3741869,
+   "amount_mxn": 594799523208.46,
+   "mxn_per_inhabitant": 158957.87,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "09",
+   "territory_name": "Ciudad de México",
+   "census_year": 2020,
+   "population": 9209944,
+   "amount_mxn": 14517402301048.78,
+   "mxn_per_inhabitant": 1576274.76,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "10",
+   "territory_name": "Durango",
+   "census_year": 2020,
+   "population": 1832650,
+   "amount_mxn": 324994010996.24,
+   "mxn_per_inhabitant": 177335.56,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "11",
+   "territory_name": "Guanajuato",
+   "census_year": 2020,
+   "population": 6166934,
+   "amount_mxn": 727404950044.28,
+   "mxn_per_inhabitant": 117952.45,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "12",
+   "territory_name": "Guerrero",
+   "census_year": 2020,
+   "population": 3540685,
+   "amount_mxn": 565032414496.73,
+   "mxn_per_inhabitant": 159582.8,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "13",
+   "territory_name": "Hidalgo",
+   "census_year": 2020,
+   "population": 3082841,
+   "amount_mxn": 512873111568.35,
+   "mxn_per_inhabitant": 166363.79,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "14",
+   "territory_name": "Jalisco",
+   "census_year": 2020,
+   "population": 8348151,
+   "amount_mxn": 1065790533441.32,
+   "mxn_per_inhabitant": 127667.86,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "15",
+   "territory_name": "México",
+   "census_year": 2020,
+   "population": 16992418,
+   "amount_mxn": 1799993131363.69,
+   "mxn_per_inhabitant": 105929.19,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "16",
+   "territory_name": "Michoacán de Ocampo",
+   "census_year": 2020,
+   "population": 4748846,
+   "amount_mxn": 550385726787.84,
+   "mxn_per_inhabitant": 115898.84,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "17",
+   "territory_name": "Morelos",
+   "census_year": 2020,
+   "population": 1971520,
+   "amount_mxn": 293522767548.31,
+   "mxn_per_inhabitant": 148881.46,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "18",
+   "territory_name": "Nayarit",
+   "census_year": 2020,
+   "population": 1235456,
+   "amount_mxn": 222954003657.81,
+   "mxn_per_inhabitant": 180462.93,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "19",
+   "territory_name": "Nuevo León",
+   "census_year": 2020,
+   "population": 5784442,
+   "amount_mxn": 969014595211.11,
+   "mxn_per_inhabitant": 167520.84,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "20",
+   "territory_name": "Oaxaca",
+   "census_year": 2020,
+   "population": 4132148,
+   "amount_mxn": 645692185500.96,
+   "mxn_per_inhabitant": 156260.66,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "21",
+   "territory_name": "Puebla",
+   "census_year": 2020,
+   "population": 6583278,
+   "amount_mxn": 709977517402.75,
+   "mxn_per_inhabitant": 107845.59,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "22",
+   "territory_name": "Querétaro",
+   "census_year": 2020,
+   "population": 2368467,
+   "amount_mxn": 326042126316.09,
+   "mxn_per_inhabitant": 137659.56,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "23",
+   "territory_name": "Quintana Roo",
+   "census_year": 2020,
+   "population": 1857985,
+   "amount_mxn": 427019081175.21,
+   "mxn_per_inhabitant": 229829.13,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "24",
+   "territory_name": "San Luis Potosí",
+   "census_year": 2020,
+   "population": 2822255,
+   "amount_mxn": 437253961181.55,
+   "mxn_per_inhabitant": 154930.71,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "25",
+   "territory_name": "Sinaloa",
+   "census_year": 2020,
+   "population": 3026943,
+   "amount_mxn": 547861959922.81,
+   "mxn_per_inhabitant": 180995.14,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "26",
+   "territory_name": "Sonora",
+   "census_year": 2020,
+   "population": 2944840,
+   "amount_mxn": 525471599328.54,
+   "mxn_per_inhabitant": 178438.08,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "27",
+   "territory_name": "Tabasco",
+   "census_year": 2020,
+   "population": 2402598,
+   "amount_mxn": 1290603857109.89,
+   "mxn_per_inhabitant": 537170.12,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "28",
+   "territory_name": "Tamaulipas",
+   "census_year": 2020,
+   "population": 3527735,
+   "amount_mxn": 727611069838.11,
+   "mxn_per_inhabitant": 206254.46,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "29",
+   "territory_name": "Tlaxcala",
+   "census_year": 2020,
+   "population": 1342977,
+   "amount_mxn": 163095008360.56,
+   "mxn_per_inhabitant": 121442.89,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "30",
+   "territory_name": "Veracruz de Ignacio de la Llave",
+   "census_year": 2020,
+   "population": 8062579,
+   "amount_mxn": 1381503113329.26,
+   "mxn_per_inhabitant": 171347.54,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "31",
+   "territory_name": "Yucatán",
+   "census_year": 2020,
+   "population": 2320898,
+   "amount_mxn": 501000690824.16,
+   "mxn_per_inhabitant": 215865.02,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
+   "fiscal_year": 2023,
+   "territory_key": "32",
+   "territory_name": "Zacatecas",
+   "census_year": 2020,
+   "population": 1622138,
+   "amount_mxn": 217199378301.85,
+   "mxn_per_inhabitant": 133896.98,
+   "excluded_unassigned_mxn": 4243857286997.54
+  },
+  {
    "fiscal_year": 2024,
    "territory_key": "01",
    "territory_name": "Aguascalientes",
    "census_year": 2020,
    "population": 1425607,
-   "amount_mxn": 61269196381.0,
-   "mxn_per_inhabitant": 42977.62,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 308734974398.96,
+   "mxn_per_inhabitant": 216563.87,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -17,9 +657,9 @@
    "territory_name": "Baja California",
    "census_year": 2020,
    "population": 3769020,
-   "amount_mxn": 158750427091.0,
-   "mxn_per_inhabitant": 42119.82,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 823207199733.45,
+   "mxn_per_inhabitant": 218414.12,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -27,9 +667,9 @@
    "territory_name": "Baja California Sur",
    "census_year": 2020,
    "population": 798447,
-   "amount_mxn": 53509632472.0,
-   "mxn_per_inhabitant": 67017.14,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 299421134329.14,
+   "mxn_per_inhabitant": 375004.4,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -37,9 +677,9 @@
    "territory_name": "Campeche",
    "census_year": 2020,
    "population": 928363,
-   "amount_mxn": 115781662902.0,
-   "mxn_per_inhabitant": 124715.94,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 725327435860.11,
+   "mxn_per_inhabitant": 781297.23,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -47,9 +687,9 @@
    "territory_name": "Coahuila de Zaragoza",
    "census_year": 2020,
    "population": 3146771,
-   "amount_mxn": 129691926735.0,
-   "mxn_per_inhabitant": 41214.29,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 722469742334.21,
+   "mxn_per_inhabitant": 229590.82,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -57,9 +697,9 @@
    "territory_name": "Colima",
    "census_year": 2020,
    "population": 731391,
-   "amount_mxn": 41988392717.0,
-   "mxn_per_inhabitant": 57408.95,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 222392930782.27,
+   "mxn_per_inhabitant": 304068.45,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -67,9 +707,9 @@
    "territory_name": "Chiapas",
    "census_year": 2020,
    "population": 5543828,
-   "amount_mxn": 162091608685.0,
-   "mxn_per_inhabitant": 29238.21,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 937213112913.35,
+   "mxn_per_inhabitant": 169055.23,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -77,9 +717,9 @@
    "territory_name": "Chihuahua",
    "census_year": 2020,
    "population": 3741869,
-   "amount_mxn": 148583690100.0,
-   "mxn_per_inhabitant": 39708.42,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 793793228406.93,
+   "mxn_per_inhabitant": 212138.17,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -87,9 +727,9 @@
    "territory_name": "Ciudad de México",
    "census_year": 2020,
    "population": 9209944,
-   "amount_mxn": 4360847242837.0,
-   "mxn_per_inhabitant": 473493.35,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 21034551145975.04,
+   "mxn_per_inhabitant": 2283895.66,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -97,9 +737,9 @@
    "territory_name": "Durango",
    "census_year": 2020,
    "population": 1832650,
-   "amount_mxn": 83703852978.0,
-   "mxn_per_inhabitant": 45673.67,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 431355460980.14,
+   "mxn_per_inhabitant": 235372.53,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -107,9 +747,9 @@
    "territory_name": "Guanajuato",
    "census_year": 2020,
    "population": 6166934,
-   "amount_mxn": 184734645581.0,
-   "mxn_per_inhabitant": 29955.67,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 988969606786.59,
+   "mxn_per_inhabitant": 160366.5,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -117,9 +757,9 @@
    "territory_name": "Guerrero",
    "census_year": 2020,
    "population": 3540685,
-   "amount_mxn": 147936083079.0,
-   "mxn_per_inhabitant": 41781.77,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 796852534625.54,
+   "mxn_per_inhabitant": 225056.04,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -127,9 +767,9 @@
    "territory_name": "Hidalgo",
    "census_year": 2020,
    "population": 3082841,
-   "amount_mxn": 118692746012.0,
-   "mxn_per_inhabitant": 38501.09,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 684846885837.35,
+   "mxn_per_inhabitant": 222147.98,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -137,9 +777,9 @@
    "territory_name": "Jalisco",
    "census_year": 2020,
    "population": 8348151,
-   "amount_mxn": 273636767654.0,
-   "mxn_per_inhabitant": 32778.13,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 1458139111095.83,
+   "mxn_per_inhabitant": 174666.12,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -147,9 +787,9 @@
    "territory_name": "México",
    "census_year": 2020,
    "population": 16992418,
-   "amount_mxn": 481732609523.0,
-   "mxn_per_inhabitant": 28349.86,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 2515588028810.92,
+   "mxn_per_inhabitant": 148041.79,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -157,9 +797,9 @@
    "territory_name": "Michoacán de Ocampo",
    "census_year": 2020,
    "population": 4748846,
-   "amount_mxn": 137605804946.0,
-   "mxn_per_inhabitant": 28976.68,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 766390294985.62,
+   "mxn_per_inhabitant": 161384.53,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -167,9 +807,9 @@
    "territory_name": "Morelos",
    "census_year": 2020,
    "population": 1971520,
-   "amount_mxn": 73562474146.0,
-   "mxn_per_inhabitant": 37312.57,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 397173996364.06,
+   "mxn_per_inhabitant": 201455.73,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -177,9 +817,9 @@
    "territory_name": "Nayarit",
    "census_year": 2020,
    "population": 1235456,
-   "amount_mxn": 62331799028.0,
-   "mxn_per_inhabitant": 50452.46,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 306235601424.07,
+   "mxn_per_inhabitant": 247872.53,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -187,9 +827,9 @@
    "territory_name": "Nuevo León",
    "census_year": 2020,
    "population": 5784442,
-   "amount_mxn": 252256471420.0,
-   "mxn_per_inhabitant": 43609.47,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 1341910014016.33,
+   "mxn_per_inhabitant": 231986.08,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -197,9 +837,9 @@
    "territory_name": "Oaxaca",
    "census_year": 2020,
    "population": 4132148,
-   "amount_mxn": 169423105696.0,
-   "mxn_per_inhabitant": 41001.22,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 954362924842.95,
+   "mxn_per_inhabitant": 230960.49,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -207,9 +847,9 @@
    "territory_name": "Puebla",
    "census_year": 2020,
    "population": 6583278,
-   "amount_mxn": 175819624250.0,
-   "mxn_per_inhabitant": 26707.0,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 966460918274.05,
+   "mxn_per_inhabitant": 146805.42,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -217,9 +857,9 @@
    "territory_name": "Querétaro",
    "census_year": 2020,
    "population": 2368467,
-   "amount_mxn": 87568396217.0,
-   "mxn_per_inhabitant": 36972.61,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 456078397788.21,
+   "mxn_per_inhabitant": 192562.7,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -227,9 +867,9 @@
    "territory_name": "Quintana Roo",
    "census_year": 2020,
    "population": 1857985,
-   "amount_mxn": 62806029576.0,
-   "mxn_per_inhabitant": 33803.3,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 661138940126.38,
+   "mxn_per_inhabitant": 355836.53,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -237,9 +877,9 @@
    "territory_name": "San Luis Potosí",
    "census_year": 2020,
    "population": 2822255,
-   "amount_mxn": 111136294408.0,
-   "mxn_per_inhabitant": 39378.54,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 592531124029.56,
+   "mxn_per_inhabitant": 209949.53,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -247,9 +887,9 @@
    "territory_name": "Sinaloa",
    "census_year": 2020,
    "population": 3026943,
-   "amount_mxn": 134526641700.0,
-   "mxn_per_inhabitant": 44443.07,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 724212341606.05,
+   "mxn_per_inhabitant": 239255.36,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -257,9 +897,9 @@
    "territory_name": "Sonora",
    "census_year": 2020,
    "population": 2944840,
-   "amount_mxn": 140569817572.0,
-   "mxn_per_inhabitant": 47734.28,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 739200350907.35,
+   "mxn_per_inhabitant": 251015.45,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -267,9 +907,9 @@
    "territory_name": "Tabasco",
    "census_year": 2020,
    "population": 2402598,
-   "amount_mxn": 272662733317.0,
-   "mxn_per_inhabitant": 113486.62,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 1672060265767.49,
+   "mxn_per_inhabitant": 695938.42,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -277,9 +917,9 @@
    "territory_name": "Tamaulipas",
    "census_year": 2020,
    "population": 3527735,
-   "amount_mxn": 188917617016.0,
-   "mxn_per_inhabitant": 53552.1,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 979896120324.89,
+   "mxn_per_inhabitant": 277769.2,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -287,9 +927,9 @@
    "territory_name": "Tlaxcala",
    "census_year": 2020,
    "population": 1342977,
-   "amount_mxn": 44423291662.0,
-   "mxn_per_inhabitant": 33078.22,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 228489096787.18,
+   "mxn_per_inhabitant": 170136.27,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -297,9 +937,9 @@
    "territory_name": "Veracruz de Ignacio de la Llave",
    "census_year": 2020,
    "population": 8062579,
-   "amount_mxn": 332773878064.0,
-   "mxn_per_inhabitant": 41273.88,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 1837657476081.26,
+   "mxn_per_inhabitant": 227924.28,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -307,9 +947,9 @@
    "territory_name": "Yucatán",
    "census_year": 2020,
    "population": 2320898,
-   "amount_mxn": 228854434396.0,
-   "mxn_per_inhabitant": 98605.99,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 909332746713.89,
+   "mxn_per_inhabitant": 391802.12,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2024,
@@ -317,9 +957,9 @@
    "territory_name": "Zacatecas",
    "census_year": 2020,
    "population": 1622138,
-   "amount_mxn": 60070618287.0,
-   "mxn_per_inhabitant": 37031.76,
-   "excluded_unassigned_mxn": 1348429531321.0
+   "amount_mxn": 302464818330.79,
+   "mxn_per_inhabitant": 186460.6,
+   "excluded_unassigned_mxn": 6003539896386.74
   },
   {
    "fiscal_year": 2025,
@@ -327,9 +967,9 @@
    "territory_name": "Aguascalientes",
    "census_year": 2020,
    "population": 1425607,
-   "amount_mxn": 62356052480.0,
-   "mxn_per_inhabitant": 43740.0,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 335017497584.0,
+   "mxn_per_inhabitant": 234999.9,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -337,9 +977,9 @@
    "territory_name": "Baja California",
    "census_year": 2020,
    "population": 3769020,
-   "amount_mxn": 171030824997.0,
-   "mxn_per_inhabitant": 45378.06,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 899277406981.04,
+   "mxn_per_inhabitant": 238597.14,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -347,9 +987,9 @@
    "territory_name": "Baja California Sur",
    "census_year": 2020,
    "population": 798447,
-   "amount_mxn": 52799010326.0,
-   "mxn_per_inhabitant": 66127.13,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 320565433527.17,
+   "mxn_per_inhabitant": 401486.18,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -357,9 +997,9 @@
    "territory_name": "Campeche",
    "census_year": 2020,
    "population": 928363,
-   "amount_mxn": 103474434915.0,
-   "mxn_per_inhabitant": 111459.03,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 640288924203.43,
+   "mxn_per_inhabitant": 689696.73,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -367,9 +1007,9 @@
    "territory_name": "Coahuila de Zaragoza",
    "census_year": 2020,
    "population": 3146771,
-   "amount_mxn": 142643809853.0,
-   "mxn_per_inhabitant": 45330.22,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 783982350483.28,
+   "mxn_per_inhabitant": 249138.67,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -377,9 +1017,9 @@
    "territory_name": "Colima",
    "census_year": 2020,
    "population": 731391,
-   "amount_mxn": 45538947269.0,
-   "mxn_per_inhabitant": 62263.48,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 248186952288.64,
+   "mxn_per_inhabitant": 339335.53,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -387,9 +1027,9 @@
    "territory_name": "Chiapas",
    "census_year": 2020,
    "population": 5543828,
-   "amount_mxn": 167217997984.0,
-   "mxn_per_inhabitant": 30162.91,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 987999352328.99,
+   "mxn_per_inhabitant": 178216.09,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -397,9 +1037,9 @@
    "territory_name": "Chihuahua",
    "census_year": 2020,
    "population": 3741869,
-   "amount_mxn": 160709626725.0,
-   "mxn_per_inhabitant": 42949.03,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 876796263612.7,
+   "mxn_per_inhabitant": 234320.41,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -407,9 +1047,9 @@
    "territory_name": "Ciudad de México",
    "census_year": 2020,
    "population": 9209944,
-   "amount_mxn": 4478669536258.0,
-   "mxn_per_inhabitant": 486286.29,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 22723690731124.01,
+   "mxn_per_inhabitant": 2467299.55,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -417,9 +1057,9 @@
    "territory_name": "Durango",
    "census_year": 2020,
    "population": 1832650,
-   "amount_mxn": 80817807173.0,
-   "mxn_per_inhabitant": 44098.88,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 438286462403.66,
+   "mxn_per_inhabitant": 239154.48,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -427,9 +1067,9 @@
    "territory_name": "Guanajuato",
    "census_year": 2020,
    "population": 6166934,
-   "amount_mxn": 203619972921.0,
-   "mxn_per_inhabitant": 33018.02,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 1087298012498.58,
+   "mxn_per_inhabitant": 176310.95,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -437,9 +1077,9 @@
    "territory_name": "Guerrero",
    "census_year": 2020,
    "population": 3540685,
-   "amount_mxn": 134487025892.0,
-   "mxn_per_inhabitant": 37983.34,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 787440658286.16,
+   "mxn_per_inhabitant": 222397.83,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -447,9 +1087,9 @@
    "territory_name": "Hidalgo",
    "census_year": 2020,
    "population": 3082841,
-   "amount_mxn": 116650647085.0,
-   "mxn_per_inhabitant": 37838.68,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 709476964507.36,
+   "mxn_per_inhabitant": 230137.38,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -457,9 +1097,9 @@
    "territory_name": "Jalisco",
    "census_year": 2020,
    "population": 8348151,
-   "amount_mxn": 298597408033.0,
-   "mxn_per_inhabitant": 35768.09,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 1562490084722.13,
+   "mxn_per_inhabitant": 187166.01,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -467,9 +1107,9 @@
    "territory_name": "México",
    "census_year": 2020,
    "population": 16992418,
-   "amount_mxn": 480872197865.0,
-   "mxn_per_inhabitant": 28299.22,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 2754740420152.72,
+   "mxn_per_inhabitant": 162115.86,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -477,9 +1117,9 @@
    "territory_name": "Michoacán de Ocampo",
    "census_year": 2020,
    "population": 4748846,
-   "amount_mxn": 142649443851.0,
-   "mxn_per_inhabitant": 30038.76,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 814278281007.81,
+   "mxn_per_inhabitant": 171468.66,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -487,9 +1127,9 @@
    "territory_name": "Morelos",
    "census_year": 2020,
    "population": 1971520,
-   "amount_mxn": 79823975503.0,
-   "mxn_per_inhabitant": 40488.54,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 435579935549.12,
+   "mxn_per_inhabitant": 220936.1,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -497,9 +1137,9 @@
    "territory_name": "Nayarit",
    "census_year": 2020,
    "population": 1235456,
-   "amount_mxn": 49643384070.0,
-   "mxn_per_inhabitant": 40182.24,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 278545202331.48,
+   "mxn_per_inhabitant": 225459.43,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -507,9 +1147,9 @@
    "territory_name": "Nuevo León",
    "census_year": 2020,
    "population": 5784442,
-   "amount_mxn": 290055095246.0,
-   "mxn_per_inhabitant": 50144.01,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 1486091539148.46,
+   "mxn_per_inhabitant": 256911.82,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -517,9 +1157,9 @@
    "territory_name": "Oaxaca",
    "census_year": 2020,
    "population": 4132148,
-   "amount_mxn": 170794891006.0,
-   "mxn_per_inhabitant": 41333.2,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 989362998165.3,
+   "mxn_per_inhabitant": 239430.68,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -527,9 +1167,9 @@
    "territory_name": "Puebla",
    "census_year": 2020,
    "population": 6583278,
-   "amount_mxn": 185917200637.0,
-   "mxn_per_inhabitant": 28240.82,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 1039549352178.87,
+   "mxn_per_inhabitant": 157907.56,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -537,9 +1177,9 @@
    "territory_name": "Querétaro",
    "census_year": 2020,
    "population": 2368467,
-   "amount_mxn": 96163753515.0,
-   "mxn_per_inhabitant": 40601.69,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 499169883250.28,
+   "mxn_per_inhabitant": 210756.53,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -547,9 +1187,9 @@
    "territory_name": "Quintana Roo",
    "census_year": 2020,
    "population": 1857985,
-   "amount_mxn": 61154756500.0,
-   "mxn_per_inhabitant": 32914.56,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 385813326104.12,
+   "mxn_per_inhabitant": 207651.48,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -557,9 +1197,9 @@
    "territory_name": "San Luis Potosí",
    "census_year": 2020,
    "population": 2822255,
-   "amount_mxn": 116893240193.0,
-   "mxn_per_inhabitant": 41418.38,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 640938738415.62,
+   "mxn_per_inhabitant": 227101.64,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -567,9 +1207,9 @@
    "territory_name": "Sinaloa",
    "census_year": 2020,
    "population": 3026943,
-   "amount_mxn": 134561226558.0,
-   "mxn_per_inhabitant": 44454.5,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 738043475462.38,
+   "mxn_per_inhabitant": 243824.7,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -577,9 +1217,9 @@
    "territory_name": "Sonora",
    "census_year": 2020,
    "population": 2944840,
-   "amount_mxn": 142905741928.0,
-   "mxn_per_inhabitant": 48527.51,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 786488421089.27,
+   "mxn_per_inhabitant": 267073.4,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -587,9 +1227,9 @@
    "territory_name": "Tabasco",
    "census_year": 2020,
    "population": 2402598,
-   "amount_mxn": 255613311477.0,
-   "mxn_per_inhabitant": 106390.38,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 1387771855834.69,
+   "mxn_per_inhabitant": 577613.01,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -597,9 +1237,9 @@
    "territory_name": "Tamaulipas",
    "census_year": 2020,
    "population": 3527735,
-   "amount_mxn": 194313353827.0,
-   "mxn_per_inhabitant": 55081.62,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 1027307233941.17,
+   "mxn_per_inhabitant": 291208.73,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -607,9 +1247,9 @@
    "territory_name": "Tlaxcala",
    "census_year": 2020,
    "population": 1342977,
-   "amount_mxn": 44818412118.0,
-   "mxn_per_inhabitant": 33372.43,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 248425159075.31,
+   "mxn_per_inhabitant": 184980.95,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -617,9 +1257,9 @@
    "territory_name": "Veracruz de Ignacio de la Llave",
    "census_year": 2020,
    "population": 8062579,
-   "amount_mxn": 356445677122.0,
-   "mxn_per_inhabitant": 44209.88,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 2021809964103.91,
+   "mxn_per_inhabitant": 250764.67,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -627,9 +1267,9 @@
    "territory_name": "Yucatán",
    "census_year": 2020,
    "population": 2320898,
-   "amount_mxn": 146502478620.0,
-   "mxn_per_inhabitant": 63123.19,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 780756809508.57,
+   "mxn_per_inhabitant": 336402.9,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2025,
@@ -637,9 +1277,9 @@
    "territory_name": "Zacatecas",
    "census_year": 2020,
    "population": 1622138,
-   "amount_mxn": 57142954156.0,
-   "mxn_per_inhabitant": 35226.94,
-   "excluded_unassigned_mxn": 1570200922478.0
+   "amount_mxn": 329075859208.41,
+   "mxn_per_inhabitant": 202865.51,
+   "excluded_unassigned_mxn": 6565571098720.41
   },
   {
    "fiscal_year": 2026,
@@ -963,6 +1603,11 @@
   }
  ],
  "caveats": {
+  "ejecucion_presupuestal": [
+   "Aprobado y ejercido no son comparables sin contexto: el presupuesto puede modificarse legalmente durante el año por ampliaciones, reducciones y transferencias autorizadas. La columna modificado es la referencia intermedia.",
+   "Gastar menos de lo aprobado no significa por sí mismo subejercicio ni ahorro, y gastar más no significa irregularidad. Códice publica las cifras y su fuente; la interpretación corresponde a quien consulta.",
+   "La Cuenta Pública se publica al cierre del ejercicio, así que el año en curso no tiene cifra ejercida."
+  ],
   "gasto_por_habitante": [
    "El PEF asigna el gasto a la entidad donde está domiciliada la unidad responsable, no donde se ejerce. Cerca de la mitad del gasto con entidad asignada se registra en la Ciudad de México por el domicilio de las oficinas centrales.",
    "La población de referencia es la del Censo 2020 del INEGI; el gasto es del ejercicio fiscal indicado. Comparar años distintos sin ajustar por inflación compara pesos nominales, no poder de compra.",
@@ -1980,25 +2625,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 1722324775.5,
+      "pagado": 1613572701.6,
+      "devengado": 1697277933.5,
+      "aprobado": 1722324772.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 1722324772.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 1581765174.43,
+      "aprobado": 1798324772.0,
+      "devengado": 1638166929.61,
+      "modificado": 1745948237.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 1798324772.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 1722143661.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 1652643661.0,
+      "aprobado": 1722143661.0,
+      "pagado": 1392479976.9,
+      "devengado": 1417893306.13,
+      "ejercido": 1417893306.13
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 1722143661.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 1722372356.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 1403629432.57,
+      "ejercido": 1462799814.18,
+      "aprobado": 1722372356.0,
+      "devengado": 1462799814.18,
+      "modificado": 1673343796.98
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 1722372356.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 1819769907.0,
+     "stages": {
+      "aprobado": 1819769907.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 1819769907.0
     }
    ],
    "depth": 0
@@ -2028,18 +2716,58 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 608490048.6,
+      "modificado": 625897897.6,
+      "devengado": 625897897.6,
+      "aprobado": 616125143.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 616125143.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 659159275.78,
+      "aprobado": 656419601.0,
+      "devengado": 676258480.96,
+      "modificado": 676258480.96
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 656419601.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 687866026.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 702643007.77,
+      "modificado": 717837009.22,
+      "ejercido": 717837009.22,
+      "aprobado": 687866026.0,
+      "devengado": 717837009.22
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 687866026.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 199866026.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "aprobado": 199866026.0,
+      "modificado": 307514754.62,
+      "ejercido": 307514754.62,
+      "devengado": 307514754.62,
+      "pagado": 307514754.62
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 199866026.0
     }
    ],
    "depth": 0
@@ -3958,25 +4686,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 490916873.2,
+      "modificado": 490916873.2,
+      "pagado": 484893119.5,
+      "aprobado": 833863400.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 833863400.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 519197401.59,
+      "devengado": 519197401.59,
+      "aprobado": 875520230.0,
+      "pagado": 516490737.71
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 875520230.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 924086366.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 593378197.79,
+      "modificado": 593378197.79,
+      "aprobado": 924086366.0,
+      "devengado": 593378197.79,
+      "pagado": 593302799.76
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 924086366.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 823526670.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "aprobado": 823526670.0,
+      "pagado": 530778869.05,
+      "modificado": 530778869.05,
+      "ejercido": 530778869.05,
+      "devengado": 530778869.05
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 823526670.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 800455608.0,
+     "stages": {
+      "aprobado": 800455608.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 800455608.0
     }
    ],
    "depth": 0
@@ -4006,25 +4777,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 17023927873.8,
+      "pagado": 17023887664.0,
+      "aprobado": 17966054777.0,
+      "devengado": 17023887664.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 17966054777.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 18942643443.13,
+      "aprobado": 18954187807.0,
+      "modificado": 18942643443.13,
+      "devengado": 18942643443.13
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 18954187807.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 19333372129.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 19810715389.6,
+      "devengado": 19810715389.6,
+      "pagado": 19810715389.6,
+      "aprobado": 19333372129.0,
+      "ejercido": 19810715389.6
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 19333372129.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 20125980181.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 20345584770.51,
+      "modificado": 20345584770.51,
+      "aprobado": 20125980181.0,
+      "pagado": 20345584770.51,
+      "ejercido": 20345584770.51
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 20125980181.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 20240442089.0,
+     "stages": {
+      "aprobado": 20240442089.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 20240442089.0
     }
    ],
    "depth": 0
@@ -4054,18 +4868,58 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 1560000000.0,
+      "pagado": 2009090820.4,
+      "devengado": 2017007702.4,
+      "modificado": 2017007702.4
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 1560000000.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 2118963036.76,
+      "modificado": 2118963036.76,
+      "pagado": 2118963036.76,
+      "aprobado": 1662023679.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 1662023679.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 1680000000.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 2241508551.74,
+      "pagado": 2241508551.74,
+      "ejercido": 2241508551.74,
+      "aprobado": 1680000000.0,
+      "devengado": 2241508551.74
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 1680000000.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 500000000.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 675153228.72,
+      "modificado": 676680253.45,
+      "devengado": 675153228.72,
+      "ejercido": 675153228.72,
+      "aprobado": 500000000.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 500000000.0
     }
    ],
    "depth": 0
@@ -4102,18 +4956,58 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 975007028.9,
+      "aprobado": 982905153.0,
+      "devengado": 975007028.9,
+      "pagado": 974961411.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 982905153.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 1042158326.61,
+      "pagado": 1036421013.9,
+      "devengado": 1042158326.61,
+      "aprobado": 1047186948.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 1047186948.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 1097353466.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 1033196809.47,
+      "devengado": 1033196809.47,
+      "pagado": 1033196809.47,
+      "aprobado": 1097353466.0,
+      "ejercido": 1033196809.47
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 1097353466.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 499990582.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 352377068.86,
+      "aprobado": 499990582.0,
+      "ejercido": 352377068.86,
+      "devengado": 352377068.86,
+      "modificado": 352377068.86
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 499990582.0
     }
    ],
    "depth": 0
@@ -4143,25 +5037,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 19532025752.2,
+      "aprobado": 19736593972.0,
+      "modificado": 20127591375.8,
+      "devengado": 19874171491.3
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 19736593972.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 20729036547.13,
+      "devengado": 20372928063.44,
+      "pagado": 19884838011.33,
+      "aprobado": 20221367571.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 20221367571.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 32767037027.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 32700240222.73,
+      "ejercido": 33167201794.51,
+      "devengado": 33167201794.51,
+      "aprobado": 32767037027.0,
+      "modificado": 33800839189.35
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 32767037027.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 27000056755.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 28287981354.96,
+      "aprobado": 27000056755.0,
+      "pagado": 27820475009.82,
+      "ejercido": 28287981354.96,
+      "modificado": 28774898561.3
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 27000056755.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 21837221581.0,
+     "stages": {
+      "aprobado": 21837221581.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 21837221581.0
     }
    ],
    "depth": 0
@@ -4191,25 +5128,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 11159433946.8,
+      "pagado": 10847731513.9,
+      "devengado": 11159433946.8,
+      "aprobado": 11115300004.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 11115300004.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 10051944893.6,
+      "aprobado": 9875408830.0,
+      "pagado": 9676830796.22,
+      "devengado": 10051944893.6
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 9875408830.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 14245298738.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 14238726488.46,
+      "devengado": 14238726488.46,
+      "aprobado": 14245298738.0,
+      "pagado": 13728039668.26,
+      "ejercido": 14238726488.46
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 14245298738.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 12245298773.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 14947283238.55,
+      "devengado": 14947283238.55,
+      "aprobado": 12245298773.0,
+      "pagado": 14568443007.62,
+      "ejercido": 14947283238.55
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 12245298773.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 11807500000.0,
+     "stages": {
+      "aprobado": 11807500000.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 11807500000.0
     }
    ],
    "depth": 0
@@ -4239,25 +5219,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 15620438395.1,
+      "aprobado": 15012582403.0,
+      "modificado": 15620438395.1,
+      "pagado": 15417915611.5
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 15012582403.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 16750343622.21,
+      "devengado": 16750343622.21,
+      "aprobado": 15994401896.0,
+      "pagado": 16545054577.07
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 15994401896.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 16760629404.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 17679794555.19,
+      "aprobado": 16760629404.0,
+      "ejercido": 17746720269.22,
+      "modificado": 17746720269.22,
+      "devengado": 17746720269.22
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 16760629404.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 17529076502.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 18525589699.53,
+      "modificado": 18619629060.83,
+      "ejercido": 18619629060.83,
+      "aprobado": 17529076502.0,
+      "devengado": 18619629060.83
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 17529076502.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 17529076499.0,
+     "stages": {
+      "aprobado": 17529076499.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 17529076499.0
     }
    ],
    "depth": 0
@@ -5241,25 +6264,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 73723020424.0,
+      "modificado": 74181056508.4,
+      "pagado": 70551609425.2,
+      "devengado": 74141711056.2
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 73723020424.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "aprobado": 77544491126.0,
+      "devengado": 78161127184.53,
+      "pagado": 74695806709.43,
+      "modificado": 78463867105.27
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 77544491126.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 78327278245.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "aprobado": 78327278245.0,
+      "devengado": 78510934527.35,
+      "ejercido": 78510934527.35,
+      "pagado": 75897355193.98,
+      "modificado": 79494273287.56
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 78327278245.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 70983606302.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "ejercido": 82286590315.52,
+      "modificado": 82296580832.01,
+      "pagado": 77938260778.72,
+      "aprobado": 70983606302.0,
+      "devengado": 82286590315.52
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 70983606302.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 70005628646.0,
+     "stages": {
+      "aprobado": 70005628646.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 70005628646.0
     }
    ],
    "depth": 0
@@ -5289,25 +6355,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 2948996861.8,
+      "aprobado": 2986075575.0,
+      "modificado": 3015225462.9,
+      "devengado": 3015225462.9
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 2986075575.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 3103085900.14,
+      "aprobado": 3153190149.0,
+      "devengado": 3203160529.09,
+      "modificado": 3203160529.09
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 3153190149.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 3304534515.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 3365802321.25,
+      "pagado": 3254885602.2,
+      "devengado": 3365802321.25,
+      "aprobado": 3304534515.0,
+      "modificado": 3365802321.25
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 3304534515.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 3304534515.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 3346912020.61,
+      "aprobado": 3304534515.0,
+      "pagado": 3150554109.86,
+      "ejercido": 3346912020.61,
+      "devengado": 3346912020.61
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 3304534515.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 3400000000.0,
+     "stages": {
+      "aprobado": 3400000000.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 3400000000.0
     }
    ],
    "depth": 0
@@ -5345,17 +6454,27 @@
    "budget": [
     {
      "fiscal_year": 2025,
-     "amount_mxn": 3010196463.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "aprobado": 3010196463.0,
+      "devengado": 5149644202.48,
+      "ejercido": 5149644202.48,
+      "pagado": 5029644202.48,
+      "modificado": 5149644202.48
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 3010196463.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 3852669660.0,
+     "stages": {
+      "aprobado": 3852669660.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 3852669660.0
     }
    ],
    "depth": 1
@@ -9926,18 +11045,58 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 645737378.5,
+      "modificado": 645737378.5,
+      "aprobado": 222860839.0,
+      "devengado": 645737378.5
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 222860839.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 583189541.49,
+      "modificado": 713296796.49,
+      "aprobado": 233949815.0,
+      "pagado": 582947125.85
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 233949815.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 247551341.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 629740531.14,
+      "pagado": 629740531.14,
+      "modificado": 843740531.14,
+      "aprobado": 247551341.0,
+      "devengado": 629740531.14
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 247551341.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 173285941.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "ejercido": 72833589.54,
+      "devengado": 72833589.54,
+      "aprobado": 173285941.0,
+      "pagado": 72833589.54,
+      "modificado": 72833589.54
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 173285941.0
     }
    ],
    "depth": 1
@@ -10000,18 +11159,58 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 444039032.3,
+      "modificado": 444039032.3,
+      "pagado": 442982159.6,
+      "aprobado": 256509841.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 256509841.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 419786130.75,
+      "modificado": 419786130.75,
+      "aprobado": 269291646.0,
+      "pagado": 417976445.25
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 269291646.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 285506948.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 434306156.09,
+      "ejercido": 434306156.09,
+      "devengado": 434306156.09,
+      "aprobado": 285506948.0,
+      "modificado": 434306156.09
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 285506948.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 199854863.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 63786755.7,
+      "pagado": 63786755.7,
+      "ejercido": 63786755.7,
+      "devengado": 63786755.7,
+      "aprobado": 199854863.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 199854863.0
     }
    ],
    "depth": 1
@@ -10100,25 +11299,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 154493602.5,
+      "aprobado": 147283767.0,
+      "pagado": 152736237.7,
+      "modificado": 154493602.5
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 147283767.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 155328346.65,
+      "modificado": 164358305.3,
+      "aprobado": 154970460.0,
+      "devengado": 164358305.3
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 154970460.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 164491682.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "devengado": 166481629.4,
+      "modificado": 166481629.4,
+      "aprobado": 164491682.0,
+      "pagado": 165981251.65,
+      "ejercido": 166481629.4
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 164491682.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 149620646.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 161694323.93,
+      "devengado": 161694323.93,
+      "aprobado": 149620646.0,
+      "pagado": 161694323.93,
+      "ejercido": 161694323.93
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 149620646.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 153145398.0,
+     "stages": {
+      "aprobado": 153145398.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 153145398.0
     }
    ],
    "depth": 1
@@ -10214,25 +11456,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 1026801485383.0,
+      "aprobado": 1010840765109.0,
+      "pagado": 1054662183763.0,
+      "modificado": 1054937469448.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 1010840765109.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 1182156816734.0,
+      "modificado": 1183709759193.0,
+      "aprobado": 1165698799075.0,
+      "devengado": 1174845184037.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 1165698799075.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 1345950717395.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 1348317699192.0,
+      "ejercido": 1348317699192.0,
+      "devengado": 1341919921482.0,
+      "modificado": 1350620159358.0,
+      "aprobado": 1345950717395.0
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 1345950717395.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 1469410379894.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 1508330823278.0,
+      "aprobado": 1469410379894.0,
+      "devengado": 1535609165940.0,
+      "ejercido": 1507293557378.0,
+      "pagado": 1507293557378.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 1469410379894.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 1590308696623.0,
+     "stages": {
+      "aprobado": 1590308696623.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 1590308696623.0
     }
    ],
    "depth": 1
@@ -10263,10 +11548,13 @@
    "budget": [
     {
      "fiscal_year": 2026,
-     "amount_mxn": 172492400589.0,
+     "stages": {
+      "aprobado": 172492400589.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 172492400589.0
     }
    ],
    "depth": 1
@@ -10329,25 +11617,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 414999521056.0,
+      "aprobado": 396948621994.0,
+      "devengado": 404040209019.0,
+      "pagado": 413216606986.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 396948621994.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 441266350094.0,
+      "aprobado": 439044390046.0,
+      "modificado": 444588622306.0,
+      "pagado": 444291021264.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 439044390046.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 475829006741.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "aprobado": 475829006741.0,
+      "devengado": 480321127620.0,
+      "pagado": 485802151643.0,
+      "ejercido": 485802151643.0,
+      "modificado": 486536296769.0
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 475829006741.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 525615400000.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "aprobado": 525615400000.0,
+      "devengado": 522827240504.0,
+      "modificado": 522827830297.0,
+      "pagado": 522827240504.0,
+      "ejercido": 522827240504.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 525615400000.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 539020762386.0,
+     "stages": {
+      "aprobado": 539020762386.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 539020762386.0
     }
    ],
    "depth": 1
@@ -10450,25 +11781,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 55788965938.0,
+      "devengado": 56380036470.4,
+      "modificado": 56380036470.4,
+      "pagado": 56038283566.9
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 55788965938.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 70598410263.48,
+      "pagado": 70583073713.76,
+      "devengado": 70598410263.48,
+      "aprobado": 70527933647.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 70527933647.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 74109572158.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "aprobado": 74109572158.0,
+      "pagado": 69473691033.18,
+      "ejercido": 69474143603.22,
+      "devengado": 69474143603.22,
+      "modificado": 69474143603.22
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 74109572158.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 74515190541.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 74003989011.79,
+      "ejercido": 74003989011.79,
+      "aprobado": 74515190541.0,
+      "modificado": 74003989011.79,
+      "pagado": 74003986989.91
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 74515190541.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 75836497826.0,
+     "stages": {
+      "aprobado": 75836497826.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 75836497826.0
     }
    ],
    "depth": 1
@@ -10505,25 +11879,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 1926217645.6,
+      "modificado": 1926217645.6,
+      "aprobado": 1446265154.0,
+      "pagado": 1908418356.3
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 1446265154.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 2116259103.88,
+      "modificado": 2116259103.88,
+      "pagado": 2116062077.95,
+      "aprobado": 1533457177.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 1533457177.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 1636585246.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "aprobado": 1636585246.0,
+      "pagado": 2438979188.81,
+      "ejercido": 2438979188.81,
+      "modificado": 2438983282.82,
+      "devengado": 2438979188.81
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 1636585246.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 1699025258.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 2444028981.46,
+      "aprobado": 1699025258.0,
+      "ejercido": 2444028981.46,
+      "modificado": 2444028981.46,
+      "pagado": 2444028981.46
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 1699025258.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 1743051816.0,
+     "stages": {
+      "aprobado": 1743051816.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 1743051816.0
     }
    ],
    "depth": 1
@@ -10560,25 +11977,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 307474025685.3,
+      "modificado": 307474025685.3,
+      "pagado": 306391532490.4,
+      "aprobado": 299315515989.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 299315515989.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 412620924508.85,
+      "devengado": 412620893283.71,
+      "pagado": 412109668453.82,
+      "aprobado": 414632484610.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 414632484610.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 543933015639.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 522849534820.12,
+      "devengado": 523209614670.29,
+      "aprobado": 543933015639.0,
+      "modificado": 523209614670.29,
+      "ejercido": 523209614670.29
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 543933015639.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 579883866555.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 606896547314.36,
+      "aprobado": 579883866555.0,
+      "modificado": 606942866117.52,
+      "ejercido": 606896514792.54,
+      "pagado": 606890606785.3
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 579883866555.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 674510024515.0,
+     "stages": {
+      "aprobado": 674510024515.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 674510024515.0
     }
    ],
    "depth": 1
@@ -10615,25 +12075,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 29564150670.0,
+      "modificado": 29283408979.9,
+      "pagado": 29283408979.9,
+      "devengado": 29283408979.9
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 29564150670.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 33391170775.52,
+      "aprobado": 31655085408.0,
+      "modificado": 33406594280.62,
+      "devengado": 33406594280.62
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 31655085408.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 33170745272.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "devengado": 35795132601.28,
+      "pagado": 35795132601.28,
+      "ejercido": 35795132601.28,
+      "aprobado": 33170745272.0,
+      "modificado": 35795132601.28
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 33170745272.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 33295924363.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "aprobado": 33295924363.0,
+      "modificado": 38915389459.88,
+      "pagado": 38856821405.48,
+      "ejercido": 38915389459.88,
+      "devengado": 38915389459.88
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 33295924363.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 37360832784.0,
+     "stages": {
+      "aprobado": 37360832784.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 37360832784.0
     }
    ],
    "depth": 1
@@ -10670,25 +12173,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 15028490017.0,
+      "modificado": 16612815298.3,
+      "devengado": 16612815298.3,
+      "pagado": 16275348460.8
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 15028490017.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 18290588546.39,
+      "aprobado": 15925050769.0,
+      "pagado": 17417039131.5,
+      "modificado": 18290588546.39
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 15925050769.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 16754896906.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "devengado": 16800312840.12,
+      "modificado": 16800389085.35,
+      "aprobado": 16754896906.0,
+      "ejercido": 16800312840.12,
+      "pagado": 16796061371.51
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 16754896906.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 15081496999.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 15967457780.98,
+      "pagado": 15736400738.72,
+      "aprobado": 15081496999.0,
+      "ejercido": 15967457780.98,
+      "modificado": 15970712325.68
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 15081496999.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 15082889146.0,
+     "stages": {
+      "aprobado": 15082889146.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 15082889146.0
     }
    ],
    "depth": 1
@@ -10725,25 +12271,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 132119174525.7,
+      "devengado": 141201170774.7,
+      "modificado": 141201170774.7,
+      "aprobado": 104107905551.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 104107905551.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 144060042600.97,
+      "modificado": 144060042600.97,
+      "aprobado": 111911638277.0,
+      "pagado": 129648200071.32
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 111911638277.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 259433804766.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 215389130094.79,
+      "modificado": 236321199011.24,
+      "ejercido": 236321196197.21,
+      "devengado": 236321199011.21,
+      "aprobado": 259433804766.0
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 259433804766.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 158287750650.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "aprobado": 158287750650.0,
+      "modificado": 160760450618.97,
+      "devengado": 160760442218.97,
+      "ejercido": 160760442218.97,
+      "pagado": 160483405735.44
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 158287750650.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 170753142093.0,
+     "stages": {
+      "aprobado": 170753142093.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 170753142093.0
     }
    ],
    "depth": 1
@@ -10780,25 +12369,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 17045795139.7,
+      "aprobado": 12868470195.0,
+      "modificado": 17045795139.7,
+      "pagado": 17033737060.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 12868470195.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 21259384821.18,
+      "aprobado": 15264743748.0,
+      "devengado": 21259384821.18,
+      "pagado": 21217527653.03
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 15264743748.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 12880269834.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "aprobado": 12880269834.0,
+      "modificado": 15073623267.98,
+      "devengado": 15073623267.98,
+      "ejercido": 15073623267.98,
+      "pagado": 15068196757.94
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 12880269834.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 38048025025.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 23332673394.2,
+      "ejercido": 23390612012.73,
+      "devengado": 23390612012.73,
+      "modificado": 23390612012.73,
+      "aprobado": 38048025025.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 38048025025.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 36290113966.0,
+     "stages": {
+      "aprobado": 36290113966.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 36290113966.0
     }
    ],
    "depth": 1
@@ -10835,25 +12467,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 3586716123.0,
+      "devengado": 3801886571.4,
+      "modificado": 3801886571.4,
+      "pagado": 3769185794.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 3586716123.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 3540555734.35,
+      "modificado": 3559313423.08,
+      "aprobado": 3778113707.0,
+      "devengado": 3559313423.08
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 3778113707.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 3960433717.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 3746512587.44,
+      "devengado": 3746512587.44,
+      "pagado": 3744062837.92,
+      "modificado": 3746512587.44,
+      "aprobado": 3960433717.0
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 3960433717.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 3533463352.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "ejercido": 3777147030.8,
+      "devengado": 3777147030.8,
+      "aprobado": 3533463352.0,
+      "modificado": 3777147030.8,
+      "pagado": 3757424588.12
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 3533463352.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 3535460234.0,
+     "stages": {
+      "aprobado": 3535460234.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 3535460234.0
     }
    ],
    "depth": 1
@@ -10890,25 +12565,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 381611847798.8,
+      "devengado": 381611780801.6,
+      "pagado": 381023994211.3,
+      "aprobado": 364600046855.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 364600046855.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "aprobado": 402276748788.0,
+      "pagado": 419913242432.57,
+      "devengado": 420251657970.41,
+      "modificado": 420251657970.41
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 402276748788.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 439017942697.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "devengado": 447892820709.75,
+      "aprobado": 439017942697.0,
+      "modificado": 447892820709.75,
+      "ejercido": 447892820709.75,
+      "pagado": 447800534412.28
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 439017942697.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 465871888417.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "ejercido": 490977532051.41,
+      "modificado": 491067333422.12,
+      "devengado": 490980491762.63,
+      "pagado": 487457464215.33,
+      "aprobado": 465871888417.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 465871888417.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 523858227933.0,
+     "stages": {
+      "aprobado": 523858227933.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 523858227933.0
     }
    ],
    "depth": 1
@@ -10945,25 +12663,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 47057724667.0,
+      "modificado": 191013407125.6,
+      "pagado": 190998640389.5,
+      "devengado": 191013407125.6
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 47057724667.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 179405332027.78,
+      "pagado": 179400658063.19,
+      "devengado": 179405332027.78,
+      "aprobado": 49401949404.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 49401949404.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 167736232946.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "devengado": 179116976497.74,
+      "pagado": 179113426597.32,
+      "ejercido": 179116976497.74,
+      "aprobado": 167736232946.0,
+      "modificado": 179116976497.74
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 167736232946.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 138307358236.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 399747229302.58,
+      "aprobado": 138307358236.0,
+      "devengado": 399747224068.51,
+      "pagado": 399747219148.55,
+      "ejercido": 399747224067.55
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 138307358236.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 267439114491.0,
+     "stages": {
+      "aprobado": 267439114491.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 267439114491.0
     }
    ],
    "depth": 1
@@ -11033,25 +12794,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 14775878634.3,
+      "pagado": 13996386729.9,
+      "devengado": 14775878634.3,
+      "aprobado": 6218678962.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 6218678962.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 13080256943.29,
+      "pagado": 13034939732.6,
+      "modificado": 13080256943.29,
+      "aprobado": 7868628691.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 7868628691.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 10868792885.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "aprobado": 10868792885.0,
+      "devengado": 20254920795.86,
+      "pagado": 17965151069.83,
+      "ejercido": 20254920795.86,
+      "modificado": 20254920795.86
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 10868792885.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 9177865621.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 14096891104.48,
+      "aprobado": 9177865621.0,
+      "ejercido": 14665703826.47,
+      "devengado": 14665703826.47,
+      "modificado": 14665703826.47
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 9177865621.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 9959699324.0,
+     "stages": {
+      "aprobado": 9959699324.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 9959699324.0
     }
    ],
    "depth": 1
@@ -11088,25 +12892,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 71045223438.1,
+      "devengado": 71045223438.1,
+      "aprobado": 21370912383.0,
+      "pagado": 70451416074.5
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 21370912383.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 106633748234.16,
+      "aprobado": 25202085876.0,
+      "pagado": 105696724116.42,
+      "devengado": 106633748234.16
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 25202085876.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 28320840825.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 105162060144.63,
+      "aprobado": 28320840825.0,
+      "pagado": 96718281761.26,
+      "devengado": 105147518824.63,
+      "ejercido": 105147518824.63
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 28320840825.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 26732706241.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 130897379855.58,
+      "ejercido": 130897379855.58,
+      "aprobado": 26732706241.0,
+      "pagado": 79043813435.6,
+      "modificado": 130897379855.58
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 26732706241.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 26792115351.0,
+     "stages": {
+      "aprobado": 26792115351.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 26792115351.0
     }
    ],
    "depth": 1
@@ -11143,25 +12990,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 61336634071.6,
+      "modificado": 62332360731.2,
+      "devengado": 62332360731.2,
+      "aprobado": 65553589581.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 65553589581.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 71739074111.57,
+      "devengado": 71739074111.57,
+      "aprobado": 77411447232.0,
+      "pagado": 69809370498.82
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 77411447232.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 85688296039.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 74693711492.8,
+      "aprobado": 85688296039.0,
+      "modificado": 74693711492.8,
+      "devengado": 74693711492.8,
+      "pagado": 73411508534.34
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 85688296039.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 147511456246.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 117804955500.6,
+      "ejercido": 131706292833.98,
+      "aprobado": 147511456246.0,
+      "devengado": 131706619329.34,
+      "modificado": 132081754244.48
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 147511456246.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 153539261639.0,
+     "stages": {
+      "aprobado": 153539261639.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 153539261639.0
     }
    ],
    "depth": 1
@@ -11198,25 +13088,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 46287301657.2,
+      "pagado": 46286242124.2,
+      "aprobado": 37750191112.0,
+      "devengado": 46287301657.2
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 37750191112.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "aprobado": 41878142593.0,
+      "modificado": 57551329194.99,
+      "devengado": 57551321329.99,
+      "pagado": 56226238608.23
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 41878142593.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 71888212535.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 127192972271.17,
+      "aprobado": 71888212535.0,
+      "pagado": 126817687667.96,
+      "ejercido": 127192972271.17,
+      "devengado": 127192972271.17
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 71888212535.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 65888744605.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "ejercido": 65738587363.24,
+      "devengado": 65738587363.24,
+      "aprobado": 65888744605.0,
+      "pagado": 65589678440.98,
+      "modificado": 65738587363.24
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 65888744605.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 65926797533.0,
+     "stages": {
+      "aprobado": 65926797533.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 65926797533.0
     }
    ],
    "depth": 1
@@ -11253,25 +13186,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 56796606326.8,
+      "devengado": 56796606326.8,
+      "pagado": 56126570240.6,
+      "aprobado": 40795855575.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 40795855575.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 73166626421.98,
+      "aprobado": 75627265287.0,
+      "modificado": 75407825870.42,
+      "devengado": 75407825870.42
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 75627265287.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 70245482469.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 72080142299.06,
+      "pagado": 70208230608.92,
+      "aprobado": 70245482469.0,
+      "ejercido": 72080142299.06,
+      "devengado": 72080142299.06
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 70245482469.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 44370522371.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "aprobado": 44370522371.0,
+      "modificado": 42394668302.36,
+      "pagado": 40219859714.16,
+      "devengado": 42393858766.46,
+      "ejercido": 42393858766.46
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 44370522371.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 45564073902.0,
+     "stages": {
+      "aprobado": 45564073902.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 45564073902.0
     }
    ],
    "depth": 1
@@ -11309,17 +13285,27 @@
    "budget": [
     {
      "fiscal_year": 2025,
-     "amount_mxn": 2093520195.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 1802869928.11,
+      "modificado": 1802869928.11,
+      "pagado": 1802869928.11,
+      "ejercido": 1802869928.11,
+      "aprobado": 2093520195.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 2093520195.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 2140988180.0,
+     "stages": {
+      "aprobado": 2140988180.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 2140988180.0
     }
    ],
    "depth": 1
@@ -11356,25 +13342,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 13797115899.7,
+      "pagado": 12382537350.8,
+      "aprobado": 9068931721.0,
+      "modificado": 13797115899.7
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 9068931721.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "aprobado": 9534373846.0,
+      "modificado": 14123236458.84,
+      "pagado": 13059611335.56,
+      "devengado": 14123236458.84
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 9534373846.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 9994473186.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 14146663348.0,
+      "modificado": 14146663348.0,
+      "aprobado": 9994473186.0,
+      "devengado": 14146663348.0,
+      "pagado": 13419791956.07
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 9994473186.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 9294170709.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 13928979172.68,
+      "aprobado": 9294170709.0,
+      "pagado": 13912424297.2,
+      "devengado": 13912424344.67,
+      "ejercido": 13912424297.2
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 9294170709.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 9294170690.0,
+     "stages": {
+      "aprobado": 9294170690.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 9294170690.0
     }
    ],
    "depth": 1
@@ -11411,25 +13440,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 180008592676.7,
+      "aprobado": 193948336401.0,
+      "devengado": 182681069439.6,
+      "modificado": 182681069439.6
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 193948336401.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 105425429196.51,
+      "devengado": 105425429196.51,
+      "pagado": 105184933421.45,
+      "aprobado": 209616460086.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 209616460086.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 96989997562.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 67544358342.01,
+      "aprobado": 96989997562.0,
+      "pagado": 65269257091.26,
+      "devengado": 67544374878.42,
+      "modificado": 67544396719.14
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 96989997562.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 66693191547.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 59774990895.01,
+      "aprobado": 66693191547.0,
+      "ejercido": 59774990895.0,
+      "pagado": 59223925594.51,
+      "devengado": 59774990895.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 66693191547.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 66825756831.0,
+     "stages": {
+      "aprobado": 66825756831.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 66825756831.0
     }
    ],
    "depth": 1
@@ -11466,25 +13538,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 54067005685.7,
+      "aprobado": 93379484115.0,
+      "devengado": 57531356939.8,
+      "modificado": 57531373807.8
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 93379484115.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 52959030403.42,
+      "modificado": 58721338745.35,
+      "devengado": 58721338745.35,
+      "aprobado": 100028568587.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 100028568587.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 105838757408.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "modificado": 74219444870.7,
+      "aprobado": 105838757408.0,
+      "pagado": 72180068379.03,
+      "devengado": 74219444870.7,
+      "ejercido": 74219364219.71
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 105838757408.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 70422173705.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 77367637514.87,
+      "aprobado": 70422173705.0,
+      "modificado": 77370724459.99,
+      "pagado": 77093817968.5,
+      "ejercido": 77367637514.87
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 70422173705.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 60110883499.0,
+     "stages": {
+      "aprobado": 60110883499.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 60110883499.0
     }
    ],
    "depth": 1
@@ -11521,25 +13636,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "modificado": 25461198951.1,
+      "pagado": 25260180376.2,
+      "devengado": 25461198951.1,
+      "aprobado": 25384375970.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 25384375970.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 25994393859.49,
+      "modificado": 26033623913.53,
+      "devengado": 26033623913.53,
+      "aprobado": 27118736621.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 27118736621.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 28603160722.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 27922920655.12,
+      "pagado": 27922633908.24,
+      "modificado": 27922923949.12,
+      "devengado": 27922920655.12,
+      "aprobado": 28603160722.0
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 28603160722.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 27830216279.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "devengado": 27992006950.33,
+      "ejercido": 27992006950.33,
+      "pagado": 27991996070.33,
+      "aprobado": 27830216279.0,
+      "modificado": 27992006950.33
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 27830216279.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 28760904563.0,
+     "stages": {
+      "aprobado": 28760904563.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 28760904563.0
     }
    ],
    "depth": 1
@@ -11576,25 +13734,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "devengado": 182141558795.3,
+      "aprobado": 65670998944.0,
+      "modificado": 182141558795.3,
+      "pagado": 179940098110.9
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 65670998944.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "modificado": 100075327290.14,
+      "devengado": 100075327290.14,
+      "pagado": 94036342545.1,
+      "aprobado": 145565092661.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 145565092661.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 1973687679.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "pagado": 136255985960.07,
+      "aprobado": 1973687679.0,
+      "devengado": 136282288124.71,
+      "ejercido": 136282288124.71,
+      "modificado": 136282288124.71
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 1973687679.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 1774898238.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "pagado": 2539078617.19,
+      "devengado": 2539078617.19,
+      "ejercido": 2539078617.19,
+      "aprobado": 1774898238.0,
+      "modificado": 2539078617.19
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 1774898238.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 1793473210.0,
+     "stages": {
+      "aprobado": 1793473210.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 1793473210.0
     }
    ],
    "depth": 1
@@ -13032,25 +15233,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "pagado": 541764276364.0,
+      "modificado": 541764276364.0,
+      "devengado": 553669177535.0,
+      "aprobado": 479582812606.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 479582812606.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "pagado": 543942282923.0,
+      "modificado": 543942282923.0,
+      "aprobado": 475613612069.0,
+      "devengado": 533714759439.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 475613612069.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 528532673275.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 563014153304.0,
+      "aprobado": 528532673275.0,
+      "devengado": 561694729212.0,
+      "modificado": 563014153304.0,
+      "pagado": 563014153304.0
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 528532673275.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 583951128859.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "ejercido": 604849385580.0,
+      "devengado": 577076841744.0,
+      "modificado": 604849385580.0,
+      "aprobado": 583951128859.0,
+      "pagado": 604849385580.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 583951128859.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 602567503089.0,
+     "stages": {
+      "aprobado": 602567503089.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 602567503089.0
     }
    ],
    "depth": 2
@@ -13309,25 +15553,68 @@
    "occupants": [],
    "budget": [
     {
+     "fiscal_year": 2022,
+     "stages": {
+      "aprobado": 778837192739.0,
+      "modificado": 803108276191.0,
+      "devengado": 820358588512.0,
+      "pagado": 803108276190.0
+     },
+     "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+     "captured_at": "2026-08-30T15:29:58+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+     "amount_mxn": 778837192739.0
+    },
+    {
+     "fiscal_year": 2023,
+     "stages": {
+      "devengado": 760142193868.0,
+      "pagado": 680400475312.0,
+      "aprobado": 826493095059.0,
+      "modificado": 680491562806.0
+     },
+     "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+     "captured_at": "2026-08-30T15:30:30+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+     "amount_mxn": 826493095059.0
+    },
+    {
      "fiscal_year": 2024,
-     "amount_mxn": 624805550885.0,
-     "hash": "7012f3fde3f94e7a76488d100c349c076c186c04939fd833e6e12cb0d10136be",
-     "captured_at": "2026-08-30T14:38:28+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2024.csv"
+     "stages": {
+      "ejercido": 673833409985.0,
+      "pagado": 673833409985.0,
+      "modificado": 673958042793.0,
+      "aprobado": 624805550885.0,
+      "devengado": 688132144661.0
+     },
+     "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+     "captured_at": "2026-08-30T15:30:52+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+     "amount_mxn": 624805550885.0
     },
     {
      "fiscal_year": 2025,
-     "amount_mxn": 612145866355.0,
-     "hash": "ac7f932db73b9c1d88e1eab195397886e1d0ee1bc565d7c7bfcdd8620afcc015",
-     "captured_at": "2026-08-30T14:38:51+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2025.csv"
+     "stages": {
+      "modificado": 621517091855.0,
+      "ejercido": 720538398390.0,
+      "devengado": 723986757617.0,
+      "pagado": 620713600186.0,
+      "aprobado": 612145866355.0
+     },
+     "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+     "captured_at": "2026-08-30T15:31:18+00:00",
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+     "amount_mxn": 612145866355.0
     },
     {
      "fiscal_year": 2026,
-     "amount_mxn": 708200878943.0,
+     "stages": {
+      "aprobado": 708200878943.0
+     },
      "hash": "6dec5f3ad52126c3257a74e7e177eada0c591ed8109d861becf767e959c86c03",
      "captured_at": "2026-08-30T14:39:16+00:00",
-     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+     "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv",
+     "amount_mxn": 708200878943.0
     }
    ],
    "depth": 2
@@ -15287,6 +17574,12 @@
    "source": "Cámara de Diputados — SITL"
   },
   {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+   "captured_at": "2026-08-30T15:30:30+00:00",
+   "hash": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+   "source": "SHCP — Transparencia Presupuestaria"
+  },
+  {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=71",
    "captured_at": "2026-08-30T13:35:31+00:00",
    "hash": "bfd83c138dfafb39baa661fb67a20e08bcbaeec8f678d8b8c6447f1b794da8ba",
@@ -15429,6 +17722,12 @@
    "captured_at": "2026-08-30T13:39:23+00:00",
    "hash": "5ec4736bd4b93452c97754d56a08ab81a1d64de6ce4067e5e82a0c699bd03f67",
    "source": "Cámara de Diputados — SITL"
+  },
+  {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/NPTP/PTP_Datos_Abiertos/data/cuenta_publica/cuenta_publica.json",
+   "captured_at": "2026-08-30T15:28:33+00:00",
+   "hash": "e2ced9a567d0ef7a7851f120c7beba9d72c46fe5c31d042d0bf35671497021f6",
+   "source": "SHCP — Transparencia Presupuestaria"
   },
   {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=9",
@@ -16835,6 +19134,18 @@
    "source": "Cámara de Diputados — SITL"
   },
   {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+   "captured_at": "2026-08-30T15:31:18+00:00",
+   "hash": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+   "source": "SHCP — Transparencia Presupuestaria"
+  },
+  {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+   "captured_at": "2026-08-30T15:30:52+00:00",
+   "hash": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+   "source": "SHCP — Transparencia Presupuestaria"
+  },
+  {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=41",
    "captured_at": "2026-08-30T13:36:03+00:00",
    "hash": "227a32cdea784aa8620d8c33cd4df2626a0f0d255fcd71d417dba69a58e4a59e",
@@ -17169,6 +19480,12 @@
    "captured_at": "2026-08-30T13:37:44+00:00",
    "hash": "77ce4d21d159f16c412ce353e9eacd4df9292ce5197f30e26975e366df5de60b",
    "source": "Cámara de Diputados — SITL"
+  },
+  {
+   "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+   "captured_at": "2026-08-30T15:29:58+00:00",
+   "hash": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+   "source": "SHCP — Transparencia Presupuestaria"
   },
   {
    "url": "https://sitl.diputados.gob.mx/LXVI_leg/curricula.php?dipt=185",

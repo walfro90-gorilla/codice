@@ -4,6 +4,7 @@
   python -m codice_normalization load ../data ../ingestion
   python -m codice_normalization people ../ingestion
   python -m codice_normalization budget ../data ../ingestion
+  python -m codice_normalization cuenta-publica ../data ../ingestion
   python -m codice_normalization export ../web/public/data/grafo.json
 """
 
@@ -65,6 +66,16 @@ def main() -> None:
             print(f"snapshots: {budget.load_snapshots(conn, ingestion_dir / 'parsed' / 'pef_snapshots.json')} new")
             print(budget.load_ramos(conn, data_dir, parsed))
             print(budget.load_allocations(conn, parsed, snaps))
+        return
+
+    if cmd == "cuenta-publica":
+        data_dir, ingestion_dir = Path(sys.argv[2]), Path(sys.argv[3])
+        parsed = json.loads((ingestion_dir / "parsed" / "cuenta_publica.json").read_text())
+        snaps = json.loads((ingestion_dir / "parsed" / "cuenta_publica_snapshots.json").read_text())
+        with db.connect() as conn:
+            print(f"snapshots: {budget.load_snapshots(conn, ingestion_dir / 'parsed' / 'cuenta_publica_snapshots.json')} new")
+            print(budget.load_ramos(conn, data_dir, parsed))
+            print(budget.load_allocations(conn, parsed, snaps, stage=None))
         return
 
     if cmd == "export":

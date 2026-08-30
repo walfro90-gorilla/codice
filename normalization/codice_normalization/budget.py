@@ -54,8 +54,13 @@ def load_ramos(conn: psycopg.Connection, data_dir: Path, parsed: list[dict]) -> 
     return {"ramos": len(names), "unmapped": unmapped, "missing_nodes": missing_nodes}
 
 
-def load_allocations(conn: psycopg.Connection, parsed: list[dict], snapshots: list[dict]) -> dict:
-    """One row per (year, ramo, territory). Verifies the total to the cent."""
+def load_allocations(conn: psycopg.Connection, parsed: list[dict], snapshots: list[dict],
+                     stage: str = "aprobado") -> dict:
+    """One row per (year, ramo, territory, stage). Verifies the total to the cent.
+
+    PEF rows carry only the approved figure; Cuenta Pública rows carry a stage
+    each, so the caller passes `stage=None` to read it from the row itself.
+    """
     by_hash = {s["sha256"]: s for s in snapshots}
     stats = {"years": [], "rows": 0, "mismatches": []}
 
@@ -74,22 +79,34 @@ def load_allocations(conn: psycopg.Connection, parsed: list[dict], snapshots: li
                 raise ValueError(f"{fy}: snapshot {snap['sha256'][:12]} not registered")
             snapshot_id = row[0]
 
-            cur.execute("DELETE FROM budget_allocation WHERE fiscal_year = %s", (fy,))
+            stages = {a.get("stage", stage) for a in year["allocations"]}
+            cur.execute(
+                "DELETE FROM budget_allocation WHERE fiscal_year = %s AND stage = ANY(%s)",
+                (fy, list(stages)),
+            )
             for a in year["allocations"]:
                 cur.execute(
                     """INSERT INTO budget_allocation
-                         (fiscal_year, ramo_id, territory_key, scope, amount_mxn, snapshot_id)
-                       VALUES (%s,%s,%s,%s,%s,%s)""",
-                    (fy, a["ramo_id"], a["territory_key"], a["scope"], a["amount_mxn"], snapshot_id),
+                         (fiscal_year, ramo_id, territory_key, scope, amount_mxn, snapshot_id, stage)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s)""",
+                    (fy, a["ramo_id"], a["territory_key"], a["scope"], a["amount_mxn"],
+                     snapshot_id, a.get("stage", stage)),
                 )
                 stats["rows"] += 1
 
-            # The loaded total must equal what the parser read from the file.
-            cur.execute("SELECT sum(amount_mxn) FROM budget_allocation WHERE fiscal_year = %s", (fy,))
-            loaded = float(cur.fetchone()[0] or 0)
-            if abs(loaded - year["total_mxn"]) > 0.01:
-                stats["mismatches"].append({"year": fy, "loaded": loaded, "expected": year["total_mxn"]})
-            stats["years"].append({"year": fy, "total_mxn": loaded, "allocations": len(year["allocations"])})
+            # The loaded total must equal what the parser read from the file,
+            # stage by stage: a budget that loses money while loading is worse
+            # than no budget at all.
+            expected = year.get("totals_by_stage") or {stage: year["total_mxn"]}
+            for st, exp in expected.items():
+                cur.execute(
+                    "SELECT sum(amount_mxn) FROM budget_allocation WHERE fiscal_year=%s AND stage=%s",
+                    (fy, st),
+                )
+                loaded = float(cur.fetchone()[0] or 0)
+                if abs(loaded - exp) > 0.01:
+                    stats["mismatches"].append({"year": fy, "stage": st, "loaded": loaded, "expected": exp})
+            stats["years"].append({"year": fy, "stages": expected, "allocations": len(year["allocations"])})
     conn.commit()
     if stats["mismatches"]:
         raise ValueError(f"budget totals do not match: {stats['mismatches']}")

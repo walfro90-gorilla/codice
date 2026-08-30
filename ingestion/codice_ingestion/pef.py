@@ -22,6 +22,48 @@ from .http import fetch_raw, store_snapshot
 
 BASE = "https://www.transparenciapresupuestaria.gob.mx"
 MANIFEST = f"{BASE}/work/models/PTP/NPTP/PTP_Datos_Abiertos/data/PEF/PEF.json"
+CUENTA_PUBLICA_MANIFEST = f"{BASE}/work/models/PTP/NPTP/PTP_Datos_Abiertos/data/cuenta_publica/cuenta_publica.json"
+
+# The Cuenta Pública publishes the whole spending cycle in one row, so one file
+# yields several stages. Column names are NOT stable across years: 2024 writes
+# MONTO_EJERCIDO, 2025 writes " Ejercido_Bruto " (with surrounding spaces), and
+# 2022-2023 publish no spent column at all. Each stage therefore lists the
+# spellings seen, and a stage simply does not exist for a year that omits it —
+# inventing one would be worse than reporting its absence (R6).
+STAGE_COLUMN_ALIASES = {
+    "aprobado":   ("MONTO_APROBADO", "ORIGINAL_BRUTO", "APROBADO"),
+    "modificado": ("MONTO_MODIFICADO", "MODIFICADO_BRUTO", "MODIFICADO"),
+    "devengado":  ("MONTO_DEVENGADO", "DEVENGADO"),
+    "pagado":     ("MONTO_PAGADO", "PAGADO"),
+    "ejercido":   ("MONTO_EJERCIDO", "EJERCIDO_BRUTO", "EJERCIDO"),
+}
+
+# Ramo and entity keys move too: 2025 uses short names (R, EF).
+RAMO_ID_ALIASES = ("ID_RAMO", "R")
+ENTITY_ID_ALIASES = ("ID_ENTIDAD_FEDERATIVA", "EF")
+RAMO_DESC_ALIASES = ("DESC_RAMO", "RAMO_DESC")
+
+
+def _resolve_columns(fieldnames: list[str]) -> dict:
+    """Map this file's actual headers onto our stable names.
+
+    Headers are normalised (trimmed, upper-cased) before matching because at
+    least one published year pads them with spaces.
+    """
+    norm = {(c or "").strip().upper(): c for c in fieldnames}
+
+    def pick(aliases):
+        for a in aliases:
+            if a in norm:
+                return norm[a]
+        return None
+
+    return {
+        "ramo_id": pick(RAMO_ID_ALIASES),
+        "ramo_desc": pick(RAMO_DESC_ALIASES),
+        "entity": pick(ENTITY_ID_ALIASES),
+        "stages": {st: pick(al) for st, al in STAGE_COLUMN_ALIASES.items() if pick(al)},
+    }
 DICTIONARY = f"{BASE}/work/models/PTP/DatosAbiertos/Diccionarios/Diccionario_PEF.csv"
 SOURCE_KEY = "transparencia_presupuestaria"
 
@@ -120,6 +162,106 @@ def parse(raw: bytes, fiscal_year: int) -> dict:
         "allocations": allocations,
         "total_mxn": round(sum(a["amount_mxn"] for a in allocations), 2),
     }
+
+
+def parse_cuenta_publica(raw: bytes, fiscal_year: int) -> dict:
+    """Aggregate the Cuenta Pública to (ramo, territory) totals PER STAGE.
+
+    Same keys as the PEF (ID_RAMO, ID_ENTIDAD_FEDERATIVA), so approved and
+    spent land in the same table and can be read side by side.
+    """
+    txt = raw.decode("utf-8-sig", errors="replace")
+    reader = csv.DictReader(io.StringIO(txt))
+    cols = _resolve_columns(reader.fieldnames or [])
+    if not cols["ramo_id"]:
+        raise ValueError(f"{fiscal_year}: no ramo column found in {reader.fieldnames}")
+    if not cols["stages"]:
+        raise ValueError(f"{fiscal_year}: no amount columns found in {reader.fieldnames}")
+
+    ramos: dict[int, str] = {}
+    totals: dict[tuple[str, int, str | None, str], float] = defaultdict(float)
+    unreadable: list[str] = []
+    rows = 0
+    blank_rows = 0
+    for row in reader:
+        rows += 1
+        # Some published files are Excel exports padded to the sheet's row limit
+        # (1,048,576). Those trailing rows are entirely empty — skipped, but
+        # COUNTED, so "we ignored 828,067 rows" is never a silent claim.
+        if not (row.get(cols["ramo_id"]) or "").strip():
+            if not any((v or "").strip() for v in row.values()):
+                blank_rows += 1
+                continue
+            unreadable.append("fila sin ramo con datos")
+            continue
+        ramo_id = int(row[cols["ramo_id"]])
+        ramos.setdefault(ramo_id, (row.get(cols["ramo_desc"]) or "").strip())
+
+        ent = (row.get(cols["entity"]) or "").strip() if cols["entity"] else ""
+        if ent in NON_TERRITORIAL:
+            key, scope = None, NON_TERRITORIAL[ent]
+        elif ent.isdigit() and 1 <= int(ent) <= 32:
+            key, scope = f"{int(ent):02d}", "entidad"
+        else:
+            key, scope = None, "no_distribuible"
+
+        for stage, col in cols["stages"].items():
+            value = _amount(row.get(col))
+            if value is None:
+                unreadable.append(row[col])
+                continue
+            totals[(stage, ramo_id, key, scope)] += value
+
+    allocations = [
+        {"stage": st, "ramo_id": r, "territory_key": k, "scope": sc, "amount_mxn": round(v, 2)}
+        for (st, r, k, sc), v in sorted(totals.items(), key=lambda t: (t[0][0], t[0][1], t[0][2] or ""))
+    ]
+    per_stage = defaultdict(float)
+    for a in allocations:
+        per_stage[a["stage"]] += a["amount_mxn"]
+    return {
+        "fiscal_year": fiscal_year,
+        "rows_read": rows,
+        "blank_rows_skipped": blank_rows,
+        "data_rows": rows - blank_rows,
+        "ramos": [{"id": k, "name": v} for k, v in sorted(ramos.items())],
+        "allocations": allocations,
+        "unreadable_cells": len(unreadable),
+        "unreadable_samples": sorted(set(unreadable))[:5],
+        "totals_by_stage": {k: round(v, 2) for k, v in sorted(per_stage.items())},
+        # Which stages this year actually publishes; absent is not zero.
+        "stages_published": sorted(cols["stages"]),
+    }
+
+
+def run_cuenta_publica(snapshots_dir: Path, out_dir: Path, years: list[int] | None = None) -> dict:
+    manifest_raw = fetch_raw(CUENTA_PUBLICA_MANIFEST, timeout=60)
+    snaps = [store_snapshot(manifest_raw, snapshots_dir / "cp_manifest.json",
+                            CUENTA_PUBLICA_MANIFEST, SOURCE_KEY, "application/json")]
+    urls = available_years(manifest_raw)
+    print(f"años publicados: {sorted(urls)}", file=sys.stderr)
+
+    wanted = years or [max(urls)]
+    parsed = []
+    for year in wanted:
+        if year not in urls:
+            print(f"  {year}: no publicado, se omite", file=sys.stderr)
+            continue
+        raw = fetch_raw(urls[year], timeout=900)
+        snap = store_snapshot(raw, snapshots_dir / f"cuenta_publica_{year}.csv", urls[year], SOURCE_KEY, "text/csv")
+        snaps.append(snap)
+        result = parse_cuenta_publica(raw, year)
+        result["snapshot_sha256"] = snap["sha256"]
+        parsed.append(result)
+        t = result["totals_by_stage"]
+        print(f"  {year}: {result['data_rows']:,} filas con datos "
+              f"({result['blank_rows_skipped']:,} vacías) | aprobado {t.get('aprobado',0):,.0f} "
+              f"| ejercido {t.get('ejercido',0):,.0f}", file=sys.stderr)
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "cuenta_publica.json").write_text(json.dumps(parsed, ensure_ascii=False, indent=1))
+    (out_dir / "cuenta_publica_snapshots.json").write_text(json.dumps(snaps, ensure_ascii=False, indent=1))
+    return {"years": [p["fiscal_year"] for p in parsed], "snapshots": len(snaps)}
 
 
 def run(snapshots_dir: Path, out_dir: Path, years: list[int] | None = None) -> dict:

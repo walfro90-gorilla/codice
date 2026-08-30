@@ -80,23 +80,29 @@ def export(conn: psycopg.Connection, out_path: Path) -> dict:
         # Money (Fase 3): approved budget per node and year, plus the source
         # that backs it. Attached to the node so a citation carries provenance.
         cur.execute(
-            """SELECT r.node_id, b.fiscal_year, sum(b.amount_mxn), s.content_hash, s.captured_at, s.url
+            """SELECT r.node_id, b.fiscal_year, b.stage, sum(b.amount_mxn),
+                      min(s.content_hash), min(s.captured_at), min(s.url)
                FROM budget_allocation b
                JOIN ramo r ON r.id = b.ramo_id
                JOIN snapshot s ON s.id = b.snapshot_id
                WHERE r.node_id IS NOT NULL
-               GROUP BY r.node_id, b.fiscal_year, s.content_hash, s.captured_at, s.url
+               GROUP BY r.node_id, b.fiscal_year, b.stage
                ORDER BY r.node_id, b.fiscal_year"""
         )
-        for nid, year, amount, chash, cap, url in cur.fetchall():
-            if nid in nodes:
-                nodes[nid].setdefault("budget", []).append({
-                    "fiscal_year": year,
-                    "amount_mxn": float(amount),
-                    "hash": chash,
-                    "captured_at": cap.isoformat(),
-                    "url": url,
-                })
+        by_node_year: dict = {}
+        for nid, year, stage, amount, chash, cap, url in cur.fetchall():
+            if nid not in nodes:
+                continue
+            entry = by_node_year.setdefault((nid, year), {
+                "fiscal_year": year, "stages": {},
+                "hash": chash, "captured_at": cap.isoformat(), "url": url,
+            })
+            entry["stages"][stage] = float(amount)
+        for (nid, _), entry in sorted(by_node_year.items(), key=lambda kv: (kv[0][0], kv[0][1])):
+            # `amount_mxn` stays the approved figure so existing consumers keep
+            # working; the full cycle travels alongside it.
+            entry["amount_mxn"] = entry["stages"].get("aprobado", 0.0)
+            nodes[nid]["budget"].append(entry)
 
         cur.execute("SELECT from_node, to_node, type, legal_basis FROM edge WHERE valid_to IS NULL")
         edges = [{"from": r[0], "to": r[1], "type": r[2], "legal_basis": r[3]} for r in cur.fetchall()]

@@ -1,0 +1,52 @@
+[
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/NPTP/PTP_Datos_Abiertos/data/cuenta_publica/cuenta_publica.json",
+  "captured_at": "2026-08-30T15:28:33Z",
+  "sha256": "e2ced9a567d0ef7a7851f120c7beba9d72c46fe5c31d042d0bf35671497021f6",
+  "bytes": 3813,
+  "content_type": "application/json",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/cp_manifest.json",
+  "local_path": "snapshots/cp_manifest.json"
+ },
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2022_gf_ecd_epe.csv",
+  "captured_at": "2026-08-30T15:29:58Z",
+  "sha256": "e49db45519a46ab438269ec019d62b593bcc5f94a32dd267960ee59f01f4eaac",
+  "bytes": 326032294,
+  "content_type": "text/csv",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/cuenta_publica_2022.csv",
+  "local_path": "snapshots/cuenta_publica_2022.csv"
+ },
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2023_gf_ecd_epe.csv",
+  "captured_at": "2026-08-30T15:30:30Z",
+  "sha256": "b7ae54b404080901ae64e06cf9f8ad457be9ac4f410de6231e366428c7cf6a60",
+  "bytes": 100932349,
+  "content_type": "text/csv",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/cuenta_publica_2023.csv",
+  "local_path": "snapshots/cuenta_publica_2023.csv"
+ },
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2024_gf_ecd_epe.csv",
+  "captured_at": "2026-08-30T15:30:52Z",
+  "sha256": "94cd87dfb1f0dbcb27886d5792046c9c6d96eeab2878f898c8a9813ef1fdf6de",
+  "bytes": 104728959,
+  "content_type": "text/csv",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/cuenta_publica_2024.csv",
+  "local_path": "snapshots/cuenta_publica_2024.csv"
+ },
+ {
+  "source_key": "transparencia_presupuestaria",
+  "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/BD_Cuenta_Publica/CSV/cuenta_publica_2025_gf_ecd_epe.csv",
+  "captured_at": "2026-08-30T15:31:18Z",
+  "sha256": "973aab21969233bdfad3c4f87ccd467ab92421ea5c2cd249644c0bf2f7f1d0c0",
+  "bytes": 105584237,
+  "content_type": "text/csv",
+  "r2_key": "transparencia_presupuestaria/2026-08-30/cuenta_publica_2025.csv",
+  "local_path": "snapshots/cuenta_publica_2025.csv"
+ }
+]

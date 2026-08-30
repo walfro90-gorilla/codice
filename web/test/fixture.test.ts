@@ -238,3 +238,51 @@ test("no verdict vocabulary in the caveats (R2)", () => {
   assert.ok(!/\bcorrupci[óo]n\b/.test(all.replace(/anticorrupci[óo]n/g, "")));
   assert.ok(!/\b(malgast|derroch|despilfarr)/.test(all), "judgement language in a caveat");
 });
+
+// --- Cuenta Pública: the spending cycle ---
+
+test("spending stages are only those the source actually publishes (R6)", () => {
+  const VALID = ["aprobado", "modificado", "devengado", "pagado", "ejercido"];
+  for (const n of raw.nodes) {
+    for (const b of n.budget ?? []) {
+      for (const k of Object.keys(b.stages ?? {})) {
+        assert.ok(VALID.includes(k), `${n.id}/${b.fiscal_year}: unknown stage ${k}`);
+        assert.ok((b.stages as Record<string, number>)[k] > 0, `${n.id}: zero-valued stage kept`);
+      }
+    }
+  }
+});
+
+test("the current fiscal year has no spent figure, and does not fake one", () => {
+  // The Cuenta Pública is published after the year closes. Inventing an
+  // "ejercido" for an open year would be inventing an outcome.
+  const years = raw.nodes.flatMap((n) => n.budget ?? []);
+  const open = years.filter((b) => b.fiscal_year >= 2026);
+  assert.ok(open.length > 0, "expected the current year in the dataset");
+  for (const b of open) {
+    assert.equal(b.stages?.ejercido, undefined, `${b.fiscal_year} must not report spending yet`);
+  }
+});
+
+test("approved vs spent is published without a verdict (R2)", () => {
+  // We publish both figures; we never publish a compliance ratio or a score.
+  const caveats = (raw.caveats["ejecucion_presupuestal"] ?? []).join(" ").toLowerCase();
+  assert.ok(caveats.length > 0, "execution figures published without caveats");
+  assert.ok(/no significa/.test(caveats), "missing the caveat that under/overspending is not a verdict");
+  const blob = JSON.stringify(raw.nodes.flatMap((n) => n.budget ?? []));
+  assert.ok(!/porcentaje_cumplimiento|compliance|score|semaforo/i.test(blob),
+    "a compliance score leaked into the budget data (R5)");
+});
+
+test("approved figures agree between the PEF and the Cuenta Pública", () => {
+  // Two independent files publish the approved figure for a closed year; if
+  // our parsers disagree, one of them is reading the money wrong.
+  for (const n of raw.nodes) {
+    for (const b of n.budget ?? []) {
+      if (b.stages?.aprobado !== undefined) {
+        assert.ok(Math.abs(b.stages.aprobado - b.amount_mxn) < 0.01,
+          `${n.id}/${b.fiscal_year}: approved figure disagrees with itself`);
+      }
+    }
+  }
+});

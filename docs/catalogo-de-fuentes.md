@@ -80,3 +80,16 @@ Ambos scrapers respetan un intervalo mínimo de 1.5 s entre peticiones y se iden
 | `datos.gob.mx` (API CKAN) | ❌ Bloqueada | 403 |
 | `gob.mx` (directorio de gobierno) | ❌ Sin datos | Aplicación de JavaScript; el HTML no trae el directorio |
 | **DOF** vía `sidof.segob.gob.mx` | 🔍 Por explorar | Tiene sección de datos abiertos con endpoints JSON. Es la fuente canónica de los nombramientos del Ejecutivo |
+
+### Contrataciones públicas: reconocimiento del 30 de agosto de 2026
+
+| Fuente | Estado | Barrera |
+|---|---|---|
+| **ComprasMX** (vigente) | ❌ Cerrada a automatización | Encabezados de firma `grc`/`igrc`/`xgrc` generados por el cliente |
+| **CompraNet histórico** | ❌ Cerrada a automatización | reCAPTCHA en el flujo de consulta |
+| **datos.gob.mx** | ❌ Bloqueada | WAF de Akamai: `Access Denied` incluso desde navegador |
+| **Plataforma Digital Nacional** | ⚠️ Requiere credenciales | Especificación pública (`PDNMX/api_docs`); endpoints productivos exigen `/auth` |
+| **Contratos Abiertos CDMX** | ⚠️ Sin respuesta | Tiempo de espera agotado durante el reconocimiento |
+| **Cuenta Pública** (SHCP) | ✅ En uso | Ninguna. Mismo camino que el PEF |
+
+Detalle y consecuencias en [hueco-contrataciones.md](hueco-contrataciones.md). Códice no reconstruye mecanismos anti-automatización: cuando una fuente declara que no admite clientes automatizados, se documenta y se busca la vía institucional.
