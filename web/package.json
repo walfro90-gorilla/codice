@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node --test test/fixture.test.ts"
+    "test": "node --test \"test/**/*.test.ts\""
   },
   "dependencies": {
     "@codice/contracts": "file:../contracts/typescript",

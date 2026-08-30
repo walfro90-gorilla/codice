@@ -63,8 +63,10 @@ export const TOUR: TourStep[] = [
   {
     title: "Quién ocupa cada cargo",
     body:
-      "Las 500 diputaciones y las 127 senadurías en funciones, con su partido, el periodo y su correo institucional. " +
-      "Solo contacto institucional: las fichas oficiales publican más datos personales y aquí no se guardan.",
+      "Bajo el nombre de cada cámara hay una barra de colores: es su reparto real de escaños por grupo parlamentario. " +
+      "Al pasar el cursor por encima aparece el desglose sin abrir nada, y el clic trae los 127 nombres con su periodo " +
+      "y su correo institucional. Solo contacto institucional: las fichas oficiales publican más datos personales y " +
+      "aquí no se guardan.",
     select: "senado",
     place: "left",
   },
@@ -103,7 +105,8 @@ export const TOUR: TourStep[] = [
     title: "Para citarlo",
     body:
       "Cada órgano tiene un enlace permanente, y los datos completos están abiertos en /data/grafo.json para descargar y reusar. " +
-      "Si un periodista no lo puede citar, no sirve. Ya puedes explorar por tu cuenta: arrastra para moverte, rueda para acercar.",
+      "Si un periodista no lo puede citar, no sirve. Ya puedes explorar por tu cuenta: arrastra para moverte, rueda para acercar — " +
+      "y conforme te acerques irán apareciendo más nombres.",
     select: null,
     showExtinct: false,
     place: "center",

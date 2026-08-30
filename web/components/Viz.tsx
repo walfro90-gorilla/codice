@@ -10,10 +10,13 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import { Canvas } from "@react-three/fiber";
 import Scene from "./Scene";
+import Labels from "./Labels";
+import HoverCard from "./HoverCard";
 import { CAMERA_ZOOM, EDGE_COLORS, LEVEL_COLORS, MAP_CENTER, MAP_ZOOM, formatMXN, loadDataset } from "../lib/data";
 import type { Dataset } from "../lib/data";
 import { useVizStore } from "../lib/store";
 import { HelpPanel, TourOverlay } from "./Tour";
+import { composition } from "../lib/parties";
 import type { VizMode } from "../lib/store";
 
 const panel: React.CSSProperties = {
@@ -253,6 +256,11 @@ export default function Viz() {
   );
 
   const extinctCount = data?.nodes.filter((n) => n.extinct).length ?? 0;
+  // Every party that actually holds a seat somewhere in the dataset.
+  const parties = useMemo(
+    () => composition((data?.nodes ?? []).flatMap((n) => n.occupants)),
+    [data],
+  );
 
   return (
     <div style={{ position: "fixed", inset: 0, overflow: "hidden" }}>
@@ -274,6 +282,7 @@ export default function Viz() {
           }}
         >
           <Scene data={data} />
+          <Labels data={data} />
         </Canvas>
       )}
 
@@ -318,6 +327,23 @@ export default function Viz() {
         <div style={{ fontWeight: 600, marginTop: 8, marginBottom: 2 }}>Relaciones</div>
         <div><Line color={EDGE_COLORS.autoridad} /> Autoridad (baja ↓)</div>
         <div><Line color={EDGE_COLORS.legitimidad} /> Legitimidad (sube ↑)</div>
+        {parties.length > 0 && (
+          <>
+            <div style={{ fontWeight: 600, marginTop: 8, marginBottom: 2 }}>Grupos parlamentarios</div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "3px 10px" }}>
+              {parties.map((p) => (
+                <span key={p.label} style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 12 }}>
+                  <span style={{ width: 9, height: 9, borderRadius: 2, background: p.color }} />
+                  {p.label}
+                </span>
+              ))}
+            </div>
+            <div style={{ color: "#6b7280", fontSize: 11, marginTop: 3 }}>
+              Color de identificación convencional, no dato de la fuente.
+            </div>
+          </>
+        )}
+
         <label style={{ display: "flex", alignItems: "center", gap: 6, marginTop: 10, fontSize: 12, cursor: "pointer" }}>
           <input type="checkbox" checked={showExtinct} onChange={toggleExtinct} />
           Mostrar órganos extintos ({extinctCount})
@@ -334,6 +360,7 @@ export default function Viz() {
         </div>
       </div>
 
+      {data && <HoverCard data={data} />}
       {data && <Detalle data={data} />}
       {data && <TourOverlay />}
       <HelpPanel />

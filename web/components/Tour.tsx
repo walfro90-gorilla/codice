@@ -168,12 +168,20 @@ export function HelpPanel() {
         Es el mismo dato con dos posiciones: los órganos federales no tienen territorio, así que conservan su lugar en la jerarquía.
       </p>
 
+      <div style={{ fontWeight: 600, marginTop: 12, color: "#e5e7eb" }}>Los nombres y la minitarjeta</div>
+      <p style={{ margin: "6px 0 0", color: "#d1d5db" }}>
+        Los nombres aparecen conforme te acercas: de lejos solo los poderes, luego las secretarías, después todo.
+        Al pasar el cursor por un órgano sale una tarjeta con lo esencial —su integración por partido o su
+        presupuesto— sin abrir la ficha completa.
+      </p>
+
       <div style={{ fontWeight: 600, marginTop: 12, color: "#e5e7eb" }}>Qué significan los colores</div>
       <ul style={{ margin: "6px 0 0", paddingLeft: 18, color: "#d1d5db" }}>
         <li>El color del círculo es el orden de gobierno: federal, estatal, municipal o la ciudadanía</li>
         <li>Las líneas naranjas son autoridad y van hacia abajo</li>
         <li>Las líneas azules son legitimidad y van hacia arriba, desde quien vota</li>
         <li>Los órganos en gris están extintos; aparecen si activas la casilla</li>
+        <li>La barra bajo una cámara es su reparto de escaños por grupo parlamentario</li>
       </ul>
 
       <div style={{ fontWeight: 600, marginTop: 12, color: "#e5e7eb" }}>Cómo leer una ficha</div>

@@ -43,11 +43,17 @@ function writeSegments(
   }
 }
 
+/** Zoom thresholds at which more labels become legible. */
+const TIER_FEDERAL = 14;
+const TIER_ALL = 26;
+
 export default function Scene({ data }: { data: Dataset }) {
   const mode = useVizStore((s) => s.mode);
   const showExtinct = useVizStore((s) => s.showExtinct);
   const selected = useVizStore((s) => s.selected);
   const select = useVizStore((s) => s.select);
+  const hover = useVizStore((s) => s.hover);
+  const setLabelTier = useVizStore((s) => s.setLabelTier);
   const { nodes, edges, index } = data;
   const N = nodes.length;
 
@@ -79,9 +85,15 @@ export default function Scene({ data }: { data: Dataset }) {
     invalidate();
   }, [nodes, selected, invalidate]);
 
-  useFrame((_, dt) => {
+  useFrame(({ camera }, dt) => {
     const mesh = meshRef.current;
     if (!mesh) return;
+
+    // Reading tier follows the camera; the store ignores an unchanged value,
+    // so this does not re-render React while the user is merely panning.
+    const zoom = (camera as THREE.OrthographicCamera).zoom ?? 1;
+    setLabelTier(zoom >= TIER_ALL ? "all" : zoom >= TIER_FEDERAL ? "federal" : "anchors");
+
     for (let i = 0; i < N; i++) {
       const n = nodes[i];
       let tx = n.pos_graph.x;
@@ -119,7 +131,20 @@ export default function Scene({ data }: { data: Dataset }) {
           const i = e.instanceId;
           if (i !== undefined) select(nodes[i].id);
         }}
-        onPointerMissed={() => select(null)}
+        onPointerMove={(e) => {
+          e.stopPropagation();
+          const i = e.instanceId;
+          if (i === undefined) return;
+          const n = nodes[i];
+          // A hidden extinct node is scaled to zero but still hit-tested.
+          if (n.extinct && !showExtinct) return;
+          hover(n.id, e.nativeEvent.clientX, e.nativeEvent.clientY);
+        }}
+        onPointerOut={() => hover(null)}
+        onPointerMissed={() => {
+          select(null);
+          hover(null);
+        }}
       >
         <circleGeometry args={[1, 24]} />
         <meshBasicMaterial />
