@@ -1,0 +1,2502 @@
+inegi_key,level,name,parent_key,lon,lat
+01,estado,Aguascalientes,,,
+01001,municipio,Aguascalientes,01,-102.296047,21.879823
+01002,municipio,Asientos,01,-102.070792,22.095563
+01003,municipio,Calvillo,01,-102.718751,21.846907
+01004,municipio,Cosío,01,-102.300044,22.366409
+01005,municipio,Jesús María,01,-102.343416,21.961273
+01006,municipio,Pabellón de Arteaga,01,-102.276542,22.149202
+01007,municipio,Rincón de Romos,01,-102.323069,22.229233
+01008,municipio,San José de Gracia,01,-102.415634,22.150216
+01009,municipio,Tepezalá,01,-102.166971,22.224228
+01010,municipio,El Llano,01,-101.965307,21.918869
+01011,municipio,San Francisco de los Romo,01,-102.272678,22.072393
+02,estado,Baja California,,,
+02001,municipio,Ensenada,02,-116.595134,31.808944
+02002,municipio,Mexicali,02,-115.475579,32.641176
+02003,municipio,Tecate,02,-116.626550,32.572679
+02004,municipio,Tijuana,02,-117.018913,32.532461
+02005,municipio,Playas de Rosarito,02,-117.054459,32.363684
+02006,municipio,San Quintín,02,-115.931947,30.525981
+03,estado,Baja California Sur,,,
+03001,municipio,Comondú,03,-111.673339,25.034636
+03002,municipio,Mulegé,03,-112.268275,27.336868
+03003,municipio,La Paz,03,-110.306590,24.148745
+03008,municipio,Los Cabos,03,-109.925186,22.897019
+03009,municipio,Loreto,03,-111.343333,26.012778
+04,estado,Campeche,,,
+04001,municipio,Calkiní,04,-90.050739,20.371226
+04002,municipio,Campeche,04,-90.539649,19.844814
+04003,municipio,Carmen,04,-91.836450,18.637789
+04004,municipio,Champotón,04,-90.723891,19.356219
+04005,municipio,Hecelchakán,04,-90.134517,20.176966
+04006,municipio,Hopelchén,04,-89.845044,19.745548
+04007,municipio,Palizada,04,-92.090902,18.253598
+04008,municipio,Tenabo,04,-90.225763,20.039677
+04009,municipio,Escárcega,04,-90.732001,18.604315
+04010,municipio,Calakmul,04,-89.397276,18.505371
+04011,municipio,Candelaria,04,-91.046294,18.183451
+04012,municipio,Seybaplaya,04,-90.688301,19.639197
+05,estado,Coahuila de Zaragoza,,,
+05001,municipio,Abasolo,05,-101.426389,27.181944
+05002,municipio,Acuña,05,-100.978258,29.330006
+05003,municipio,Allende,05,-100.854167,28.347222
+05004,municipio,Arteaga,05,-100.849622,25.450621
+05005,municipio,Candela,05,-100.663889,26.840278
+05006,municipio,Castaños,05,-101.430556,26.785278
+05007,municipio,Cuatro Ciénegas,05,-102.067101,26.986864
+05008,municipio,Escobedo,05,-101.224523,27.236476
+05009,municipio,Francisco I. Madero,05,-103.273056,25.775000
+05010,municipio,Frontera,05,-101.449444,26.926111
+05011,municipio,General Cepeda,05,-101.479292,25.379908
+05012,municipio,Guerrero,05,-100.378726,28.308418
+05013,municipio,Hidalgo,05,-99.876055,27.791681
+05014,municipio,Jiménez,05,-100.903228,29.026356
+05015,municipio,Juárez,05,-100.727120,27.606506
+05016,municipio,Lamadrid,05,-101.793599,27.048494
+05017,municipio,Matamoros,05,-103.230384,25.528136
+05018,municipio,Monclova,05,-101.417224,26.901242
+05019,municipio,Morelos,05,-100.886631,28.410104
+05020,municipio,Múzquiz,05,-101.516518,27.877550
+05021,municipio,Nadadores,05,-101.592023,27.029031
+05022,municipio,Nava,05,-100.767554,28.421875
+05023,municipio,Ocampo,05,-102.397405,27.311215
+05024,municipio,Parras,05,-102.184169,25.437381
+05025,municipio,Piedras Negras,05,-100.528441,28.708093
+05026,municipio,Progreso,05,-101.371907,27.588260
+05027,municipio,Ramos Arizpe,05,-100.950782,25.543234
+05028,municipio,Sabinas,05,-101.119989,27.848888
+05029,municipio,Sacramento,05,-101.725036,27.004439
+05030,municipio,Saltillo,05,-100.999721,25.421665
+05031,municipio,San Buenaventura,05,-101.550029,27.060257
+05032,municipio,San Juan de Sabinas,05,-101.216978,27.933903
+05033,municipio,San Pedro,05,-102.983157,25.757778
+05034,municipio,Sierra Mojada,05,-103.789722,28.041924
+05035,municipio,Torreón,05,-103.453061,25.541753
+05036,municipio,Viesca,05,-102.806350,25.343605
+05037,municipio,Villa Unión,05,-100.725155,28.220498
+05038,municipio,Zaragoza,05,-100.917622,28.487043
+06,estado,Colima,,,
+06001,municipio,Armería,06,-103.964997,18.937073
+06002,municipio,Colima,06,-103.728119,19.242922
+06003,municipio,Comala,06,-103.758801,19.323199
+06004,municipio,Coquimatlán,06,-103.810917,19.201410
+06005,municipio,Cuauhtémoc,06,-103.573679,19.386947
+06006,municipio,Ixtlahuacán,06,-103.738593,19.001184
+06007,municipio,Manzanillo,06,-104.316381,19.053206
+06008,municipio,Minatitlán,06,-104.049637,19.386110
+06009,municipio,Tecomán,06,-103.873789,18.910604
+06010,municipio,Villa de Álvarez,06,-103.736759,19.264776
+07,estado,Chiapas,,,
+07001,municipio,Acacoyagua,07,-92.674617,15.340965
+07002,municipio,Acala,07,-92.807508,16.551674
+07003,municipio,Acapetahua,07,-92.689132,15.282838
+07004,municipio,Altamirano,07,-92.038594,16.735920
+07005,municipio,Amatán,07,-92.819123,17.372848
+07006,municipio,Amatenango de la Frontera,07,-92.041336,15.598037
+07007,municipio,Amatenango del Valle,07,-92.435491,16.528501
+07008,municipio,Angel Albino Corzo,07,-92.725080,15.872644
+07009,municipio,Arriaga,07,-93.899473,16.236065
+07010,municipio,Bejucal de Ocampo,07,-92.173001,15.497640
+07011,municipio,Bella Vista,07,-92.244846,15.582997
+07012,municipio,Berriozábal,07,-93.273271,16.800321
+07013,municipio,Bochil,07,-92.890219,16.996383
+07014,municipio,El Bosque,07,-92.721409,17.062210
+07015,municipio,Cacahoatán,07,-92.168110,14.989789
+07016,municipio,Catazajá,07,-92.016366,17.728321
+07017,municipio,Cintalapa,07,-93.720428,16.698682
+07018,municipio,Coapilla,07,-93.159022,17.130791
+07019,municipio,Comitán de Domínguez,07,-92.135835,16.252461
+07020,municipio,La Concordia,07,-92.687934,16.116716
+07021,municipio,Copainalá,07,-93.210556,17.093611
+07022,municipio,Chalchihuitán,07,-92.598795,17.072884
+07023,municipio,Chamula,07,-92.689167,16.787500
+07024,municipio,Chanal,07,-92.259942,16.660062
+07025,municipio,Chapultenango,07,-93.130078,17.340401
+07026,municipio,Chenalhó,07,-92.626148,16.894277
+07027,municipio,Chiapa de Corzo,07,-93.015959,16.707958
+07028,municipio,Chiapilla,07,-92.720025,16.570493
+07029,municipio,Chicoasén,07,-93.105235,16.967255
+07030,municipio,Chicomuselo,07,-92.283287,15.744936
+07031,municipio,Chilón,07,-92.271528,17.105491
+07032,municipio,Escuintla,07,-92.658558,15.319269
+07033,municipio,Francisco León,07,-93.352912,17.295574
+07034,municipio,Frontera Comalapa,07,-92.141050,15.660164
+07035,municipio,Frontera Hidalgo,07,-92.175983,14.777838
+07036,municipio,La Grandeza,07,-92.225880,15.510130
+07037,municipio,Huehuetán,07,-92.384181,15.018520
+07038,municipio,Huixtán,07,-92.454597,16.712151
+07039,municipio,Huitiupán,07,-92.685932,17.173232
+07040,municipio,Huixtla,07,-92.465818,15.138289
+07041,municipio,La Independencia,07,-91.928793,16.190856
+07042,municipio,Ixhuatán,07,-93.008382,17.293271
+07043,municipio,Ixtacomitán,07,-93.096572,17.430795
+07044,municipio,Ixtapa,07,-92.905903,16.803525
+07045,municipio,Ixtapangajoya,07,-92.953108,17.442499
+07046,municipio,Jiquipilas,07,-93.650475,16.667721
+07047,municipio,Jitotol,07,-92.862336,17.067967
+07048,municipio,Juárez,07,-93.193331,17.608151
+07049,municipio,Larráinzar,07,-92.713258,16.884446
+07050,municipio,La Libertad,07,-91.719062,17.690136
+07051,municipio,Mapastepec,07,-92.891606,15.441134
+07052,municipio,Las Margaritas,07,-91.981568,16.315947
+07053,municipio,Mazapa de Madero,07,-92.187735,15.387966
+07054,municipio,Mazatán,07,-92.449471,14.863025
+07055,municipio,Metapa,07,-92.190945,14.837314
+07056,municipio,Mitontic,07,-92.568439,16.883588
+07057,municipio,Motozintla,07,-92.247744,15.363167
+07058,municipio,Nicolás Ruíz,07,-92.585347,16.437073
+07059,municipio,Ocosingo,07,-92.095827,16.908038
+07060,municipio,Ocotepec,07,-93.164405,17.225029
+07061,municipio,Ocozocoautla de Espinosa,07,-93.375652,16.761462
+07062,municipio,Ostuacán,07,-93.337136,17.405591
+07063,municipio,Osumacinta,07,-93.091337,16.935467
+07064,municipio,Oxchuc,07,-92.334917,16.786119
+07065,municipio,Palenque,07,-91.981033,17.509133
+07066,municipio,Pantelhó,07,-92.469580,17.006659
+07067,municipio,Pantepec,07,-93.049546,17.188092
+07068,municipio,Pichucalco,07,-93.117767,17.508551
+07069,municipio,Pijijiapan,07,-93.209317,15.691674
+07070,municipio,El Porvenir,07,-92.279640,15.456367
+07071,municipio,Villa Comaltitlán,07,-92.576024,15.211937
+07072,municipio,Pueblo Nuevo Solistahuacán,07,-92.897322,17.157568
+07073,municipio,Rayón,07,-93.011217,17.200503
+07074,municipio,Reforma,07,-93.147108,17.865812
+07075,municipio,Las Rosas,07,-92.369581,16.364132
+07076,municipio,Sabanilla,07,-92.551720,17.283484
+07077,municipio,Salto de Agua,07,-92.333422,17.557021
+07078,municipio,San Cristóbal de las Casas,07,-92.637564,16.737022
+07079,municipio,San Fernando,07,-93.206285,16.871712
+07080,municipio,Siltepec,07,-92.322860,15.557185
+07081,municipio,Simojovel,07,-92.715208,17.140826
+07082,municipio,Sitalá,07,-92.307743,17.025051
+07083,municipio,Socoltenango,07,-92.350316,16.242949
+07084,municipio,Solosuchiapa,07,-93.031179,17.428656
+07085,municipio,Soyaló,07,-92.925290,16.890992
+07086,municipio,Suchiapa,07,-93.104794,16.621958
+07087,municipio,Suchiate,07,-92.150942,14.679452
+07088,municipio,Sunuapa,07,-93.243169,17.489378
+07089,municipio,Tapachula,07,-92.264320,14.911071
+07090,municipio,Tapalapa,07,-93.104605,17.190048
+07091,municipio,Tapilula,07,-93.016258,17.248403
+07092,municipio,Tecpatán,07,-93.311468,17.136995
+07093,municipio,Tenejapa,07,-92.460048,16.840792
+07094,municipio,Teopisca,07,-92.472597,16.541514
+07096,municipio,Tila,07,-92.425865,17.300635
+07097,municipio,Tonalá,07,-93.751783,16.091356
+07098,municipio,Totolapa,07,-92.680376,16.544733
+07099,municipio,La Trinitaria,07,-92.050469,16.119059
+07100,municipio,Tumbalá,07,-92.362717,17.246987
+07101,municipio,Tuxtla Gutiérrez,07,-93.115192,16.753972
+07102,municipio,Tuxtla Chico,07,-92.168970,14.940190
+07103,municipio,Tuzantán,07,-92.421621,15.146063
+07104,municipio,Tzimol,07,-92.187937,16.184231
+07105,municipio,Unión Juárez,07,-92.105223,15.030538
+07106,municipio,Venustiano Carranza,07,-92.565135,16.339617
+07107,municipio,Villa Corzo,07,-93.267684,16.184751
+07108,municipio,Villaflores,07,-93.267708,16.235486
+07109,municipio,Yajalón,07,-92.333944,17.173910
+07110,municipio,San Lucas,07,-92.719342,16.611637
+07111,municipio,Zinacantán,07,-92.723581,16.760119
+07112,municipio,San Juan Cancuc,07,-92.371952,16.892243
+07113,municipio,Aldama,07,-92.688192,16.917818
+07114,municipio,Benemérito de las Américas,07,-90.653302,16.515828
+07115,municipio,Maravilla Tenejapa,07,-91.295104,16.140397
+07116,municipio,Marqués de Comillas,07,-90.765283,16.333133
+07117,municipio,Montecristo de Guerrero,07,-92.619260,15.693917
+07118,municipio,San Andrés Duraznal,07,-92.804987,17.131998
+07119,municipio,Santiago el Pinar,07,-92.714596,16.941438
+07120,municipio,Capitán Luis Ángel Vidal,07,-92.629098,15.601128
+07121,municipio,Rincón Chamula San Pedro,07,-92.937570,17.209471
+07122,municipio,El Parral,07,-93.006711,16.366228
+07123,municipio,Emiliano Zapata,07,-92.896724,16.539172
+07124,municipio,Mezcalapa,07,-93.604773,17.189222
+07125,municipio,Honduras de la Sierra,07,-92.486967,15.576458
+08,estado,Chihuahua,,,
+08001,municipio,Ahumada,08,-106.512415,30.617734
+08002,municipio,Aldama,08,-105.911293,28.838381
+08003,municipio,Allende,08,-105.395077,26.939426
+08004,municipio,Aquiles Serdán,08,-105.887474,28.594503
+08005,municipio,Ascensión,08,-107.995949,31.092176
+08006,municipio,Bachíniva,08,-107.254362,28.764732
+08007,municipio,Balleza,08,-106.346923,26.954107
+08008,municipio,Batopilas de Manuel Gómez Morín,08,-107.739710,27.026652
+08009,municipio,Bocoyna,08,-107.600278,27.970000
+08010,municipio,Buenaventura,08,-107.471314,29.843409
+08011,municipio,Camargo,08,-105.171620,27.694962
+08012,municipio,Carichí,08,-107.056810,27.916532
+08013,municipio,Casas Grandes,08,-107.948805,30.375704
+08014,municipio,Coronado,08,-105.158312,26.737615
+08015,municipio,Coyame del Sotol,08,-105.094358,29.462043
+08016,municipio,La Cruz,08,-105.196389,27.863889
+08017,municipio,Cuauhtémoc,08,-106.866044,28.406312
+08018,municipio,Cusihuiriachi,08,-107.102465,28.187622
+08019,municipio,Chihuahua,08,-106.076307,28.636794
+08020,municipio,Chínipas,08,-108.536229,27.392810
+08021,municipio,Delicias,08,-105.471047,28.192948
+08022,municipio,Dr. Belisario Domínguez,08,-106.536648,28.028246
+08023,municipio,Galeana,08,-107.553302,29.992741
+08024,municipio,Santa Isabel,08,-106.368054,28.343346
+08025,municipio,Gómez Farías,08,-107.738655,29.357019
+08026,municipio,Gran Morelos,08,-106.510123,28.247824
+08027,municipio,Guachochi,08,-107.069362,26.819153
+08028,municipio,Guadalupe,08,-106.101754,31.390107
+08029,municipio,Guadalupe y Calvo,08,-106.964369,26.094516
+08030,municipio,Guazapares,08,-108.279956,27.276382
+08031,municipio,Guerrero,08,-107.332407,28.477438
+08032,municipio,Hidalgo del Parral,08,-105.667143,26.922088
+08033,municipio,Huejotitán,08,-106.179456,27.054670
+08034,municipio,Ignacio Zaragoza,08,-107.764195,29.643212
+08035,municipio,Janos,08,-108.189850,30.887258
+08036,municipio,Jiménez,08,-104.922977,27.130549
+08037,municipio,Juárez,08,-106.485019,31.746465
+08038,municipio,Julimes,08,-105.430556,28.423056
+08039,municipio,López,08,-105.033056,27.002500
+08040,municipio,Madera,08,-108.141389,29.190000
+08041,municipio,Maguarichi,08,-107.993956,27.859303
+08042,municipio,Manuel Benavides,08,-103.907816,29.107386
+08043,municipio,Matachí,08,-107.754648,28.843228
+08044,municipio,Matamoros,08,-105.583330,26.763877
+08045,municipio,Meoqui,08,-105.480291,28.267797
+08046,municipio,Morelos,08,-107.677248,26.670527
+08047,municipio,Moris,08,-108.523237,28.148384
+08048,municipio,Namiquipa,08,-107.471174,29.032452
+08049,municipio,Nonoava,08,-106.735332,27.472054
+08050,municipio,Nuevo Casas Grandes,08,-107.912103,30.413986
+08051,municipio,Ocampo,08,-108.209448,28.201295
+08052,municipio,Ojinaga,08,-104.415665,29.564501
+08053,municipio,Praxedis G. Guerrero,08,-106.005395,31.372068
+08054,municipio,Riva Palacio,08,-106.502632,28.546008
+08055,municipio,Rosales,08,-105.554444,28.186944
+08056,municipio,Rosario,08,-106.349557,27.210971
+08057,municipio,San Francisco de Borja,08,-106.684916,27.901821
+08058,municipio,San Francisco de Conchos,08,-105.405253,27.550009
+08059,municipio,San Francisco del Oro,08,-105.850080,26.858994
+08060,municipio,Santa Bárbara,08,-105.818100,26.802100
+08061,municipio,Satevó,08,-106.107204,27.956034
+08062,municipio,Saucillo,08,-105.288032,28.032674
+08063,municipio,Temósachic,08,-107.829839,28.952758
+08064,municipio,El Tule,08,-106.266253,27.053612
+08065,municipio,Urique,08,-107.890073,27.489753
+08066,municipio,Uruachi,08,-108.215195,27.867924
+08067,municipio,Valle de Zaragoza,08,-105.810994,27.457132
+09,estado,Ciudad de México,,,
+09002,municipio,Azcapotzalco,09,-99.184361,19.484103
+09003,municipio,Coyoacán,09,-99.162146,19.350214
+09004,municipio,Cuajimalpa de Morelos,09,-99.299792,19.357350
+09005,municipio,Gustavo A. Madero,09,-99.113471,19.482945
+09006,municipio,Iztacalco,09,-99.097613,19.395901
+09007,municipio,Iztapalapa,09,-99.092622,19.359004
+09008,municipio,La Magdalena Contreras,09,-99.241516,19.304898
+09009,municipio,Milpa Alta,09,-98.993718,19.217537
+09010,municipio,Álvaro Obregón,09,-99.195413,19.390806
+09011,municipio,Tláhuac,09,-99.004846,19.270566
+09012,municipio,Tlalpan,09,-99.167126,19.288275
+09013,municipio,Xochimilco,09,-99.104913,19.263462
+09014,municipio,Benito Juárez,09,-99.157853,19.371992
+09015,municipio,Cuauhtémoc,09,-99.151884,19.441647
+09016,municipio,Miguel Hidalgo,09,-99.190754,19.407269
+09017,municipio,Venustiano Carranza,09,-99.113701,19.419262
+10,estado,Durango,,,
+10001,municipio,Canatlán,10,-104.778374,24.527263
+10002,municipio,Canelas,10,-106.545633,25.122971
+10003,municipio,Coneto de Comonfort,10,-104.720278,24.978333
+10004,municipio,Cuencamé,10,-103.698462,24.870939
+10005,municipio,Durango,10,-104.670194,24.023988
+10006,municipio,General Simón Bolívar,10,-103.467933,25.227072
+10007,municipio,Gómez Palacio,10,-103.496417,25.570107
+10008,municipio,Guadalupe Victoria,10,-104.123660,24.446433
+10009,municipio,Guanaceví,10,-105.954432,25.931662
+10010,municipio,Hidalgo,10,-105.083298,26.204512
+10011,municipio,Indé,10,-105.223791,25.912021
+10012,municipio,Lerdo,10,-103.524849,25.536552
+10013,municipio,Mapimí,10,-103.624464,25.889745
+10014,municipio,Mezquital,10,-104.396744,23.473530
+10015,municipio,Nazas,10,-104.113803,25.227777
+10016,municipio,Nombre de Dios,10,-104.244705,23.848211
+10017,municipio,Ocampo,10,-105.387959,26.400997
+10018,municipio,El Oro,10,-105.364866,25.949324
+10019,municipio,Otáez,10,-105.994057,24.698689
+10020,municipio,Pánuco de Coronado,10,-104.319264,24.401024
+10021,municipio,Peñón Blanco,10,-104.034267,24.792509
+10022,municipio,Poanas,10,-104.044136,23.975092
+10023,municipio,Pueblo Nuevo,10,-105.360192,23.778151
+10024,municipio,Rodeo,10,-104.560444,25.180719
+10025,municipio,San Bernardo,10,-105.523257,26.000787
+10026,municipio,San Dimas,10,-105.931245,24.102182
+10027,municipio,San Juan de Guadalupe,10,-102.782055,24.630853
+10028,municipio,San Juan del Río,10,-104.459226,24.778255
+10029,municipio,San Luis del Cordero,10,-104.277786,25.417649
+10030,municipio,San Pedro del Gallo,10,-104.292834,25.565864
+10031,municipio,Santa Clara,10,-103.357222,24.475444
+10032,municipio,Santiago Papasquiaro,10,-105.420945,25.039080
+10033,municipio,Súchil,10,-103.921870,23.622163
+10034,municipio,Tamazula,10,-106.966602,24.970316
+10035,municipio,Tepehuanes,10,-105.723002,25.343209
+10036,municipio,Tlahualilo,10,-103.439236,26.107386
+10037,municipio,Topia,10,-106.571196,25.209022
+10038,municipio,Vicente Guerrero,10,-103.987778,23.731111
+10039,municipio,Nuevo Ideal,10,-105.074205,24.888313
+11,estado,Guanajuato,,,
+11001,municipio,Abasolo,11,-101.528361,20.450900
+11002,municipio,Acámbaro,11,-100.719326,20.035380
+11003,municipio,San Miguel de Allende,11,-100.713381,20.904013
+11004,municipio,Apaseo el Alto,11,-100.621626,20.457171
+11005,municipio,Apaseo el Grande,11,-100.688217,20.545284
+11006,municipio,Atarjea,11,-99.833228,21.315183
+11007,municipio,Celaya,11,-100.813573,20.521524
+11008,municipio,Manuel Doblado,11,-101.952790,20.727518
+11009,municipio,Comonfort,11,-100.761202,20.720047
+11010,municipio,Coroneo,11,-100.364444,20.198611
+11011,municipio,Cortazar,11,-100.963729,20.483506
+11012,municipio,Cuerámaro,11,-101.670386,20.626478
+11013,municipio,Doctor Mora,11,-100.318949,21.142640
+11014,municipio,Dolores Hidalgo Cuna de la Independencia Nacional,11,-100.917236,21.159200
+11015,municipio,Guanajuato,11,-101.253621,21.016098
+11016,municipio,Huanímaro,11,-101.496867,20.368274
+11017,municipio,Irapuato,11,-101.348117,20.672801
+11018,municipio,Jaral del Progreso,11,-101.063975,20.376517
+11019,municipio,Jerécuaro,11,-100.510528,20.150034
+11020,municipio,León,11,-101.683200,21.121972
+11021,municipio,Moroleón,11,-101.189209,20.131870
+11022,municipio,Ocampo,11,-101.478016,21.648492
+11023,municipio,Pénjamo,11,-101.725044,20.431795
+11024,municipio,Pueblo Nuevo,11,-101.370847,20.525957
+11025,municipio,Purísima del Rincón,11,-101.878099,21.029579
+11026,municipio,Romita,11,-101.517117,20.871215
+11027,municipio,Salamanca,11,-101.199915,20.568681
+11028,municipio,Salvatierra,11,-100.881360,20.216117
+11029,municipio,San Diego de la Unión,11,-100.873316,21.466387
+11030,municipio,San Felipe,11,-101.215945,21.479336
+11031,municipio,San Francisco del Rincón,11,-101.858518,21.018681
+11032,municipio,San José Iturbide,11,-100.385720,21.000822
+11033,municipio,San Luis de la Paz,11,-100.515126,21.298816
+11034,municipio,Santa Catarina,11,-100.066913,21.139878
+11035,municipio,Santa Cruz de Juventino Rosas,11,-100.994037,20.643200
+11036,municipio,Santiago Maravatío,11,-100.995226,20.172407
+11037,municipio,Silao de la Victoria,11,-101.426216,20.944450
+11038,municipio,Tarandacuao,11,-100.516329,20.003968
+11039,municipio,Tarimoro,11,-100.755942,20.288541
+11040,municipio,Tierra Blanca,11,-100.159154,21.100003
+11041,municipio,Uriangato,11,-101.178051,20.141012
+11042,municipio,Valle de Santiago,11,-101.181430,20.391322
+11043,municipio,Victoria,11,-100.215936,21.212172
+11044,municipio,Villagrán,11,-100.996503,20.511372
+11045,municipio,Xichú,11,-100.059612,21.298608
+11046,municipio,Yuriria,11,-101.130933,20.212743
+12,estado,Guerrero,,,
+12001,municipio,Acapulco de Juárez,12,-99.886558,16.861867
+12002,municipio,Ahuacuotzingo,12,-98.934908,17.714089
+12003,municipio,Ajuchitlán del Progreso,12,-100.496057,18.159555
+12004,municipio,Alcozauca de Guerrero,12,-98.383888,17.463524
+12005,municipio,Alpoyeca,12,-98.513239,17.670064
+12006,municipio,Apaxtla,12,-99.932314,18.130078
+12007,municipio,Arcelia,12,-100.283952,18.315825
+12008,municipio,Atenango del Río,12,-99.107803,18.104343
+12009,municipio,Atlamajalcingo del Monte,12,-98.550168,17.295871
+12010,municipio,Atlixtac,12,-98.933232,17.563679
+12011,municipio,Atoyac de Álvarez,12,-100.433129,17.212739
+12012,municipio,Ayutla de los Libres,12,-99.097384,16.965287
+12013,municipio,Azoyú,12,-98.601091,16.732960
+12014,municipio,Benito Juárez,12,-100.468668,17.136370
+12015,municipio,Buenavista de Cuéllar,12,-99.405342,18.457887
+12016,municipio,Coahuayutla de José María Izazaga,12,-101.734611,18.316395
+12017,municipio,Cocula,12,-99.661190,18.235866
+12018,municipio,Copala,12,-98.978624,16.608759
+12019,municipio,Copalillo,12,-99.041724,18.034151
+12020,municipio,Copanatoyac,12,-98.713463,17.461845
+12021,municipio,Coyuca de Benítez,12,-100.089367,17.009002
+12022,municipio,Coyuca de Catalán,12,-100.698566,18.331019
+12023,municipio,Cuajinicuilapa,12,-98.416745,16.471986
+12024,municipio,Cualác,12,-98.660728,17.742762
+12025,municipio,Cuautepec,12,-99.001546,16.749003
+12026,municipio,Cuetzala del Progreso,12,-99.831486,18.134141
+12027,municipio,Cutzamala de Pinzón,12,-100.578513,18.465244
+12028,municipio,Chilapa de Álvarez,12,-99.177682,17.594232
+12029,municipio,Chilpancingo de los Bravo,12,-99.501063,17.551649
+12030,municipio,Florencio Villarreal,12,-99.123787,16.723881
+12031,municipio,General Canuto A. Neri,12,-100.072052,18.418485
+12032,municipio,General Heliodoro Castillo,12,-99.978318,17.789448
+12033,municipio,Huamuxtitlán,12,-98.565287,17.802174
+12034,municipio,Huitzuco de los Figueroa,12,-99.334303,18.305980
+12035,municipio,Iguala de la Independencia,12,-99.538368,18.344549
+12036,municipio,Igualapa,12,-98.476618,16.743713
+12037,municipio,Ixcateopan de Cuauhtémoc,12,-99.793569,18.502452
+12038,municipio,Zihuatanejo de Azueta,12,-101.548176,17.650457
+12039,municipio,Juan R. Escudero,12,-99.522047,17.169004
+12040,municipio,Leonardo Bravo,12,-99.677341,17.660802
+12041,municipio,Malinaltepec,12,-98.736104,16.995839
+12042,municipio,Mártir de Cuilapan,12,-99.329341,17.741925
+12043,municipio,Metlatónoc,12,-98.407099,17.195372
+12044,municipio,Mochitlán,12,-99.371294,17.472358
+12045,municipio,Olinalá,12,-98.741256,17.778332
+12046,municipio,Ometepec,12,-98.404421,16.685089
+12047,municipio,Pedro Ascencio Alquisiras,12,-99.887018,18.512364
+12048,municipio,Petatlán,12,-101.274552,17.538207
+12049,municipio,Pilcaya,12,-99.676175,18.747584
+12050,municipio,Pungarabato,12,-100.668241,18.362273
+12051,municipio,Quechultenango,12,-99.240833,17.409167
+12052,municipio,San Luis Acatlán,12,-98.733613,16.808583
+12053,municipio,San Marcos,12,-99.390046,16.797344
+12054,municipio,San Miguel Totolapan,12,-100.390821,18.161267
+12055,municipio,Taxco de Alarcón,12,-99.604595,18.557382
+12056,municipio,Tecoanapa,12,-99.260876,16.988854
+12057,municipio,Técpan de Galeana,12,-100.632378,17.222609
+12058,municipio,Teloloapan,12,-99.869573,18.371809
+12059,municipio,Tepecoacuilco de Trujano,12,-99.466694,18.286990
+12060,municipio,Tetipac,12,-99.648982,18.649385
+12061,municipio,Tixtla de Guerrero,12,-99.398271,17.566724
+12062,municipio,Tlacoachistlahuaca,12,-98.301749,16.809909
+12063,municipio,Tlacoapa,12,-98.748211,17.259948
+12064,municipio,Tlalchapa,12,-100.478253,18.408674
+12065,municipio,Tlalixtaquilla de Maldonado,12,-98.369862,17.574484
+12066,municipio,Tlapa de Comonfort,12,-98.582138,17.546949
+12067,municipio,Tlapehuala,12,-100.541574,18.239760
+12068,municipio,La Unión de Isidoro Montes de Oca,12,-102.109402,17.980494
+12069,municipio,Xalpatláhuac,12,-98.606449,17.470875
+12070,municipio,Xochihuehuetlán,12,-98.487661,17.905640
+12071,municipio,Xochistlahuaca,12,-98.242467,16.792424
+12072,municipio,Zapotitlán Tablas,12,-98.781709,17.422887
+12073,municipio,Zirándaro,12,-100.975856,18.479132
+12074,municipio,Zitlala,12,-99.185248,17.690341
+12075,municipio,Eduardo Neri,12,-99.525937,17.653197
+12076,municipio,Acatepec,12,-98.910334,17.325219
+12077,municipio,Marquelia,12,-98.817852,16.583314
+12078,municipio,Cochoapa el Grande,12,-98.455280,17.192967
+12079,municipio,José Joaquín de Herrera,12,-99.024388,17.448726
+12080,municipio,Juchitán,12,-98.636714,16.627071
+12081,municipio,Iliatenco,12,-98.685811,17.045531
+13,estado,Hidalgo,,,
+13001,municipio,Acatlán,13,-98.388416,20.167388
+13002,municipio,Acaxochitlán,13,-98.178749,20.125798
+13003,municipio,Actopan,13,-98.942901,20.269086
+13004,municipio,Agua Blanca de Iturbide,13,-98.356386,20.349504
+13005,municipio,Ajacuba,13,-99.122132,20.092525
+13006,municipio,Alfajayucan,13,-99.349589,20.409971
+13007,municipio,Almoloya,13,-98.403293,19.703319
+13008,municipio,Apan,13,-98.451944,19.710000
+13009,municipio,El Arenal,13,-98.911046,20.221424
+13010,municipio,Atitalaquia,13,-99.231596,20.060612
+13011,municipio,Atlapexco,13,-98.348187,21.017114
+13012,municipio,Atotonilco el Grande,13,-98.669062,20.286882
+13013,municipio,Atotonilco de Tula,13,-99.227054,19.896969
+13014,municipio,Calnali,13,-98.583532,20.897178
+13015,municipio,Cardonal,13,-99.059540,20.493072
+13016,municipio,Cuautepec de Hinojosa,13,-98.309738,20.035470
+13017,municipio,Chapantongo,13,-99.549291,20.236898
+13018,municipio,Chapulhuacán,13,-98.904588,21.159418
+13019,municipio,Chilcuautla,13,-99.246215,20.251402
+13020,municipio,Eloxochitlán,13,-98.836292,20.708618
+13021,municipio,Emiliano Zapata,13,-98.547416,19.657008
+13022,municipio,Epazoyucan,13,-98.636209,20.018022
+13023,municipio,Francisco I. Madero,13,-99.088894,20.245186
+13024,municipio,Huasca de Ocampo,13,-98.498202,20.208791
+13025,municipio,Huautla,13,-98.286821,21.031387
+13026,municipio,Huazalingo,13,-98.486231,21.019255
+13027,municipio,Huehuetla,13,-98.078424,20.460306
+13028,municipio,Huejutla de Reyes,13,-98.420595,21.139212
+13029,municipio,Huichapan,13,-99.651181,20.375313
+13030,municipio,Ixmiquilpan,13,-99.218774,20.484868
+13031,municipio,Jacala de Ledezma,13,-99.188569,21.008296
+13032,municipio,Jaltocán,13,-98.538324,21.133132
+13033,municipio,Juárez Hidalgo,13,-98.816802,20.822378
+13034,municipio,Lolotla,13,-98.703353,20.883631
+13035,municipio,Metepec,13,-98.322164,20.238410
+13036,municipio,San Agustín Metzquititlán,13,-98.638621,20.532602
+13037,municipio,Metztitlán,13,-98.764144,20.594700
+13038,municipio,Mineral del Chico,13,-98.826335,20.161798
+13039,municipio,Mineral del Monte,13,-98.671530,20.140491
+13040,municipio,La Misión,13,-99.123187,21.099419
+13041,municipio,Mixquiahuala de Juárez,13,-99.213798,20.229380
+13042,municipio,Molango de Escamilla,13,-98.730814,20.786498
+13043,municipio,Nicolás Flores,13,-99.165393,20.722925
+13044,municipio,Nopala de Villagrán,13,-99.688252,20.280064
+13045,municipio,Omitlán de Juárez,13,-98.616265,20.147639
+13046,municipio,San Felipe Orizatlán,13,-98.607815,21.170944
+13047,municipio,Pacula,13,-99.344523,20.982537
+13048,municipio,Pachuca de Soto,13,-98.737001,20.122360
+13049,municipio,Pisaflores,13,-99.005997,21.194782
+13050,municipio,Progreso de Obregón,13,-99.189359,20.248195
+13051,municipio,Mineral de la Reforma,13,-98.719454,20.064832
+13052,municipio,San Agustín Tlaxiaca,13,-98.886778,20.115661
+13053,municipio,San Bartolo Tutotepec,13,-98.202060,20.399143
+13054,municipio,San Salvador,13,-98.998624,20.254940
+13055,municipio,Santiago de Anaya,13,-98.963953,20.382582
+13056,municipio,Santiago Tulantepec de Lugo Guerrero,13,-98.357006,20.039193
+13057,municipio,Singuilucan,13,-98.517222,19.967500
+13058,municipio,Tasquillo,13,-99.312556,20.551772
+13059,municipio,Tecozautla,13,-99.634924,20.533873
+13060,municipio,Tenango de Doria,13,-98.226729,20.338056
+13061,municipio,Tepeapulco,13,-98.581903,19.772706
+13062,municipio,Tepehuacán de Guerrero,13,-98.853783,21.092227
+13063,municipio,Tepeji del Río de Ocampo,13,-99.341814,19.905217
+13064,municipio,Tepetitlán,13,-99.397523,20.200072
+13065,municipio,Tetepango,13,-99.156123,20.102655
+13066,municipio,Villa de Tezontepec,13,-98.819290,19.879861
+13067,municipio,Tezontepec de Aldama,13,-99.252891,20.160547
+13068,municipio,Tianguistengo,13,-98.630851,20.728212
+13069,municipio,Tizayuca,13,-98.981584,19.841089
+13070,municipio,Tlahuelilpan,13,-99.234680,20.130627
+13071,municipio,Tlahuiltepa,13,-98.975030,20.991357
+13072,municipio,Tlanalapa,13,-98.603913,19.817894
+13073,municipio,Tlanchinol,13,-98.660284,20.989346
+13074,municipio,Tlaxcoapan,13,-99.221593,20.091614
+13075,municipio,Tolcayuca,13,-98.921761,19.956591
+13076,municipio,Tula de Allende,13,-99.343189,20.055220
+13077,municipio,Tulancingo de Bravo,13,-98.368073,20.080605
+13078,municipio,Xochiatipan,13,-98.262080,20.892526
+13079,municipio,Xochicoatlán,13,-98.679724,20.776855
+13080,municipio,Yahualica,13,-98.383551,20.890503
+13081,municipio,Zacualtipán de Ángeles,13,-98.653627,20.645181
+13082,municipio,Zapotlán de Juárez,13,-98.842306,20.030517
+13083,municipio,Zempoala,13,-98.789390,20.020409
+13084,municipio,Zimapán,13,-99.383113,20.738069
+14,estado,Jalisco,,,
+14001,municipio,Acatic,14,-102.905278,20.779444
+14002,municipio,Acatlán de Juárez,14,-103.587222,20.421389
+14003,municipio,Ahualulco de Mercado,14,-103.975000,20.700556
+14004,municipio,Amacueca,14,-103.596111,20.010556
+14005,municipio,Amatitán,14,-103.730000,20.835000
+14006,municipio,Ameca,14,-104.043056,20.548611
+14007,municipio,San Juanito de Escobedo,14,-104.000986,20.800467
+14008,municipio,Arandas,14,-102.340278,20.705556
+14009,municipio,El Arenal,14,-103.693889,20.776111
+14010,municipio,Atemajac de Brizuela,14,-103.724536,20.139449
+14011,municipio,Atengo,14,-104.280961,20.306094
+14012,municipio,Atenguillo,14,-104.492500,20.414722
+14013,municipio,Atotonilco el Alto,14,-102.504167,20.550556
+14014,municipio,Atoyac,14,-103.516389,20.010556
+14015,municipio,Autlán de Navarro,14,-104.365278,19.771389
+14016,municipio,Ayotlán,14,-102.328333,20.528056
+14017,municipio,Ayutla,14,-104.347778,20.129167
+14018,municipio,La Barca,14,-102.541944,20.290278
+14019,municipio,Bolaños,14,-104.013222,21.874827
+14020,municipio,Cabo Corrientes,14,-105.323889,20.318333
+14021,municipio,Casimiro Castillo,14,-104.434722,19.603611
+14022,municipio,Cihuatlán,14,-104.562998,19.238343
+14023,municipio,Zapotlán el Grande,14,-103.464167,19.708611
+14024,municipio,Cocula,14,-103.824167,20.367500
+14025,municipio,Colotlán,14,-103.264722,22.117222
+14026,municipio,Concepción de Buenos Aires,14,-103.257222,19.978611
+14027,municipio,Cuautitlán de García Barragán,14,-104.356944,19.449722
+14028,municipio,Cuautla,14,-104.407500,20.201389
+14029,municipio,Cuquío,14,-103.023889,20.927500
+14030,municipio,Chapala,14,-103.189722,20.293333
+14031,municipio,Chimaltitán,14,-103.780706,21.778865
+14032,municipio,Chiquilistlán,14,-103.858056,20.088611
+14033,municipio,Degollado,14,-102.135000,20.447500
+14034,municipio,Ejutla,14,-104.161944,19.906389
+14035,municipio,Encarnación de Díaz,14,-102.233056,21.524444
+14036,municipio,Etzatlán,14,-104.078333,20.767222
+14037,municipio,El Grullo,14,-104.215556,19.807500
+14038,municipio,Guachinango,14,-104.377222,20.576389
+14039,municipio,Guadalajara,14,-103.342222,20.676389
+14040,municipio,Hostotipaquillo,14,-104.050278,21.058056
+14041,municipio,Huejúcar,14,-103.211667,22.362222
+14042,municipio,Huejuquilla el Alto,14,-103.894167,22.628611
+14043,municipio,La Huerta,14,-104.643333,19.485000
+14044,municipio,Ixtlahuacán de los Membrillos,14,-103.185806,20.421372
+14045,municipio,Ixtlahuacán del Río,14,-103.239167,20.864167
+14046,municipio,Jalostotitlán,14,-102.461111,21.168611
+14047,municipio,Jamay,14,-102.709717,20.294500
+14048,municipio,Jesús María,14,-102.220000,20.607500
+14049,municipio,Jilotlán de los Dolores,14,-103.019722,19.370556
+14050,municipio,Jocotepec,14,-103.425278,20.284444
+14051,municipio,Juanacatlán,14,-103.142228,20.567457
+14052,municipio,Juchitlán,14,-104.096249,20.083856
+14053,municipio,Lagos de Moreno,14,-101.929167,21.356389
+14054,municipio,El Limón,14,-104.152222,19.824444
+14055,municipio,Magdalena,14,-103.976111,20.906389
+14056,municipio,Santa María del Oro,14,-102.908333,19.587500
+14057,municipio,La Manzanilla de la Paz,14,-103.150000,20.004444
+14058,municipio,Mascota,14,-104.782222,20.525556
+14059,municipio,Mazamitla,14,-103.020278,19.917222
+14060,municipio,Mexticacán,14,-102.777778,21.263056
+14061,municipio,Mezquitic,14,-103.728122,22.390000
+14062,municipio,Mixtlán,14,-104.408889,20.440556
+14063,municipio,Ocotlán,14,-102.768056,20.351389
+14064,municipio,Ojuelos de Jalisco,14,-101.593333,21.864167
+14065,municipio,Pihuamo,14,-103.375037,19.252439
+14066,municipio,Poncitlán,14,-102.924167,20.381389
+14067,municipio,Puerto Vallarta,14,-105.227222,20.613611
+14068,municipio,Villa Purificación,14,-104.605000,19.719167
+14069,municipio,Quitupan,14,-102.872152,19.927651
+14070,municipio,El Salto,14,-103.321111,20.576389
+14071,municipio,San Cristóbal de la Barranca,14,-103.429167,21.044444
+14072,municipio,San Diego de Alejandría,14,-101.993611,20.993056
+14073,municipio,San Juan de los Lagos,14,-102.332778,21.247778
+14074,municipio,San Julián,14,-102.180833,21.009722
+14075,municipio,San Marcos,14,-104.197500,20.790000
+14076,municipio,San Martín de Bolaños,14,-103.814199,21.683556
+14077,municipio,San Martín Hidalgo,14,-103.928611,20.435000
+14078,municipio,San Miguel el Alto,14,-102.398056,21.030556
+14079,municipio,Gómez Farías,14,-103.473056,19.794444
+14080,municipio,San Sebastián del Oeste,14,-104.721847,20.901465
+14081,municipio,Santa María de los Ángeles,14,-103.223056,22.173333
+14082,municipio,Sayula,14,-103.597222,19.883611
+14083,municipio,Tala,14,-103.702778,20.652500
+14084,municipio,Talpa de Allende,14,-104.818056,20.381389
+14085,municipio,Tamazula de Gordiano,14,-103.250000,19.676389
+14086,municipio,Tapalpa,14,-103.754167,19.945556
+14087,municipio,Tecalitlán,14,-103.306667,19.469444
+14088,municipio,Tecolotlán,14,-104.045000,20.203611
+14089,municipio,Techaluta de Montenegro,14,-103.551667,20.074167
+14090,municipio,Tenamaxtlán,14,-104.160278,20.218611
+14091,municipio,Teocaltiche,14,-102.570278,21.434444
+14092,municipio,Teocuitatlán de Corona,14,-103.380000,20.093333
+14093,municipio,Tepatitlán de Morelos,14,-102.757222,20.817500
+14094,municipio,Tequila,14,-103.835647,20.879439
+14095,municipio,Teuchitlán,14,-103.849167,20.685278
+14096,municipio,Tizapán el Alto,14,-103.039167,20.158611
+14097,municipio,Tlajomulco de Zúñiga,14,-103.380556,20.518056
+14098,municipio,San Pedro Tlaquepaque,14,-103.307222,20.638611
+14099,municipio,Tolimán,14,-103.766944,19.610556
+14100,municipio,Tomatlán,14,-105.245272,19.941525
+14101,municipio,Tonalá,14,-103.245556,20.623333
+14102,municipio,Tonaya,14,-103.970833,19.784167
+14103,municipio,Tonila,14,-103.506389,19.446111
+14104,municipio,Totatiche,14,-103.524329,21.977109
+14105,municipio,Tototlán,14,-102.789217,20.543614
+14106,municipio,Tuxcacuesco,14,-103.983587,19.697220
+14107,municipio,Tuxcueca,14,-103.302222,20.195000
+14108,municipio,Tuxpan,14,-103.372222,19.554444
+14109,municipio,Unión de San Antonio,14,-102.007222,21.128056
+14110,municipio,Unión de Tula,14,-104.264444,19.954444
+14111,municipio,Valle de Guadalupe,14,-102.617767,21.010598
+14112,municipio,Valle de Juárez,14,-102.940278,19.933611
+14113,municipio,San Gabriel,14,-103.766458,19.747783
+14114,municipio,Villa Corona,14,-103.661389,20.416389
+14115,municipio,Villa Guerrero,14,-103.596667,21.983056
+14116,municipio,Villa Hidalgo,14,-102.585278,21.674444
+14117,municipio,Cañadas de Obregón,14,-102.685278,21.148611
+14118,municipio,Yahualica de González Gallo,14,-102.887222,21.182500
+14119,municipio,Zacoalco de Torres,14,-103.565278,20.228611
+14120,municipio,Zapopan,14,-103.388988,20.720962
+14121,municipio,Zapotiltic,14,-103.412500,19.625556
+14122,municipio,Zapotitlán de Vadillo,14,-103.812707,19.548142
+14123,municipio,Zapotlán del Rey,14,-102.926111,20.466389
+14124,municipio,Zapotlanejo,14,-103.064167,20.622500
+14125,municipio,San Ignacio Cerro Gordo,14,-102.536111,20.743056
+15,estado,México,,,
+15001,municipio,Acambay de Ruíz Castañeda,15,-99.844032,19.956229
+15002,municipio,Acolman,15,-98.937316,19.612590
+15003,municipio,Aculco,15,-99.896503,20.163502
+15004,municipio,Almoloya de Alquisiras,15,-99.893800,18.867233
+15005,municipio,Almoloya de Juárez,15,-99.768395,19.293397
+15006,municipio,Almoloya del Río,15,-99.488842,19.159386
+15007,municipio,Amanalco,15,-100.030291,19.248434
+15008,municipio,Amatepec,15,-100.369477,18.696534
+15009,municipio,Amecameca,15,-98.769811,19.128685
+15010,municipio,Apaxco,15,-99.174163,19.975325
+15011,municipio,Atenco,15,-98.913348,19.559339
+15012,municipio,Atizapán,15,-99.487942,19.176758
+15013,municipio,Atizapán de Zaragoza,15,-99.235041,19.543171
+15014,municipio,Atlacomulco,15,-99.874254,19.800029
+15015,municipio,Atlautla,15,-98.782666,19.030861
+15016,municipio,Axapusco,15,-98.634089,19.729444
+15017,municipio,Ayapango,15,-98.802506,19.127221
+15018,municipio,Calimaya,15,-99.618665,19.163225
+15019,municipio,Capulhuac,15,-99.464408,19.193123
+15020,municipio,Coacalco de Berriozábal,15,-99.104377,19.629299
+15021,municipio,Coatepec Harinas,15,-99.768519,18.925711
+15022,municipio,Cocotitlán,15,-98.861952,19.230856
+15023,municipio,Coyotepec,15,-99.207980,19.775507
+15024,municipio,Cuautitlán,15,-99.178630,19.665061
+15025,municipio,Chalco,15,-98.895655,19.261132
+15026,municipio,Chapa de Mota,15,-99.610832,19.857083
+15027,municipio,Chapultepec,15,-99.561873,19.201162
+15028,municipio,Chiautla,15,-98.881349,19.548652
+15029,municipio,Chicoloapan,15,-98.902012,19.416765
+15030,municipio,Chiconcuac,15,-98.895307,19.552722
+15031,municipio,Chimalhuacán,15,-98.945299,19.416908
+15032,municipio,Donato Guerra,15,-100.087150,19.291071
+15033,municipio,Ecatepec de Morelos,15,-99.049159,19.599069
+15034,municipio,Ecatzingo,15,-98.752598,18.958715
+15035,municipio,Huehuetoca,15,-99.240549,19.841286
+15036,municipio,Hueypoxtla,15,-99.043778,19.977759
+15037,municipio,Huixquilucan,15,-99.279612,19.405933
+15038,municipio,Isidro Fabela,15,-99.417380,19.555591
+15039,municipio,Ixtapaluca,15,-98.884247,19.313104
+15040,municipio,Ixtapan de la Sal,15,-99.675823,18.844606
+15041,municipio,Ixtapan del Oro,15,-100.293216,19.301653
+15042,municipio,Ixtlahuaca,15,-99.741491,19.590445
+15043,municipio,Xalatlaco,15,-99.413736,19.184387
+15044,municipio,Jaltenco,15,-99.070804,19.662374
+15045,municipio,Jilotepec,15,-99.532829,19.952834
+15046,municipio,Jilotzingo,15,-99.363022,19.495960
+15047,municipio,Jiquipilco,15,-99.614833,19.620805
+15048,municipio,Jocotitlán,15,-99.785798,19.711818
+15049,municipio,Joquicingo,15,-99.524599,19.112721
+15050,municipio,Juchitepec,15,-98.880916,19.101912
+15051,municipio,Lerma,15,-99.511817,19.285373
+15052,municipio,Malinalco,15,-99.497565,18.952342
+15053,municipio,Melchor Ocampo,15,-99.143458,19.710414
+15054,municipio,Metepec,15,-99.579379,19.271403
+15055,municipio,Mexicaltzingo,15,-99.586854,19.211109
+15056,municipio,Morelos,15,-99.608650,19.721755
+15057,municipio,Naucalpan de Juárez,15,-99.233218,19.478803
+15058,municipio,Nezahualcóyotl,15,-99.018200,19.408763
+15059,municipio,Nextlalpan,15,-99.067645,19.706566
+15060,municipio,Nicolás Romero,15,-99.315898,19.625715
+15061,municipio,Nopaltepec,15,-98.701834,19.803111
+15062,municipio,Ocoyoacac,15,-99.455695,19.269281
+15063,municipio,Ocuilan,15,-99.425751,18.991377
+15064,municipio,El Oro,15,-100.130665,19.802143
+15065,municipio,Otumba,15,-98.757694,19.699854
+15066,municipio,Otzoloapan,15,-100.297712,19.117408
+15067,municipio,Otzolotepec,15,-99.558589,19.416206
+15068,municipio,Ozumba,15,-98.795389,19.039177
+15069,municipio,Papalotla,15,-98.858209,19.563378
+15070,municipio,La Paz,15,-98.976602,19.358387
+15071,municipio,Polotitlán,15,-99.814745,20.223809
+15072,municipio,Rayón,15,-99.581739,19.148011
+15073,municipio,San Antonio la Isla,15,-99.569336,19.164099
+15074,municipio,San Felipe del Progreso,15,-100.030727,19.614986
+15075,municipio,San Martín de las Pirámides,15,-98.834524,19.704843
+15076,municipio,San Mateo Atenco,15,-99.529722,19.264167
+15077,municipio,San Simón de Guerrero,15,-100.007278,19.023089
+15078,municipio,Santo Tomás,15,-100.259603,19.180303
+15079,municipio,Soyaniquilpan de Juárez,15,-99.527896,20.013891
+15080,municipio,Sultepec,15,-99.966430,18.858546
+15081,municipio,Tecámac,15,-98.997619,19.678303
+15082,municipio,Tejupilco,15,-100.153403,18.905696
+15083,municipio,Temamatla,15,-98.869902,19.202741
+15084,municipio,Temascalapa,15,-98.910433,19.767164
+15085,municipio,Temascalcingo,15,-100.004081,19.915911
+15086,municipio,Temascaltepec,15,-100.041359,19.043075
+15087,municipio,Temoaya,15,-99.564289,19.484334
+15088,municipio,Tenancingo,15,-99.593842,18.961830
+15089,municipio,Tenango del Aire,15,-98.861296,19.157003
+15090,municipio,Tenango del Valle,15,-99.591575,19.103761
+15091,municipio,Teoloyucan,15,-99.183065,19.745466
+15092,municipio,Teotihuacán,15,-98.868628,19.685479
+15093,municipio,Tepetlaoxtoc,15,-98.819719,19.573365
+15094,municipio,Tepetlixpa,15,-98.819708,19.029515
+15095,municipio,Tepotzotlán,15,-99.223514,19.713778
+15096,municipio,Tequixquiac,15,-99.148913,19.910277
+15097,municipio,Texcaltitlán,15,-99.939277,18.930389
+15098,municipio,Texcalyacac,15,-99.503069,19.132227
+15099,municipio,Texcoco,15,-98.881484,19.513440
+15100,municipio,Tezoyuca,15,-98.961566,19.602295
+15101,municipio,Tianguistenco,15,-99.498684,19.199372
+15102,municipio,Timilpan,15,-99.763973,19.820608
+15103,municipio,Tlalmanalco,15,-98.756152,19.209687
+15104,municipio,Tlalnepantla de Baz,15,-99.195198,19.538523
+15105,municipio,Tlatlaya,15,-100.305071,18.582939
+15106,municipio,Toluca,15,-99.657317,19.293488
+15107,municipio,Tonatico,15,-99.670935,18.802019
+15108,municipio,Tultepec,15,-99.128605,19.685548
+15109,municipio,Tultitlán,15,-99.166950,19.608280
+15110,municipio,Valle de Bravo,15,-100.131607,19.194395
+15111,municipio,Villa de Allende,15,-100.106948,19.388520
+15112,municipio,Villa del Carbón,15,-99.463080,19.727588
+15113,municipio,Villa Guerrero,15,-99.642000,18.961709
+15114,municipio,Villa Victoria,15,-99.995050,19.441876
+15115,municipio,Xonacatlán,15,-99.530396,19.404419
+15116,municipio,Zacazonapan,15,-100.256116,19.074457
+15117,municipio,Zacualpan,15,-99.775622,18.718670
+15118,municipio,Zinacantepec,15,-99.735038,19.284906
+15119,municipio,Zumpahuacán,15,-99.585596,18.840928
+15120,municipio,Zumpango,15,-99.100634,19.797123
+15121,municipio,Cuautitlán Izcalli,15,-99.209286,19.656996
+15122,municipio,Valle de Chalco Solidaridad,15,-98.943449,19.278765
+15123,municipio,Luvianos,15,-100.299446,18.920482
+15124,municipio,San José del Rincón,15,-100.151469,19.664803
+15125,municipio,Tonanitla,15,-99.054362,19.688162
+16,estado,Michoacán de Ocampo,,,
+16001,municipio,Acuitzio,16,-101.332851,19.496252
+16002,municipio,Aguililla,16,-102.788380,18.734231
+16003,municipio,Álvaro Obregón,16,-101.038485,19.826306
+16004,municipio,Angamacutiro,16,-101.708311,20.149654
+16005,municipio,Angangueo,16,-100.285511,19.619833
+16006,municipio,Apatzingán,16,-102.355264,19.087227
+16007,municipio,Aporo,16,-100.411128,19.670836
+16008,municipio,Aquila,16,-103.504754,18.599139
+16009,municipio,Ario,16,-101.709394,19.207807
+16010,municipio,Arteaga,16,-102.290063,18.355694
+16011,municipio,Briseñas,16,-102.561058,20.271234
+16012,municipio,Buenavista,16,-102.587891,19.211735
+16013,municipio,Carácuaro,16,-101.126991,19.017308
+16014,municipio,Coahuayana,16,-103.662931,18.702474
+16015,municipio,Coalcomán de Vázquez Pallares,16,-103.159555,18.777099
+16016,municipio,Coeneo,16,-101.583751,19.820984
+16017,municipio,Contepec,16,-100.164457,19.955269
+16018,municipio,Copándaro,16,-101.215305,19.893824
+16019,municipio,Cotija,16,-102.705822,19.810285
+16020,municipio,Cuitzeo,16,-101.139584,19.968214
+16021,municipio,Charapan,16,-102.252738,19.650169
+16022,municipio,Charo,16,-101.046313,19.746670
+16023,municipio,Chavinda,16,-102.458585,20.006939
+16024,municipio,Cherán,16,-101.954816,19.687652
+16025,municipio,Chilchota,16,-102.119437,19.849207
+16026,municipio,Chinicuila,16,-103.367800,18.758168
+16027,municipio,Chucándiro,16,-101.333391,19.899965
+16028,municipio,Churintzio,16,-102.065921,20.150960
+16029,municipio,Churumuco,16,-101.646553,18.664558
+16030,municipio,Ecuandureo,16,-102.194566,20.162616
+16031,municipio,Epitacio Huerta,16,-100.293722,20.134689
+16032,municipio,Erongarícuaro,16,-101.677500,19.560833
+16033,municipio,Gabriel Zamora,16,-102.053965,19.159804
+16034,municipio,Hidalgo,16,-100.555161,19.689351
+16035,municipio,La Huacana,16,-101.808867,18.962887
+16036,municipio,Huandacareo,16,-101.275853,19.988704
+16037,municipio,Huaniqueo,16,-101.505151,19.898995
+16038,municipio,Huetamo,16,-100.899725,18.626426
+16039,municipio,Huiramba,16,-101.437993,19.546481
+16040,municipio,Indaparapeo,16,-100.968493,19.790059
+16041,municipio,Irimbo,16,-100.479101,19.697488
+16042,municipio,Ixtlán,16,-102.394624,20.168366
+16043,municipio,Jacona,16,-102.306023,19.956322
+16044,municipio,Jiménez,16,-101.749293,19.922266
+16045,municipio,Jiquilpan,16,-102.718563,19.989719
+16046,municipio,Juárez,16,-100.432791,19.312276
+16047,municipio,Jungapeo,16,-100.494612,19.458725
+16048,municipio,Lagunillas,16,-101.414779,19.564623
+16049,municipio,Madero,16,-101.277616,19.392121
+16050,municipio,Maravatío,16,-100.441667,19.891674
+16051,municipio,Marcos Castellanos,16,-103.021504,19.990238
+16052,municipio,Lázaro Cárdenas,16,-102.197981,17.962334
+16053,municipio,Morelia,16,-101.192046,19.703384
+16054,municipio,Morelos,16,-101.412386,20.004252
+16055,municipio,Múgica,16,-102.086734,19.028805
+16056,municipio,Nahuatzen,16,-101.917137,19.654073
+16057,municipio,Nocupétaro,16,-101.162229,19.043297
+16058,municipio,Nuevo Parangaricutiro,16,-102.129880,19.416644
+16059,municipio,Nuevo Urecho,16,-101.868847,19.165872
+16060,municipio,Numarán,16,-101.947197,20.254900
+16061,municipio,Ocampo,16,-100.339282,19.583848
+16062,municipio,Pajacuarán,16,-102.565513,20.116894
+16063,municipio,Panindícuaro,16,-101.761460,19.983959
+16064,municipio,Parácuaro,16,-102.206646,19.015547
+16065,municipio,Paracho,16,-102.048468,19.647297
+16066,municipio,Pátzcuaro,16,-101.610116,19.513598
+16067,municipio,Penjamillo,16,-101.933671,20.104468
+16068,municipio,Peribán,16,-102.416188,19.520727
+16069,municipio,La Piedad,16,-102.022554,20.341450
+16070,municipio,Purépero,16,-102.006741,19.909963
+16071,municipio,Puruándiro,16,-101.515200,20.088665
+16072,municipio,Queréndaro,16,-100.883488,19.810028
+16073,municipio,Quiroga,16,-101.524004,19.663786
+16074,municipio,Cojumatlán de Régules,16,-102.851005,20.118998
+16075,municipio,Los Reyes,16,-102.474679,19.588974
+16076,municipio,Sahuayo,16,-102.716797,20.057684
+16077,municipio,San Lucas,16,-100.784752,18.591411
+16078,municipio,Santa Ana Maya,16,-101.021763,20.008392
+16079,municipio,Salvador Escalante,16,-101.639798,19.406085
+16080,municipio,Senguio,16,-100.352407,19.733341
+16081,municipio,Susupuato,16,-100.417500,19.248333
+16082,municipio,Tacámbaro,16,-101.457328,19.235537
+16083,municipio,Tancítaro,16,-102.363034,19.337497
+16084,municipio,Tangamandapio,16,-102.432801,19.953995
+16085,municipio,Tangancícuaro,16,-102.208453,19.888234
+16086,municipio,Tanhuato,16,-102.327641,20.283811
+16087,municipio,Taretan,16,-101.917904,19.334562
+16088,municipio,Tarímbaro,16,-101.195598,19.762495
+16089,municipio,Tepalcatepec,16,-102.843708,19.191367
+16090,municipio,Tingambato,16,-101.853476,19.501894
+16091,municipio,Tingüindín,16,-102.483083,19.738952
+16092,municipio,Tiquicheo de Nicolás Romero,16,-100.736454,18.900489
+16093,municipio,Tlalpujahua,16,-100.173593,19.805304
+16094,municipio,Tlazazalca,16,-102.056679,19.971236
+16095,municipio,Tocumbo,16,-102.489147,19.639606
+16096,municipio,Tumbiscatío,16,-102.375023,18.524801
+16097,municipio,Turicato,16,-101.522465,19.094969
+16098,municipio,Tuxpan,16,-100.463778,19.567961
+16099,municipio,Tuzantla,16,-100.573064,19.207606
+16100,municipio,Tzintzuntzan,16,-101.618104,19.565515
+16101,municipio,Tzitzio,16,-100.907626,19.418899
+16102,municipio,Uruapan,16,-102.062799,19.420888
+16103,municipio,Venustiano Carranza,16,-102.652361,20.115974
+16104,municipio,Villamar,16,-102.615154,19.991487
+16105,municipio,Vista Hermosa,16,-102.473646,20.273115
+16106,municipio,Yurécuaro,16,-102.282425,20.341089
+16107,municipio,Zacapu,16,-101.792860,19.818619
+16108,municipio,Zamora,16,-102.285958,19.983579
+16109,municipio,Zináparo,16,-101.998774,20.173189
+16110,municipio,Zinapécuaro,16,-100.827583,19.860275
+16111,municipio,Ziracuaretiro,16,-101.889441,19.448939
+16112,municipio,Zitácuaro,16,-100.357486,19.437180
+16113,municipio,José Sixto Verduzco,16,-101.596856,20.302184
+17,estado,Morelos,,,
+17001,municipio,Amacuzac,17,-99.369514,18.600002
+17002,municipio,Atlatlahucan,17,-98.899175,18.936271
+17003,municipio,Axochiapan,17,-98.754079,18.502406
+17004,municipio,Ayala,17,-98.962599,18.792179
+17005,municipio,Coatlán del Río,17,-99.434801,18.744186
+17006,municipio,Cuautla,17,-98.955265,18.812788
+17007,municipio,Cuernavaca,17,-99.234897,18.921783
+17008,municipio,Emiliano Zapata,17,-99.183243,18.840984
+17009,municipio,Huitzilac,17,-99.243566,19.052983
+17010,municipio,Jantetelco,17,-98.799084,18.724801
+17011,municipio,Jiutepec,17,-99.177198,18.881974
+17012,municipio,Jojutla,17,-99.181044,18.616566
+17013,municipio,Jonacatepec de Leandro Valle,17,-98.803223,18.680690
+17014,municipio,Mazatepec,17,-99.366972,18.733184
+17015,municipio,Miacatlán,17,-99.360265,18.769982
+17016,municipio,Ocuituco,17,-98.775697,18.877693
+17017,municipio,Puente de Ixtla,17,-99.323701,18.616875
+17018,municipio,Temixco,17,-99.224143,18.845273
+17019,municipio,Tepalcingo,17,-98.844357,18.594736
+17020,municipio,Tepoztlán,17,-99.101227,18.986457
+17021,municipio,Tetecala,17,-99.398583,18.728967
+17022,municipio,Tetela del Volcán,17,-98.730066,18.893525
+17023,municipio,Tlalnepantla,17,-98.997352,19.007927
+17024,municipio,Tlaltizapán de Zapata,17,-99.179513,18.699155
+17025,municipio,Tlaquiltenango,17,-99.162662,18.630030
+17026,municipio,Tlayacapan,17,-98.983118,18.956617
+17027,municipio,Totolapan,17,-98.921439,18.987223
+17028,municipio,Xochitepec,17,-99.231463,18.781866
+17029,municipio,Yautepec,17,-99.060754,18.886062
+17030,municipio,Yecapixtla,17,-98.868144,18.883420
+17031,municipio,Zacatepec,17,-99.194279,18.655408
+17032,municipio,Zacualpan de Amilpas,17,-98.751612,18.814334
+17033,municipio,Temoac,17,-98.778043,18.772315
+17034,municipio,Coatetelco,17,-99.327057,18.730486
+17035,municipio,Xoxocotla,17,-99.244895,18.686573
+17036,municipio,Hueyapan,17,-98.690684,18.885134
+18,estado,Nayarit,,,
+18001,municipio,Acaponeta,18,-105.360184,22.489387
+18002,municipio,Ahuacatlán,18,-104.484664,21.050587
+18003,municipio,Amatlán de Cañas,18,-104.405389,20.807782
+18004,municipio,Compostela,18,-104.900597,21.237530
+18005,municipio,Huajicori,18,-105.319985,22.637261
+18006,municipio,Ixtlán del Río,18,-104.368911,21.035055
+18007,municipio,Jala,18,-104.438217,21.104821
+18008,municipio,Xalisco,18,-104.899736,21.443687
+18009,municipio,Del Nayar,18,-104.517943,22.251125
+18010,municipio,Rosamorada,18,-105.297784,21.948638
+18011,municipio,Ruíz,18,-105.145057,21.950253
+18012,municipio,San Blas,18,-105.286046,21.541738
+18013,municipio,San Pedro Lagunillas,18,-104.751110,21.221906
+18014,municipio,Santa María del Oro,18,-104.587207,21.333189
+18015,municipio,Santiago Ixcuintla,18,-105.206044,21.808336
+18016,municipio,Tecuala,18,-105.456034,22.395041
+18017,municipio,Tepic,18,-104.893799,21.507413
+18018,municipio,Tuxpan,18,-105.298087,21.944790
+18019,municipio,La Yesca,18,-104.078711,21.698936
+18020,municipio,Bahía de Banderas,18,-105.251169,20.748360
+19,estado,Nuevo León,,,
+19001,municipio,Abasolo,19,-100.399988,25.945338
+19002,municipio,Agualeguas,19,-99.539389,26.310915
+19003,municipio,Los Aldamas,19,-99.196733,26.064143
+19004,municipio,Allende,19,-100.008324,25.286900
+19005,municipio,Anáhuac,19,-100.132436,27.240647
+19006,municipio,Apodaca,19,-100.189228,25.781294
+19007,municipio,Aramberri,19,-99.818067,24.100586
+19008,municipio,Bustamante,19,-100.502706,26.534664
+19009,municipio,Cadereyta Jiménez,19,-100.001594,25.591008
+19010,municipio,El Carmen,19,-100.317251,25.853534
+19011,municipio,Cerralvo,19,-99.614733,26.089869
+19012,municipio,Ciénega de Flores,19,-100.182958,25.929006
+19013,municipio,China,19,-99.239317,25.705914
+19014,municipio,Doctor Arroyo,19,-100.182256,23.674692
+19015,municipio,Doctor Coss,19,-99.184372,25.925897
+19016,municipio,Doctor González,19,-99.941869,25.858829
+19017,municipio,Galeana,19,-100.077428,24.826267
+19018,municipio,García,19,-100.585469,25.800492
+19019,municipio,San Pedro Garza García,19,-100.402467,25.665169
+19020,municipio,General Bravo,19,-99.181233,25.793297
+19021,municipio,General Escobedo,19,-100.322642,25.807986
+19022,municipio,General Terán,19,-99.685814,25.257186
+19023,municipio,General Treviño,19,-99.484081,26.226969
+19024,municipio,General Zaragoza,19,-99.772392,23.973261
+19025,municipio,General Zuazua,19,-100.168147,25.898153
+19026,municipio,Guadalupe,19,-100.259897,25.677325
+19027,municipio,Los Herreras,19,-99.403297,25.905606
+19028,municipio,Higueras,19,-100.014350,25.961956
+19029,municipio,Hualahuises,19,-99.673228,24.884642
+19030,municipio,Iturbide,19,-99.905261,24.725978
+19031,municipio,Juárez,19,-100.090881,25.646225
+19032,municipio,Lampazos de Naranjo,19,-100.504324,27.025312
+19033,municipio,Linares,19,-99.567869,24.859653
+19034,municipio,Marín,19,-100.034049,25.879302
+19035,municipio,Melchor Ocampo,19,-99.542283,26.058525
+19036,municipio,Mier y Noriega,19,-100.119669,23.423119
+19037,municipio,Mina,19,-100.531844,26.001256
+19038,municipio,Montemorelos,19,-99.826958,25.189253
+19039,municipio,Monterrey,19,-100.310892,25.664697
+19040,municipio,Parás,19,-99.525422,26.498539
+19041,municipio,Pesquería,19,-100.053678,25.783258
+19042,municipio,Los Ramones,19,-99.624031,25.696392
+19043,municipio,Rayones,19,-100.073214,25.018122
+19044,municipio,Sabinas Hidalgo,19,-100.181147,26.498369
+19045,municipio,Salinas Victoria,19,-100.242969,25.912743
+19046,municipio,San Nicolás de los Garza,19,-100.289586,25.755253
+19047,municipio,Hidalgo,19,-100.446894,25.975650
+19048,municipio,Santa Catarina,19,-100.461747,25.674364
+19049,municipio,Santiago,19,-100.153011,25.427100
+19050,municipio,Vallecillo,19,-99.989579,26.659673
+19051,municipio,Villaldama,19,-100.424561,26.498225
+20,estado,Oaxaca,,,
+20001,municipio,Abejones,20,-96.608174,17.435752
+20002,municipio,Acatlán de Pérez Figueroa,20,-96.531845,18.513523
+20003,municipio,Asunción Cacalotepec,20,-95.956562,17.035264
+20004,municipio,Asunción Cuyotepeji,20,-97.674352,17.930901
+20005,municipio,Asunción Ixtaltepec,20,-95.057045,16.503840
+20006,municipio,Asunción Nochixtlán,20,-97.225199,17.458936
+20007,municipio,Asunción Ocotlán,20,-96.721326,16.759179
+20008,municipio,Asunción Tlacolulita,20,-95.726305,16.300263
+20009,municipio,Ayotzintepec,20,-96.133271,17.676709
+20010,municipio,El Barrio de la Soledad,20,-95.079486,16.801347
+20011,municipio,Calihualá,20,-98.278376,17.532857
+20012,municipio,Candelaria Loxicha,20,-96.491919,15.926334
+20013,municipio,Ciénega de Zimatlán,20,-96.766618,16.897088
+20014,municipio,Ciudad Ixtepec,20,-95.098712,16.567698
+20015,municipio,Coatecas Altas,20,-96.664981,16.536759
+20016,municipio,Coicoyán de las Flores,20,-98.276094,17.272898
+20017,municipio,La Compañía,20,-96.804016,16.586640
+20018,municipio,Concepción Buenavista,20,-97.400233,17.878533
+20019,municipio,Concepción Pápalo,20,-96.876929,17.885230
+20020,municipio,Constancia del Rosario,20,-97.941458,17.037822
+20021,municipio,Cosolapa,20,-96.682386,18.601787
+20022,municipio,Cosoltepec,20,-97.790672,18.141977
+20023,municipio,Cuilápam de Guerrero,20,-96.780591,16.996001
+20024,municipio,Cuyamecalco Villa de Zaragoza,20,-96.831376,17.965083
+20025,municipio,Chahuites,20,-94.195824,16.287609
+20026,municipio,Chalcatongo de Hidalgo,20,-97.570989,17.032029
+20027,municipio,Chiquihuitlán de Benito Juárez,20,-96.745447,17.995439
+20028,municipio,Heroica Ciudad de Ejutla de Crespo,20,-96.731901,16.564276
+20029,municipio,Eloxochitlán de Flores Magón,20,-96.876091,18.176881
+20030,municipio,El Espinal,20,-95.042836,16.485710
+20031,municipio,Tamazulápam del Espíritu Santo,20,-96.065106,17.054436
+20032,municipio,Fresnillo de Trujano,20,-98.132200,17.943776
+20033,municipio,Guadalupe Etla,20,-96.810576,17.171637
+20034,municipio,Guadalupe de Ramírez,20,-98.164394,17.756051
+20035,municipio,Guelatao de Juárez,20,-96.493683,17.318173
+20036,municipio,Guevea de Humboldt,20,-95.368056,16.792614
+20037,municipio,Mesones Hidalgo,20,-97.966546,16.915356
+20038,municipio,Villa Hidalgo,20,-96.178834,17.185888
+20039,municipio,Heroica Ciudad de Huajuapan de León,20,-97.776236,17.806837
+20040,municipio,Huautepec,20,-96.797299,18.101978
+20041,municipio,Huautla de Jiménez,20,-96.846162,18.130377
+20042,municipio,Ixtlán de Juárez,20,-96.487802,17.331529
+20043,municipio,Juchitán de Zaragoza,20,-95.021633,16.433308
+20044,municipio,Loma Bonita,20,-95.879976,18.109871
+20045,municipio,Magdalena Apasco,20,-96.821091,17.242063
+20046,municipio,Magdalena Jaltepec,20,-97.221277,17.323621
+20047,municipio,Santa Magdalena Jicotlán,20,-97.470652,17.807017
+20048,municipio,Magdalena Mixtepec,20,-96.907728,16.896112
+20049,municipio,Magdalena Ocotlán,20,-96.712365,16.709455
+20050,municipio,Magdalena Peñasco,20,-97.569511,17.219392
+20051,municipio,Magdalena Teitipac,20,-96.558739,16.906621
+20052,municipio,Magdalena Tequisistlán,20,-95.602909,16.398917
+20053,municipio,Magdalena Tlacotepec,20,-95.203306,16.503966
+20054,municipio,Magdalena Zahuatlán,20,-97.229021,17.388426
+20055,municipio,Mariscala de Juárez,20,-98.141621,17.860506
+20056,municipio,Mártires de Tacubaya,20,-98.250912,16.537986
+20057,municipio,Matías Romero Avendaño,20,-95.042149,16.877889
+20058,municipio,Mazatlán Villa de Flores,20,-96.913721,18.032564
+20059,municipio,Miahuatlán de Porfirio Díaz,20,-96.596524,16.328477
+20060,municipio,Mixistlán de la Reforma,20,-96.112028,17.146838
+20061,municipio,Monjas,20,-96.644623,16.504146
+20062,municipio,Natividad,20,-96.433294,17.296876
+20063,municipio,Nazareno Etla,20,-96.824002,17.177990
+20064,municipio,Nejapa de Madero,20,-96.026944,16.554295
+20065,municipio,Ixpantepec Nieves,20,-98.044862,17.506686
+20066,municipio,Santiago Niltepec,20,-94.613004,16.562093
+20067,municipio,Oaxaca de Juárez,20,-96.725450,17.059993
+20068,municipio,Ocotlán de Morelos,20,-96.675064,16.791641
+20069,municipio,La Pe,20,-96.799657,16.629959
+20070,municipio,Pinotepa de Don Luis,20,-97.977435,16.428442
+20071,municipio,Pluma Hidalgo,20,-96.419443,15.925846
+20072,municipio,San José del Progreso,20,-96.685529,16.685128
+20073,municipio,Putla Villa de Guerrero,20,-97.928153,17.026205
+20074,municipio,Santa Catarina Quioquitani,20,-96.284965,16.315654
+20075,municipio,Reforma de Pineda,20,-94.458434,16.399319
+20076,municipio,La Reforma,20,-97.844498,16.623315
+20077,municipio,Reyes Etla,20,-96.810093,17.205556
+20078,municipio,Rojas de Cuauhtémoc,20,-96.618646,17.008284
+20079,municipio,Salina Cruz,20,-95.192159,16.175885
+20080,municipio,San Agustín Amatengo,20,-96.789325,16.509943
+20081,municipio,San Agustín Atenango,20,-98.015182,17.611699
+20082,municipio,San Agustín Chayuco,20,-97.807518,16.402382
+20083,municipio,San Agustín de las Juntas,20,-96.711441,17.011660
+20084,municipio,San Agustín Etla,20,-96.764424,17.189083
+20085,municipio,San Agustín Loxicha,20,-96.616764,16.016609
+20086,municipio,San Agustín Tlacotepec,20,-97.517900,17.203684
+20087,municipio,San Agustín Yatareni,20,-96.668117,17.081212
+20088,municipio,San Andrés Cabecera Nueva,20,-97.680990,16.888416
+20089,municipio,San Andrés Dinicuiti,20,-97.726751,17.688115
+20090,municipio,San Andrés Huaxpaltepec,20,-97.916349,16.329046
+20091,municipio,San Andrés Huayápam,20,-96.666239,17.102543
+20092,municipio,San Andrés Ixtlahuaca,20,-96.825177,17.070874
+20093,municipio,San Andrés Lagunas,20,-97.513806,17.589787
+20094,municipio,San Andrés Nuxiño,20,-97.105271,17.238358
+20095,municipio,San Andrés Paxtlán,20,-96.507580,16.215636
+20096,municipio,San Andrés Sinaxtla,20,-97.283811,17.468502
+20097,municipio,San Andrés Solaga,20,-96.210213,17.299829
+20098,municipio,San Andrés Teotilálpam,20,-96.656588,17.954131
+20099,municipio,San Andrés Tepetlapa,20,-98.391687,17.665833
+20100,municipio,San Andrés Yaá,20,-96.153616,17.292578
+20101,municipio,San Andrés Zabache,20,-96.857736,16.600149
+20102,municipio,San Andrés Zautla,20,-96.863490,17.186388
+20103,municipio,San Antonino Castillo Velasco,20,-96.684640,16.803228
+20104,municipio,San Antonino el Alto,20,-97.029374,16.815701
+20105,municipio,San Antonino Monte Verde,20,-97.791931,17.530523
+20106,municipio,San Antonio Acutla,20,-97.496405,17.734715
+20107,municipio,San Antonio de la Cal,20,-96.699284,17.031313
+20108,municipio,San Antonio Huitepec,20,-97.147422,16.927331
+20109,municipio,San Antonio Nanahuatípam,20,-97.123645,18.130299
+20110,municipio,San Antonio Sinicahua,20,-97.578623,17.146815
+20111,municipio,San Antonio Tepetlapa,20,-98.066226,16.542361
+20112,municipio,San Baltazar Chichicápam,20,-96.489681,16.762097
+20113,municipio,San Baltazar Loxicha,20,-96.790321,16.073300
+20114,municipio,San Baltazar Yatzachi el Bajo,20,-96.198401,17.246111
+20115,municipio,San Bartolo Coyotepec,20,-96.707650,16.958281
+20116,municipio,San Bartolomé Ayautla,20,-96.671509,18.031800
+20117,municipio,San Bartolomé Loxicha,20,-96.711016,15.970390
+20118,municipio,San Bartolomé Quialana,20,-96.501206,16.901887
+20119,municipio,San Bartolomé Yucuañe,20,-97.447929,17.242547
+20120,municipio,San Bartolomé Zoogocho,20,-96.243051,17.240789
+20121,municipio,San Bartolo Soyaltepec,20,-97.367907,17.520232
+20122,municipio,San Bartolo Yautepec,20,-95.973112,16.430741
+20123,municipio,San Bernardo Mixtepec,20,-96.898666,16.824661
+20124,municipio,San Blas Atempa,20,-95.227546,16.326322
+20125,municipio,San Carlos Yautepec,20,-95.718414,16.862752
+20126,municipio,San Cristóbal Amatlán,20,-96.410016,16.318408
+20127,municipio,San Cristóbal Amoltepec,20,-97.569852,17.284533
+20128,municipio,San Cristóbal Lachirioag,20,-96.165047,17.335972
+20129,municipio,San Cristóbal Suchixtlahuaca,20,-97.366656,17.727554
+20130,municipio,San Dionisio del Mar,20,-94.757003,16.320539
+20131,municipio,San Dionisio Ocotepec,20,-96.396037,16.797754
+20132,municipio,San Dionisio Ocotlán,20,-96.680835,16.746444
+20133,municipio,San Esteban Atatlahuca,20,-97.677769,17.066549
+20134,municipio,San Felipe Jalapa de Díaz,20,-96.536115,18.071282
+20135,municipio,San Felipe Tejalápam,20,-96.853257,17.111401
+20136,municipio,San Felipe Usila,20,-96.528363,17.879395
+20137,municipio,San Francisco Cahuacuá,20,-97.460872,16.789934
+20138,municipio,San Francisco Cajonos,20,-96.251464,17.172094
+20139,municipio,San Francisco Chapulapa,20,-96.723619,17.886801
+20140,municipio,San Francisco Chindúa,20,-97.312791,17.428581
+20141,municipio,San Francisco del Mar,20,-94.514974,16.339358
+20142,municipio,San Francisco Huehuetlán,20,-96.947821,18.197594
+20143,municipio,San Francisco Ixhuatán,20,-94.483828,16.352357
+20144,municipio,San Francisco Jaltepetongo,20,-97.262854,17.385714
+20145,municipio,San Francisco Lachigoló,20,-96.598516,17.011407
+20146,municipio,San Francisco Logueche,20,-96.377979,16.352279
+20147,municipio,San Francisco Nuxaño,20,-97.343951,17.380833
+20148,municipio,San Francisco Ozolotepec,20,-96.220682,16.100539
+20149,municipio,San Francisco Sola,20,-96.974400,16.514966
+20150,municipio,San Francisco Telixtlahuaca,20,-96.904413,17.296596
+20151,municipio,San Francisco Teopan,20,-97.492531,17.851128
+20152,municipio,San Francisco Tlapancingo,20,-98.268909,17.484124
+20153,municipio,San Gabriel Mixtepec,20,-97.079499,16.094423
+20154,municipio,San Ildefonso Amatlán,20,-96.491556,16.334095
+20155,municipio,San Ildefonso Sola,20,-96.983667,16.519812
+20156,municipio,San Ildefonso Villa Alta,20,-96.153014,17.339011
+20157,municipio,San Jacinto Amilpas,20,-96.762562,17.100807
+20158,municipio,San Jacinto Tlacotepec,20,-97.379581,16.496006
+20159,municipio,San Jerónimo Coatlán,20,-97.041108,16.324871
+20160,municipio,San Jerónimo Silacayoapilla,20,-97.845932,17.809630
+20161,municipio,San Jerónimo Sosola,20,-97.118121,17.401334
+20162,municipio,San Jerónimo Taviche,20,-96.594263,16.713679
+20163,municipio,San Jerónimo Tecóatl,20,-96.913200,18.166914
+20164,municipio,San Jorge Nuchita,20,-98.106130,17.655954
+20165,municipio,San José Ayuquila,20,-97.969274,17.941788
+20166,municipio,San José Chiltepec,20,-96.170537,17.945352
+20167,municipio,San José del Peñasco,20,-96.501381,16.316059
+20168,municipio,San José Estancia Grande,20,-98.251286,16.365203
+20169,municipio,San José Independencia,20,-96.674716,18.275308
+20170,municipio,San José Lachiguiri,20,-96.336433,16.378776
+20171,municipio,San José Tenango,20,-96.717209,18.150762
+20172,municipio,San Juan Achiutla,20,-97.508873,17.344245
+20173,municipio,San Juan Atepec,20,-96.539132,17.426393
+20174,municipio,Ánimas Trujano,20,-96.713196,16.988882
+20175,municipio,San Juan Bautista Atatlahuca,20,-96.829941,17.531096
+20176,municipio,San Juan Bautista Coixtlahuaca,20,-97.323823,17.724643
+20177,municipio,San Juan Bautista Cuicatlán,20,-96.959567,17.801548
+20178,municipio,San Juan Bautista Guelache,20,-96.787462,17.212806
+20179,municipio,San Juan Bautista Jayacatlán,20,-96.822571,17.423504
+20180,municipio,San Juan Bautista Lo de Soto,20,-98.346802,16.511515
+20181,municipio,San Juan Bautista Suchitepec,20,-97.659820,17.972718
+20182,municipio,San Juan Bautista Tlacoatzintepec,20,-96.587087,17.859441
+20183,municipio,San Juan Bautista Tlachichilco,20,-98.343993,17.622548
+20184,municipio,San Juan Bautista Tuxtepec,20,-96.118482,18.081165
+20185,municipio,San Juan Cacahuatepec,20,-98.156092,16.613734
+20186,municipio,San Juan Cieneguilla,20,-98.280764,17.851659
+20187,municipio,San Juan Coatzóspam,20,-96.763325,18.049700
+20188,municipio,San Juan Colorado,20,-97.953989,16.459666
+20189,municipio,San Juan Comaltepec,20,-95.931407,17.321066
+20190,municipio,San Juan Cotzocón,20,-95.432419,17.449036
+20191,municipio,San Juan Chicomezúchil,20,-96.494917,17.288975
+20192,municipio,San Juan Chilateca,20,-96.672011,16.828518
+20193,municipio,San Juan del Estado,20,-96.799273,17.273528
+20194,municipio,San Juan del Río,20,-96.160470,16.882527
+20195,municipio,San Juan Diuxi,20,-97.374242,17.281509
+20196,municipio,San Juan Evangelista Analco,20,-96.537950,17.405827
+20197,municipio,San Juan Guelavía,20,-96.545832,16.956763
+20198,municipio,San Juan Guichicovi,20,-95.095094,16.962829
+20199,municipio,San Juan Ihualtepec,20,-98.288846,17.739842
+20200,municipio,San Juan Juquila Mixes,20,-95.918818,16.935633
+20201,municipio,San Juan Juquila Vijanos,20,-96.260398,17.328455
+20202,municipio,San Juan Lachao,20,-97.125108,16.158538
+20203,municipio,San Juan Lachigalla,20,-96.548843,16.591780
+20204,municipio,San Juan Lajarcia,20,-95.925591,16.508444
+20205,municipio,San Juan Lalana,20,-95.880167,17.669793
+20206,municipio,San Juan de los Cués,20,-97.059664,18.046927
+20207,municipio,San Juan Mazatlán,20,-95.446467,17.031124
+20208,municipio,San Juan Mixtepec,20,-97.831447,17.305726
+20209,municipio,San Juan Mixtepec,20,-96.299478,16.277539
+20210,municipio,San Juan Ñumí,20,-97.788787,17.453202
+20211,municipio,San Juan Ozolotepec,20,-96.203381,16.040071
+20212,municipio,San Juan Petlapa,20,-96.036834,17.469302
+20213,municipio,San Juan Quiahije,20,-97.316846,16.301878
+20214,municipio,San Juan Quiotepec,20,-96.588162,17.600763
+20215,municipio,San Juan Sayultepec,20,-97.284741,17.453482
+20216,municipio,San Juan Tabaá,20,-96.207102,17.305186
+20217,municipio,San Juan Tamazola,20,-97.219053,17.093713
+20218,municipio,San Juan Teita,20,-97.414313,17.095262
+20219,municipio,San Juan Teitipac,20,-96.608509,16.934399
+20220,municipio,San Juan Tepeuxila,20,-96.790083,17.770177
+20221,municipio,San Juan Teposcolula,20,-97.424579,17.550609
+20222,municipio,San Juan Yaeé,20,-96.283846,17.429087
+20223,municipio,San Juan Yatzona,20,-96.169244,17.402424
+20224,municipio,San Juan Yucuita,20,-97.270358,17.512253
+20225,municipio,San Lorenzo,20,-97.874836,16.394262
+20226,municipio,San Lorenzo Albarradas,20,-96.259648,16.907226
+20227,municipio,San Lorenzo Cacaotepec,20,-96.801996,17.129359
+20228,municipio,San Lorenzo Cuaunecuiltitla,20,-96.913057,18.206453
+20229,municipio,San Lorenzo Texmelúcan,20,-97.181700,16.540908
+20230,municipio,San Lorenzo Victoria,20,-98.120274,17.668356
+20231,municipio,San Lucas Camotlán,20,-95.713144,16.943163
+20232,municipio,San Lucas Ojitlán,20,-96.397763,18.057503
+20233,municipio,San Lucas Quiaviní,20,-96.468094,16.894802
+20234,municipio,San Lucas Zoquiápam,20,-96.928487,18.098096
+20235,municipio,San Luis Amatlán,20,-96.549754,16.503832
+20236,municipio,San Marcial Ozolotepec,20,-96.405892,16.089257
+20237,municipio,San Marcos Arteaga,20,-97.861138,17.719603
+20238,municipio,San Martín de los Cansecos,20,-96.729005,16.656476
+20239,municipio,San Martín Huamelúlpam,20,-97.583222,17.413966
+20240,municipio,San Martín Itunyoso,20,-97.881477,17.229019
+20241,municipio,San Martín Lachilá,20,-96.849372,16.610864
+20242,municipio,San Martín Peras,20,-98.238444,17.360511
+20243,municipio,San Martín Tilcajete,20,-96.695571,16.858948
+20244,municipio,San Martín Toxpalan,20,-97.059027,18.100724
+20245,municipio,San Martín Zacatepec,20,-98.060864,17.807946
+20246,municipio,San Mateo Cajonos,20,-96.208976,17.161776
+20247,municipio,Capulálpam de Méndez,20,-96.445980,17.306421
+20248,municipio,San Mateo del Mar,20,-94.981892,16.209700
+20249,municipio,San Mateo Yoloxochitlán,20,-96.868415,18.143675
+20250,municipio,San Mateo Etlatongo,20,-97.271740,17.414836
+20251,municipio,San Mateo Nejápam,20,-98.416994,17.655588
+20252,municipio,San Mateo Peñasco,20,-97.460809,17.149316
+20253,municipio,San Mateo Piñas,20,-96.335189,15.999508
+20254,municipio,San Mateo Río Hondo,20,-96.448448,16.144230
+20255,municipio,San Mateo Sindihui,20,-97.351233,17.004233
+20256,municipio,San Mateo Tlapiltepec,20,-97.431183,17.810589
+20257,municipio,San Melchor Betaza,20,-96.154355,17.252396
+20258,municipio,San Miguel Achiutla,20,-97.489374,17.306252
+20259,municipio,San Miguel Ahuehuetitlán,20,-98.320853,17.671348
+20260,municipio,San Miguel Aloápam,20,-96.691465,17.412913
+20261,municipio,San Miguel Amatitlán,20,-98.069042,17.958821
+20262,municipio,San Miguel Amatlán,20,-96.451738,17.119402
+20263,municipio,San Miguel Coatlán,20,-96.694114,16.196313
+20264,municipio,San Miguel Chicahua,20,-97.196234,17.608988
+20265,municipio,San Miguel Chimalapa,20,-94.747883,16.714464
+20266,municipio,San Miguel del Puerto,20,-96.062617,15.817678
+20267,municipio,San Miguel del Río,20,-96.569221,17.321658
+20268,municipio,San Miguel Ejutla,20,-96.739276,16.580386
+20269,municipio,San Miguel el Grande,20,-97.622169,17.046741
+20270,municipio,San Miguel Huautla,20,-97.137519,17.745821
+20271,municipio,San Miguel Mixtepec,20,-96.957324,16.778101
+20272,municipio,San Miguel Panixtlahuaca,20,-97.379643,16.260031
+20273,municipio,San Miguel Peras,20,-97.009967,16.937923
+20274,municipio,San Miguel Piedras,20,-97.232700,16.999683
+20275,municipio,San Miguel Quetzaltepec,20,-95.761680,16.975487
+20276,municipio,San Miguel Santa Flor,20,-96.799301,17.921083
+20277,municipio,Villa Sola de Vega,20,-96.978014,16.514758
+20278,municipio,San Miguel Soyaltepec,20,-96.403581,18.240372
+20279,municipio,San Miguel Suchixtepec,20,-96.466409,16.094004
+20280,municipio,Villa Talea de Castro,20,-96.249921,17.360003
+20281,municipio,San Miguel Tecomatlán,20,-97.267991,17.394044
+20282,municipio,San Miguel Tenango,20,-95.592522,16.267321
+20283,municipio,San Miguel Tequixtepec,20,-97.341655,17.802861
+20284,municipio,San Miguel Tilquiápam,20,-96.581556,16.781942
+20285,municipio,San Miguel Tlacamama,20,-98.063217,16.416729
+20286,municipio,San Miguel Tlacotepec,20,-98.007239,17.453624
+20287,municipio,San Miguel Tulancingo,20,-97.441511,17.751240
+20288,municipio,San Miguel Yotao,20,-96.337235,17.370464
+20289,municipio,San Nicolás,20,-96.740824,16.415956
+20290,municipio,San Nicolás Hidalgo,20,-98.142583,17.782919
+20291,municipio,San Pablo Coatlán,20,-96.771526,16.186646
+20292,municipio,San Pablo Cuatro Venados,20,-96.889631,17.011361
+20293,municipio,San Pablo Etla,20,-96.777633,17.134222
+20294,municipio,San Pablo Huitzo,20,-96.884496,17.277367
+20295,municipio,San Pablo Huixtepec,20,-96.781005,16.826736
+20296,municipio,San Pablo Macuiltianguis,20,-96.550777,17.504369
+20297,municipio,San Pablo Tijaltepec,20,-97.508251,17.038630
+20298,municipio,San Pablo Villa de Mitla,20,-96.362155,16.921860
+20299,municipio,San Pablo Yaganiza,20,-96.229575,17.146082
+20300,municipio,San Pedro Amuzgos,20,-98.089927,16.653904
+20301,municipio,San Pedro Apóstol,20,-96.726033,16.735146
+20302,municipio,San Pedro Atoyac,20,-97.986977,16.489084
+20303,municipio,San Pedro Cajonos,20,-96.260639,17.168671
+20304,municipio,San Pedro Coxcaltepec Cántaros,20,-97.148227,17.536312
+20305,municipio,San Pedro Comitancillo,20,-95.159878,16.490304
+20306,municipio,San Pedro el Alto,20,-96.473723,16.033616
+20307,municipio,San Pedro Huamelula,20,-95.810310,15.914359
+20308,municipio,San Pedro Huilotepec,20,-95.152934,16.243657
+20309,municipio,San Pedro Ixcatlán,20,-96.510622,18.145660
+20310,municipio,San Pedro Ixtlahuaca,20,-96.820094,17.063276
+20311,municipio,San Pedro Jaltepetongo,20,-97.034940,17.687850
+20312,municipio,San Pedro Jicayán,20,-98.015199,16.452186
+20313,municipio,San Pedro Jocotipac,20,-97.080196,17.768560
+20314,municipio,San Pedro Juchatengo,20,-97.087321,16.340952
+20315,municipio,San Pedro Mártir,20,-96.712218,16.744489
+20316,municipio,San Pedro Mártir Quiechapa,20,-96.247539,16.415227
+20317,municipio,San Pedro Mártir Yucuxaco,20,-97.610076,17.432628
+20318,municipio,San Pedro Mixtepec,20,-97.071296,15.862502
+20319,municipio,San Pedro Mixtepec,20,-96.282798,16.271799
+20320,municipio,San Pedro Molinos,20,-97.541124,17.104639
+20321,municipio,San Pedro Nopala,20,-97.541307,17.806294
+20322,municipio,San Pedro Ocopetatillo,20,-96.913153,18.184936
+20323,municipio,San Pedro Ocotepec,20,-95.846751,16.955419
+20324,municipio,San Pedro Pochutla,20,-96.465230,15.746341
+20325,municipio,San Pedro Quiatoni,20,-96.031551,16.783200
+20326,municipio,San Pedro Sochiápam,20,-96.664400,17.825141
+20327,municipio,San Pedro Tapanatepec,20,-94.193848,16.367249
+20328,municipio,San Pedro Taviche,20,-96.537598,16.637849
+20329,municipio,San Pedro Teozacoalco,20,-97.286098,17.017126
+20330,municipio,San Pedro Teutila,20,-96.547617,18.036381
+20331,municipio,San Pedro Tidaá,20,-97.377273,17.340764
+20332,municipio,San Pedro Topiltepec,20,-97.355681,17.466413
+20333,municipio,San Pedro Totolápam,20,-96.301907,16.666444
+20334,municipio,Villa de Tututepec,20,-97.437774,16.013719
+20335,municipio,San Pedro Yaneri,20,-96.354571,17.419356
+20336,municipio,San Pedro Yólox,20,-96.551576,17.588436
+20337,municipio,San Pedro y San Pablo Ayutla,20,-96.077082,17.027151
+20338,municipio,Villa de Etla,20,-96.800579,17.207528
+20339,municipio,San Pedro y San Pablo Teposcolula,20,-97.488189,17.512070
+20340,municipio,San Pedro y San Pablo Tequixtepec,20,-97.717846,18.060656
+20341,municipio,San Pedro Yucunama,20,-97.482591,17.561004
+20342,municipio,San Raymundo Jalpan,20,-96.755498,16.970396
+20343,municipio,San Sebastián Abasolo,20,-96.588859,16.994675
+20344,municipio,San Sebastián Coatlán,20,-96.827539,16.201259
+20345,municipio,San Sebastián Ixcapa,20,-98.144487,16.543667
+20346,municipio,San Sebastián Nicananduta,20,-97.683268,17.517897
+20347,municipio,San Sebastián Río Hondo,20,-96.464061,16.182831
+20348,municipio,San Sebastián Tecomaxtlahuaca,20,-98.031174,17.345856
+20349,municipio,San Sebastián Teitipac,20,-96.614019,16.951425
+20350,municipio,San Sebastián Tutla,20,-96.687624,17.047865
+20351,municipio,San Simón Almolongas,20,-96.719672,16.407407
+20352,municipio,San Simón Zahuatlán,20,-98.004528,17.828853
+20353,municipio,Santa Ana,20,-96.717610,16.340638
+20354,municipio,Santa Ana Ateixtlahuaca,20,-96.906383,18.210578
+20355,municipio,Santa Ana Cuauhtémoc,20,-96.794698,17.983841
+20356,municipio,Santa Ana del Valle,20,-96.471675,16.994827
+20357,municipio,Santa Ana Tavela,20,-95.911568,16.654650
+20358,municipio,Santa Ana Tlapacoyan,20,-96.837084,16.744003
+20359,municipio,Santa Ana Yareni,20,-96.610779,17.397788
+20360,municipio,Santa Ana Zegache,20,-96.725939,16.837875
+20361,municipio,Santa Catalina Quierí,20,-96.265858,16.322201
+20362,municipio,Santa Catarina Cuixtla,20,-96.644744,16.304396
+20363,municipio,Santa Catarina Ixtepeji,20,-96.561699,17.265549
+20364,municipio,Santa Catarina Juquila,20,-97.292473,16.237009
+20365,municipio,Santa Catarina Lachatao,20,-96.493207,17.111654
+20366,municipio,Santa Catarina Loxicha,20,-96.754866,16.069504
+20367,municipio,Santa Catarina Mechoacán,20,-97.836026,16.334434
+20368,municipio,Santa Catarina Minas,20,-96.615456,16.779190
+20369,municipio,Santa Catarina Quiané,20,-96.740747,16.880306
+20370,municipio,Santa Catarina Tayata,20,-97.558379,17.347805
+20371,municipio,Santa Catarina Ticuá,20,-97.534859,17.071236
+20372,municipio,Santa Catarina Yosonotú,20,-97.662128,17.020550
+20373,municipio,Santa Catarina Zapoquila,20,-97.601655,18.064557
+20374,municipio,Santa Cruz Acatepec,20,-96.875319,18.163762
+20375,municipio,Santa Cruz Amilpas,20,-96.684017,17.058700
+20376,municipio,Santa Cruz de Bravo,20,-98.223989,17.581374
+20377,municipio,Santa Cruz Itundujia,20,-97.792912,16.668822
+20378,municipio,Santa Cruz Mixtepec,20,-96.882407,16.792443
+20379,municipio,Santa Cruz Nundaco,20,-97.709899,17.134449
+20380,municipio,Santa Cruz Papalutla,20,-96.584911,16.959489
+20381,municipio,Santa Cruz Tacache de Mina,20,-98.150788,17.827661
+20382,municipio,Santa Cruz Tacahua,20,-97.492166,16.918901
+20383,municipio,Santa Cruz Tayata,20,-97.554506,17.396841
+20384,municipio,Santa Cruz Xitla,20,-96.673129,16.322437
+20385,municipio,Santa Cruz Xoxocotlán,20,-96.734358,17.027281
+20386,municipio,Santa Cruz Zenzontepec,20,-97.523439,16.532389
+20387,municipio,Santa Gertrudis,20,-96.797211,16.786595
+20388,municipio,Santa Inés del Monte,20,-96.861687,16.925767
+20389,municipio,Santa Inés Yatzeche,20,-96.756324,16.808673
+20390,municipio,Santa Lucía del Camino,20,-96.694677,17.064118
+20391,municipio,Santa Lucía Miahuatlán,20,-96.618211,16.186473
+20392,municipio,Santa Lucía Monteverde,20,-97.777654,16.942812
+20393,municipio,Santa Lucía Ocotlán,20,-96.680396,16.742190
+20394,municipio,Santa María Alotepec,20,-95.854572,17.092096
+20395,municipio,Santa María Apazco,20,-97.100387,17.634583
+20396,municipio,Santa María la Asunción,20,-96.819365,18.108224
+20397,municipio,Heroica Ciudad de Tlaxiaco,20,-97.680492,17.267470
+20398,municipio,Ayoquezco de Aldama,20,-96.843114,16.685666
+20399,municipio,Santa María Atzompa,20,-96.779261,17.102866
+20400,municipio,Santa María Camotlán,20,-97.693380,17.899561
+20401,municipio,Santa María Colotepec,20,-97.041808,15.837861
+20402,municipio,Santa María Cortijo,20,-98.285716,16.450802
+20403,municipio,Santa María Coyotepec,20,-96.706736,16.967161
+20404,municipio,Santa María Chachoápam,20,-97.283505,17.525156
+20405,municipio,Villa de Chilapa de Díaz,20,-97.631912,17.588329
+20406,municipio,Santa María Chilchotla,20,-96.830541,18.234240
+20407,municipio,Santa María Chimalapa,20,-94.683022,16.909920
+20408,municipio,Santa María del Rosario,20,-97.593820,17.351761
+20409,municipio,Santa María del Tule,20,-96.636592,17.046702
+20410,municipio,Santa María Ecatepec,20,-95.851982,16.127749
+20411,municipio,Santa María Guelacé,20,-96.602830,17.000877
+20412,municipio,Santa María Guienagati,20,-95.354486,16.737983
+20413,municipio,Santa María Huatulco,20,-96.135075,15.764759
+20414,municipio,Santa María Huazolotitlán,20,-97.912861,16.302222
+20415,municipio,Santa María Ipalapa,20,-98.033824,16.636219
+20416,municipio,Santa María Ixcatlán,20,-97.190482,17.851593
+20417,municipio,Santa María Jacatepec,20,-96.022613,17.871507
+20418,municipio,Santa María Jalapa del Marqués,20,-95.443378,16.440065
+20419,municipio,Santa María Jaltianguis,20,-96.528271,17.365613
+20420,municipio,Santa María Lachixío,20,-97.019211,16.727756
+20421,municipio,Santa María Mixtequilla,20,-95.260473,16.373708
+20422,municipio,Santa María Nativitas,20,-97.342670,17.643289
+20423,municipio,Santa María Nduayaco,20,-97.494272,17.433637
+20424,municipio,Santa María Ozolotepec,20,-96.370067,16.130841
+20425,municipio,Santa María Pápalo,20,-96.797356,17.784160
+20426,municipio,Santa María Peñoles,20,-97.030968,16.968875
+20427,municipio,Santa María Petapa,20,-95.040912,16.888666
+20428,municipio,Santa María Quiegolani,20,-96.052003,16.277213
+20429,municipio,Santa María Sola,20,-97.019793,16.588603
+20430,municipio,Santa María Tataltepec,20,-97.395116,17.142459
+20431,municipio,Santa María Tecomavaca,20,-97.024437,17.956257
+20432,municipio,Santa María Temaxcalapa,20,-96.162478,17.381099
+20433,municipio,Santa María Temaxcaltepec,20,-97.194655,16.163109
+20434,municipio,Santa María Teopoxco,20,-96.955139,18.166659
+20435,municipio,Santa María Tepantlali,20,-96.010120,16.997513
+20436,municipio,Santa María Texcatitlán,20,-97.066689,17.712905
+20437,municipio,Santa María Tlahuitoltepec,20,-96.063252,17.097537
+20438,municipio,Santa María Tlalixtac,20,-96.738075,17.951677
+20439,municipio,Santa María Tonameca,20,-96.721962,15.812430
+20440,municipio,Santa María Totolapilla,20,-95.625455,16.603228
+20441,municipio,Santa María Xadani,20,-95.019850,16.360301
+20442,municipio,Santa María Yalina,20,-96.262781,17.240471
+20443,municipio,Santa María Yavesía,20,-96.429516,17.234215
+20444,municipio,Santa María Yolotepec,20,-97.505328,16.876805
+20445,municipio,Santa María Yosoyúa,20,-97.498362,17.104912
+20446,municipio,Santa María Yucuhiti,20,-97.804662,17.031526
+20447,municipio,Santa María Zacatepec,20,-97.989878,16.763894
+20448,municipio,Santa María Zaniza,20,-97.338544,16.655098
+20449,municipio,Santa María Zoquitlán,20,-96.352871,16.558360
+20450,municipio,Santiago Amoltepec,20,-97.494803,16.640906
+20451,municipio,Santiago Apoala,20,-97.147542,17.685563
+20452,municipio,Santiago Apóstol,20,-96.722414,16.804263
+20453,municipio,Santiago Astata,20,-95.675866,15.987631
+20454,municipio,Santiago Atitlán,20,-95.889879,17.051325
+20455,municipio,Santiago Ayuquililla,20,-97.958262,17.935106
+20456,municipio,Santiago Cacaloxtepec,20,-97.740486,17.720238
+20457,municipio,Santiago Camotlán,20,-96.224613,17.552108
+20458,municipio,Santiago Comaltepec,20,-96.547813,17.564126
+20459,municipio,Villa de Santiago Chazumba,20,-97.680540,18.188768
+20460,municipio,Santiago Choápam,20,-95.948410,17.417636
+20461,municipio,Santiago del Río,20,-98.088540,17.455975
+20462,municipio,Santiago Huajolotitlán,20,-97.731767,17.826650
+20463,municipio,Santiago Huauclilla,20,-97.071527,17.450841
+20464,municipio,Santiago Ihuitlán Plumas,20,-97.429743,17.848474
+20465,municipio,Santiago Ixcuintepec,20,-95.623106,16.934806
+20466,municipio,Santiago Ixtayutla,20,-97.651969,16.565006
+20467,municipio,Santiago Jamiltepec,20,-97.819682,16.279458
+20468,municipio,Santiago Jocotepec,20,-95.936444,17.618856
+20469,municipio,Santiago Juxtlahuaca,20,-98.012449,17.335290
+20470,municipio,Santiago Lachiguiri,20,-95.532658,16.686459
+20471,municipio,Santiago Lalopa,20,-96.248592,17.417959
+20472,municipio,Santiago Laollaga,20,-95.204579,16.584887
+20473,municipio,Santiago Laxopa,20,-96.313396,17.219758
+20474,municipio,Santiago Llano Grande,20,-98.289669,16.489426
+20475,municipio,Santiago Matatlán,20,-96.439684,16.802817
+20476,municipio,Santiago Miltepec,20,-97.689289,17.984733
+20477,municipio,Santiago Minas,20,-97.228153,16.426183
+20478,municipio,Santiago Nacaltepec,20,-96.916496,17.505474
+20479,municipio,Santiago Nejapilla,20,-97.372616,17.420284
+20480,municipio,Santiago Nundiche,20,-97.705832,17.340703
+20481,municipio,Santiago Nuyoó,20,-97.766539,17.015172
+20482,municipio,Santiago Pinotepa Nacional,20,-98.050348,16.339009
+20483,municipio,Santiago Suchilquitongo,20,-96.873686,17.247126
+20484,municipio,Santiago Tamazola,20,-98.220800,17.669309
+20485,municipio,Santiago Tapextla,20,-98.447474,16.340970
+20486,municipio,Villa Tejúpam de la Unión,20,-97.473521,17.667088
+20487,municipio,Santiago Tenango,20,-97.004104,17.324921
+20488,municipio,Santiago Tepetlapa,20,-97.401536,17.782596
+20489,municipio,Santiago Tetepec,20,-97.748254,16.322271
+20490,municipio,Santiago Texcalcingo,20,-96.968769,18.208196
+20491,municipio,Santiago Textitlán,20,-97.256651,16.666133
+20492,municipio,Santiago Tilantongo,20,-97.339804,17.283077
+20493,municipio,Santiago Tillo,20,-97.319723,17.460285
+20494,municipio,Santiago Tlazoyaltepec,20,-97.085993,16.974141
+20495,municipio,Santiago Xanica,20,-96.154712,16.010142
+20496,municipio,Santiago Xiacuí,20,-96.417582,17.266406
+20497,municipio,Santiago Yaitepec,20,-97.269360,16.225571
+20498,municipio,Santiago Yaveo,20,-95.454238,17.474853
+20499,municipio,Santiago Yolomécatl,20,-97.569750,17.470933
+20500,municipio,Santiago Yosondúa,20,-97.576609,16.873377
+20501,municipio,Santiago Yucuyachi,20,-98.233864,17.614199
+20502,municipio,Santiago Zacatepec,20,-95.914962,17.159395
+20503,municipio,Santiago Zoochila,20,-96.242139,17.220566
+20504,municipio,Nuevo Zoquiápam,20,-96.619984,17.291322
+20505,municipio,Santo Domingo Ingenio,20,-94.768630,16.588492
+20506,municipio,Santo Domingo Albarradas,20,-96.200094,17.068044
+20507,municipio,Santo Domingo Armenta,20,-98.378152,16.332972
+20508,municipio,Santo Domingo Chihuitán,20,-95.162369,16.591886
+20509,municipio,Santo Domingo de Morelos,20,-96.668076,15.833004
+20510,municipio,Santo Domingo Ixcatlán,20,-97.531934,16.913927
+20511,municipio,Santo Domingo Nuxaá,20,-97.099466,17.177279
+20512,municipio,Santo Domingo Ozolotepec,20,-96.310399,16.150868
+20513,municipio,Santo Domingo Petapa,20,-95.140422,16.820669
+20514,municipio,Santo Domingo Roayaga,20,-96.114573,17.337631
+20515,municipio,Santo Domingo Tehuantepec,20,-95.232049,16.332058
+20516,municipio,Santo Domingo Teojomulco,20,-97.226188,16.589403
+20517,municipio,Santo Domingo Tepuxtepec,20,-96.055406,16.956887
+20518,municipio,Santo Domingo Tlatayápam,20,-97.347023,17.407468
+20519,municipio,Santo Domingo Tomaltepec,20,-96.624357,17.060420
+20520,municipio,Santo Domingo Tonalá,20,-97.963932,17.674612
+20521,municipio,Santo Domingo Tonaltepec,20,-97.366639,17.594526
+20522,municipio,Santo Domingo Xagacía,20,-96.267961,17.155542
+20523,municipio,Santo Domingo Yanhuitlán,20,-97.342309,17.528043
+20524,municipio,Santo Domingo Yodohino,20,-97.683022,17.616886
+20525,municipio,Santo Domingo Zanatepec,20,-94.353903,16.482804
+20526,municipio,Santos Reyes Nopala,20,-97.144447,16.106764
+20527,municipio,Santos Reyes Pápalo,20,-96.860878,17.804657
+20528,municipio,Santos Reyes Tepejillo,20,-97.938322,17.437756
+20529,municipio,Santos Reyes Yucuná,20,-98.004527,17.777741
+20530,municipio,Santo Tomás Jalieza,20,-96.629235,16.869513
+20531,municipio,Santo Tomás Mazaltepec,20,-96.871533,17.173527
+20532,municipio,Santo Tomás Ocotepec,20,-97.780811,17.134724
+20533,municipio,Santo Tomás Tamazulapan,20,-96.585829,16.272034
+20534,municipio,San Vicente Coatlán,20,-96.844954,16.386886
+20535,municipio,San Vicente Lachixío,20,-97.040154,16.634727
+20536,municipio,San Vicente Nuñú,20,-97.442284,17.456761
+20537,municipio,Silacayoápam,20,-98.142585,17.501447
+20538,municipio,Sitio de Xitlapehua,20,-96.532603,16.351036
+20539,municipio,Soledad Etla,20,-96.820757,17.171684
+20540,municipio,Villa de Tamazulápam del Progreso,20,-97.572848,17.673063
+20541,municipio,Tanetze de Zaragoza,20,-96.302236,17.376733
+20542,municipio,Taniche,20,-96.753581,16.566964
+20543,municipio,Tataltepec de Valdés,20,-97.492470,16.293125
+20544,municipio,Teococuilco de Marcos Pérez,20,-96.614944,17.351989
+20545,municipio,Teotitlán de Flores Magón,20,-97.070704,18.132334
+20546,municipio,Teotitlán del Valle,20,-96.518949,17.029579
+20547,municipio,Teotongo,20,-97.536712,17.726323
+20548,municipio,Tepelmeme Villa de Morelos,20,-97.362198,17.874806
+20549,municipio,"Heroica Villa Tezoatlán de Segura y Luna, Cuna de la Independencia de Oaxaca",20,-97.882067,17.583568
+20550,municipio,San Jerónimo Tlacochahuaya,20,-96.541011,17.015523
+20551,municipio,Tlacolula de Matamoros,20,-96.479215,16.955624
+20552,municipio,Tlacotepec Plumas,20,-97.432829,17.850777
+20553,municipio,Tlalixtac de Cabrera,20,-96.648417,17.074484
+20554,municipio,Totontepec Villa de Morelos,20,-96.027355,17.258634
+20555,municipio,Trinidad Zaachila,20,-96.765343,16.921227
+20556,municipio,La Trinidad Vista Hermosa,20,-97.505751,17.772630
+20557,municipio,Unión Hidalgo,20,-94.828939,16.472824
+20558,municipio,Valerio Trujano,20,-96.980221,17.771714
+20559,municipio,San Juan Bautista Valle Nacional,20,-96.304045,17.774953
+20560,municipio,Villa Díaz Ordaz,20,-96.419114,17.018867
+20561,municipio,Yaxe,20,-96.472479,16.725127
+20562,municipio,Magdalena Yodocono de Porfirio Díaz,20,-97.354976,17.385094
+20563,municipio,Yogana,20,-96.788554,16.461214
+20564,municipio,Yutanduchi de Guerrero,20,-97.297499,17.039455
+20565,municipio,Villa de Zaachila,20,-96.750588,16.950718
+20566,municipio,San Mateo Yucutindoo,20,-97.483131,16.736818
+20567,municipio,Zapotitlán Lagunas,20,-98.389575,17.755476
+20568,municipio,Zapotitlán Palmas,20,-97.818148,17.889863
+20569,municipio,Santa Inés de Zaragoza,20,-97.159224,17.228501
+20570,municipio,Zimatlán de Álvarez,20,-96.785633,16.866686
+21,estado,Puebla,,,
+21001,municipio,Acajete,21,-97.952715,19.104940
+21002,municipio,Acateno,21,-97.210404,20.129905
+21003,municipio,Acatlán,21,-98.048606,18.202301
+21004,municipio,Acatzingo,21,-97.785460,18.979455
+21005,municipio,Acteopan,21,-98.715291,18.765020
+21006,municipio,Ahuacatlán,21,-97.849489,20.061779
+21007,municipio,Ahuatlán,21,-98.255230,18.573011
+21008,municipio,Ahuazotepec,21,-98.162348,20.046047
+21009,municipio,Ahuehuetitla,21,-98.221355,18.210767
+21010,municipio,Ajalpan,21,-97.258304,18.377537
+21011,municipio,Albino Zertuche,21,-98.540159,18.017277
+21012,municipio,Aljojuca,21,-97.531335,19.100406
+21013,municipio,Altepexi,21,-97.299180,18.366767
+21014,municipio,Amixtlán,21,-97.798917,20.049437
+21015,municipio,Amozoc,21,-98.044917,19.044613
+21016,municipio,Aquixtla,21,-97.953610,19.786842
+21017,municipio,Atempan,21,-97.459279,19.839900
+21018,municipio,Atexcal,21,-97.736817,18.398351
+21019,municipio,Atlixco,21,-98.434168,18.908848
+21020,municipio,Atoyatempan,21,-97.913750,18.822567
+21021,municipio,Atzala,21,-98.554276,18.544820
+21022,municipio,Atzitzihuacán,21,-98.658295,18.834315
+21023,municipio,Atzitzintla,21,-97.327388,18.897382
+21024,municipio,Axutla,21,-98.389403,18.188554
+21025,municipio,Ayotoxco de Guerrero,21,-97.410524,20.097159
+21026,municipio,Calpan,21,-98.459239,19.107938
+21027,municipio,Caltepec,21,-97.423766,18.188114
+21028,municipio,Camocuautla,21,-97.757727,20.038488
+21029,municipio,Caxhuacan,21,-97.606617,20.063958
+21030,municipio,Coatepec,21,-97.732266,20.062145
+21031,municipio,Coatzingo,21,-98.174216,18.615143
+21032,municipio,Cohetzala,21,-98.803493,18.209177
+21033,municipio,Cohuecan,21,-98.720489,18.783205
+21034,municipio,Coronango,21,-98.308074,19.131102
+21035,municipio,Coxcatlán,21,-97.147113,18.266533
+21036,municipio,Coyomeapan,21,-96.998553,18.274144
+21037,municipio,Coyotepec,21,-97.830780,18.404416
+21038,municipio,Cuapiaxtla de Madero,21,-97.825297,18.916873
+21039,municipio,Cuautempan,21,-97.796241,19.912638
+21040,municipio,Cuautinchán,21,-98.011626,18.940606
+21041,municipio,Cuautlancingo,21,-98.273310,19.089347
+21042,municipio,Cuayuca de Andrade,21,-98.183864,18.486665
+21043,municipio,Cuetzalan del Progreso,21,-97.520771,20.018520
+21044,municipio,Cuyoaco,21,-97.617628,19.525263
+21045,municipio,Chalchicomula de Sesma,21,-97.448496,18.988260
+21046,municipio,Chapulco,21,-97.411167,18.620488
+21047,municipio,Chiautla,21,-98.602781,18.299651
+21048,municipio,Chiautzingo,21,-98.468259,19.202914
+21049,municipio,Chiconcuautla,21,-97.939626,20.094767
+21050,municipio,Chichiquila,21,-97.067710,19.200257
+21051,municipio,Chietla,21,-98.607329,18.511891
+21052,municipio,Chigmecatitlán,21,-98.075621,18.645566
+21053,municipio,Chignahuapan,21,-98.030975,19.838223
+21054,municipio,Chignautla,21,-97.389590,19.813912
+21055,municipio,Chila,21,-97.861660,17.970016
+21056,municipio,Chila de la Sal,21,-98.484322,18.109100
+21057,municipio,Honey,21,-98.212987,20.278690
+21058,municipio,Chilchotla,21,-97.183893,19.255202
+21059,municipio,Chinantla,21,-98.263164,18.200502
+21060,municipio,Domingo Arenas,21,-98.457509,19.142029
+21061,municipio,Eloxochitlán,21,-96.954837,18.498947
+21062,municipio,Epatlán,21,-98.370789,18.641787
+21063,municipio,Esperanza,21,-97.375126,18.858357
+21064,municipio,Francisco Z. Mena,21,-97.852137,20.733694
+21065,municipio,General Felipe Ángeles,21,-97.675921,19.013257
+21066,municipio,Guadalupe,21,-98.120421,18.091467
+21067,municipio,Guadalupe Victoria,21,-97.342696,19.289786
+21068,municipio,Hermenegildo Galeana,21,-97.744621,20.121734
+21069,municipio,Huaquechula,21,-98.486346,18.786796
+21070,municipio,Huatlatlauca,21,-98.075735,18.686383
+21071,municipio,Huauchinango,21,-98.051340,20.174698
+21072,municipio,Huehuetla,21,-97.631068,20.131571
+21073,municipio,Huehuetlán el Chico,21,-98.687948,18.373167
+21074,municipio,Huejotzingo,21,-98.408131,19.158994
+21075,municipio,Hueyapan,21,-97.445863,19.882558
+21076,municipio,Hueytamalco,21,-97.289041,19.939479
+21077,municipio,Hueytlalpan,21,-97.698678,20.025733
+21078,municipio,Huitzilan de Serdán,21,-97.693659,19.966212
+21079,municipio,Huitziltepec,21,-97.880833,18.769416
+21080,municipio,Atlequizayan,21,-97.624086,20.014008
+21081,municipio,Ixcamilpa de Guerrero,21,-98.696573,18.027043
+21082,municipio,Ixcaquixtla,21,-97.832347,18.460096
+21083,municipio,Ixtacamaxtitlán,21,-97.711285,19.608349
+21084,municipio,Ixtepec,21,-97.646779,20.024937
+21085,municipio,Izúcar de Matamoros,21,-98.465406,18.602231
+21086,municipio,Jalpan,21,-97.845006,20.404957
+21087,municipio,Jolalpan,21,-98.844297,18.320517
+21088,municipio,Jonotla,21,-97.574905,20.030380
+21089,municipio,Jopala,21,-97.830764,20.244568
+21090,municipio,Juan C. Bonilla,21,-98.365907,19.122441
+21091,municipio,Juan Galindo,21,-98.002142,20.212083
+21092,municipio,Juan N. Méndez,21,-97.772290,18.540004
+21093,municipio,Lafragua,21,-97.269111,19.341545
+21094,municipio,Libres,21,-97.687726,19.464733
+21095,municipio,La Magdalena Tlatlauquitepec,21,-98.100701,18.758520
+21096,municipio,Mazapiltepec de Juárez,21,-97.703501,19.119264
+21097,municipio,Mixtla,21,-97.895487,18.903081
+21098,municipio,Molcaxac,21,-97.911859,18.737901
+21099,municipio,Cañada Morelos,21,-97.457429,18.715155
+21100,municipio,Naupan,21,-98.109733,20.228472
+21101,municipio,Nauzontla,21,-97.603120,19.959038
+21102,municipio,Nealtican,21,-98.427730,19.050947
+21103,municipio,Nicolás Bravo,21,-97.397995,18.642162
+21104,municipio,Nopalucan,21,-97.809540,19.189159
+21105,municipio,Ocotepec,21,-97.658814,19.559692
+21106,municipio,Ocoyucan,21,-98.290873,18.964752
+21107,municipio,Olintla,21,-97.684737,20.101778
+21108,municipio,Oriental,21,-97.619351,19.375802
+21109,municipio,Pahuatlán,21,-98.149910,20.275726
+21110,municipio,Palmar de Bravo,21,-97.615470,18.873692
+21111,municipio,Pantepec,21,-97.857277,20.527254
+21112,municipio,Petlalcingo,21,-97.917848,18.082201
+21113,municipio,Piaxtla,21,-98.260145,18.198756
+21114,municipio,Puebla,21,-98.197495,19.043990
+21115,municipio,Quecholac,21,-97.634853,18.902717
+21116,municipio,Quimixtlán,21,-97.135677,19.253262
+21117,municipio,Rafael Lara Grajales,21,-97.804551,19.225384
+21118,municipio,Los Reyes de Juárez,21,-97.813104,18.946788
+21119,municipio,San Andrés Cholula,21,-98.275708,19.029457
+21120,municipio,San Antonio Cañada,21,-97.290001,18.497338
+21121,municipio,San Diego la Mesa Tochimiltzingo,21,-98.331403,18.809587
+21122,municipio,San Felipe Teotlalcingo,21,-98.495455,19.235725
+21123,municipio,San Felipe Tepatlán,21,-97.771758,20.095983
+21124,municipio,San Gabriel Chilac,21,-97.347982,18.326273
+21125,municipio,San Gregorio Atzompa,21,-98.345766,19.026686
+21126,municipio,San Jerónimo Tecuanipan,21,-98.400957,19.014412
+21127,municipio,San Jerónimo Xayacatlán,21,-97.914337,18.221269
+21128,municipio,San José Chiapa,21,-97.768833,19.242071
+21129,municipio,San José Miahuatlán,21,-97.287655,18.290238
+21130,municipio,San Juan Atenco,21,-97.540844,19.089984
+21131,municipio,San Juan Atzompa,21,-98.024315,18.746094
+21132,municipio,San Martín Texmelucan,21,-98.435516,19.282908
+21133,municipio,San Martín Totoltepec,21,-98.346401,18.649203
+21134,municipio,San Matías Tlalancaleca,21,-98.498163,19.324427
+21135,municipio,San Miguel Ixitlán,21,-97.773424,17.999518
+21136,municipio,San Miguel Xoxtla,21,-98.309699,19.168303
+21137,municipio,San Nicolás Buenos Aires,21,-97.511293,19.306754
+21138,municipio,San Nicolás de los Ranchos,21,-98.485697,19.072589
+21139,municipio,San Pablo Anicano,21,-98.084032,18.124454
+21140,municipio,San Pedro Cholula,21,-98.307506,19.062484
+21141,municipio,San Pedro Yeloixtlahuaca,21,-98.078099,18.117105
+21142,municipio,San Salvador el Seco,21,-97.642750,19.134745
+21143,municipio,San Salvador el Verde,21,-98.479334,19.305150
+21144,municipio,San Salvador Huixcolotla,21,-97.771789,18.920610
+21145,municipio,San Sebastián Tlacotepec,21,-96.850610,18.404646
+21146,municipio,Santa Catarina Tlaltempan,21,-98.079900,18.614263
+21147,municipio,Santa Inés Ahuatempan,21,-98.017696,18.412718
+21148,municipio,Santa Isabel Cholula,21,-98.357521,18.981789
+21149,municipio,Santiago Miahuatlán,21,-97.441853,18.553155
+21150,municipio,Huehuetlán el Grande,21,-98.167911,18.738306
+21151,municipio,Santo Tomás Hueyotlipan,21,-97.867231,18.891089
+21152,municipio,Soltepec,21,-97.708445,19.119228
+21153,municipio,Tecali de Herrera,21,-97.969136,18.901032
+21154,municipio,Tecamachalco,21,-97.728416,18.884692
+21155,municipio,Tecomatlán,21,-98.314372,18.110960
+21156,municipio,Tehuacán,21,-97.391999,18.462184
+21157,municipio,Tehuitzingo,21,-98.276126,18.331714
+21158,municipio,Tenampulco,21,-97.460277,20.220608
+21159,municipio,Teopantlán,21,-98.262371,18.713259
+21160,municipio,Teotlalco,21,-98.778269,18.469623
+21161,municipio,Tepanco de López,21,-97.524514,18.489190
+21162,municipio,Tepango de Rodríguez,21,-97.796270,20.002813
+21163,municipio,Tepatlaxco de Hidalgo,21,-97.966617,19.077302
+21164,municipio,Tepeaca,21,-97.905434,18.966133
+21165,municipio,Tepemaxalco,21,-98.629055,18.735603
+21166,municipio,Tepeojuma,21,-98.450289,18.722449
+21167,municipio,Tepetzintla,21,-97.812257,19.953408
+21168,municipio,Tepexco,21,-98.634562,18.636015
+21169,municipio,Tepexi de Rodríguez,21,-97.926190,18.581017
+21170,municipio,Tepeyahualco,21,-97.388464,19.434392
+21171,municipio,Tepeyahualco de Cuauhtémoc,21,-97.878029,18.813149
+21172,municipio,Tetela de Ocampo,21,-97.805972,19.816758
+21173,municipio,Teteles de Avila Castillo,21,-97.457153,19.858290
+21174,municipio,Teziutlán,21,-97.360878,19.817991
+21175,municipio,Tianguismanalco,21,-98.448219,18.977759
+21176,municipio,Tilapa,21,-98.556410,18.591581
+21177,municipio,Tlacotepec de Benito Juárez,21,-97.604986,18.671558
+21178,municipio,Tlacuilotepec,21,-98.068909,20.326265
+21179,municipio,Tlachichuca,21,-97.419113,19.115635
+21180,municipio,Tlahuapan,21,-98.582399,19.330504
+21181,municipio,Tlaltenango,21,-98.344316,19.170023
+21182,municipio,Tlanepantla,21,-97.887397,18.865364
+21183,municipio,Tlaola,21,-97.971412,20.174990
+21184,municipio,Tlapacoya,21,-97.803497,20.146928
+21185,municipio,Tlapanalá,21,-98.537794,18.696144
+21186,municipio,Tlatlauquitepec,21,-97.496670,19.851330
+21187,municipio,Tlaxco,21,-98.028644,20.423815
+21188,municipio,Tochimilco,21,-98.572166,18.892924
+21189,municipio,Tochtepec,21,-97.825749,18.840114
+21190,municipio,Totoltepec de Guerrero,21,-97.855134,18.222541
+21191,municipio,Tulcingo,21,-98.441310,18.045136
+21192,municipio,Tuzamapan de Galeana,21,-97.549076,20.077940
+21193,municipio,Tzicatlacoyan,21,-97.986940,18.799864
+21194,municipio,Venustiano Carranza,21,-97.702822,20.463117
+21195,municipio,Vicente Guerrero,21,-97.202456,18.537872
+21196,municipio,Xayacatlán de Bravo,21,-97.975540,18.235576
+21197,municipio,Xicotepec,21,-97.958144,20.276059
+21198,municipio,Xicotlán,21,-98.524949,18.058743
+21199,municipio,Xiutetelco,21,-97.326518,19.796061
+21200,municipio,Xochiapulco,21,-97.658699,19.821219
+21201,municipio,Xochiltepec,21,-98.372272,18.670506
+21202,municipio,Xochitlán de Vicente Suárez,21,-97.620467,19.933569
+21203,municipio,Xochitlán Todos Santos,21,-97.775077,18.705494
+21204,municipio,Yaonáhuac,21,-97.466446,19.870895
+21205,municipio,Yehualtepec,21,-97.662870,18.793291
+21206,municipio,Zacapala,21,-98.065329,18.590620
+21207,municipio,Zacapoaxtla,21,-97.589554,19.873036
+21208,municipio,Zacatlán,21,-97.960244,19.932365
+21209,municipio,Zapotitlán,21,-97.475421,18.329709
+21210,municipio,Zapotitlán de Méndez,21,-97.655340,20.000757
+21211,municipio,Zaragoza,21,-97.555647,19.771435
+21212,municipio,Zautla,21,-97.595052,19.710177
+21213,municipio,Zihuateutla,21,-97.880446,20.265290
+21214,municipio,Zinacatepec,21,-97.245413,18.333268
+21215,municipio,Zongozotla,21,-97.726742,19.978638
+21216,municipio,Zoquiapan,21,-97.595642,20.009838
+21217,municipio,Zoquitlán,21,-97.017259,18.335727
+22,estado,Querétaro,,,
+22001,municipio,Amealco de Bonfil,22,-100.144195,20.186444
+22002,municipio,Pinal de Amoles,22,-99.627540,21.135302
+22003,municipio,Arroyo Seco,22,-99.511574,21.312218
+22004,municipio,Cadereyta de Montes,22,-99.815633,20.695023
+22005,municipio,Colón,22,-100.045431,20.788326
+22006,municipio,Corregidora,22,-100.445883,20.552436
+22007,municipio,Ezequiel Montes,22,-99.898406,20.665295
+22008,municipio,Huimilpan,22,-100.349968,20.427977
+22009,municipio,Jalpan de Serra,22,-99.472911,21.216802
+22010,municipio,Landa de Matamoros,22,-99.321915,21.183456
+22011,municipio,El Marqués,22,-100.290082,20.628744
+22012,municipio,Pedro Escobedo,22,-100.144730,20.502494
+22013,municipio,Peñamiller,22,-99.797589,21.155977
+22014,municipio,Querétaro,22,-100.389957,20.593391
+22015,municipio,San Joaquín,22,-99.566359,20.916061
+22016,municipio,San Juan del Río,22,-99.999632,20.386441
+22017,municipio,Tequisquiapan,22,-99.883840,20.518818
+22018,municipio,Tolimán,22,-99.930801,20.908149
+23,estado,Quintana Roo,,,
+23001,municipio,Cozumel,23,-86.957588,20.503784
+23002,municipio,Felipe Carrillo Puerto,23,-88.046587,19.578510
+23003,municipio,Isla Mujeres,23,-86.746092,21.256569
+23004,municipio,Othón P. Blanco,23,-88.297899,18.493889
+23005,municipio,Benito Juárez,23,-86.824811,21.161416
+23006,municipio,José María Morelos,23,-88.710515,19.749393
+23007,municipio,Lázaro Cárdenas,23,-87.487223,21.101399
+23008,municipio,Solidaridad,23,-87.075500,20.628142
+23009,municipio,Tulum,23,-87.463205,20.210777
+23010,municipio,Bacalar,23,-88.389353,18.676147
+23011,municipio,Puerto Morelos,23,-86.876177,20.848453
+24,estado,San Luis Potosí,,,
+24001,municipio,Ahualulco,24,-101.166842,22.400099
+24002,municipio,Alaquines,24,-99.600389,22.127894
+24003,municipio,Aquismón,24,-99.026818,21.637858
+24004,municipio,Armadillo de los Infante,24,-100.584436,22.353013
+24005,municipio,Cárdenas,24,-99.642505,22.000904
+24006,municipio,Catorce,24,-100.886253,23.690449
+24007,municipio,Cedral,24,-100.726606,23.819332
+24008,municipio,Cerritos,24,-100.279597,22.427666
+24009,municipio,Cerro de San Pedro,24,-100.824599,22.170316
+24010,municipio,Ciudad del Maíz,24,-99.600574,22.399846
+24011,municipio,Ciudad Fernández,24,-100.011022,21.943512
+24012,municipio,Tancanhuitz,24,-98.966388,21.597319
+24013,municipio,Ciudad Valles,24,-99.018721,21.986537
+24014,municipio,Coxcatlán,24,-98.903469,21.541143
+24015,municipio,Charcas,24,-101.113352,23.129818
+24016,municipio,Ebano,24,-98.377803,22.212339
+24017,municipio,Guadalcázar,24,-100.464066,22.921769
+24018,municipio,Huehuetlán,24,-98.967503,21.483089
+24019,municipio,Lagunillas,24,-99.706413,21.590070
+24020,municipio,Matehuala,24,-100.644198,23.646359
+24021,municipio,Mexquitic de Carmona,24,-101.053335,22.192094
+24022,municipio,Moctezuma,24,-101.085559,22.749894
+24023,municipio,Rayón,24,-99.645315,21.843724
+24024,municipio,Rioverde,24,-99.992923,21.932378
+24025,municipio,Salinas,24,-101.715735,22.628015
+24026,municipio,San Antonio,24,-98.871166,21.638167
+24027,municipio,San Ciro de Acosta,24,-99.818685,21.650007
+24028,municipio,San Luis Potosí,24,-100.976958,22.151655
+24029,municipio,San Martín Chalchicuautla,24,-98.657238,21.369703
+24030,municipio,San Nicolás Tolentino,24,-100.458006,22.047321
+24031,municipio,Santa Catarina,24,-99.487222,21.496944
+24032,municipio,Santa María del Río,24,-100.737109,21.800439
+24033,municipio,Santo Domingo,24,-102.192434,23.153898
+24034,municipio,San Vicente Tancuayalab,24,-98.585718,21.714944
+24035,municipio,Soledad de Graciano Sánchez,24,-100.937274,22.187881
+24036,municipio,Tamasopo,24,-99.392160,21.923902
+24037,municipio,Tamazunchale,24,-98.791517,21.262738
+24038,municipio,Tampacán,24,-98.727676,21.402308
+24039,municipio,Tampamolón Corona,24,-98.815114,21.560352
+24040,municipio,Tamuín,24,-98.775161,22.004147
+24041,municipio,Tanlajás,24,-98.888070,21.665664
+24042,municipio,Tanquián de Escobedo,24,-98.662063,21.598088
+24043,municipio,Tierra Nueva,24,-100.573918,21.667456
+24044,municipio,Vanegas,24,-100.950556,23.883889
+24045,municipio,Venado,24,-101.094629,22.931344
+24046,municipio,Villa de Arriaga,24,-101.383370,21.910136
+24047,municipio,Villa de Guadalupe,24,-100.757897,23.374425
+24048,municipio,Villa de la Paz,24,-100.713171,23.675351
+24049,municipio,Villa de Ramos,24,-102.174270,23.002820
+24050,municipio,Villa de Reyes,24,-100.932486,21.803124
+24051,municipio,Villa Hidalgo,24,-100.678864,22.448693
+24052,municipio,Villa Juárez,24,-100.266649,22.323209
+24053,municipio,Axtla de Terrazas,24,-98.875000,21.436389
+24054,municipio,Xilitla,24,-98.989573,21.385193
+24055,municipio,Zaragoza,24,-100.730967,22.035605
+24056,municipio,Villa de Arista,24,-100.849020,22.644772
+24057,municipio,Matlapa,24,-98.826803,21.337504
+24058,municipio,El Naranjo,24,-99.322509,22.522036
+25,estado,Sinaloa,,,
+25001,municipio,Ahome,25,-108.994343,25.783417
+25002,municipio,Angostura,25,-108.053872,25.080775
+25003,municipio,Badiraguato,25,-107.551018,25.362652
+25004,municipio,Concordia,25,-106.068611,23.287626
+25005,municipio,Cosalá,25,-106.691535,24.411346
+25006,municipio,Culiacán,25,-107.393756,24.808808
+25007,municipio,Choix,25,-108.322352,26.707011
+25008,municipio,Elota,25,-106.892712,23.915404
+25009,municipio,Escuinapa,25,-105.777876,22.835051
+25010,municipio,El Fuerte,25,-108.619966,26.421599
+25011,municipio,Guasave,25,-108.471818,25.565547
+25012,municipio,Mazatlán,25,-106.422221,23.200316
+25013,municipio,Mocorito,25,-107.704244,25.086017
+25014,municipio,Rosario,25,-105.853757,22.990874
+25015,municipio,Salvador Alvarado,25,-108.080700,25.457000
+25016,municipio,San Ignacio,25,-106.425497,23.940276
+25017,municipio,Sinaloa,25,-108.477828,25.801376
+25018,municipio,Navolato,25,-107.540778,24.657370
+26,estado,Sonora,,,
+26001,municipio,Aconchi,26,-110.228552,29.825872
+26002,municipio,Agua Prieta,26,-109.546351,31.327815
+26003,municipio,Alamos,26,-108.934926,27.024050
+26004,municipio,Altar,26,-111.833572,30.713339
+26005,municipio,Arivechi,26,-109.187092,28.928645
+26006,municipio,Arizpe,26,-110.166809,30.336232
+26007,municipio,Atil,26,-111.583892,30.843989
+26008,municipio,Bacadéhuachi,26,-109.140745,29.809074
+26009,municipio,Bacanora,26,-109.400401,28.984063
+26010,municipio,Bacerac,26,-108.929799,30.355278
+26011,municipio,Bacoachi,26,-109.969008,30.633038
+26012,municipio,Bácum,26,-110.111276,27.461253
+26013,municipio,Banámichi,26,-110.215553,30.007776
+26014,municipio,Baviácora,26,-110.165052,29.715235
+26015,municipio,Bavispe,26,-108.941023,30.480123
+26016,municipio,Benjamín Hill,26,-111.117922,30.167163
+26017,municipio,Caborca,26,-112.148355,30.714074
+26018,municipio,Cajeme,26,-109.932716,27.496489
+26019,municipio,Cananea,26,-110.301671,30.982653
+26020,municipio,Carbó,26,-110.954431,29.684689
+26021,municipio,La Colorada,26,-109.953809,28.623738
+26022,municipio,Cucurpe,26,-110.705887,30.329192
+26023,municipio,Cumpas,26,-109.782497,29.993564
+26024,municipio,Divisaderos,26,-109.470671,29.615069
+26025,municipio,Empalme,26,-110.815993,27.957606
+26026,municipio,Etchojoa,26,-109.625278,26.910833
+26027,municipio,Fronteras,26,-109.589003,30.723524
+26028,municipio,Granados,26,-109.310522,29.862293
+26029,municipio,Guaymas,26,-110.889445,27.923249
+26030,municipio,Hermosillo,26,-110.958464,29.074892
+26031,municipio,Huachinera,26,-108.958816,30.211482
+26032,municipio,Huásabas,26,-109.301469,29.904188
+26033,municipio,Huatabampo,26,-109.644153,26.826897
+26034,municipio,Huépac,26,-110.213715,29.911269
+26035,municipio,Imuris,26,-110.861539,30.777330
+26036,municipio,Magdalena,26,-110.969404,30.630356
+26037,municipio,Mazatán,26,-110.140221,29.003357
+26038,municipio,Moctezuma,26,-109.680337,29.802180
+26039,municipio,Naco,26,-109.948132,31.331547
+26040,municipio,Nácori Chico,26,-108.978594,29.686325
+26041,municipio,Nacozari de García,26,-109.686470,30.373722
+26042,municipio,Navojoa,26,-109.445546,27.081598
+26043,municipio,Nogales,26,-110.945745,31.325903
+26044,municipio,Onavas,26,-109.529518,28.460539
+26045,municipio,Opodepe,26,-111.021490,30.049759
+26046,municipio,Oquitoa,26,-111.734818,30.742054
+26047,municipio,Pitiquito,26,-112.053925,30.675996
+26048,municipio,Puerto Peñasco,26,-113.540131,31.306781
+26049,municipio,Quiriego,26,-109.251229,27.520488
+26050,municipio,Rayón,26,-110.573504,29.714479
+26051,municipio,Rosario,26,-109.370770,27.840659
+26052,municipio,Sahuaripa,26,-109.233371,29.056331
+26053,municipio,San Felipe de Jesús,26,-110.241058,29.858624
+26054,municipio,San Javier,26,-109.739461,28.595283
+26055,municipio,San Luis Río Colorado,26,-114.779624,32.479831
+26056,municipio,San Miguel de Horcasitas,26,-110.896594,29.380089
+26057,municipio,San Pedro de la Cueva,26,-109.736109,29.286482
+26058,municipio,Santa Ana,26,-111.121086,30.543891
+26059,municipio,Santa Cruz,26,-110.595978,31.231536
+26060,municipio,Sáric,26,-111.545787,31.471862
+26061,municipio,Soyopa,26,-109.643760,28.942410
+26062,municipio,Suaqui Grande,26,-109.888203,28.395547
+26063,municipio,Tepache,26,-109.532373,29.534399
+26064,municipio,Trincheras,26,-111.531482,30.398621
+26065,municipio,Tubutama,26,-111.420922,30.642172
+26066,municipio,Ures,26,-110.389583,29.428077
+26067,municipio,Villa Hidalgo,26,-109.319869,30.163106
+26068,municipio,Villa Pesqueira,26,-109.968909,29.118317
+26069,municipio,Yécora,26,-108.925906,28.372695
+26070,municipio,General Plutarco Elías Calles,26,-112.857277,31.866396
+26071,municipio,Benito Juárez,26,-109.842573,27.127810
+26072,municipio,San Ignacio Río Muerto,26,-110.241514,27.411415
+27,estado,Tabasco,,,
+27001,municipio,Balancán,27,-91.533846,17.800395
+27002,municipio,Cárdenas,27,-93.376856,17.989430
+27003,municipio,Centla,27,-92.652187,18.530111
+27004,municipio,Centro,27,-92.919416,17.987838
+27005,municipio,Comalcalco,27,-93.225017,18.266048
+27006,municipio,Cunduacán,27,-93.174300,18.065363
+27007,municipio,Emiliano Zapata,27,-91.765081,17.744582
+27008,municipio,Huimanguillo,27,-93.390769,17.835174
+27009,municipio,Jalapa,27,-92.812171,17.719729
+27010,municipio,Jalpa de Méndez,27,-93.062597,18.176848
+27011,municipio,Jonuta,27,-92.138729,18.090706
+27012,municipio,Macuspana,27,-92.594071,17.756431
+27013,municipio,Nacajuca,27,-92.931347,18.051025
+27014,municipio,Paraíso,27,-93.214237,18.395770
+27015,municipio,Tacotalpa,27,-92.826284,17.591793
+27016,municipio,Teapa,27,-92.952994,17.548284
+27017,municipio,Tenosique,27,-91.425948,17.477494
+28,estado,Tamaulipas,,,
+28001,municipio,Abasolo,28,-98.374279,24.060837
+28002,municipio,Aldama,28,-98.073713,22.919306
+28003,municipio,Altamira,28,-97.866331,22.336469
+28004,municipio,Antiguo Morelos,28,-99.083617,22.549420
+28005,municipio,Burgos,28,-98.799010,24.946640
+28006,municipio,Bustamante,28,-99.757808,23.435477
+28007,municipio,Camargo,28,-98.835989,26.316724
+28008,municipio,Casas,28,-98.737842,23.727134
+28009,municipio,Ciudad Madero,28,-97.837000,22.246279
+28010,municipio,Cruillas,28,-98.534542,24.755171
+28011,municipio,Gómez Farías,28,-99.027775,22.886455
+28012,municipio,González,28,-98.321471,22.728992
+28013,municipio,Güémez,28,-99.008330,23.919141
+28014,municipio,Guerrero,28,-99.227630,26.566351
+28015,municipio,Gustavo Díaz Ordaz,28,-98.590282,26.233967
+28016,municipio,Hidalgo,28,-99.201765,24.016591
+28017,municipio,Jaumave,28,-99.375675,23.405120
+28018,municipio,Jiménez,28,-98.485704,24.214493
+28019,municipio,Llera,28,-99.023630,23.318960
+28020,municipio,Mainero,28,-99.548219,24.567919
+28021,municipio,El Mante,28,-98.971718,22.743999
+28022,municipio,Matamoros,28,-97.504823,25.879915
+28023,municipio,Méndez,28,-98.586217,25.116548
+28024,municipio,Mier,28,-99.148694,26.430470
+28025,municipio,Miguel Alemán,28,-99.026109,26.401018
+28026,municipio,Miquihuana,28,-99.754197,23.573950
+28027,municipio,Nuevo Laredo,28,-99.508493,27.486291
+28028,municipio,Nuevo Morelos,28,-99.221333,22.534471
+28029,municipio,Ocampo,28,-99.336024,22.845040
+28030,municipio,Padilla,28,-98.900294,24.048799
+28031,municipio,Palmillas,28,-99.547539,23.301759
+28032,municipio,Reynosa,28,-98.278129,26.092350
+28033,municipio,Río Bravo,28,-98.090138,25.980996
+28034,municipio,San Carlos,28,-98.943635,24.581774
+28035,municipio,San Fernando,28,-98.159621,24.848678
+28036,municipio,San Nicolás,28,-98.677942,24.522696
+28037,municipio,Soto la Marina,28,-98.206190,23.767039
+28038,municipio,Tampico,28,-97.858387,22.216060
+28039,municipio,Tula,28,-99.712998,22.996877
+28040,municipio,Valle Hermoso,28,-97.812454,25.673800
+28041,municipio,Victoria,28,-99.151250,23.731053
+28042,municipio,Villagrán,28,-99.488111,24.473191
+28043,municipio,Xicoténcatl,28,-98.945677,22.996772
+29,estado,Tlaxcala,,,
+29001,municipio,Amaxac de Guerrero,29,-98.169569,19.350286
+29002,municipio,Apetatitlán de Antonio Carvajal,29,-98.196822,19.332260
+29003,municipio,Atlangatepec,29,-98.214700,19.555373
+29004,municipio,Atltzayanca,29,-97.796532,19.431364
+29005,municipio,Apizaco,29,-98.140612,19.416335
+29006,municipio,Calpulalpan,29,-98.570476,19.588526
+29007,municipio,El Carmen Tequexquitla,29,-97.659159,19.324586
+29008,municipio,Cuapiaxtla,29,-97.769375,19.296661
+29009,municipio,Cuaxomulco,29,-98.103122,19.355807
+29010,municipio,Chiautempan,29,-98.192961,19.313980
+29011,municipio,Muñoz de Domingo Arenas,29,-98.208886,19.476050
+29012,municipio,Españita,29,-98.423807,19.462299
+29013,municipio,Huamantla,29,-97.923103,19.312660
+29014,municipio,Hueyotlipan,29,-98.348498,19.469988
+29015,municipio,Ixtacuixtla de Mariano Matamoros,29,-98.377115,19.326646
+29016,municipio,Ixtenco,29,-97.895111,19.251144
+29017,municipio,Mazatecochco de José María Morelos,29,-98.190679,19.179726
+29018,municipio,Contla de Juan Cuamatzi,29,-98.167906,19.334518
+29019,municipio,Tepetitla de Lardizábal,29,-98.382009,19.267530
+29020,municipio,Sanctórum de Lázaro Cárdenas,29,-98.472041,19.492705
+29021,municipio,Nanacamilpa de Mariano Arista,29,-98.536343,19.493160
+29022,municipio,Acuamanala de Miguel Hidalgo,29,-98.198364,19.216359
+29023,municipio,Natívitas,29,-98.337671,19.220561
+29024,municipio,Panotla,29,-98.267233,19.315129
+29025,municipio,San Pablo del Monte,29,-98.170416,19.119738
+29026,municipio,Santa Cruz Tlaxcala,29,-98.133010,19.362078
+29027,municipio,Tenancingo,29,-98.202530,19.147758
+29028,municipio,Teolocholco,29,-98.192351,19.244394
+29029,municipio,Tepeyanco,29,-98.236035,19.245567
+29030,municipio,Terrenate,29,-97.919105,19.477437
+29031,municipio,Tetla de la Solidaridad,29,-98.104052,19.441416
+29032,municipio,Tetlatlahuca,29,-98.295728,19.231639
+29033,municipio,Tlaxcala,29,-98.228526,19.317396
+29034,municipio,Tlaxco,29,-98.119201,19.614889
+29035,municipio,Tocatlán,29,-98.031931,19.390452
+29036,municipio,Totolac,29,-98.258413,19.325644
+29037,municipio,Ziltlaltépec de Trinidad Sánchez Santos,29,-97.908756,19.204730
+29038,municipio,Tzompantepec,29,-98.105527,19.379956
+29039,municipio,Xaloztoc,29,-98.048823,19.404180
+29040,municipio,Xaltocan,29,-98.221558,19.399177
+29041,municipio,Papalotla de Xicohténcatl,29,-98.204586,19.169853
+29042,municipio,Xicohtzinco,29,-98.233722,19.175034
+29043,municipio,Yauhquemehcan,29,-98.164118,19.419789
+29044,municipio,Zacatelco,29,-98.240226,19.216150
+29045,municipio,Benito Juárez,29,-98.426358,19.584514
+29046,municipio,Emiliano Zapata,29,-97.917201,19.558806
+29047,municipio,Lázaro Cárdenas,29,-97.983191,19.538764
+29048,municipio,La Magdalena Tlaltelulco,29,-98.194962,19.277355
+29049,municipio,San Damián Texóloc,29,-98.284624,19.278432
+29050,municipio,San Francisco Tetlanohcan,29,-98.163550,19.260078
+29051,municipio,San Jerónimo Zacualpan,29,-98.262617,19.241712
+29052,municipio,San José Teacalco,29,-98.064423,19.335704
+29053,municipio,San Juan Huactzinco,29,-98.250301,19.237946
+29054,municipio,San Lorenzo Axocomanitla,29,-98.248874,19.225224
+29055,municipio,San Lucas Tecopilco,29,-98.256542,19.484989
+29056,municipio,Santa Ana Nopalucan,29,-98.334189,19.299836
+29057,municipio,Santa Apolonia Teacalco,29,-98.308669,19.237168
+29058,municipio,Santa Catarina Ayometla,29,-98.214418,19.199919
+29059,municipio,Santa Cruz Quilehtla,29,-98.222018,19.213180
+29060,municipio,Santa Isabel Xiloxoxtla,29,-98.213558,19.268064
+30,estado,Veracruz de Ignacio de la Llave,,,
+30001,municipio,Acajete,30,-97.010454,19.586974
+30002,municipio,Acatlán,30,-96.842175,19.696924
+30003,municipio,Acayucan,30,-94.913871,17.948822
+30004,municipio,Actopan,30,-96.616881,19.504051
+30005,municipio,Acula,30,-95.774584,18.506031
+30006,municipio,Acultzingo,30,-97.302837,18.718763
+30007,municipio,Camarón de Tejeda,30,-96.614976,19.021175
+30008,municipio,Alpatláhuac,30,-97.134355,19.103579
+30009,municipio,Alto Lucero de Gutiérrez Barrios,30,-96.733619,19.623525
+30010,municipio,Altotonga,30,-97.245526,19.766149
+30011,municipio,Alvarado,30,-95.763929,18.774278
+30012,municipio,Amatitlán,30,-95.734824,18.456962
+30013,municipio,Naranjos Amatlán,30,-97.686252,21.346902
+30014,municipio,Amatlán de los Reyes,30,-96.915484,18.847578
+30015,municipio,Angel R. Cabada,30,-95.442725,18.595482
+30016,municipio,La Antigua,30,-96.371389,19.366830
+30017,municipio,Apazapan,30,-96.686103,19.347669
+30018,municipio,Aquila,30,-97.308123,18.795735
+30019,municipio,Astacinga,30,-97.102076,18.566830
+30020,municipio,Atlahuilco,30,-97.090686,18.697427
+30021,municipio,Atoyac,30,-96.796848,18.891399
+30022,municipio,Atzacan,30,-97.083905,18.906968
+30023,municipio,Atzalan,30,-97.110264,19.894423
+30024,municipio,Tlaltetela,30,-96.902586,19.314660
+30025,municipio,Ayahualulco,30,-97.201922,19.446450
+30026,municipio,Banderilla,30,-96.940884,19.591607
+30027,municipio,Benito Juárez,30,-98.205445,20.886561
+30028,municipio,Boca del Río,30,-96.115959,19.142849
+30029,municipio,Calcahualco,30,-97.108135,19.138047
+30030,municipio,Camerino Z. Mendoza,30,-97.184717,18.804241
+30031,municipio,Carrillo Puerto,30,-96.671900,18.803852
+30032,municipio,Catemaco,30,-95.112339,18.424615
+30033,municipio,Cazones de Herrera,30,-97.312321,20.703285
+30034,municipio,Cerro Azul,30,-97.742319,21.191467
+30035,municipio,Citlaltépetl,30,-97.879275,21.328468
+30036,municipio,Coacoatzintla,30,-96.945141,19.653106
+30037,municipio,Coahuitlán,30,-97.728662,20.260601
+30038,municipio,Coatepec,30,-96.960274,19.454661
+30039,municipio,Coatzacoalcos,30,-94.453001,18.137883
+30040,municipio,Coatzintla,30,-97.460782,20.482363
+30041,municipio,Coetzala,30,-96.916692,18.785636
+30042,municipio,Colipa,30,-96.726730,19.924000
+30043,municipio,Comapa,30,-96.834841,19.154121
+30044,municipio,Córdoba,30,-96.935349,18.894384
+30045,municipio,Cosamaloapan de Carpio,30,-95.796359,18.364774
+30046,municipio,Cosautlán de Carvajal,30,-96.991364,19.332644
+30047,municipio,Coscomatepec,30,-97.046421,19.072898
+30048,municipio,Cosoleacaque,30,-94.570903,18.012786
+30049,municipio,Cotaxtla,30,-96.466638,18.761241
+30050,municipio,Coxquihui,30,-97.586271,20.184737
+30051,municipio,Coyutla,30,-97.657697,20.247122
+30052,municipio,Cuichapa,30,-96.869224,18.773510
+30053,municipio,Cuitláhuac,30,-96.722323,18.814539
+30054,municipio,Chacaltianguis,30,-95.841390,18.305336
+30055,municipio,Chalma,30,-98.397603,21.208391
+30056,municipio,Chiconamel,30,-98.459513,21.230556
+30057,municipio,Chiconquiaco,30,-96.818808,19.742096
+30058,municipio,Chicontepec,30,-98.178344,20.971975
+30059,municipio,Chinameca,30,-94.683056,18.017778
+30060,municipio,Chinampa de Gorostiza,30,-97.735338,21.359599
+30061,municipio,Las Choapas,30,-94.090276,17.909326
+30062,municipio,Chocamán,30,-97.033237,19.010871
+30063,municipio,Chontla,30,-97.924930,21.293435
+30064,municipio,Chumatlán,30,-97.594636,20.207532
+30065,municipio,Emiliano Zapata,30,-96.854461,19.495916
+30066,municipio,Espinal,30,-97.548858,20.275960
+30067,municipio,Filomeno Mata,30,-97.703739,20.200246
+30068,municipio,Fortín,30,-96.999346,18.903663
+30069,municipio,Gutiérrez Zamora,30,-97.087566,20.451932
+30070,municipio,Hidalgotitlán,30,-94.646516,17.771017
+30071,municipio,Huatusco,30,-96.967350,19.146971
+30072,municipio,Huayacocotla,30,-98.479152,20.537277
+30073,municipio,Hueyapan de Ocampo,30,-95.184267,18.159620
+30074,municipio,Huiloapan de Cuauhtémoc,30,-97.155920,18.816577
+30075,municipio,Ignacio de la Llave,30,-95.985635,18.724306
+30076,municipio,Ilamatlán,30,-98.393146,20.783443
+30077,municipio,Isla,30,-95.527628,18.027514
+30078,municipio,Ixcatepec,30,-98.005952,21.237634
+30079,municipio,Ixhuacán de los Reyes,30,-97.115280,19.355946
+30080,municipio,Ixhuatlán del Café,30,-96.984325,19.051157
+30081,municipio,Ixhuatlancillo,30,-97.118982,18.871544
+30082,municipio,Ixhuatlán del Sureste,30,-94.393728,18.022754
+30083,municipio,Ixhuatlán de Madero,30,-98.002239,20.552363
+30084,municipio,Ixmatlahuacan,30,-95.829882,18.448569
+30085,municipio,Ixtaczoquitlán,30,-97.063067,18.851066
+30086,municipio,Jalacingo,30,-97.308682,19.805966
+30087,municipio,Xalapa,30,-96.922645,19.527085
+30088,municipio,Jalcomulco,30,-96.761822,19.331686
+30089,municipio,Jáltipan,30,-94.721735,17.966068
+30090,municipio,Jamapa,30,-96.240591,19.042026
+30091,municipio,Jesús Carranza,30,-95.026252,17.434927
+30092,municipio,Xico,30,-97.007233,19.421269
+30093,municipio,Jilotepec,30,-96.950280,19.611304
+30094,municipio,Juan Rodríguez Clara,30,-95.401354,17.994004
+30095,municipio,Juchique de Ferrer,30,-96.694730,19.841161
+30096,municipio,Landero y Coss,30,-96.851588,19.735192
+30097,municipio,Lerdo de Tejada,30,-95.523222,18.628200
+30098,municipio,Magdalena,30,-97.045468,18.760589
+30099,municipio,Maltrata,30,-97.278304,18.810401
+30100,municipio,Manlio Fabio Altamirano,30,-96.333230,19.094434
+30101,municipio,Mariano Escobedo,30,-97.109464,18.882727
+30102,municipio,Martínez de la Torre,30,-97.053840,20.073388
+30103,municipio,Mecatlán,30,-97.681740,20.210656
+30104,municipio,Mecayapan,30,-94.837643,18.221457
+30105,municipio,Medellín de Bravo,30,-96.157012,19.102992
+30106,municipio,Miahuatlán,30,-96.869856,19.707459
+30107,municipio,Las Minas,30,-97.146146,19.667918
+30108,municipio,Minatitlán,30,-94.548444,17.990977
+30109,municipio,Misantla,30,-96.852736,19.928634
+30110,municipio,Mixtla de Altamirano,30,-96.987529,18.595340
+30111,municipio,Moloacán,30,-94.279690,17.938997
+30112,municipio,Naolinco,30,-96.873676,19.655267
+30113,municipio,Naranjal,30,-96.961341,18.810826
+30114,municipio,Nautla,30,-96.774147,20.209192
+30115,municipio,Nogales,30,-97.162556,18.822537
+30116,municipio,Oluta,30,-94.896944,17.928185
+30117,municipio,Omealca,30,-96.786203,18.747305
+30118,municipio,Orizaba,30,-97.098914,18.850961
+30119,municipio,Otatitlán,30,-96.034574,18.176713
+30120,municipio,Oteapan,30,-94.666589,17.999503
+30121,municipio,Ozuluama de Mascareñas,30,-97.850506,21.661261
+30122,municipio,Pajapan,30,-94.691785,18.261744
+30123,municipio,Pánuco,30,-98.181305,22.053612
+30124,municipio,Papantla,30,-97.322749,20.446732
+30125,municipio,Paso del Macho,30,-96.724511,18.972155
+30126,municipio,Paso de Ovejas,30,-96.438453,19.285047
+30127,municipio,La Perla,30,-97.134024,18.927619
+30128,municipio,Perote,30,-97.244072,19.560653
+30129,municipio,Platón Sánchez,30,-98.374145,21.273198
+30130,municipio,Playa Vicente,30,-95.812057,17.832133
+30131,municipio,Poza Rica de Hidalgo,30,-97.443567,20.534088
+30132,municipio,Las Vigas de Ramírez,30,-97.103378,19.638480
+30133,municipio,Pueblo Viejo,30,-97.840810,22.204235
+30134,municipio,Puente Nacional,30,-96.382778,19.371667
+30135,municipio,Rafael Delgado,30,-97.073437,18.810522
+30136,municipio,Rafael Lucio,30,-96.989558,19.593106
+30137,municipio,Los Reyes,30,-97.044258,18.672578
+30138,municipio,Río Blanco,30,-97.139525,18.838865
+30139,municipio,Saltabarranca,30,-95.531879,18.590240
+30140,municipio,San Andrés Tenejapan,30,-97.093225,18.788703
+30141,municipio,San Andrés Tuxtla,30,-95.212571,18.448668
+30142,municipio,San Juan Evangelista,30,-95.140080,17.886052
+30143,municipio,Santiago Tuxtla,30,-95.301754,18.465643
+30144,municipio,Sayula de Alemán,30,-94.960109,17.880969
+30145,municipio,Soconusco,30,-94.881051,17.962881
+30146,municipio,Sochiapa,30,-96.940646,19.193295
+30147,municipio,Soledad Atzompa,30,-97.184076,18.725245
+30148,municipio,Soledad de Doblado,30,-96.423289,19.044746
+30149,municipio,Soteapan,30,-94.872756,18.229510
+30150,municipio,Tamalín,30,-97.813230,21.337939
+30151,municipio,Tamiahua,30,-97.446525,21.279742
+30152,municipio,Tampico Alto,30,-97.801625,22.113046
+30153,municipio,Tancoco,30,-97.791419,21.286381
+30154,municipio,Tantima,30,-97.833292,21.329637
+30155,municipio,Tantoyuca,30,-98.229919,21.351814
+30156,municipio,Tatatila,30,-97.112142,19.693457
+30157,municipio,Castillo de Teayo,30,-97.632749,20.749733
+30158,municipio,Tecolutla,30,-97.008451,20.477392
+30159,municipio,Tehuipango,30,-97.056127,18.517760
+30160,municipio,Álamo Temapache,30,-97.675531,20.917143
+30161,municipio,Tempoal,30,-98.388125,21.522281
+30162,municipio,Tenampa,30,-96.884854,19.248555
+30163,municipio,Tenochtitlán,30,-96.916366,19.810133
+30164,municipio,Teocelo,30,-96.972177,19.386251
+30165,municipio,Tepatlaxco,30,-96.841496,19.014561
+30166,municipio,Tepetlán,30,-96.757447,19.623770
+30167,municipio,Tepetzintla,30,-97.851057,21.166113
+30168,municipio,Tequila,30,-97.069425,18.729805
+30169,municipio,José Azueta,30,-95.707965,18.075635
+30170,municipio,Texcatepec,30,-98.302226,20.649122
+30171,municipio,Texhuacán,30,-97.038733,18.620638
+30172,municipio,Texistepec,30,-94.815209,17.894207
+30173,municipio,Tezonapa,30,-96.687534,18.606807
+30174,municipio,Tierra Blanca,30,-96.360315,18.447449
+30175,municipio,Tihuatlán,30,-97.537945,20.716672
+30176,municipio,Tlacojalpan,30,-95.947628,18.230886
+30177,municipio,Tlacolulan,30,-97.001371,19.664859
+30178,municipio,Tlacotalpan,30,-95.656311,18.613272
+30179,municipio,Tlacotepec de Mejía,30,-96.836507,19.192134
+30180,municipio,Tlachichilco,30,-98.199049,20.621569
+30181,municipio,Tlalixcoyan,30,-96.172547,18.769642
+30182,municipio,Tlalnelhuayocan,30,-96.961152,19.554159
+30183,municipio,Tlapacoyan,30,-97.212530,19.962652
+30184,municipio,Tlaquilpa,30,-97.118881,18.612271
+30185,municipio,Tlilapan,30,-97.099058,18.805746
+30186,municipio,Tomatlán,30,-97.010261,19.031539
+30187,municipio,Tonayán,30,-96.921507,19.682890
+30188,municipio,Totutla,30,-96.961295,19.211286
+30189,municipio,Tuxpan,30,-97.403927,20.964297
+30190,municipio,Tuxtilla,30,-95.894746,18.238960
+30191,municipio,Ursulo Galván,30,-96.408762,19.442571
+30192,municipio,Vega de Alatorre,30,-96.649765,20.027466
+30193,municipio,Veracruz,30,-96.153028,19.190323
+30194,municipio,Villa Aldama,30,-97.223025,19.648886
+30195,municipio,Xoxocotla,30,-97.151898,18.647805
+30196,municipio,Yanga,30,-96.798498,18.833836
+30197,municipio,Yecuatla,30,-96.776227,19.866186
+30198,municipio,Zacualpan,30,-98.348697,20.433707
+30199,municipio,Zaragoza,30,-94.642414,17.955747
+30200,municipio,Zentla,30,-96.783310,19.029013
+30201,municipio,Zongolica,30,-96.998364,18.666891
+30202,municipio,Zontecomatlán de López y Fuentes,30,-98.267601,20.773588
+30203,municipio,Zozocolco de Hidalgo,30,-97.575513,20.140845
+30204,municipio,Agua Dulce,30,-94.147239,18.138272
+30205,municipio,El Higo,30,-98.453724,21.768734
+30206,municipio,Nanchital de Lázaro Cárdenas del Río,30,-94.411176,18.072141
+30207,municipio,Tres Valles,30,-96.134797,18.240922
+30208,municipio,Carlos A. Carrillo,30,-95.744760,18.371734
+30209,municipio,Tatahuicapan de Juárez,30,-94.760239,18.246447
+30210,municipio,Uxpanapa,30,-94.451333,17.276024
+30211,municipio,San Rafael,30,-96.870954,20.188025
+30212,municipio,Santiago Sochiapan,30,-95.734602,17.663732
+31,estado,Yucatán,,,
+31001,municipio,Abalá,31,-89.594125,20.695559
+31002,municipio,Acanceh,31,-89.453547,20.812422
+31003,municipio,Akil,31,-89.346826,20.267053
+31004,municipio,Baca,31,-89.399382,21.109548
+31005,municipio,Bokobá,31,-89.179525,21.006940
+31006,municipio,Buctzotz,31,-88.794462,21.201897
+31007,municipio,Cacalchén,31,-89.228180,20.983099
+31008,municipio,Calotmul,31,-88.177046,21.019289
+31009,municipio,Cansahcab,31,-89.102341,21.158103
+31010,municipio,Cantamayec,31,-89.080944,20.470556
+31011,municipio,Celestún,31,-90.399464,20.860092
+31012,municipio,Cenotillo,31,-88.604420,20.965772
+31013,municipio,Conkal,31,-89.521284,21.073894
+31014,municipio,Cuncunul,31,-88.296631,20.641163
+31015,municipio,Cuzamá,31,-89.316961,20.741484
+31016,municipio,Chacsinkín,31,-89.016409,20.172601
+31017,municipio,Chankom,31,-88.552586,20.596968
+31018,municipio,Chapab,31,-89.456552,20.458751
+31019,municipio,Chemax,31,-87.937328,20.655016
+31020,municipio,Chicxulub Pueblo,31,-89.515076,21.137289
+31021,municipio,Chichimilá,31,-88.217397,20.631270
+31022,municipio,Chikindzonot,31,-88.486486,20.333655
+31023,municipio,Chocholá,31,-89.830699,20.750231
+31024,municipio,Chumayel,31,-89.302519,20.429535
+31025,municipio,Dzán,31,-89.468871,20.387764
+31026,municipio,Dzemul,31,-89.308814,21.211503
+31027,municipio,Dzidzantún,31,-89.042975,21.246678
+31028,municipio,Dzilam de Bravo,31,-88.891880,21.393229
+31029,municipio,Dzilam González,31,-88.929741,21.280125
+31030,municipio,Dzitás,31,-88.527822,20.839866
+31031,municipio,Dzoncauich,31,-88.890931,21.129164
+31032,municipio,Espita,31,-88.306822,21.011053
+31033,municipio,Halachó,31,-90.082229,20.477746
+31034,municipio,Hocabá,31,-89.245099,20.816240
+31035,municipio,Hoctún,31,-89.202066,20.865212
+31036,municipio,Homún,31,-89.285754,20.739515
+31037,municipio,Huhí,31,-89.162199,20.724991
+31038,municipio,Hunucmá,31,-89.877052,21.016154
+31039,municipio,Ixil,31,-89.481211,21.153000
+31040,municipio,Izamal,31,-89.019715,20.932998
+31041,municipio,Kanasín,31,-89.558059,20.934640
+31042,municipio,Kantunil,31,-89.036519,20.796440
+31043,municipio,Kaua,31,-88.414617,20.620086
+31044,municipio,Kinchil,31,-89.947583,20.916462
+31045,municipio,Kopomá,31,-89.899526,20.648970
+31046,municipio,Mama,31,-89.365579,20.477398
+31047,municipio,Maní,31,-89.392971,20.387701
+31048,municipio,Maxcanú,31,-90.000640,20.585059
+31049,municipio,Mayapán,31,-89.215171,20.468744
+31050,municipio,Mérida,31,-89.624392,20.967537
+31051,municipio,Mocochá,31,-89.452056,21.105684
+31052,municipio,Motul,31,-89.283925,21.095551
+31053,municipio,Muna,31,-89.713378,20.483953
+31054,municipio,Muxupip,31,-89.329891,21.042823
+31055,municipio,Opichén,31,-89.856244,20.550651
+31056,municipio,Oxkutzcab,31,-89.418752,20.301932
+31057,municipio,Panabá,31,-88.271183,21.296861
+31058,municipio,Peto,31,-88.923985,20.125918
+31059,municipio,Progreso,31,-89.663595,21.282577
+31060,municipio,Quintana Roo,31,-88.631751,20.867188
+31061,municipio,Río Lagartos,31,-88.157978,21.597751
+31062,municipio,Sacalum,31,-89.591165,20.495829
+31063,municipio,Samahil,31,-89.888816,20.883418
+31064,municipio,Sanahcat,31,-89.214761,20.771262
+31065,municipio,San Felipe,31,-88.232063,21.567599
+31066,municipio,Santa Elena,31,-89.643259,20.328898
+31067,municipio,Seyé,31,-89.372253,20.836987
+31068,municipio,Sinanché,31,-89.185783,21.225595
+31069,municipio,Sotuta,31,-89.006706,20.595018
+31070,municipio,Sucilá,31,-88.313938,21.156166
+31071,municipio,Sudzal,31,-88.988792,20.872096
+31072,municipio,Suma,31,-89.148279,21.086491
+31073,municipio,Tahdziú,31,-88.944904,20.203821
+31074,municipio,Tahmek,31,-89.255795,20.875535
+31075,municipio,Teabo,31,-89.284919,20.400411
+31076,municipio,Tecoh,31,-89.474302,20.741726
+31077,municipio,Tekal de Venegas,31,-88.947005,21.014073
+31078,municipio,Tekantó,31,-89.106084,21.011647
+31079,municipio,Tekax,31,-89.288388,20.203465
+31080,municipio,Tekit,31,-89.333095,20.533493
+31081,municipio,Tekom,31,-88.264438,20.602225
+31082,municipio,Telchac Pueblo,31,-89.271267,21.203349
+31083,municipio,Telchac Puerto,31,-89.264225,21.343004
+31084,municipio,Temax,31,-88.938634,21.151841
+31085,municipio,Temozón,31,-88.201158,20.803680
+31086,municipio,Tepakán,31,-89.039447,21.049377
+31087,municipio,Tetiz,31,-89.933449,20.961912
+31088,municipio,Teya,31,-89.073709,21.048538
+31089,municipio,Ticul,31,-89.534447,20.398340
+31090,municipio,Timucuy,31,-89.513505,20.810508
+31091,municipio,Tinum,31,-88.588236,20.698598
+31092,municipio,Tixcacalcupul,31,-88.270267,20.537089
+31093,municipio,Tixkokob,31,-89.395051,21.002482
+31094,municipio,Tixmehuac,31,-89.109001,20.235721
+31095,municipio,Tixpéhual,31,-89.441903,20.978168
+31096,municipio,Tizimín,31,-88.152266,21.143523
+31097,municipio,Tunkás,31,-88.752279,20.902350
+31098,municipio,Tzucacab,31,-89.050330,20.071932
+31099,municipio,Uayma,31,-88.317139,20.717788
+31100,municipio,Ucú,31,-89.746440,21.031735
+31101,municipio,Umán,31,-89.748283,20.881890
+31102,municipio,Valladolid,31,-88.200980,20.689726
+31103,municipio,Xocchel,31,-89.183719,20.833489
+31104,municipio,Yaxcabá,31,-88.827206,20.549126
+31105,municipio,Yaxkukul,31,-89.419238,21.063479
+31106,municipio,Yobaín,31,-89.116500,21.233467
+32,estado,Zacatecas,,,
+32001,municipio,Apozol,32,-103.091190,21.470877
+32002,municipio,Apulco,32,-102.657707,21.502084
+32003,municipio,Atolinga,32,-103.465583,21.806949
+32004,municipio,Benito Juárez,32,-103.555950,21.504478
+32005,municipio,Calera,32,-102.702263,22.949037
+32006,municipio,Cañitas de Felipe Pescador,32,-102.726590,23.606976
+32007,municipio,Concepción del Oro,32,-101.420484,24.613169
+32008,municipio,Cuauhtémoc,32,-102.350102,22.449218
+32009,municipio,Chalchihuites,32,-103.884046,23.477350
+32010,municipio,Fresnillo,32,-102.868229,23.174895
+32011,municipio,Trinidad García de la Cadena,32,-103.464871,21.209790
+32012,municipio,Genaro Codina,32,-102.456574,22.487614
+32013,municipio,General Enrique Estrada,32,-102.740013,22.995123
+32014,municipio,General Francisco R. Murguía,32,-103.019825,23.994668
+32015,municipio,El Plateado de Joaquín Amaro,32,-103.092394,21.936653
+32016,municipio,General Pánfilo Natera,32,-102.109923,22.664371
+32017,municipio,Guadalupe,32,-102.518802,22.746782
+32018,municipio,Huanusco,32,-102.972024,21.772169
+32019,municipio,Jalpa,32,-102.975834,21.632239
+32020,municipio,Jerez,32,-102.989924,22.649403
+32021,municipio,Jiménez del Teul,32,-103.798384,23.254110
+32022,municipio,Juan Aldama,32,-103.393590,24.290481
+32023,municipio,Juchipila,32,-103.119243,21.411504
+32024,municipio,Loreto,32,-101.986564,22.272187
+32025,municipio,Luis Moya,32,-102.249249,22.432478
+32026,municipio,Mazapil,32,-101.554967,24.638097
+32027,municipio,Melchor Ocampo,32,-101.642226,24.831724
+32028,municipio,Mezquital del Oro,32,-103.362901,21.216722
+32029,municipio,Miguel Auza,32,-103.451449,24.294446
+32030,municipio,Momax,32,-103.313975,21.922014
+32031,municipio,Monte Escobedo,32,-103.561643,22.302785
+32032,municipio,Morelos,32,-102.609535,22.862194
+32033,municipio,Moyahua de Estrada,32,-103.165697,21.265594
+32034,municipio,Nochistlán de Mejía,32,-102.847165,21.363253
+32035,municipio,Noria de Ángeles,32,-102.019108,22.401532
+32036,municipio,Ojocaliente,32,-102.252934,22.571967
+32037,municipio,Pánuco,32,-102.572380,22.946666
+32038,municipio,Pinos,32,-101.575167,22.298842
+32039,municipio,Río Grande,32,-103.034332,23.827434
+32040,municipio,Sain Alto,32,-103.247479,23.579830
+32041,municipio,El Salvador,32,-100.867830,24.520577
+32042,municipio,Sombrerete,32,-103.641342,23.631378
+32043,municipio,Susticacán,32,-103.099689,22.611089
+32044,municipio,Tabasco,32,-102.913057,21.865277
+32045,municipio,Tepechitlán,32,-103.327625,21.671126
+32046,municipio,Tepetongo,32,-103.147898,22.461265
+32047,municipio,Teúl de González Ortega,32,-103.462039,21.464091
+32048,municipio,Tlaltenango de Sánchez Román,32,-103.305813,21.783042
+32049,municipio,Valparaíso,32,-103.567233,22.771900
+32050,municipio,Vetagrande,32,-102.502638,22.830195
+32051,municipio,Villa de Cos,32,-102.346888,23.293893
+32052,municipio,Villa García,32,-101.956319,22.164898
+32053,municipio,Villa González Ortega,32,-101.913761,22.512992
+32054,municipio,Villa Hidalgo,32,-101.712599,22.357088
+32055,municipio,Villanueva,32,-102.883726,22.354259
+32056,municipio,Zacatecas,32,-102.571836,22.776096
+32057,municipio,Trancoso,32,-102.366038,22.735389
+32058,municipio,Santa María de la Paz,32,-103.407042,21.512178

@@ -1,0 +1,604 @@
+# State-level skeleton, INEGI entities 17-24 (Fase 1).
+# Structure only: 4 nodes per state (executive, legislature, judiciary, ayuntamientos).
+# Legal basis: CPEUM Art. 116 (state powers), Art. 115 (municipio libre) — verified
+# against DOF text (últimas reformas 02-06-2026). Each state's constitución local is
+# pending as a source (R6); it will refine valid_from and per-organ detail.
+# No autoridad edges: federal→state (Art. 40 federal pact), governor→ayuntamientos
+# (Art. 115 fr. I: "no habrá autoridad intermedia"), nor among the three state powers.
+# legitimidad edges: direct election — governor and legislature (Art. 116 fr. I),
+# ayuntamientos (Art. 115 fr. I), local judiciary (Art. 116 fr. III, reforma DOF 15-09-2024:
+# "elección por voto directo y secreto de la ciudadanía").
+
+nodes:
+  # --- 17 Morelos ---
+  - id: ejecutivo-estatal-17
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Morelos
+    level: estatal
+    territory: "17"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Morelos, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-17
+    node_type: congreso_local
+    name: Congreso del Estado de Morelos
+    level: estatal
+    territory: "17"
+    summary: >-
+      Poder Legislativo del Estado de Morelos, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-17
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Morelos
+    level: estatal
+    territory: "17"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-17
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Morelos
+    level: municipal
+    territory: "17"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 18 Nayarit ---
+  - id: ejecutivo-estatal-18
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Nayarit
+    level: estatal
+    territory: "18"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Nayarit, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-18
+    node_type: congreso_local
+    name: Congreso del Estado de Nayarit
+    level: estatal
+    territory: "18"
+    summary: >-
+      Poder Legislativo del Estado de Nayarit, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-18
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Nayarit
+    level: estatal
+    territory: "18"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-18
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Nayarit
+    level: municipal
+    territory: "18"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 19 Nuevo León ---
+  - id: ejecutivo-estatal-19
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Nuevo León
+    level: estatal
+    territory: "19"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Nuevo León, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-19
+    node_type: congreso_local
+    name: Congreso del Estado de Nuevo León
+    level: estatal
+    territory: "19"
+    summary: >-
+      Poder Legislativo del Estado de Nuevo León, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-19
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Nuevo León
+    level: estatal
+    territory: "19"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-19
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Nuevo León
+    level: municipal
+    territory: "19"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 20 Oaxaca ---
+  - id: ejecutivo-estatal-20
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Oaxaca
+    level: estatal
+    territory: "20"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Oaxaca, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-20
+    node_type: congreso_local
+    name: Congreso del Estado de Oaxaca
+    level: estatal
+    territory: "20"
+    summary: >-
+      Poder Legislativo del Estado de Oaxaca, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-20
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Oaxaca
+    level: estatal
+    territory: "20"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-20
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Oaxaca
+    level: municipal
+    territory: "20"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 21 Puebla ---
+  - id: ejecutivo-estatal-21
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Puebla
+    level: estatal
+    territory: "21"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Puebla, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-21
+    node_type: congreso_local
+    name: Congreso del Estado de Puebla
+    level: estatal
+    territory: "21"
+    summary: >-
+      Poder Legislativo del Estado de Puebla, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-21
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Puebla
+    level: estatal
+    territory: "21"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-21
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Puebla
+    level: municipal
+    territory: "21"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 22 Querétaro ---
+  - id: ejecutivo-estatal-22
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Querétaro
+    level: estatal
+    territory: "22"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Querétaro, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-22
+    node_type: congreso_local
+    name: Congreso del Estado de Querétaro
+    level: estatal
+    territory: "22"
+    summary: >-
+      Poder Legislativo del Estado de Querétaro, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-22
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Querétaro
+    level: estatal
+    territory: "22"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-22
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Querétaro
+    level: municipal
+    territory: "22"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 23 Quintana Roo ---
+  - id: ejecutivo-estatal-23
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Quintana Roo
+    level: estatal
+    territory: "23"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Quintana Roo, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-23
+    node_type: congreso_local
+    name: Congreso del Estado de Quintana Roo
+    level: estatal
+    territory: "23"
+    summary: >-
+      Poder Legislativo del Estado de Quintana Roo, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-23
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Quintana Roo
+    level: estatal
+    territory: "23"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-23
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Quintana Roo
+    level: municipal
+    territory: "23"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 24 San Luis Potosí ---
+  - id: ejecutivo-estatal-24
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de San Luis Potosí
+    level: estatal
+    territory: "24"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de San Luis Potosí, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-24
+    node_type: congreso_local
+    name: Congreso del Estado de San Luis Potosí
+    level: estatal
+    territory: "24"
+    summary: >-
+      Poder Legislativo del Estado de San Luis Potosí, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-24
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de San Luis Potosí
+    level: estatal
+    territory: "24"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-24
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de San Luis Potosí
+    level: municipal
+    territory: "24"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+edges:
+  # --- 17 Morelos ---
+  - from: ciudadania
+    to: ejecutivo-estatal-17
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-17
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-17
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-17
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 18 Nayarit ---
+  - from: ciudadania
+    to: ejecutivo-estatal-18
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-18
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-18
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-18
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 19 Nuevo León ---
+  - from: ciudadania
+    to: ejecutivo-estatal-19
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-19
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-19
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-19
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 20 Oaxaca ---
+  - from: ciudadania
+    to: ejecutivo-estatal-20
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-20
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-20
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-20
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 21 Puebla ---
+  - from: ciudadania
+    to: ejecutivo-estatal-21
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-21
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-21
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-21
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 22 Querétaro ---
+  - from: ciudadania
+    to: ejecutivo-estatal-22
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-22
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-22
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-22
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 23 Quintana Roo ---
+  - from: ciudadania
+    to: ejecutivo-estatal-23
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-23
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-23
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-23
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 24 San Luis Potosí ---
+  - from: ciudadania
+    to: ejecutivo-estatal-24
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-24
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-24
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-24
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"

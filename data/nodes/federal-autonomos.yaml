@@ -1,0 +1,245 @@
+# Organos constitucionales autonomos — current and recently extinct (R9: both coexist).
+# No authority_from on purpose: autonomous organs hang from no branch — that is their design.
+# No legitimidad edges: none of these organs is directly elected by citizens
+# (INE council elected by Camara de Diputados, CNDH president by Senado, Banxico
+# governors appointed by the President with Senate approval — verified in CPEUM).
+# Every article below was verified by grep against the DOF-current CPEUM/LOAPF texts.
+
+nodes:
+  # ─── Current ───────────────────────────────────────────────────────────────
+  - id: ine
+    node_type: organo_autonomo
+    name: Instituto Nacional Electoral (INE)
+    level: federal
+    territory: null
+    valid_from: 2014-02-10 # reform DOF 10-02-2014 transformed IFE into INE
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Organismo público autónomo que organiza las elecciones federales y
+      coordina con los organismos públicos locales las elecciones estatales.
+      Su Consejo General se integra por un consejero Presidente y diez
+      consejeros electorales electos por la Cámara de Diputados.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 41, fracc. V, Apartado A"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: banco-de-mexico
+    node_type: organo_autonomo
+    name: Banco de México
+    level: federal
+    territory: null
+    valid_from: 1993-08-20 # autonomy paragraph added to Art. 28, DOF 20-08-1993
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Banco central del Estado, autónomo en sus funciones y administración.
+      Su objetivo prioritario es procurar la estabilidad del poder adquisitivo
+      de la moneda nacional; ninguna autoridad puede ordenarle conceder
+      financiamiento.
+    legal_basis:
+      - document: CPEUM
+        # seventh since DOF 30-10-2024 inserted the railway paragraph as fifth
+        article: "Art. 28, párrafo séptimo"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: inegi
+    node_type: organo_autonomo
+    name: Instituto Nacional de Estadística y Geografía (INEGI)
+    level: federal
+    territory: null
+    valid_from: 2006-04-07 # Art. 26 Apartado B added by reform DOF 07-04-2006
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Organismo con autonomía técnica y de gestión que norma y coordina el
+      Sistema Nacional de Información Estadística y Geográfica, cuyos datos son
+      oficiales y de uso obligatorio. Desde la reforma de diciembre de 2024
+      también mide la pobreza y evalúa la política de desarrollo social
+      (funciones antes del Coneval) y calcula la UMA.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 26, Apartado B"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: cndh
+    node_type: organo_autonomo
+    name: Comisión Nacional de los Derechos Humanos (CNDH)
+    level: federal
+    territory: null
+    valid_from: 1999-09-13 # autonomy granted by reform DOF 13-09-1999
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Organismo con autonomía de gestión y presupuestaria que conoce de quejas
+      contra actos u omisiones administrativas de cualquier autoridad que
+      violen derechos humanos. Formula recomendaciones públicas no
+      vinculatorias; no es competente en asuntos electorales ni
+      jurisdiccionales.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 102, Apartado B"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: fgr
+    node_type: fiscalia
+    name: Fiscalía General de la República (FGR)
+    level: federal
+    territory: null
+    # valid_from omitted: the reform DOF 10-02-2014 created the FGR but deferred
+    # its entry into force to a congressional declaratoria (transitorio Décimo
+    # Sexto); the exact declaratoria date is not verifiable in the local texts.
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Órgano público autónomo en el que se organiza el Ministerio Público de la
+      Federación. Investiga y persigue los delitos del orden federal; su titular
+      es la persona Fiscal General de la República.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 102, Apartado A"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: tfja
+    node_type: organo_autonomo
+    name: Tribunal Federal de Justicia Administrativa (TFJA)
+    level: federal
+    territory: null
+    valid_from: 2015-05-27 # fracc. XXIX-H reformed DOF 27-05-2015 (sistema nacional anticorrupcion)
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Tribunal dotado de plena autonomía para dictar sus fallos. Dirime las
+      controversias entre la administración pública federal y los particulares,
+      e impone las sanciones por responsabilidades administrativas graves de
+      servidores públicos y particulares vinculados.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 73, fracc. XXIX-H"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ─── Derogated or extinct (reforma de simplificacion organica DOF 20-12-2024
+  #     and secondary-law decrees of 2025; R9: they coexist with successors).
+  #     COFECE, IFT, Coneval and Mejoredu keep valid_to null: their extinction
+  #     was deferred to secondary laws whose dates the local texts do not fix. ─
+  - id: inai
+    node_type: organo_autonomo
+    name: Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)
+    level: federal
+    territory: null
+    valid_from: 2014-02-07 # autonomy granted by reform DOF 07-02-2014
+    # Decree DOF 20-03-2025 transitorio Primero: in force the day AFTER publication
+    # (2025-03-21); CPEUM decree DOF 20-12-2024 transitorio Quinto ties extinction
+    # to that entry into force. CLAUDE.md says 20-03 — documented discrepancy.
+    valid_to: 2025-03-21
+    authority_from: null
+    summary: >-
+      Organismo garante autónomo del acceso a la información pública y la
+      protección de datos personales hasta 2025. Sus funciones pasaron a
+      Transparencia para el Pueblo, órgano de la Secretaría Anticorrupción y
+      Buen Gobierno, conforme al decreto publicado en el DOF el 20 de marzo
+      de 2025.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 6o., Apartado A, fracc. VIII (párrafos derogados por reforma DOF 20-12-2024)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOAPF
+        article: "Transitorios del decreto DOF 20-03-2025 (nuevas leyes generales de transparencia y datos personales)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: cofece
+    node_type: organo_autonomo
+    name: Comisión Federal de Competencia Económica (COFECE)
+    level: federal
+    territory: null
+    valid_from: 2013-06-11 # created as autonomous organ by reform DOF 11-06-2013
+    # Constitutional basis derogated DOF 20-12-2024, but transitorios Décimo and
+    # Décimo Primero defer the extinction to 180 days after the secondary
+    # competition law enters into force (and transitorio Tercero of the decree
+    # DOF 20-03-2025 still instructs an existing COFECE). Exact extinction date
+    # is not verifiable in the local legal texts (R6), so valid_to stays null.
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Órgano autónomo garante de la libre competencia y concurrencia en los
+      mercados. La reforma de diciembre de 2024 derogó su fundamento
+      constitucional, atribuyó la regulación de la competencia económica al
+      Ejecutivo Federal y difirió la extinción del órgano hasta ciento ochenta
+      días después de la entrada en vigor de la legislación secundaria en la
+      materia.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 28, párrafos vigésimo primero a trigésimo segundo pre-reforma (derogados DOF 20-12-2024)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ift
+    node_type: organo_autonomo
+    name: Instituto Federal de Telecomunicaciones (IFT)
+    level: federal
+    territory: null
+    valid_from: 2013-06-11 # created as autonomous organ by reform DOF 11-06-2013
+    # Constitutional basis derogated DOF 20-12-2024, but transitorios Décimo and
+    # Décimo Primero defer the extinction to 180 days after the secondary
+    # telecom/broadcasting law enters into force (and transitorio Tercero of the
+    # decree DOF 20-03-2025 still instructs an existing IFT). Exact extinction
+    # date is not verifiable in the local legal texts (R6), so valid_to stays null.
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Órgano autónomo regulador de las telecomunicaciones y la radiodifusión.
+      La reforma de diciembre de 2024 derogó su fundamento constitucional,
+      atribuyó esa regulación al Ejecutivo Federal —en cuyo ámbito opera la
+      Agencia de Transformación Digital y Telecomunicaciones— y difirió la
+      extinción del órgano hasta ciento ochenta días después de la entrada en
+      vigor de la legislación secundaria en la materia.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 28, párrafos vigésimo primero a trigésimo segundo pre-reforma (derogados DOF 20-12-2024)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: coneval
+    node_type: organo_autonomo
+    name: Consejo Nacional de Evaluación de la Política de Desarrollo Social (Coneval)
+    level: federal
+    territory: null
+    valid_from: 2014-02-10 # Art. 26 Apartado C added by reform DOF 10-02-2014
+    # Apartado C derogated DOF 20-12-2024, but transitorio Quinto defers the
+    # extinction until the secondary legislation (90-day term to Congress per
+    # transitorio Segundo) enters into force. Exact extinction date is not
+    # verifiable in the local legal texts (R6), so valid_to stays null.
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Órgano autónomo encargado de medir la pobreza y evaluar la política de
+      desarrollo social. La reforma de diciembre de 2024 derogó el Apartado C
+      del artículo 26, trasladó esas funciones al INEGI y difirió la extinción
+      del organismo a la entrada en vigor de la legislación secundaria
+      correspondiente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 26, Apartado C pre-reforma (derogado DOF 20-12-2024)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: mejoredu
+    node_type: organo_autonomo
+    name: Comisión Nacional para la Mejora Continua de la Educación (Mejoredu)
+    level: federal
+    territory: null
+    valid_from: 2019-05-15 # Art. 3o. fracc. IX reformed DOF 15-05-2019 (successor of INEE)
+    # Fracc. IX derogated DOF 20-12-2024, but transitorios Quinto and Sexto tie
+    # the extinction (and the end of its designations) to the entry into force
+    # of the secondary legislation, later than the decree. Exact extinction date
+    # is not verifiable in the local legal texts (R6), so valid_to stays null.
+    valid_to: null
+    authority_from: null
+    summary: >-
+      Organismo de coordinación del sistema de mejora continua de la educación.
+      La reforma de diciembre de 2024 derogó la fracción IX del artículo 3o.
+      constitucional que lo establecía y difirió la extinción del organismo a la
+      entrada en vigor de la legislación secundaria correspondiente. Sus
+      funciones quedaron en el ámbito de la Secretaría de Educación Pública.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 3o., fracc. IX pre-reforma (derogada DOF 20-12-2024)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf

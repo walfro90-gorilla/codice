@@ -1,0 +1,108 @@
+# Federal legislative branch — hand-curated (Fase 1).
+# Every article verified against CPEUM text (Últimas Reformas DOF 02-06-2026).
+
+nodes:
+  - id: legislativo-federal
+    node_type: poder
+    name: Congreso de la Unión
+    level: federal
+    territory: null
+    valid_from: 1917-05-01
+    valid_to: null
+    authority_from: null
+    summary: >-
+      El poder legislativo de los Estados Unidos Mexicanos se deposita en un
+      Congreso general dividido en dos cámaras: una de diputados y otra de
+      senadores.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 50"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: camara-diputados
+    node_type: camara
+    name: Cámara de Diputados
+    level: federal
+    territory: null
+    # valid_from: 500-member composition (300 MR + 200 RP) set by reform DOF 15-12-1986 (Art. 52 reform trail).
+    valid_from: 1986-12-15
+    valid_to: null
+    authority_from: legislativo-federal
+    summary: >-
+      Se integra por 500 diputadas y diputados: 300 electos por mayoría
+      relativa en distritos uninominales y 200 por representación
+      proporcional. Se renueva en su totalidad cada tres años.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 51"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: CPEUM
+        article: "Art. 52"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: senado
+    node_type: camara
+    name: Cámara de Senadores
+    level: federal
+    territory: null
+    # valid_from: 128-member composition set by reform DOF 22-08-1996 (Art. 56 reform trail).
+    valid_from: 1996-08-22
+    valid_to: null
+    authority_from: legislativo-federal
+    summary: >-
+      Se integra por 128 senadoras y senadores: en cada estado y en la Ciudad
+      de México dos electos por mayoría relativa y uno asignado a la primera
+      minoría, más 32 por representación proporcional en una circunscripción
+      plurinominal nacional. Se renueva en su totalidad cada seis años.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 56"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: comision-permanente
+    node_type: organo_legislativo
+    name: Comisión Permanente del Congreso de la Unión
+    level: federal
+    territory: null
+    # valid_from omitted: the composition's original decree date is not cleanly
+    # verifiable in the text (latest wording reform DOF 15-10-2025 only adjusted substitute language).
+    valid_to: null
+    authority_from: legislativo-federal
+    summary: >-
+      Funciona durante los recesos del Congreso de la Unión. Se compone de 37
+      integrantes, 19 de la Cámara de Diputados y 18 de la de Senadores,
+      nombrados por sus respectivas cámaras.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 78"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: auditoria-superior-federacion
+    node_type: organo_legislativo
+    name: Auditoría Superior de la Federación
+    level: federal
+    territory: null
+    # valid_from: superior audit organ created by reform DOF 30-07-1999 (Art. 79 reform trail).
+    valid_from: 1999-07-30
+    valid_to: null
+    authority_from: camara-diputados
+    summary: >-
+      Órgano de la Cámara de Diputados con autonomía técnica y de gestión,
+      encargado de la fiscalización de la Cuenta Pública. Ejerce esa función
+      conforme a los principios de legalidad, definitividad, imparcialidad y
+      confiabilidad.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 79"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+# Legitimacy flows upward: from the citizenry to the directly elected chambers.
+edges:
+  - from: ciudadania
+    to: camara-diputados
+    type: legitimidad
+    legal_basis: "CPEUM Art. 51 — representantes de la Nación, electos en su totalidad cada tres años"
+  - from: ciudadania
+    to: senado
+    type: legitimidad
+    legal_basis: "CPEUM Art. 56 — senadurías electas por mayoría relativa, primera minoría y representación proporcional"

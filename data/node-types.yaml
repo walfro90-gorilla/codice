@@ -1,0 +1,20 @@
+# Open vocabulary (ADR: adding a type is a data change, not a DDL change).
+node_types:
+  - { key: poder, name: Poder de la Unión, description: Ejecutivo, Legislativo o Judicial federal }
+  - { key: camara, name: Cámara legislativa }
+  - { key: organo_legislativo, name: Órgano del Poder Legislativo, description: Órganos técnicos y de fiscalización del Congreso }
+  - { key: tribunal, name: Tribunal }
+  - { key: organo_judicial, name: Órgano del Poder Judicial, description: Administración y disciplina judicial }
+  - { key: secretaria_de_estado, name: Secretaría de Estado }
+  - { key: consejeria, name: Consejería del Ejecutivo }
+  - { key: organo_desconcentrado, name: Órgano desconcentrado }
+  - { key: organismo_descentralizado, name: Organismo descentralizado }
+  - { key: empresa_publica, name: Empresa pública del Estado }
+  - { key: organo_autonomo, name: Órgano constitucional autónomo }
+  - { key: fiscalia, name: Fiscalía }
+  - { key: agencia, name: Agencia del Ejecutivo }
+  - { key: ejecutivo_estatal, name: Poder Ejecutivo estatal }
+  - { key: congreso_local, name: Congreso local }
+  - { key: poder_judicial_estatal, name: Poder Judicial estatal }
+  - { key: ayuntamientos, name: Ayuntamientos de la entidad, description: Esqueleto municipal agregado por entidad (Fase 1) }
+  - { key: poblacion, name: Población / ciudadanía }

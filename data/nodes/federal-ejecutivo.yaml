@@ -1,0 +1,489 @@
+# Federal Executive: Presidency, the 22 dependencies of LOAPF Art. 26 (fracc. I-XXII,
+# reform DOF 28-11-2024) and the Consejería Jurídica (CPEUM Art. 90 / LOAPF Art. 43).
+# Every article below was verified by grep against CPEUM (Reforms through DOF 02-06-2026)
+# and LOAPF (last reform DOF 07-05-2026) full texts.
+# valid_from = decree date that established the CURRENT denomination, only where the
+# per-article reform note was verified; omitted otherwise.
+# Includes the extinct Secretaría de la Función Pública (R9: extinct and successor coexist).
+
+nodes:
+  - id: ejecutivo-federal
+    node_type: poder
+    name: Poder Ejecutivo Federal
+    level: federal
+    territory: null
+    valid_from: 1917-05-01
+    valid_to: null
+    authority_from: null
+    summary: >-
+      El ejercicio del Supremo Poder Ejecutivo de la Unión se deposita en una sola persona,
+      la Presidencia de los Estados Unidos Mexicanos. Encabeza la Administración Pública
+      Federal centralizada y paraestatal.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 80"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: CPEUM
+        article: "Art. 90"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- Secretarías de Estado (LOAPF Art. 26, fracc. I-XXI) ---
+
+  - id: secretaria-gobernacion
+    node_type: secretaria_de_estado
+    name: Secretaría de Gobernación
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política interior del Ejecutivo Federal y las relaciones del Poder
+      Ejecutivo con los demás Poderes de la Unión, los órganos constitucionales autónomos
+      y los gobiernos de las entidades federativas y municipios.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 27"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-relaciones-exteriores
+    node_type: secretaria_de_estado
+    name: Secretaría de Relaciones Exteriores
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política exterior, celebra tratados internacionales y dirige el servicio
+      exterior mexicano.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 28"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-defensa-nacional
+    node_type: secretaria_de_estado
+    name: Secretaría de la Defensa Nacional
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organiza, administra y prepara al Ejército, la Fuerza Aérea y la Guardia Nacional.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 29"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-marina
+    node_type: secretaria_de_estado
+    name: Secretaría de Marina
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organiza, administra y prepara la Armada de México y ejerce la autoridad en las
+      zonas marinas mexicanas.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. IV"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 30"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-seguridad-proteccion-ciudadana
+    node_type: secretaria_de_estado
+    name: Secretaría de Seguridad y Protección Ciudadana
+    level: federal
+    territory: null
+    valid_from: 2018-11-30
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula y ejecuta la política de seguridad pública federal y coordina la Estrategia
+      Nacional de Seguridad Pública.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. V"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 30 Bis"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-hacienda
+    node_type: secretaria_de_estado
+    name: Secretaría de Hacienda y Crédito Público
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Proyecta y calcula los ingresos de la Federación, conduce la política fiscal y
+      crediticia, y planea, coordina y vigila el sistema bancario del país.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. VI"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 31"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-bienestar
+    node_type: secretaria_de_estado
+    name: Secretaría de Bienestar
+    level: federal
+    territory: null
+    valid_from: 2018-11-30
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula y coordina la política de desarrollo social y los programas sociales del
+      Gobierno Federal.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. VII"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 32"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-medio-ambiente
+    node_type: secretaria_de_estado
+    name: Secretaría de Medio Ambiente y Recursos Naturales
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula y conduce la política nacional en materia de medio ambiente, recursos
+      naturales y aguas nacionales.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. VIII"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 32 Bis"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-energia
+    node_type: secretaria_de_estado
+    name: Secretaría de Energía
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política energética del país. Para las atribuciones en materia energética
+      y de hidrocarburos cuenta con el órgano desconcentrado Comisión Nacional de Energía.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. IX"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 33"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-economia
+    node_type: secretaria_de_estado
+    name: Secretaría de Economía
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula y conduce las políticas de industria, comercio exterior e interior,
+      abasto e inversión extranjera.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. X"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 34"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-agricultura-desarrollo-rural
+    node_type: secretaria_de_estado
+    name: Secretaría de Agricultura y Desarrollo Rural
+    level: federal
+    territory: null
+    valid_from: 2018-11-30
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula, conduce y evalúa la política general de desarrollo rural sustentable,
+      agricultura, ganadería, acuacultura y pesca.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XI"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 35"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-infraestructura-comunicaciones-transportes
+    node_type: secretaria_de_estado
+    name: Secretaría de Infraestructura, Comunicaciones y Transportes
+    level: federal
+    territory: null
+    valid_from: 2021-10-20
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula y conduce las políticas y programas para el desarrollo de la infraestructura,
+      las comunicaciones y el transporte terrestre y aéreo.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XII"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 36"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-anticorrupcion-buen-gobierno
+    node_type: secretaria_de_estado
+    name: Secretaría Anticorrupción y Buen Gobierno
+    level: federal
+    territory: null
+    valid_from: 2024-11-28
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política de profesionalización e integridad pública, el control interno
+      de la Administración Pública Federal y las atribuciones federales en materia de
+      transparencia, acceso a la información pública y protección de datos personales.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XIII"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 37"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-educacion-publica
+    node_type: secretaria_de_estado
+    name: Secretaría de Educación Pública
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política educativa nacional y organiza el sistema educativo del país.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XIV"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 38"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-ciencia-humanidades-tecnologia-innovacion
+    node_type: secretaria_de_estado
+    name: Secretaría de Ciencia, Humanidades, Tecnología e Innovación
+    level: federal
+    territory: null
+    valid_from: 2024-11-28
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Garantiza el derecho a gozar de los beneficios del desarrollo de la ciencia y
+      conduce la política nacional en humanidades, ciencia, tecnología e innovación.
+      Sucede en funciones al Consejo Nacional de Humanidades, Ciencias y Tecnologías.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XV"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 38 Bis"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-salud
+    node_type: secretaria_de_estado
+    name: Secretaría de Salud
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política nacional en materia de salubridad general y coordina el
+      Sistema Nacional de Salud.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XVI"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 39"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-trabajo-prevision-social
+    node_type: secretaria_de_estado
+    name: Secretaría del Trabajo y Previsión Social
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Vigila la observancia de la legislación laboral y conduce la política de trabajo
+      y previsión social.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XVII"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 40"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-desarrollo-agrario-territorial-urbano
+    node_type: secretaria_de_estado
+    name: Secretaría de Desarrollo Agrario, Territorial y Urbano
+    level: federal
+    territory: null
+    valid_from: 2013-01-02
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política de ordenamiento territorial, desarrollo agrario, urbano y
+      vivienda.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XVIII"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 41"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-cultura
+    node_type: secretaria_de_estado
+    name: Secretaría de Cultura
+    level: federal
+    territory: null
+    valid_from: 2015-12-17
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Elabora y conduce la política nacional en materia de cultura y coordina la
+      conservación y difusión del patrimonio cultural.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XIX"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 41 Bis"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-turismo
+    node_type: secretaria_de_estado
+    name: Secretaría de Turismo
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula y conduce la política de desarrollo de la actividad turística nacional.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XX"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 42"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: secretaria-mujeres
+    node_type: secretaria_de_estado
+    name: Secretaría de las Mujeres
+    level: federal
+    territory: null
+    valid_from: 2024-11-28
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Conduce la política nacional para la igualdad sustantiva entre mujeres y hombres.
+      Sucede en funciones al Instituto Nacional de las Mujeres.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XXI"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 42 Bis"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  # --- Agencia (LOAPF Art. 26, fracc. XXII) ---
+
+  - id: agencia-transformacion-digital-telecomunicaciones
+    node_type: agencia
+    name: Agencia de Transformación Digital y Telecomunicaciones
+    level: federal
+    territory: null
+    valid_from: 2024-11-28
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Formula y conduce las políticas de inclusión digital, gobierno digital,
+      telecomunicaciones y radiodifusión, y regula la prestación de los servicios
+      públicos de correos y telégrafos.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 26, fracc. XXII"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF
+        article: "Art. 42 Ter"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  # --- Consejería Jurídica (CPEUM Art. 90 / LOAPF Art. 43) ---
+
+  - id: consejeria-juridica
+    node_type: consejeria
+    name: Consejería Jurídica del Ejecutivo Federal
+    level: federal
+    territory: null
+    valid_from: 1996-05-15
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Tiene a su cargo la función de Consejero Jurídico del Gobierno; da apoyo técnico
+      jurídico a la Presidencia y revisa los proyectos de iniciativas y decretos del
+      Ejecutivo Federal.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 90"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOAPF
+        article: "Art. 43"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  # --- Extinct dependency (R9: coexists with its successor) ---
+
+  - id: secretaria-funcion-publica
+    node_type: secretaria_de_estado
+    name: Secretaría de la Función Pública
+    level: federal
+    territory: null
+    valid_to: 2024-11-28
+    authority_from: ejecutivo-federal
+    summary: >-
+      Dependencia encargada del control interno y la función pública federal hasta la
+      reforma de 2024. Sus menciones y atribuciones se entienden conferidas a la
+      Secretaría Anticorrupción y Buen Gobierno.
+    legal_basis:
+      - document: LOAPF (texto anterior a la reforma)
+        article: "Art. 26 (fracc. reformada por Decreto DOF 28-11-2024)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+      - document: LOAPF, Decreto DOF 28-11-2024
+        article: "Transitorio Cuarto"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+edges:
+  # Direct popular election of the presidency (CPEUM Art. 81).
+  - from: ciudadania
+    to: ejecutivo-federal
+    type: legitimidad
+    legal_basis: "CPEUM Art. 81 — la elección del presidente será directa"

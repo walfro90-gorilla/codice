@@ -1,0 +1,443 @@
+# Main organos desconcentrados, organismos descentralizados and empresas publicas of the
+# Federal Executive. authority_from points to the head secretaria ONLY where a verified
+# article establishes the dependence/sectorization; otherwise it points to ejecutivo-federal
+# via LOAPF Arts. 45/46 (APF paraestatal), with the sectorization gap noted (R6).
+# CPEUM/LOAPF articles verified by grep on the local full texts; every other law was
+# downloaded from diputados.gob.mx/LeyesBiblio/pdf/ and its article verified verbatim.
+# Skipped for lack of verifiable basis: Birmex (empresa de participacion estatal without
+# its own law; no official article naming it could be verified).
+# R9: extinct organs (CONAHCYT, INMUJERES, CRE, CNH) coexist with their successors.
+
+nodes:
+  # --- Organos desconcentrados ---
+
+  - id: sat
+    node_type: organo_desconcentrado
+    name: Servicio de Administración Tributaria
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: secretaria-hacienda
+    summary: >-
+      Órgano desconcentrado de la Secretaría de Hacienda y Crédito Público con carácter
+      de autoridad fiscal. Aplica la legislación fiscal y aduanera y recauda las
+      contribuciones federales.
+    legal_basis:
+      - document: Ley del Servicio de Administración Tributaria
+        article: "Art. 1o"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/93_041218.pdf
+      - document: LOAPF
+        article: "Art. 31"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  # Security force with permanent character; no exact node_type exists in the current
+  # vocabulary, organo_desconcentrado is the closest key for a body dependent on a secretaria.
+  - id: guardia-nacional
+    node_type: organo_desconcentrado
+    name: Guardia Nacional
+    level: federal
+    territory: null
+    valid_from: 2024-09-30
+    valid_to: null
+    authority_from: secretaria-defensa-nacional
+    summary: >-
+      Fuerza de seguridad pública de la Federación, de carácter permanente e integrada
+      por personal militar con formación policial, dependiente de la secretaría del ramo
+      de defensa nacional.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 21"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOAPF
+        article: "Art. 29, fracc. I y XXIV"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: conagua
+    node_type: organo_desconcentrado
+    name: Comisión Nacional del Agua
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: secretaria-medio-ambiente
+    summary: >-
+      Órgano desconcentrado de la Secretaría de Medio Ambiente y Recursos Naturales.
+      Ejerce la autoridad en materia hídrica y administra las aguas nacionales.
+    legal_basis:
+      - document: Ley de Aguas Nacionales
+        article: "Art. 9"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LAN.pdf
+      - document: LOAPF
+        article: "Art. 32 Bis"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: instituto-nacional-migracion
+    node_type: organo_desconcentrado
+    name: Instituto Nacional de Migración
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: secretaria-gobernacion
+    summary: >-
+      Órgano administrativo desconcentrado de la Secretaría de Gobernación. Ejecuta,
+      controla y supervisa los actos de las autoridades migratorias en territorio nacional.
+    legal_basis:
+      - document: Ley de Migración
+        article: "Art. 19 (y Art. 3, definición de Secretaría)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LMigra.pdf
+
+  - id: cofepris
+    node_type: organo_desconcentrado
+    name: Comisión Federal para la Protección contra Riesgos Sanitarios
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: secretaria-salud
+    summary: >-
+      Órgano administrativo desconcentrado mediante el cual la Secretaría de Salud ejerce
+      la regulación, control, vigilancia y fomento sanitarios.
+    legal_basis:
+      - document: Ley General de Salud
+        article: "Art. 17 Bis"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf
+
+  - id: comision-nacional-energia
+    node_type: organo_desconcentrado
+    name: Comisión Nacional de Energía
+    level: federal
+    territory: null
+    valid_from: 2025-03-18
+    valid_to: null
+    authority_from: secretaria-energia
+    summary: >-
+      Órgano administrativo desconcentrado de la Secretaría de Energía para el ejercicio
+      de las atribuciones en materia energética y de hidrocarburos. Sucede en funciones
+      regulatorias a la Comisión Reguladora de Energía y a la Comisión Nacional de
+      Hidrocarburos.
+    legal_basis:
+      - document: LOAPF
+        article: "Art. 33, último párrafo"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: transparencia-para-el-pueblo
+    node_type: organo_desconcentrado
+    name: Transparencia para el Pueblo
+    level: federal
+    territory: null
+    valid_from: 2025-03-20
+    valid_to: null
+    authority_from: secretaria-anticorrupcion-buen-gobierno
+    summary: >-
+      Autoridad garante federal en materia de acceso a la información pública, órgano
+      administrativo desconcentrado de la Secretaría Anticorrupción y Buen Gobierno.
+      Sucede en esa función al extinto Instituto Nacional de Transparencia, Acceso a la
+      Información y Protección de Datos Personales.
+    legal_basis:
+      - document: Ley General de Transparencia y Acceso a la Información Pública (Nueva Ley DOF 20-03-2025)
+        article: "Art. 3, fracc. III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTAIP.pdf
+      - document: LOAPF
+        article: "Art. 37, fracc. XV"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  # INAH's organic law grants it its own legal personality but makes it depend on the
+  # Secretaria de Cultura; classified here as organo desconcentrado per admin practice.
+  - id: inah
+    node_type: organo_desconcentrado
+    name: Instituto Nacional de Antropología e Historia
+    level: federal
+    territory: null
+    valid_from: 2015-12-17
+    valid_to: null
+    authority_from: secretaria-cultura
+    summary: >-
+      Instituto con personalidad jurídica propia dependiente de la Secretaría de Cultura.
+      Investiga, conserva y difunde el patrimonio arqueológico, histórico y paleontológico
+      del país.
+    legal_basis:
+      - document: Ley Orgánica del Instituto Nacional de Antropología e Historia
+        article: "Art. 1o"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/170_171215.pdf
+
+  - id: inbal
+    node_type: organo_desconcentrado
+    name: Instituto Nacional de Bellas Artes y Literatura
+    level: federal
+    territory: null
+    valid_from: 2015-12-17
+    valid_to: null
+    authority_from: secretaria-cultura
+    summary: >-
+      Instituto con personalidad jurídica propia dependiente de la Secretaría de Cultura.
+      Cultiva, fomenta e investiga las bellas artes en las ramas de la música, las artes
+      plásticas, las artes dramáticas y la danza, y las letras.
+    legal_basis:
+      - document: Ley que crea el Instituto Nacional de Bellas Artes y Literatura
+        article: "Arts. 1o y 2o"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/193_171215.pdf
+
+  # --- Organismos descentralizados ---
+  # Where no verified article names a head secretaria, authority_from is ejecutivo-federal
+  # (LOAPF Art. 45: organismos descentralizados of the APF paraestatal). Their grouping
+  # under a sector head is done by presidential acuerdo, not verifiable in these laws (R6).
+
+  - id: imss
+    node_type: organismo_descentralizado
+    name: Instituto Mexicano del Seguro Social
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo público descentralizado con personalidad jurídica y patrimonio propios,
+      de integración operativa tripartita, a cargo de la organización y administración
+      del Seguro Social.
+    legal_basis:
+      - document: Ley del Seguro Social
+        article: "Art. 5"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf
+      - document: LOAPF
+        article: "Art. 45"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: issste
+    node_type: organismo_descentralizado
+    name: Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo descentralizado con personalidad jurídica y patrimonio propios, a cargo
+      de los seguros, prestaciones y servicios de los trabajadores al servicio del Estado.
+    legal_basis:
+      - document: Ley del ISSSTE
+        article: "Art. 5"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LISSSTE.pdf
+      - document: LOAPF
+        article: "Art. 45"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  # OPD created by decree DOF 31-08-2022; current form in LGS since reform DOF 29-05-2023.
+  - id: imss-bienestar
+    node_type: organismo_descentralizado
+    name: Servicios de Salud del Instituto Mexicano del Seguro Social para el Bienestar (IMSS-Bienestar)
+    level: federal
+    territory: null
+    valid_from: 2022-08-31
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo público descentralizado encargado de la prestación gratuita de servicios
+      de salud, medicamentos y demás insumos asociados a personas sin afiliación a las
+      instituciones de seguridad social.
+    legal_basis:
+      - document: Ley General de Salud
+        article: "Art. 77 bis 35"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf
+
+  - id: dif-nacional
+    node_type: organismo_descentralizado
+    name: Sistema Nacional para el Desarrollo Integral de la Familia
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo público descentralizado con patrimonio y personalidad jurídica propios,
+      coordinador del Sistema Nacional de Asistencia Social Pública y Privada.
+    legal_basis:
+      - document: Ley de Asistencia Social
+        article: "Art. 27"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LASoc.pdf
+      - document: Ley General de Salud
+        article: "Art. 172"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf
+
+  - id: conade
+    node_type: organismo_descentralizado
+    name: Comisión Nacional de Cultura Física y Deporte
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo público descentralizado de la Administración Pública Federal, conductor
+      de la política nacional en materia de cultura física y deporte.
+    legal_basis:
+      - document: Ley General de Cultura Física y Deporte
+        article: "Art. 15"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGCFD.pdf
+
+  - id: sepomex
+    node_type: organismo_descentralizado
+    name: Servicio Postal Mexicano
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo descentralizado a cargo de la recepción, transportación y entrega de la
+      correspondencia del servicio público de correos. La regulación de la materia postal
+      corresponde a la Agencia de Transformación Digital y Telecomunicaciones.
+    legal_basis:
+      - document: Ley del Servicio Postal Mexicano
+        article: "Arts. 2o y 4o"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LSPM.pdf
+      - document: LOAPF
+        article: "Art. 45"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: comision-nacional-antimonopolio
+    node_type: organismo_descentralizado
+    name: Comisión Nacional Antimonopolio
+    level: federal
+    territory: null
+    valid_from: 2025-07-16
+    valid_to: null
+    authority_from: secretaria-economia
+    summary: >-
+      Organismo público descentralizado sectorizado a la Secretaría de Economía, con
+      independencia técnica y operativa. Garantiza la libre concurrencia y competencia
+      económica. Sucede en funciones a la Comisión Federal de Competencia Económica.
+    legal_basis:
+      - document: Ley Federal de Competencia Económica
+        article: "Art. 10 (y Art. 3, definición de Secretaría)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFCE.pdf
+
+  # --- Empresas publicas del Estado y banca de desarrollo ---
+
+  - id: pemex
+    node_type: empresa_publica
+    name: Petróleos Mexicanos
+    level: federal
+    territory: null
+    valid_from: 2025-03-18
+    valid_to: null
+    authority_from: secretaria-energia
+    summary: >-
+      Empresa pública del Estado, entidad de la Administración Pública Federal
+      sectorizada a la Secretaría de Energía. Desarrolla la exploración, extracción y
+      demás actividades de la industria de los hidrocarburos.
+    legal_basis:
+      - document: Ley de la Empresa Pública del Estado, Petróleos Mexicanos
+        article: "Art. 2"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LEPEPM.pdf
+      - document: CPEUM
+        article: "Art. 25"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: cfe
+    node_type: empresa_publica
+    name: Comisión Federal de Electricidad
+    level: federal
+    territory: null
+    valid_from: 2025-03-18
+    valid_to: null
+    authority_from: secretaria-energia
+    summary: >-
+      Empresa pública del Estado, entidad de la Administración Pública Federal
+      sectorizada a la Secretaría de Energía. Tiene a su cargo el servicio público de
+      transmisión y distribución de energía eléctrica.
+    legal_basis:
+      - document: Ley de la Empresa Pública del Estado, Comisión Federal de Electricidad
+        article: "Art. 2"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LEPECFE.pdf
+      - document: CPEUM
+        article: "Art. 25"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # Sociedad nacional de credito (banca de desarrollo): empresa de participacion estatal
+  # per LOAPF Art. 46 fracc. I; the banking system is coordinated by SHCP (Art. 31 fracc. VII).
+  - id: banco-bienestar
+    node_type: empresa_publica
+    name: Banco del Bienestar
+    level: federal
+    territory: null
+    valid_from: 2019-07-19
+    valid_to: null
+    authority_from: secretaria-hacienda
+    summary: >-
+      Sociedad nacional de crédito, institución de banca de desarrollo, con personalidad
+      jurídica y patrimonio propios. Dispersa recursos de los programas sociales del
+      Gobierno Federal.
+    legal_basis:
+      - document: Ley Orgánica del Banco del Bienestar
+        article: "Art. 1"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/164_190719.pdf
+      - document: LOAPF
+        article: "Arts. 31, fracc. VII, y 46, fracc. I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  # --- Extinct organs (R9: they coexist with their successors) ---
+
+  - id: conahcyt
+    node_type: organismo_descentralizado
+    name: Consejo Nacional de Humanidades, Ciencias y Tecnologías
+    level: federal
+    territory: null
+    valid_to: 2024-11-28
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo descentralizado a cargo de la política de humanidades, ciencias y
+      tecnologías hasta la reforma de 2024. Sus recursos y atribuciones se transfirieron
+      a la Secretaría de Ciencia, Humanidades, Tecnología e Innovación.
+    legal_basis:
+      - document: LOAPF, Decreto DOF 28-11-2024
+        article: "Transitorios Tercero y Cuarto"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: inmujeres
+    node_type: organismo_descentralizado
+    name: Instituto Nacional de las Mujeres
+    level: federal
+    territory: null
+    valid_to: 2024-11-28
+    authority_from: ejecutivo-federal
+    summary: >-
+      Organismo descentralizado a cargo de la política de igualdad entre mujeres y
+      hombres hasta la reforma de 2024. Sus recursos y atribuciones se transfirieron a
+      la Secretaría de las Mujeres.
+    legal_basis:
+      - document: LOAPF, Decreto DOF 28-11-2024
+        article: "Transitorios Tercero y Cuarto"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: comision-reguladora-energia
+    node_type: organo_desconcentrado
+    name: Comisión Reguladora de Energía
+    level: federal
+    territory: null
+    valid_to: 2025-03-19 # decree DOF 18-03-2025, Transitorio Primero: in force the day after publication
+    valid_from: 2013-12-20 # constitutional rank as organo regulador coordinado, reform DOF 20-12-2013
+    authority_from: ejecutivo-federal
+    summary: >-
+      Órgano regulador coordinado en materia energética con personalidad jurídica propia
+      hasta la reforma de 2025. Sus funciones se transfirieron a la Secretaría de Energía
+      y a la Comisión Nacional de Energía.
+    legal_basis:
+      - document: CPEUM, Decreto DOF 20-12-2013
+        article: "Transitorio Décimo Segundo"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOAPF, Decreto DOF 18-03-2025
+        article: "Transitorios Segundo y Sexto"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf
+
+  - id: comision-nacional-hidrocarburos
+    node_type: organo_desconcentrado
+    name: Comisión Nacional de Hidrocarburos
+    level: federal
+    territory: null
+    valid_to: 2025-03-19 # decree DOF 18-03-2025, Transitorio Primero: in force the day after publication
+    valid_from: 2013-12-20 # constitutional rank as organo regulador coordinado, reform DOF 20-12-2013
+    authority_from: ejecutivo-federal
+    summary: >-
+      Órgano regulador coordinado en materia energética con personalidad jurídica propia
+      hasta la reforma de 2025. Sus funciones se transfirieron a la Secretaría de Energía
+      y a la Comisión Nacional de Energía.
+    legal_basis:
+      - document: CPEUM, Decreto DOF 20-12-2013
+        article: "Transitorio Décimo Segundo"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOAPF, Decreto DOF 18-03-2025
+        article: "Transitorios Segundo y Sexto"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOAPF.pdf

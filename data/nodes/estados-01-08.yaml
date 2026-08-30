@@ -1,0 +1,605 @@
+# State-level skeleton, INEGI entities 01-08 (Fase 1).
+# Structure only: 4 nodes per state (executive, legislature, judiciary, ayuntamientos).
+# Legal basis: CPEUM Art. 116 (state powers), Art. 115 (municipio libre) — verified
+# against DOF text (últimas reformas 02-06-2026). Each state's constitución local is
+# pending as a source (R6); it will refine valid_from and per-organ detail.
+# No autoridad edges: federal→state (Art. 40 federal pact), governor→ayuntamientos
+# (Art. 115 fr. I: "no habrá autoridad intermedia"), nor among the three state powers.
+# legitimidad edges: direct election — governor and legislature (Art. 116 fr. I),
+# ayuntamientos (Art. 115 fr. I), local judiciary (Art. 116 fr. III, reforma DOF 15-09-2024:
+# "elección por voto directo y secreto de la ciudadanía").
+
+nodes:
+  # --- 01 Aguascalientes ---
+  - id: ejecutivo-estatal-01
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Aguascalientes
+    level: estatal
+    territory: "01"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Aguascalientes, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-01
+    node_type: congreso_local
+    name: Congreso del Estado de Aguascalientes
+    level: estatal
+    territory: "01"
+    summary: >-
+      Poder Legislativo del Estado de Aguascalientes, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-01
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Aguascalientes
+    level: estatal
+    territory: "01"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-01
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Aguascalientes
+    level: municipal
+    territory: "01"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 02 Baja California ---
+  - id: ejecutivo-estatal-02
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Baja California
+    level: estatal
+    territory: "02"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Baja California, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-02
+    node_type: congreso_local
+    name: Congreso del Estado de Baja California
+    level: estatal
+    territory: "02"
+    summary: >-
+      Poder Legislativo del Estado de Baja California, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-02
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Baja California
+    level: estatal
+    territory: "02"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-02
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Baja California
+    level: municipal
+    territory: "02"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 03 Baja California Sur ---
+  - id: ejecutivo-estatal-03
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Baja California Sur
+    level: estatal
+    territory: "03"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Baja California Sur, de elección
+      directa por un periodo máximo de seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-03
+    node_type: congreso_local
+    name: Congreso del Estado de Baja California Sur
+    level: estatal
+    territory: "03"
+    summary: >-
+      Poder Legislativo del Estado de Baja California Sur, integrado por diputaciones
+      de elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-03
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Baja California Sur
+    level: estatal
+    territory: "03"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-03
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Baja California Sur
+    level: municipal
+    territory: "03"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 04 Campeche ---
+  - id: ejecutivo-estatal-04
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Campeche
+    level: estatal
+    territory: "04"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Campeche, de elección directa por un
+      periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-04
+    node_type: congreso_local
+    name: Congreso del Estado de Campeche
+    level: estatal
+    territory: "04"
+    summary: >-
+      Poder Legislativo del Estado de Campeche, integrado por diputaciones de elección
+      directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-04
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Campeche
+    level: estatal
+    territory: "04"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-04
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Campeche
+    level: municipal
+    territory: "04"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 05 Coahuila de Zaragoza ---
+  - id: ejecutivo-estatal-05
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Coahuila de Zaragoza
+    level: estatal
+    territory: "05"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Coahuila de Zaragoza, de elección
+      directa por un periodo máximo de seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-05
+    node_type: congreso_local
+    name: Congreso del Estado de Coahuila de Zaragoza
+    level: estatal
+    territory: "05"
+    summary: >-
+      Poder Legislativo del Estado de Coahuila de Zaragoza, integrado por diputaciones
+      de elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-05
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Coahuila de Zaragoza
+    level: estatal
+    territory: "05"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-05
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Coahuila de Zaragoza
+    level: municipal
+    territory: "05"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 06 Colima ---
+  - id: ejecutivo-estatal-06
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Colima
+    level: estatal
+    territory: "06"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Colima, de elección directa por un
+      periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-06
+    node_type: congreso_local
+    name: Congreso del Estado de Colima
+    level: estatal
+    territory: "06"
+    summary: >-
+      Poder Legislativo del Estado de Colima, integrado por diputaciones de elección
+      directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-06
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Colima
+    level: estatal
+    territory: "06"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-06
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Colima
+    level: municipal
+    territory: "06"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 07 Chiapas ---
+  - id: ejecutivo-estatal-07
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Chiapas
+    level: estatal
+    territory: "07"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Chiapas, de elección directa por un
+      periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-07
+    node_type: congreso_local
+    name: Congreso del Estado de Chiapas
+    level: estatal
+    territory: "07"
+    summary: >-
+      Poder Legislativo del Estado de Chiapas, integrado por diputaciones de elección
+      directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-07
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Chiapas
+    level: estatal
+    territory: "07"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-07
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Chiapas
+    level: municipal
+    territory: "07"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 08 Chihuahua ---
+  - id: ejecutivo-estatal-08
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Chihuahua
+    level: estatal
+    territory: "08"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Chihuahua, de elección directa por un
+      periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-08
+    node_type: congreso_local
+    name: Congreso del Estado de Chihuahua
+    level: estatal
+    territory: "08"
+    summary: >-
+      Poder Legislativo del Estado de Chihuahua, integrado por diputaciones de elección
+      directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-08
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Chihuahua
+    level: estatal
+    territory: "08"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-08
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Chihuahua
+    level: municipal
+    territory: "08"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+# Legitimidad edges: direct election only, each verified in CPEUM text.
+edges:
+  # --- 01 Aguascalientes ---
+  - from: ciudadania
+    to: ejecutivo-estatal-01
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-01
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-01
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-01
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 02 Baja California ---
+  - from: ciudadania
+    to: ejecutivo-estatal-02
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-02
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-02
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-02
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 03 Baja California Sur ---
+  - from: ciudadania
+    to: ejecutivo-estatal-03
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-03
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-03
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-03
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 04 Campeche ---
+  - from: ciudadania
+    to: ejecutivo-estatal-04
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-04
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-04
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-04
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 05 Coahuila de Zaragoza ---
+  - from: ciudadania
+    to: ejecutivo-estatal-05
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-05
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-05
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-05
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 06 Colima ---
+  - from: ciudadania
+    to: ejecutivo-estatal-06
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-06
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-06
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-06
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 07 Chiapas ---
+  - from: ciudadania
+    to: ejecutivo-estatal-07
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-07
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-07
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-07
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 08 Chihuahua ---
+  - from: ciudadania
+    to: ejecutivo-estatal-08
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-08
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-08
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-08
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"

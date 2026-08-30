@@ -1,112 +1,130 @@
 /**
- * Fase 0 fixture: ONE node dataset with TWO positions each.
+ * Real dataset loader (Fase 1): reads public/data/grafo.json — 201 curated
+ * nodes exported from canonical Postgres, each with its legal basis and the
+ * snapshot hash backing it.
  *
- * - pos_graph {x,y}: computed here from the hierarchy level (row per depth).
- * - pos_geo {lon,lat}: real approximate geography; null for non-territorial nodes.
- *
- * Zero data duplication: switching modes only changes which position is the
- * interpolation target. Rows conform to the frozen GraphNode contract.
+ * ONE node, TWO positions: pos_graph is computed here from level/depth,
+ * pos_geo comes from the territory centroid. Zero duplication in the data.
  */
-import type { GovLevelT, GraphNodeT } from "@codice/contracts";
+import type { GovLevelT } from "@codice/contracts";
 
-export type EdgeRow = { from: string; to: string; type: "autoridad" | "legitimidad" };
+export type LegalBasis = {
+  document: string;
+  article: string;
+  url: string;
+  hash: string | null;
+  captured_at: string | null;
+};
 
-type Raw = {
+export type RawNode = {
   id: string;
   name: string;
   level: GovLevelT;
+  node_type: string;
+  node_type_name: string;
+  summary: string | null;
+  valid_from: string;
+  valid_to: string | null;
+  territory_key: string | null;
+  territory_name: string | null;
+  population: number | null;
+  pos_geo: { lon: number; lat: number } | null;
+  legal_basis: LegalBasis[];
   depth: number;
-  geo: [number, number] | null; // [lon, lat]
 };
 
-const PODERES: Raw[] = [
-  { id: "ejecutivo-federal", name: "Ejecutivo Federal", level: "federal", depth: 0, geo: null },
-  { id: "legislativo-federal", name: "Poder Legislativo", level: "federal", depth: 0, geo: null },
-  { id: "judicial-federal", name: "Poder Judicial", level: "federal", depth: 0, geo: null },
-];
+export type EdgeRow = {
+  from: string;
+  to: string;
+  type: "autoridad" | "legitimidad";
+  legal_basis: string | null;
+};
 
-// ponytail: 5 of ~20 secretarías; Fase 1 curates the full list with legal_basis.
-const SECRETARIAS: Raw[] = (
-  [
-    ["secretaria-gobernacion", "Secretaría de Gobernación"],
-    ["secretaria-hacienda", "Secretaría de Hacienda y Crédito Público"],
-    ["secretaria-defensa", "Secretaría de la Defensa Nacional"],
-    ["secretaria-bienestar", "Secretaría de Bienestar"],
-    ["secretaria-anticorrupcion", "Secretaría Anticorrupción y Buen Gobierno"],
-  ] as const
-).map(([id, name]) => ({ id, name, level: "federal" as const, depth: 1, geo: null }));
+export type SourceRow = { url: string; captured_at: string; hash: string; source: string };
 
-// INEGI key in the id (R7); approximate capital coordinates [lon, lat].
-const ESTADOS_DATA: ReadonlyArray<readonly [string, string, number, number]> = [
-  ["01", "Aguascalientes", -102.296, 21.882],
-  ["02", "Baja California", -115.468, 32.663],
-  ["03", "Baja California Sur", -110.313, 24.142],
-  ["04", "Campeche", -90.525, 19.845],
-  ["05", "Coahuila", -100.999, 25.421],
-  ["06", "Colima", -103.724, 19.245],
-  ["07", "Chiapas", -93.113, 16.753],
-  ["08", "Chihuahua", -106.089, 28.632],
-  ["09", "Ciudad de México", -99.133, 19.433],
-  ["10", "Durango", -104.653, 24.027],
-  ["11", "Guanajuato", -101.257, 21.019],
-  ["12", "Guerrero", -99.501, 17.551],
-  ["13", "Hidalgo", -98.759, 20.101],
-  ["14", "Jalisco", -103.349, 20.677],
-  ["15", "México", -99.656, 19.293],
-  ["16", "Michoacán", -101.194, 19.706],
-  ["17", "Morelos", -99.234, 18.921],
-  ["18", "Nayarit", -104.895, 21.505],
-  ["19", "Nuevo León", -100.316, 25.686],
-  ["20", "Oaxaca", -96.726, 17.073],
-  ["21", "Puebla", -98.206, 19.041],
-  ["22", "Querétaro", -100.393, 20.588],
-  ["23", "Quintana Roo", -88.296, 18.501],
-  ["24", "San Luis Potosí", -100.985, 22.156],
-  ["25", "Sinaloa", -107.394, 24.809],
-  ["26", "Sonora", -110.955, 29.072],
-  ["27", "Tabasco", -92.947, 17.989],
-  ["28", "Tamaulipas", -99.141, 23.736],
-  ["29", "Tlaxcala", -98.237, 19.318],
-  ["30", "Veracruz", -96.91, 19.542],
-  ["31", "Yucatán", -89.617, 20.967],
-  ["32", "Zacatecas", -102.583, 22.771],
-];
+export type VizNode = RawNode & { pos_graph: { x: number; y: number }; extinct: boolean };
 
-const ESTADOS: Raw[] = ESTADOS_DATA.map(([key, name, lon, lat]) => ({
-  id: `estado-${key}`,
-  name,
-  level: "estatal" as const,
-  depth: 2,
-  geo: [lon, lat],
-}));
+export type Dataset = {
+  nodes: VizNode[];
+  edges: EdgeRow[];
+  sources: SourceRow[];
+  index: Map<string, number>;
+};
 
-const CIUDADANIA: Raw = { id: "ciudadania", name: "Ciudadanía", level: "ciudadano", depth: 3, geo: null };
-
-const RAW: Raw[] = [...PODERES, ...SECRETARIAS, ...ESTADOS, CIUDADANIA];
-
-// --- Graph layout: one row per hierarchy depth, centered on x = 0 ---
-const ROW_Y = [22, 8, -8, -24];
-const ROW_SPACING = [14, 11, 2.3, 0];
-
-const byDepth = new Map<number, Raw[]>();
-for (const r of RAW) {
-  const row = byDepth.get(r.depth) ?? [];
-  row.push(r);
-  byDepth.set(r.depth, row);
+/**
+ * Layout rows, top to bottom: authority descends, legitimacy ascends.
+ * Federal organs split by authority depth; the subnational skeleton is laid
+ * out by entity so each state reads as a column.
+ */
+function rowOf(n: RawNode): number {
+  if (n.level === "ciudadano") return 5;
+  if (n.level === "municipal") return 4;
+  if (n.level === "estatal") return 3;
+  return Math.min(n.depth, 2); // federal: 0 poderes/autónomos, 1 secretarías, 2 sectorizados
 }
 
-export const nodes: GraphNodeT[] = RAW.map((r) => {
-  const row = byDepth.get(r.depth)!;
-  const i = row.indexOf(r);
-  return {
-    id: r.id,
-    name: r.name,
-    level: r.level,
-    depth: r.depth,
-    pos_graph: { x: (i - (row.length - 1) / 2) * ROW_SPACING[r.depth], y: ROW_Y[r.depth] },
-    pos_geo: r.geo ? { lon: r.geo[0], lat: r.geo[1] } : null,
-  };
-});
+const ROW_Y = [30, 18, 8, -8, -20, -32];
+
+export function layout(nodes: RawNode[]): VizNode[] {
+  const rows = new Map<number, RawNode[]>();
+  for (const n of nodes) {
+    const r = rowOf(n);
+    (rows.get(r) ?? rows.set(r, []).get(r)!).push(n);
+  }
+
+  const out: VizNode[] = [];
+  for (const [r, list] of rows) {
+    // Subnational rows: order by INEGI key so columns align across rows (R7).
+    const ordered =
+      r === 3 || r === 4
+        ? [...list].sort((a, b) => (a.territory_key ?? "").localeCompare(b.territory_key ?? "") || a.node_type.localeCompare(b.node_type))
+        : [...list].sort((a, b) => a.name.localeCompare(b.name, "es"));
+
+    // States get 3 nodes each: keep them in one column per entity.
+    if (r === 3) {
+      const byEntity = new Map<string, RawNode[]>();
+      for (const n of ordered) {
+        const k = n.territory_key ?? "";
+        (byEntity.get(k) ?? byEntity.set(k, []).get(k)!).push(n);
+      }
+      const keys = [...byEntity.keys()].sort();
+      keys.forEach((k, ci) => {
+        const col = byEntity.get(k)!;
+        col.forEach((n, ri) => {
+          out.push({
+            ...n,
+            extinct: n.valid_to !== null,
+            pos_graph: { x: (ci - (keys.length - 1) / 2) * 2.6, y: ROW_Y[r] + (1 - ri) * 3.2 },
+          });
+        });
+      });
+      continue;
+    }
+
+    // Keep at least 2.5 units between centers so nodes never overlap; the
+    // widest federal row (secretarías) drives the scene extent.
+    const spacing = r === 4 ? 2.6 : r <= 2 ? Math.max(2.9, Math.min(90 / Math.max(list.length, 1), 6)) : 3;
+    ordered.forEach((n, i) => {
+      out.push({
+        ...n,
+        extinct: n.valid_to !== null,
+        pos_graph: { x: (i - (ordered.length - 1) / 2) * spacing, y: ROW_Y[r] },
+      });
+    });
+  }
+  return out;
+}
+
+export async function loadDataset(): Promise<Dataset> {
+  const res = await fetch("/data/grafo.json");
+  if (!res.ok) throw new Error(`grafo.json: HTTP ${res.status}`);
+  const raw = (await res.json()) as { nodes: RawNode[]; edges: EdgeRow[]; sources: SourceRow[] };
+  const nodes = layout(raw.nodes);
+  const index = new Map(nodes.map((n, i) => [n.id, i]));
+  // Drop edges whose endpoints are missing rather than rendering a wrong line.
+  const edges = raw.edges.filter((e) => index.has(e.from) && index.has(e.to));
+  return { nodes, edges, sources: raw.sources, index };
+}
 
 // --- Geographic projection: web mercator scaled to match the graph extent ---
 const GEO_CENTER: [number, number] = [-102, 23.5];
@@ -120,40 +138,39 @@ export function projectGeo(lon: number, lat: number): [number, number] {
   return [(lon - GEO_CENTER[0]) * GEO_SCALE, (mercY(lat) - mercY(GEO_CENTER[1])) * GEO_SCALE];
 }
 
-// Rough basemap framing that matches the scene projection at the initial camera.
+/**
+ * All organs of one entity share a single centroid, so they would stack into
+ * one dot on the map. Fan them around it by node type — the entity still reads
+ * as one place, but its four organs stay countable and clickable.
+ */
+const FAN_ORDER = ["ejecutivo_estatal", "congreso_local", "poder_judicial_estatal", "ayuntamientos"];
+const FAN_RADIUS = 0.55;
+
+export function geoOffset(nodeType: string): [number, number] {
+  const i = FAN_ORDER.indexOf(nodeType);
+  if (i < 0) return [0, 0];
+  const a = (i / FAN_ORDER.length) * Math.PI * 2 - Math.PI / 2;
+  return [Math.cos(a) * FAN_RADIUS, Math.sin(a) * FAN_RADIUS];
+}
+
+// Basemap framing that matches the scene projection at the initial camera.
 // 1 scene unit = CAMERA_ZOOM px; map px/deg = 512 * 2^z / 360 = GEO_SCALE * CAMERA_ZOOM.
 export const CAMERA_ZOOM = 10;
 export const MAP_CENTER = GEO_CENTER;
 export const MAP_ZOOM = Math.log2((GEO_SCALE * CAMERA_ZOOM * 360) / 512);
 
-// --- Edges: the double arrow. Autoridad flows down, legitimidad flows up. ---
-// ponytail: simplified constitutional wiring for the prototype; Fase 1 replaces
-// it with ~400 hand-curated edges, each with its legal_basis article.
-export const edges: EdgeRow[] = [
-  ...SECRETARIAS.map((s) => ({ from: "ejecutivo-federal", to: s.id, type: "autoridad" as const })),
-  ...ESTADOS.map((e) => ({ from: "ejecutivo-federal", to: e.id, type: "autoridad" as const })),
-  ...ESTADOS.map((e) => ({ from: e.id, to: CIUDADANIA.id, type: "autoridad" as const })),
-  { from: CIUDADANIA.id, to: "ejecutivo-federal", type: "legitimidad" },
-  { from: CIUDADANIA.id, to: "legislativo-federal", type: "legitimidad" },
-  ...ESTADOS.map((e) => ({ from: CIUDADANIA.id, to: e.id, type: "legitimidad" as const })),
-];
-
-// ponytail: sources is empty — the fixture has no raw snapshots yet; real
-// provenance (R1) arrives when this reads from the API instead of a fixture.
-export const graph = { nodes, edges, sources: [] };
-
-// --- Presentation constants shared by scene and legend ---
 export const LEVEL_COLORS: Record<GovLevelT, string> = {
   federal: "#fbbf24",
   estatal: "#a78bfa",
-  municipal: "#34d399", // not in the fixture yet; arrives with Fase 1
+  municipal: "#34d399",
   ciudadano: "#f472b6",
 };
 
 export const EDGE_COLORS = { autoridad: "#f97316", legitimidad: "#22d3ee" } as const;
 
-const RADIUS_BY_DEPTH = [2.4, 1.5, 1.0, 2.8];
-
-export function nodeRadius(n: GraphNodeT): number {
-  return RADIUS_BY_DEPTH[n.depth] ?? 1;
+export function nodeRadius(n: VizNode): number {
+  if (n.level === "ciudadano") return 2.6;
+  if (n.node_type === "poder") return 1.8;
+  if (n.level === "federal") return n.depth === 0 ? 1.4 : 1.0;
+  return 0.8;
 }

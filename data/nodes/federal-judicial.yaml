@@ -1,0 +1,227 @@
+# Federal judiciary POST-2024 judicial reform — hand-curated (Fase 1).
+# Every article verified against the downloaded texts: CPEUM (Últimas Reformas
+# DOF 02-06-2026) and LOPJF (nueva ley DOF 20-12-2024, última reforma DOF 28-11-2025).
+# Art. 94 CPEUM deposits the power in: SCJN, Tribunal Electoral, Plenos Regionales,
+# Tribunales Colegiados de Circuito, Tribunales Colegiados de Apelación and Juzgados
+# de Distrito; administration → órgano de administración judicial, discipline →
+# Tribunal de Disciplina Judicial. Plenos Regionales and Tribunales Colegiados de
+# Apelación are left out of this lot (skeleton scope); same Art. 94 basis when added.
+# R9: the extinct Consejo de la Judicatura Federal coexists with its successors
+# (TDJ + OAJ), which per transitorio Sexto (Decreto DOF 15-09-2024) began functions
+# on 2025-09-01, the same date the CJF became extinct.
+
+nodes:
+  - id: poder-judicial-federal
+    node_type: poder
+    name: Poder Judicial de la Federación
+    level: federal
+    territory: null
+    valid_from: 1917-05-01
+    valid_to: null
+    authority_from: null
+    summary: >-
+      El ejercicio del Poder Judicial de la Federación se deposita en una Suprema
+      Corte de Justicia, un Tribunal Electoral, Plenos Regionales, Tribunales
+      Colegiados de Circuito, Tribunales Colegiados de Apelación y Juzgados de
+      Distrito. Su administración corresponde a un órgano de administración judicial
+      y la disciplina de su personal al Tribunal de Disciplina Judicial.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 94"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: suprema-corte
+    node_type: tribunal
+    name: Suprema Corte de Justicia de la Nación
+    level: federal
+    territory: null
+    # valid_from: current form (9 ministras/ministros elected by direct popular vote,
+    # decree DOF 15-09-2024) held from the protesta of the elected ministros on
+    # 2025-09-01 (transitorios Segundo and Quinto), same dating rule as TDJ/OAJ/CJF.
+    valid_from: 2025-09-01
+    valid_to: null
+    authority_from: poder-judicial-federal
+    summary: >-
+      Máximo tribunal del país. Se compone de nueve integrantes, Ministras y
+      Ministros, electos de manera libre, directa y secreta por la ciudadanía;
+      duran doce años en el encargo y no pueden ser electos para un nuevo periodo.
+      Funciona en Pleno y, con aprobación de éste, en dos secciones.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 94"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: CPEUM
+        article: "Art. 96"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOPJF
+        article: "Art. 2"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOPJF.pdf
+
+  - id: tribunal-electoral
+    node_type: tribunal
+    name: Tribunal Electoral del Poder Judicial de la Federación
+    level: federal
+    territory: null
+    # valid_from: incorporated into the PJF by reform DOF 22-08-1996 (Art. 94 reform trail).
+    valid_from: 1996-08-22
+    valid_to: null
+    authority_from: poder-judicial-federal
+    summary: >-
+      Máxima autoridad jurisdiccional en materia electoral, con excepción de las
+      acciones de inconstitucionalidad, y órgano especializado del Poder Judicial
+      de la Federación. Funciona con una Sala Superior de siete magistraturas y
+      salas regionales, electas por la ciudadanía.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 99"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: CPEUM
+        article: "Art. 96"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: tribunal-disciplina-judicial
+    node_type: organo_judicial
+    name: Tribunal de Disciplina Judicial
+    level: federal
+    territory: null
+    # valid_from: created by decree DOF 15-09-2024; began functions when its elected
+    # magistrates took protesta (2025-09-01), per transitorios Segundo and Sexto.
+    valid_from: 2025-09-01
+    valid_to: null
+    authority_from: poder-judicial-federal
+    summary: >-
+      Órgano del Poder Judicial de la Federación con independencia técnica, de
+      gestión y para emitir sus resoluciones, a cargo de la disciplina del personal
+      judicial. Se integra por cinco personas electas por la ciudadanía a nivel
+      nacional, que duran seis años sin posibilidad de nuevo periodo.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 100"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: CPEUM
+        article: "Art. 94"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: organo-administracion-judicial
+    node_type: organo_judicial
+    name: Órgano de Administración Judicial
+    level: federal
+    territory: null
+    # valid_from: created by decree DOF 15-09-2024; began functions 2025-09-01
+    # together with the Tribunal de Disciplina Judicial (transitorio Sexto).
+    valid_from: 2025-09-01
+    valid_to: null
+    authority_from: poder-judicial-federal
+    summary: >-
+      Órgano con independencia técnica y de gestión responsable de la administración
+      y la carrera judicial del Poder Judicial de la Federación. Determina el número,
+      división en circuitos, competencia territorial y especialización de los
+      tribunales y juzgados federales, y elabora el presupuesto del Poder Judicial.
+      Su Pleno se integra por cinco personas designadas por los tres Poderes.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 100"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: CPEUM
+        article: "Art. 94"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # Skeleton nodes (Fase 1): the ~30 circuits and hundreds of organs are not
+  # enumerated yet; one aggregate node per organ class. valid_from omitted: the
+  # original creation decrees are not verifiable in the downloaded texts (R6).
+  - id: tribunales-colegiados-circuito
+    node_type: tribunal
+    name: Tribunales Colegiados de Circuito
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: poder-judicial-federal
+    summary: >-
+      Tribunales federales que conocen principalmente del juicio de amparo directo.
+      Cada uno se compone de tres Magistradas o Magistrados de Circuito, electos
+      por la ciudadanía por circuito judicial.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 94"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOPJF
+        article: "Art. 21"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOPJF.pdf
+
+  - id: juzgados-distrito
+    node_type: tribunal
+    name: Juzgados de Distrito
+    level: federal
+    territory: null
+    valid_to: null
+    authority_from: poder-judicial-federal
+    summary: >-
+      Órganos de primera instancia del Poder Judicial de la Federación. Cada uno se
+      compone de una Jueza o Juez de Distrito, electos por la ciudadanía por
+      circuito judicial.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 94"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+      - document: LOPJF
+        article: "Art. 41"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LOPJF.pdf
+
+  # Extinct organ (R9): coexists with its successors TDJ and OAJ.
+  # valid_from omitted: its creation (reform DOF 31-12-1994) is only visible in the
+  # Art. 100 reform trail, not as verifiable body text in the current CPEUM (R6).
+  - id: consejo-judicatura-federal
+    node_type: organo_judicial
+    name: Consejo de la Judicatura Federal
+    level: federal
+    territory: null
+    # valid_to: extinct the date the elected TDJ magistrates took protesta
+    # (2025-09-01, transitorios Segundo and Sexto, Decreto DOF 15-09-2024).
+    valid_to: 2025-09-01
+    authority_from: poder-judicial-federal
+    summary: >-
+      Órgano que tuvo a su cargo la administración, vigilancia y disciplina del
+      Poder Judicial de la Federación, con excepción de la Suprema Corte. Quedó
+      extinto el 1 de septiembre de 2025; sus funciones pasaron al Tribunal de
+      Disciplina Judicial y al Órgano de Administración Judicial.
+    legal_basis:
+      - document: CPEUM
+        article: "Arts. Quinto y Sexto Transitorios (Decreto DOF 15-09-2024)"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+edges:
+  # Administrative authority: Arts. 94 and 100 CPEUM — the OAJ determines the
+  # number, circuits, territorial competence and specialization of these organs,
+  # and runs the judicial career. (Art. 99 also gives the OAJ the administration
+  # of the Tribunal Electoral; that edge is left out of this lot's scope.)
+  - from: organo-administracion-judicial
+    to: tribunales-colegiados-circuito
+    type: autoridad
+    legal_basis: "CPEUM Arts. 94 y 100 — el órgano de administración judicial determina su número, división en circuitos, competencia territorial y especialización, y tiene a su cargo la carrera judicial"
+  - from: organo-administracion-judicial
+    to: juzgados-distrito
+    type: autoridad
+    legal_basis: "CPEUM Arts. 94 y 100 — el órgano de administración judicial determina su número, división en circuitos, competencia territorial y especialización, y tiene a su cargo la carrera judicial"
+
+  # Legitimacy flows upward: Art. 96 CPEUM — direct popular election of the members
+  # of every jurisdictional organ of the federal judiciary.
+  - from: ciudadania
+    to: suprema-corte
+    type: legitimidad
+    legal_basis: "CPEUM Art. 96 — Ministras y Ministros electos de manera libre, directa y secreta por la ciudadanía"
+  - from: ciudadania
+    to: tribunal-disciplina-judicial
+    type: legitimidad
+    legal_basis: "CPEUM Arts. 96 y 100 — cinco personas electas por la ciudadanía a nivel nacional"
+  - from: ciudadania
+    to: tribunal-electoral
+    type: legitimidad
+    legal_basis: "CPEUM Art. 96 — Magistradas y Magistrados de la Sala Superior y salas regionales electos de manera libre, directa y secreta por la ciudadanía"
+  - from: ciudadania
+    to: tribunales-colegiados-circuito
+    type: legitimidad
+    legal_basis: "CPEUM Art. 96 — Magistradas y Magistrados de Circuito electos de manera libre, directa y secreta por la ciudadanía"
+  - from: ciudadania
+    to: juzgados-distrito
+    type: legitimidad
+    legal_basis: "CPEUM Art. 96 — Juezas y Jueces de Distrito electos de manera libre, directa y secreta por la ciudadanía"

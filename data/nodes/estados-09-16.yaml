@@ -1,0 +1,630 @@
+# State-level skeleton, INEGI entities 09-16 (Fase 1).
+# Legal basis verified against CPEUM (Últimas Reformas DOF 02-06-2026):
+#   Art. 116 fr. I-III (state powers, direct election incl. local judiciary per reform DOF 15-09-2024),
+#   Art. 115 fr. I (ayuntamientos, municipio libre), Art. 122 (CDMX nodes, reform DOF 29-01-2016;
+#   fr. IV judiciary in its current form since reform DOF 15-09-2024).
+# No autoridad edges: federal-state (Art. 40), governor-ayuntamientos (Art. 115 fr. I,
+# "no habrá autoridad intermedia"), nor among the three state powers (Art. 116).
+# ponytail: local constitutions pending as sources (R6) — noted in every summary.
+
+nodes:
+  # ---- 09 Ciudad de México (Art. 122, reform DOF 29-01-2016) ----
+  - id: ejecutivo-estatal-09
+    node_type: ejecutivo_estatal
+    name: Jefatura de Gobierno de la Ciudad de México
+    level: estatal
+    territory: "09"
+    valid_from: 2016-01-29
+    summary: >-
+      Titular del Poder Ejecutivo de la Ciudad de México, a cargo de la
+      administración pública de la entidad; se elige por votación universal,
+      libre, secreta y directa. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 122, apartado A, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-09
+    node_type: congreso_local
+    name: Congreso de la Ciudad de México
+    level: estatal
+    territory: "09"
+    valid_from: 2016-01-29
+    summary: >-
+      Depositario del Poder Legislativo de la Ciudad de México; sus integrantes
+      se eligen mediante sufragio universal, libre, secreto y directo. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 122, apartado A, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-09
+    node_type: poder_judicial_estatal
+    name: Poder Judicial de la Ciudad de México
+    level: estatal
+    territory: "09"
+    # Current form (Tribunal de Disciplina local, elected judiciary) dates from
+    # the judicial reform, not the 2016 CDMX reform: "Parrafo reformado DOF 15-09-2024".
+    valid_from: 2024-09-15
+    summary: >-
+      Se deposita en el Tribunal Superior de Justicia, el Tribunal de Disciplina
+      Judicial local, el órgano de administración judicial y los juzgados que
+      establezca la constitución local; sus magistraturas y judicaturas se
+      eligen por voto libre, directo y secreto de la ciudadanía. La constitución
+      local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 122, apartado A, fracción IV"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-09
+    node_type: ayuntamientos
+    name: Alcaldías de la Ciudad de México
+    level: municipal
+    territory: "09"
+    valid_from: 2016-01-29
+    summary: >-
+      Órganos político administrativos a cargo del gobierno de las demarcaciones
+      territoriales; se integran por una persona alcaldesa y un concejo electos
+      por votación universal, libre, secreta y directa. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 122, apartado A, fracción VI"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ---- 10 Durango ----
+  - id: ejecutivo-estatal-10
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Durango
+    level: estatal
+    territory: "10"
+    summary: >-
+      Titular del Poder Ejecutivo del estado; se elige de forma directa y su
+      mandato no puede exceder seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-10
+    node_type: congreso_local
+    name: Congreso del Estado de Durango
+    level: estatal
+    territory: "10"
+    summary: >-
+      Legislatura local integrada por diputaciones electas según los principios
+      de mayoría relativa y representación proporcional. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-10
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Durango
+    level: estatal
+    territory: "10"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo y secreto de la
+      ciudadanía. La constitución local está pendiente de incorporarse como
+      fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-10
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Durango
+    level: municipal
+    territory: "10"
+    summary: >-
+      Cada municipio es gobernado por un ayuntamiento de elección popular
+      directa, sin autoridad intermedia entre este y el gobierno del estado. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ---- 11 Guanajuato ----
+  - id: ejecutivo-estatal-11
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Guanajuato
+    level: estatal
+    territory: "11"
+    summary: >-
+      Titular del Poder Ejecutivo del estado; se elige de forma directa y su
+      mandato no puede exceder seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-11
+    node_type: congreso_local
+    name: Congreso del Estado de Guanajuato
+    level: estatal
+    territory: "11"
+    summary: >-
+      Legislatura local integrada por diputaciones electas según los principios
+      de mayoría relativa y representación proporcional. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-11
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Guanajuato
+    level: estatal
+    territory: "11"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo y secreto de la
+      ciudadanía. La constitución local está pendiente de incorporarse como
+      fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-11
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Guanajuato
+    level: municipal
+    territory: "11"
+    summary: >-
+      Cada municipio es gobernado por un ayuntamiento de elección popular
+      directa, sin autoridad intermedia entre este y el gobierno del estado. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ---- 12 Guerrero ----
+  - id: ejecutivo-estatal-12
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Guerrero
+    level: estatal
+    territory: "12"
+    summary: >-
+      Titular del Poder Ejecutivo del estado; se elige de forma directa y su
+      mandato no puede exceder seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-12
+    node_type: congreso_local
+    name: Congreso del Estado de Guerrero
+    level: estatal
+    territory: "12"
+    summary: >-
+      Legislatura local integrada por diputaciones electas según los principios
+      de mayoría relativa y representación proporcional. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-12
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Guerrero
+    level: estatal
+    territory: "12"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo y secreto de la
+      ciudadanía. La constitución local está pendiente de incorporarse como
+      fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-12
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Guerrero
+    level: municipal
+    territory: "12"
+    summary: >-
+      Cada municipio es gobernado por un ayuntamiento de elección popular
+      directa, sin autoridad intermedia entre este y el gobierno del estado. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ---- 13 Hidalgo ----
+  - id: ejecutivo-estatal-13
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Hidalgo
+    level: estatal
+    territory: "13"
+    summary: >-
+      Titular del Poder Ejecutivo del estado; se elige de forma directa y su
+      mandato no puede exceder seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-13
+    node_type: congreso_local
+    name: Congreso del Estado de Hidalgo
+    level: estatal
+    territory: "13"
+    summary: >-
+      Legislatura local integrada por diputaciones electas según los principios
+      de mayoría relativa y representación proporcional. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-13
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Hidalgo
+    level: estatal
+    territory: "13"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo y secreto de la
+      ciudadanía. La constitución local está pendiente de incorporarse como
+      fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-13
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Hidalgo
+    level: municipal
+    territory: "13"
+    summary: >-
+      Cada municipio es gobernado por un ayuntamiento de elección popular
+      directa, sin autoridad intermedia entre este y el gobierno del estado. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ---- 14 Jalisco ----
+  - id: ejecutivo-estatal-14
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Jalisco
+    level: estatal
+    territory: "14"
+    summary: >-
+      Titular del Poder Ejecutivo del estado; se elige de forma directa y su
+      mandato no puede exceder seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-14
+    node_type: congreso_local
+    name: Congreso del Estado de Jalisco
+    level: estatal
+    territory: "14"
+    summary: >-
+      Legislatura local integrada por diputaciones electas según los principios
+      de mayoría relativa y representación proporcional. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-14
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Jalisco
+    level: estatal
+    territory: "14"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo y secreto de la
+      ciudadanía. La constitución local está pendiente de incorporarse como
+      fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-14
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Jalisco
+    level: municipal
+    territory: "14"
+    summary: >-
+      Cada municipio es gobernado por un ayuntamiento de elección popular
+      directa, sin autoridad intermedia entre este y el gobierno del estado. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ---- 15 Estado de México ----
+  - id: ejecutivo-estatal-15
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de México
+    level: estatal
+    territory: "15"
+    summary: >-
+      Titular del Poder Ejecutivo del estado; se elige de forma directa y su
+      mandato no puede exceder seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-15
+    node_type: congreso_local
+    name: Congreso del Estado de México
+    level: estatal
+    territory: "15"
+    summary: >-
+      Legislatura local integrada por diputaciones electas según los principios
+      de mayoría relativa y representación proporcional. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-15
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de México
+    level: estatal
+    territory: "15"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo y secreto de la
+      ciudadanía. La constitución local está pendiente de incorporarse como
+      fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-15
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de México
+    level: municipal
+    territory: "15"
+    summary: >-
+      Cada municipio es gobernado por un ayuntamiento de elección popular
+      directa, sin autoridad intermedia entre este y el gobierno del estado. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # ---- 16 Michoacán ----
+  - id: ejecutivo-estatal-16
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Michoacán
+    level: estatal
+    territory: "16"
+    summary: >-
+      Titular del Poder Ejecutivo del estado; se elige de forma directa y su
+      mandato no puede exceder seis años. La constitución local está pendiente
+      de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-16
+    node_type: congreso_local
+    name: Congreso del Estado de Michoacán
+    level: estatal
+    territory: "16"
+    summary: >-
+      Legislatura local integrada por diputaciones electas según los principios
+      de mayoría relativa y representación proporcional. La constitución local
+      está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-16
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Michoacán
+    level: estatal
+    territory: "16"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo y secreto de la
+      ciudadanía. La constitución local está pendiente de incorporarse como
+      fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-16
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Michoacán
+    level: municipal
+    territory: "16"
+    summary: >-
+      Cada municipio es gobernado por un ayuntamiento de elección popular
+      directa, sin autoridad intermedia entre este y el gobierno del estado. La
+      constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+# Legitimidad edges: ciudadania -> every directly elected body.
+# Local judiciaries included: CPEUM Art. 116 fr. III (reform DOF 15-09-2024)
+# mandates their election by direct and secret citizen vote; CDMX per Art. 122 A fr. IV.
+edges:
+  # 09 Ciudad de México (Art. 122)
+  - from: ciudadania
+    to: ejecutivo-estatal-09
+    type: legitimidad
+    legal_basis: "CPEUM Art. 122, apartado A, fracción III — votación universal, libre, secreta y directa"
+  - from: ciudadania
+    to: congreso-09
+    type: legitimidad
+    legal_basis: "CPEUM Art. 122, apartado A, fracción II — sufragio universal, libre, secreto y directo"
+  - from: ciudadania
+    to: poder-judicial-09
+    type: legitimidad
+    legal_basis: "CPEUM Art. 122, apartado A, fracción IV — elección por voto libre, directo y secreto de la ciudadanía"
+  - from: ciudadania
+    to: ayuntamientos-09
+    type: legitimidad
+    legal_basis: "CPEUM Art. 122, apartado A, fracción VI, inciso a) — alcalde y concejo electos por votación universal, libre, secreta y directa"
+
+  # 10 Durango
+  - from: ciudadania
+    to: ejecutivo-estatal-10
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-10
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-10
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-10
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # 11 Guanajuato
+  - from: ciudadania
+    to: ejecutivo-estatal-11
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-11
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-11
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-11
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # 12 Guerrero
+  - from: ciudadania
+    to: ejecutivo-estatal-12
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-12
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-12
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-12
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # 13 Hidalgo
+  - from: ciudadania
+    to: ejecutivo-estatal-13
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-13
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-13
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-13
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # 14 Jalisco
+  - from: ciudadania
+    to: ejecutivo-estatal-14
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-14
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-14
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-14
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # 15 Estado de México
+  - from: ciudadania
+    to: ejecutivo-estatal-15
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-15
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-15
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-15
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # 16 Michoacán
+  - from: ciudadania
+    to: ejecutivo-estatal-16
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-16
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-16
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-16
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"

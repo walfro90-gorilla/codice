@@ -1,0 +1,604 @@
+# State-level skeleton, INEGI entities 25-32 (Fase 1).
+# Structure only: 4 nodes per state (executive, legislature, judiciary, ayuntamientos).
+# Legal basis: CPEUM Art. 116 (state powers), Art. 115 (municipio libre) — verified
+# against DOF text (últimas reformas 02-06-2026). Each state's constitución local is
+# pending as a source (R6); it will refine valid_from and per-organ detail.
+# No autoridad edges: federal→state (Art. 40 federal pact), governor→ayuntamientos
+# (Art. 115 fr. I: "no habrá autoridad intermedia"), nor among the three state powers.
+# legitimidad edges: direct election — governor and legislature (Art. 116 fr. I),
+# ayuntamientos (Art. 115 fr. I), local judiciary (Art. 116 fr. III, reforma DOF 15-09-2024:
+# "elección por voto directo y secreto de la ciudadanía").
+
+nodes:
+  # --- 25 Sinaloa ---
+  - id: ejecutivo-estatal-25
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Sinaloa
+    level: estatal
+    territory: "25"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Sinaloa, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-25
+    node_type: congreso_local
+    name: Congreso del Estado de Sinaloa
+    level: estatal
+    territory: "25"
+    summary: >-
+      Poder Legislativo del Estado de Sinaloa, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-25
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Sinaloa
+    level: estatal
+    territory: "25"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-25
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Sinaloa
+    level: municipal
+    territory: "25"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 26 Sonora ---
+  - id: ejecutivo-estatal-26
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Sonora
+    level: estatal
+    territory: "26"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Sonora, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-26
+    node_type: congreso_local
+    name: Congreso del Estado de Sonora
+    level: estatal
+    territory: "26"
+    summary: >-
+      Poder Legislativo del Estado de Sonora, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-26
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Sonora
+    level: estatal
+    territory: "26"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-26
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Sonora
+    level: municipal
+    territory: "26"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 27 Tabasco ---
+  - id: ejecutivo-estatal-27
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Tabasco
+    level: estatal
+    territory: "27"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Tabasco, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-27
+    node_type: congreso_local
+    name: Congreso del Estado de Tabasco
+    level: estatal
+    territory: "27"
+    summary: >-
+      Poder Legislativo del Estado de Tabasco, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-27
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Tabasco
+    level: estatal
+    territory: "27"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-27
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Tabasco
+    level: municipal
+    territory: "27"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 28 Tamaulipas ---
+  - id: ejecutivo-estatal-28
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Tamaulipas
+    level: estatal
+    territory: "28"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Tamaulipas, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-28
+    node_type: congreso_local
+    name: Congreso del Estado de Tamaulipas
+    level: estatal
+    territory: "28"
+    summary: >-
+      Poder Legislativo del Estado de Tamaulipas, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-28
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Tamaulipas
+    level: estatal
+    territory: "28"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-28
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Tamaulipas
+    level: municipal
+    territory: "28"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 29 Tlaxcala ---
+  - id: ejecutivo-estatal-29
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Tlaxcala
+    level: estatal
+    territory: "29"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Tlaxcala, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-29
+    node_type: congreso_local
+    name: Congreso del Estado de Tlaxcala
+    level: estatal
+    territory: "29"
+    summary: >-
+      Poder Legislativo del Estado de Tlaxcala, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-29
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Tlaxcala
+    level: estatal
+    territory: "29"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-29
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Tlaxcala
+    level: municipal
+    territory: "29"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 30 Veracruz ---
+  - id: ejecutivo-estatal-30
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Veracruz
+    level: estatal
+    territory: "30"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Veracruz, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-30
+    node_type: congreso_local
+    name: Congreso del Estado de Veracruz
+    level: estatal
+    territory: "30"
+    summary: >-
+      Poder Legislativo del Estado de Veracruz, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-30
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Veracruz
+    level: estatal
+    territory: "30"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-30
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Veracruz
+    level: municipal
+    territory: "30"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 31 Yucatán ---
+  - id: ejecutivo-estatal-31
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Yucatán
+    level: estatal
+    territory: "31"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Yucatán, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-31
+    node_type: congreso_local
+    name: Congreso del Estado de Yucatán
+    level: estatal
+    territory: "31"
+    summary: >-
+      Poder Legislativo del Estado de Yucatán, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-31
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Yucatán
+    level: estatal
+    territory: "31"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-31
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Yucatán
+    level: municipal
+    territory: "31"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  # --- 32 Zacatecas ---
+  - id: ejecutivo-estatal-32
+    node_type: ejecutivo_estatal
+    name: Gobernador/a del Estado de Zacatecas
+    level: estatal
+    territory: "32"
+    summary: >-
+      Titular del Poder Ejecutivo del Estado de Zacatecas, de elección directa
+      por un periodo máximo de seis años. La constitución local está pendiente de
+      incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: congreso-32
+    node_type: congreso_local
+    name: Congreso del Estado de Zacatecas
+    level: estatal
+    territory: "32"
+    summary: >-
+      Poder Legislativo del Estado de Zacatecas, integrado por diputaciones de
+      elección directa. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción II"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: poder-judicial-32
+    node_type: poder_judicial_estatal
+    name: Poder Judicial del Estado de Zacatecas
+    level: estatal
+    territory: "32"
+    summary: >-
+      Se ejerce por los tribunales que establece la constitución del estado; sus
+      magistraturas y judicaturas se eligen por voto directo conforme a la reforma
+      judicial de 2024. La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 116, fracción III"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+  - id: ayuntamientos-32
+    node_type: ayuntamientos
+    name: Ayuntamientos del Estado de Zacatecas
+    level: municipal
+    territory: "32"
+    summary: >-
+      Gobiernos municipales del estado, cada uno encabezado por un ayuntamiento de
+      elección popular directa, sin autoridad intermedia con el gobierno estatal.
+      La constitución local está pendiente de incorporarse como fuente.
+    legal_basis:
+      - document: CPEUM
+        article: "Art. 115, fracción I"
+        url: https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf
+
+edges:
+  # --- 25 Sinaloa ---
+  - from: ciudadania
+    to: ejecutivo-estatal-25
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-25
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-25
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-25
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 26 Sonora ---
+  - from: ciudadania
+    to: ejecutivo-estatal-26
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-26
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-26
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-26
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 27 Tabasco ---
+  - from: ciudadania
+    to: ejecutivo-estatal-27
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-27
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-27
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-27
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 28 Tamaulipas ---
+  - from: ciudadania
+    to: ejecutivo-estatal-28
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-28
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-28
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-28
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 29 Tlaxcala ---
+  - from: ciudadania
+    to: ejecutivo-estatal-29
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-29
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-29
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-29
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 30 Veracruz ---
+  - from: ciudadania
+    to: ejecutivo-estatal-30
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-30
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-30
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-30
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 31 Yucatán ---
+  - from: ciudadania
+    to: ejecutivo-estatal-31
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-31
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-31
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-31
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"
+
+  # --- 32 Zacatecas ---
+  - from: ciudadania
+    to: ejecutivo-estatal-32
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de gobernadores"
+  - from: ciudadania
+    to: congreso-32
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción I — elección directa de las Legislaturas Locales"
+  - from: ciudadania
+    to: poder-judicial-32
+    type: legitimidad
+    legal_basis: "CPEUM Art. 116, fracción III — elección por voto directo y secreto de la ciudadanía (reforma DOF 15-09-2024)"
+  - from: ciudadania
+    to: ayuntamientos-32
+    type: legitimidad
+    legal_basis: "CPEUM Art. 115, fracción I — ayuntamiento de elección popular directa"

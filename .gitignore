@@ -24,3 +24,6 @@ build/
 # OS / editor
 .DS_Store
 *.swp
+
+# L1 raw snapshots live locally until R2 credentials exist (metadata IS committed)
+ingestion/snapshots/
