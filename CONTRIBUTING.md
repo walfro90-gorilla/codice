@@ -39,6 +39,47 @@ Checklist antes de mandar:
 
 Un mantenedor valida contra la fuente y hace merge. Tu nombre queda en el historial.
 
+## Contribuir conocimiento: registrar a quien ocupa un cargo
+
+Las cámaras se ingieren solas (500 diputaciones y 127 senadurías, del SITL y del Senado). Lo que falta y **se cura a mano** son los titulares del Ejecutivo federal, las gobernaturas, la Suprema Corte y los órganos autónomos.
+
+La regla es una: **un nombre sin documento que lo respalde no entra.** Que sea de conocimiento público no basta — si no se puede citar, no sirve (R1). El validador rechaza el archivo completo antes que cargar una entrada sin fuente.
+
+Agrega una entrada a [`data/titulares.yaml`](data/titulares.yaml):
+
+```yaml
+titulares:
+  - node: secretaria-hacienda        # id del nodo, debe existir en data/nodes/
+    nombre: Nombre Apellido Apellido # como aparece en el documento oficial
+    cargo: Secretaria de Hacienda y Crédito Público
+    desde: 2024-10-01                # toma de posesión, no la publicación
+    hasta: null                      # null = en funciones
+    contacto: null                   # correo institucional, o null
+    nombramiento:                    # obligatorio
+      documento: DOF — Acuerdo por el que se nombra...
+      url: https://www.dof.gob.mx/nota_detalle.php?codigo=...
+      fecha: 2024-10-01
+```
+
+Dónde encontrar el documento:
+
+| Cargo | Documento que lo acredita |
+|---|---|
+| Secretarías y organismos federales | Acuerdo de nombramiento publicado en el DOF |
+| Gobernaturas | Declaratoria de validez de la elección, o el acta de toma de protesta del congreso local |
+| Ministras y ministros de la SCJN | Declaratoria del cómputo de la elección judicial (desde 2025) o el acuerdo del Senado |
+| Órganos autónomos | Acuerdo de designación del Senado o de la Cámara, publicado en el DOF |
+
+Checklist antes de mandar:
+
+- [ ] La URL apunta al **documento**, no a una nota de prensa.
+- [ ] `desde` es la fecha de toma de posesión, no la de publicación.
+- [ ] Si alguien sustituye a otra persona, la anterior lleva `hasta` — no se borra a nadie (R9).
+- [ ] El contacto, si lo pones, es institucional. Nunca personal.
+- [ ] Corriste `cd normalization && .venv/bin/python -m codice_normalization validate ../data` y pasa.
+
+El validador además verifica que el nodo exista, que nadie encabece un órgano ya extinto y que no haya dos titulares del mismo cargo a la vez.
+
 ## Contribuir código
 
 ### Estructura de carriles

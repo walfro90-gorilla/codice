@@ -1,0 +1,48 @@
+# Quién ocupa cada cargo, curado con su documento de nombramiento.
+#
+# Este archivo cubre el hueco que los scrapers no alcanzan: los titulares del
+# Ejecutivo federal, las gobernaturas, la Suprema Corte y los órganos autónomos.
+# Las cámaras NO van aquí — sus 627 integrantes se ingieren automáticamente del
+# SITL y del Senado.
+#
+# LA REGLA: un nombre sin documento que lo respalde no entra (R1). No importa
+# que sea de conocimiento público; si no se puede citar, no sirve. El validador
+# rechaza el archivo completo si falta un nombramiento.
+#
+# Cómo agregar a alguien:
+#
+#   1. Encuentra el documento del nombramiento. Para el Ejecutivo federal y los
+#      órganos autónomos suele ser un acuerdo publicado en el DOF; para una
+#      gobernatura, la declaratoria de validez de la elección o el acta de toma
+#      de protesta del congreso local.
+#   2. Copia su URL. Debe apuntar al documento, no a una nota de prensa.
+#   3. Llena una entrada con el formato de abajo y corre el validador:
+#
+#        cd normalization && .venv/bin/python -m codice_normalization validate ../data
+#
+#   4. Manda un PR. Un mantenedor verifica el documento y hace merge.
+#
+# Formato de una entrada:
+#
+#   - node: secretaria-hacienda          # id del nodo, debe existir en data/nodes/
+#     nombre: Nombre Apellido Apellido   # como aparece en el documento oficial
+#     cargo: Secretaria de Hacienda y Crédito Público
+#     desde: 2024-10-01                  # toma de posesión, no la publicación
+#     hasta: null                        # null = en funciones; fecha si ya salió
+#     contacto: null                     # correo institucional, o null
+#     nombramiento:
+#       documento: DOF — Acuerdo por el que se nombra...
+#       url: https://www.dof.gob.mx/nota_detalle.php?codigo=...
+#       fecha: 2024-10-01                # fecha de publicación del documento
+#
+# Notas:
+#
+#   - `hasta` con fecha convierte la entrada en registro histórico; no se borra
+#     a nadie cuando deja el cargo, se le pone fecha de cierre (R9).
+#   - Solo contacto institucional. Nunca un correo o teléfono personal.
+#   - Un nodo no puede tener dos titulares vigentes a la vez: si alguien entra,
+#     al anterior se le pone `hasta`. El validador lo verifica.
+#   - No se registra partido para cargos que no se eligen por voto; para los que
+#     sí, el partido va como aparece en la declaratoria de la elección.
+
+titulares: []
