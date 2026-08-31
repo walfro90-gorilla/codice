@@ -1,0 +1,70 @@
+# Python lanes CI: the ingestion and normalization test suites.
+#
+# These existed for a while with nothing running them: the other workflows are
+# path-filtered to contracts/, web/ and contracts/sql/, so a change under
+# ingestion/ or normalization/ went unverified. Tests nobody runs are not tests.
+name: python
+
+on:
+  workflow_dispatch: # lets a maintainer re-run the lane on demand
+  push:
+    paths:
+      - "ingestion/**"
+      - "normalization/**"
+      - "data/**"
+      - "contracts/python/**"
+      - ".github/workflows/python.yml"
+  pull_request:
+    paths:
+      - "ingestion/**"
+      - "normalization/**"
+      - "data/**"
+      - "contracts/python/**"
+      - ".github/workflows/python.yml"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the shared contracts and lane dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ./contracts/python
+          pip install pyyaml "psycopg[binary]"
+
+      - name: Ingestion tests
+        working-directory: ingestion
+        run: |
+          python test_inegi_iter.py
+          python test_pef.py
+
+      - name: Normalization tests
+        working-directory: normalization
+        run: |
+          python test_curated.py
+          python test_people.py
+          python test_titulares.py
+
+      # The curated data must stay valid on its own, without a database: the
+      # parser and every rule that does not need one still has to hold.
+      - name: Curated data parses and obeys its rules
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "normalization")
+          from pathlib import Path
+          from codice_normalization.curated import load_dir
+          from codice_normalization.titulares import load_file
+
+          g = load_dir(Path("data"))
+          h = load_file(Path("data/titulares.yaml"))
+          for e in g.errors + h.errors:
+              print("ERROR", e)
+          print(f"{len(g.nodes)} nodos, {len(g.edges)} aristas, {len(h.holders)} titulares")
+          sys.exit(0 if (g.ok and h.ok) else 1)
+          PY
