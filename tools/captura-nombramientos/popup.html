@@ -1,0 +1,81 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Capturar nombramiento</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    width: 380px; margin: 0; padding: 14px;
+    background: #0b0f14; color: #e5e7eb;
+    font: 13px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  h1 { margin: 0 0 2px; font-size: 14px; }
+  .sub { color: #6b7280; font-size: 11px; margin-bottom: 12px; }
+  label { display: block; font-size: 11px; color: #9ca3af; margin: 10px 0 3px; }
+  input, select, textarea {
+    width: 100%; box-sizing: border-box; padding: 6px 8px;
+    background: #111820; color: #e5e7eb;
+    border: 1px solid #334155; border-radius: 6px;
+    font: inherit;
+  }
+  textarea { font-family: ui-monospace, monospace; font-size: 11px; resize: vertical; }
+  .row { display: flex; gap: 8px; }
+  .row > * { flex: 1; }
+  button {
+    padding: 7px 14px; border-radius: 6px; border: 1px solid #fbbf24;
+    background: #fbbf24; color: #0b0f14; font: inherit; font-weight: 600; cursor: pointer;
+  }
+  button.ghost { background: transparent; color: #e5e7eb; border-color: #374151; font-weight: 500; }
+  .doc {
+    border: 1px solid #1f2937; border-radius: 6px; padding: 8px 10px;
+    background: rgba(255,255,255,0.02); font-size: 11px; color: #9ca3af;
+    word-break: break-word;
+  }
+  .doc strong { color: #d1d5db; font-weight: 600; }
+  .warn { color: #fca5a5; font-size: 11px; margin-top: 8px; }
+  .note { color: #6b7280; font-size: 10.5px; margin-top: 3px; }
+  .actions { display: flex; gap: 8px; margin-top: 12px; align-items: center; }
+  .ok { color: #34d399; font-size: 11px; }
+</style>
+
+<h1>Capturar nombramiento</h1>
+<div class="sub">Lee la pestaña activa una sola vez, cuando abres esto.</div>
+
+<div id="doc" class="doc">Leyendo la página…</div>
+<div id="warn" class="warn" hidden></div>
+
+<label for="node">Nodo que ocupa</label>
+<select id="node"><option value="">Cargando catálogo…</option></select>
+<input id="nodeManual" placeholder="o escribe el id del nodo" hidden>
+
+<label for="nombre">Nombre, como aparece en el documento</label>
+<input id="nombre" placeholder="Nombre Apellido Apellido" autocomplete="off">
+<div class="note" id="selHint" hidden>Tomado de lo que seleccionaste en la página.</div>
+
+<label for="cargo">Cargo</label>
+<input id="cargo" placeholder="Secretaria de Hacienda y Crédito Público" autocomplete="off">
+
+<div class="row">
+  <div>
+    <label for="desde">Toma de posesión</label>
+    <input id="desde" type="date">
+    <div class="note">No es la fecha de publicación.</div>
+  </div>
+  <div>
+    <label for="publicado">Publicación del documento</label>
+    <input id="publicado" type="date">
+    <div class="note" id="dateWarn" hidden style="color:#fca5a5">
+      Tomada del texto, no de la URL. Verifícala.
+    </div>
+  </div>
+</div>
+
+<label for="yaml">Entrada para <code>data/titulares.yaml</code></label>
+<textarea id="yaml" rows="11" spellcheck="false"></textarea>
+
+<div class="actions">
+  <button id="copy">Copiar YAML</button>
+  <button id="regen" class="ghost">Regenerar</button>
+  <span id="status" class="ok"></span>
+</div>
+
+<script src="popup.js"></script>

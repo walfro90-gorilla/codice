@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Códice — captura de nombramientos",
+  "version": "0.1.0",
+  "description": "Arma la entrada de data/titulares.yaml a partir del documento oficial que tienes abierto. No navega ni recolecta por su cuenta.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://codice-tan.vercel.app/*"],
+  "action": {
+    "default_title": "Capturar este nombramiento",
+    "default_popup": "popup.html"
+  },
+  "icons": { "128": "icon128.png" }
+}

@@ -1,0 +1,48 @@
+# Tools CI: the browser extension's extractor.
+#
+# Its failure modes are silent — a wrong title, a date the decree merely quotes —
+# so the tests that pin them have to run on every change.
+name: tools
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/**"
+      - ".github/workflows/tools.yml"
+  pull_request:
+    paths:
+      - "tools/**"
+      - ".github/workflows/tools.yml"
+
+jobs:
+  extension:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Extractor tests
+        working-directory: tools/captura-nombramientos
+        run: node --test test-extract.mjs
+
+      - name: The manifest stays minimal
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          m = json.load(open("tools/captura-nombramientos/manifest.json"))
+          # activeTab is what makes this assisted capture rather than a crawler:
+          # it grants access to one tab, only when the user clicks. Broad host
+          # permissions would turn the same code into something that can read
+          # pages on its own, which is exactly what this tool must not be.
+          assert m["manifest_version"] == 3, "manifest v3 required"
+          perms = set(m.get("permissions", []))
+          assert perms <= {"activeTab", "scripting"}, f"permisos de más: {perms}"
+          hosts = set(m.get("host_permissions", []))
+          assert not any(h in ("<all_urls>", "*://*/*", "http://*/*", "https://*/*") for h in hosts), \
+              f"host_permissions demasiado amplios: {hosts}"
+          assert "background" not in m, "no debe correr en segundo plano"
+          print("manifest OK:", sorted(perms), sorted(hosts))
+          PY

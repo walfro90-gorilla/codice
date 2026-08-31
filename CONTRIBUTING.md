@@ -70,6 +70,8 @@ Dónde encontrar el documento:
 | Ministras y ministros de la SCJN | Declaratoria del cómputo de la elección judicial (desde 2025) o el acuerdo del Senado |
 | Órganos autónomos | Acuerdo de designación del Senado o de la Cámara, publicado en el DOF |
 
+Para no teclear sesenta veces la misma estructura hay una extensión de Chrome que arma la entrada a partir del documento que tengas abierto: [`tools/captura-nombramientos`](tools/captura-nombramientos/). Lee solo la pestaña activa, cuando tú haces clic; no navega ni recolecta por su cuenta.
+
 Checklist antes de mandar:
 
 - [ ] La URL apunta al **documento**, no a una nota de prensa.
